@@ -1,0 +1,10 @@
+data/raw/
+data/processed/
+*.duckdb
+*.sqlite
+*.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
