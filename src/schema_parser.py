@@ -1,86 +1,116 @@
+"""
+schema_parser.py — Module 2 (base commune, exploitée par Étudiant A pour le
+retrieval de schéma)
 
- 
+Extrait, pour chaque base .sqlite de BIRD Mini-Dev, la liste des tables,
+colonnes et clés étrangères directement via PRAGMA (plutôt que retapées à la
+main), et produit un fichier JSON de schéma indexable par db_id.
 
+Structure attendue des données brutes BIRD Mini-Dev :
+    dev_databases/
+        california_schools/
+            california_schools.sqlite
+        card_games/
+            card_games.sqlite
+        ...
 
+Usage:
+    python schema_parser.py --databases_dir dev_databases --output_dir data/schemas
+"""
 
 import argparse
 import json
+import sqlite3
 from pathlib import Path
 
 
-def load_raw_questions(input_path: str) -> list[dict]:
-    """Charge le fichier BIRD brut. Gère le cas d'une liste directe ou d'un
-    dict enveloppant une clé 'data'/'questions'."""
-    with open(input_path, "r", encoding="utf-8") as f:
-        raw = json.load(f)
-
-    if isinstance(raw, list):
-        return raw
-    if isinstance(raw, dict):
-        for key in ("data", "questions", "items"):
-            if key in raw and isinstance(raw[key], list):
-                return raw[key]
-    raise ValueError(
-        "Format inattendu : impossible de trouver une liste de questions "
-        "dans le fichier fourni."
+def get_tables(cursor: sqlite3.Cursor) -> list[str]:
+    cursor.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';"
     )
+    return [row[0] for row in cursor.fetchall()]
 
 
-def normalize_question(item: dict, index: int) -> dict:
-    """Convertit une entrée brute BIRD vers le format JSON unifié du projet."""
-    question_id = item.get("question_id")
-    if question_id is None:
-        question_id = f"bird_mini_{index:04d}"
-    else:
-        question_id = f"bird_mini_{question_id}"
+def get_columns(cursor: sqlite3.Cursor, table_name: str) -> list[dict]:
+    cursor.execute(f'PRAGMA table_info("{table_name}");')
+    # colonnes retournées : (cid, name, type, notnull, dflt_value, pk)
+    return [
+        {"name": row[1], "type": row[2] or "", "description": ""}
+        for row in cursor.fetchall()
+    ]
 
-    db_id = item.get("db_id", "")
+
+def get_foreign_keys(cursor: sqlite3.Cursor, table_name: str) -> list[dict]:
+    cursor.execute(f'PRAGMA foreign_key_list("{table_name}");')
+    # colonnes retournées : (id, seq, table, from, to, on_update, on_delete, match)
+    return [
+        {"from": f"{table_name}.{row[3]}", "to": f"{row[2]}.{row[4]}"}
+        for row in cursor.fetchall()
+    ]
+
+
+def extract_schema_from_sqlite(db_path: Path, db_id: str) -> dict:
+    conn = sqlite3.connect(str(db_path))
+    cursor = conn.cursor()
+
+    tables = []
+    foreign_keys = []
+    for table_name in get_tables(cursor):
+        tables.append(
+            {
+                "name": table_name,
+                "description": "",
+                "columns": get_columns(cursor, table_name),
+            }
+        )
+        foreign_keys.extend(get_foreign_keys(cursor, table_name))
+
+    conn.close()
 
     return {
-        "question_id": question_id,
         "db_id": db_id,
-        "question": item.get("question", "").strip(),
-        "evidence": item.get("evidence", "").strip(),
-        # BIRD utilise la clé "SQL" pour la requête de référence
-        "sql_gold": item.get("SQL", item.get("sql", "")).strip(),
-        "difficulty": item.get("difficulty", "unknown"),
-        "schema_ref": f"schemas/{db_id}.json" if db_id else "",
-        "metadata": {
-            "source": "BIRD-Mini-Dev",
-            "split": "dev",
-        },
+        "tables": tables,
+        "foreign_keys": foreign_keys,
     }
 
 
-def build_unified_dataset(input_path: str) -> list[dict]:
-    raw_items = load_raw_questions(input_path)
-    return [normalize_question(item, i) for i, item in enumerate(raw_items)]
+def process_all_databases(databases_dir: str, output_dir: str) -> None:
+    databases_dir = Path(databases_dir)
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
+    db_folders = sorted(p for p in databases_dir.iterdir() if p.is_dir())
+    if not db_folders:
+        print(f"Aucun dossier de base trouvé dans {databases_dir}")
+        return
 
-def save_unified(questions: list[dict], output_path: str) -> None:
-    out_path = Path(output_path)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(questions, f, ensure_ascii=False, indent=2)
-    print(f"{len(questions)} questions écrites dans {out_path}")
+    for folder in db_folders:
+        db_id = folder.name
+        sqlite_path = folder / f"{db_id}.sqlite"
+        if not sqlite_path.exists():
+            sqlite_files = list(folder.glob("*.sqlite"))
+            if not sqlite_files:
+                print(f"Attention : aucun .sqlite trouvé pour {db_id}, ignoré.")
+                continue
+            sqlite_path = sqlite_files[0]
+
+        schema = extract_schema_from_sqlite(sqlite_path, db_id)
+        out_path = output_dir / f"{db_id}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(schema, f, ensure_ascii=False, indent=2)
+
+        print(f"{db_id} : {len(schema['tables'])} tables, {len(schema['foreign_keys'])} clés étrangères -> {out_path}")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Charge BIRD Mini-Dev brut et produit le format JSON unifié."
+        description="Extrait le schéma indexable des bases .sqlite de BIRD Mini-Dev."
     )
-    parser.add_argument("--input", required=True, help="Chemin du fichier BIRD brut (ex: dev.json)")
-    parser.add_argument("--output", required=True, help="Chemin de sortie (ex: data/processed/questions.json)")
+    parser.add_argument("--databases_dir", required=True, help="Dossier contenant un sous-dossier par base (ex: dev_databases)")
+    parser.add_argument("--output_dir", required=True, help="Dossier de sortie pour les schémas JSON (ex: data/schemas)")
     args = parser.parse_args()
 
-    questions = build_unified_dataset(args.input)
-
-    # Vérification rapide : combien de questions ont un db_id manquant
-    missing_db = sum(1 for q in questions if not q["db_id"])
-    if missing_db:
-        print(f"Attention : {missing_db} question(s) sans db_id.")
-
-    save_unified(questions, args.output)
+    process_all_databases(args.databases_dir, args.output_dir)
 
 
 if __name__ == "__main__":

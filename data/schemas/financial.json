@@ -1,0 +1,362 @@
+{
+  "db_id": "financial",
+  "tables": [
+    {
+      "name": "account",
+      "description": "",
+      "columns": [
+        {
+          "name": "account_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "district_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "frequency",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "description": "",
+      "columns": [
+        {
+          "name": "card_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "disp_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "issued",
+          "type": "DATE",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "client",
+      "description": "",
+      "columns": [
+        {
+          "name": "client_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gender",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "birth_date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "district_id",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "disp",
+      "description": "",
+      "columns": [
+        {
+          "name": "disp_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "client_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "account_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "district",
+      "description": "",
+      "columns": [
+        {
+          "name": "district_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A3",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A4",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A5",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A6",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A7",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "A8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A10",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "A11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A12",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "A13",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "A14",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A15",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "A16",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "loan",
+      "description": "",
+      "columns": [
+        {
+          "name": "loan_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "account_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "amount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "duration",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "payments",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "order",
+      "description": "",
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "account_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "bank_to",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "account_to",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "amount",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "k_symbol",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "trans",
+      "description": "",
+      "columns": [
+        {
+          "name": "trans_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "account_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "operation",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "amount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "balance",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "k_symbol",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "bank",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "account",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "account.district_id",
+      "to": "district.district_id"
+    },
+    {
+      "from": "card.disp_id",
+      "to": "disp.disp_id"
+    },
+    {
+      "from": "client.district_id",
+      "to": "district.district_id"
+    },
+    {
+      "from": "disp.client_id",
+      "to": "client.client_id"
+    },
+    {
+      "from": "disp.account_id",
+      "to": "account.account_id"
+    },
+    {
+      "from": "loan.account_id",
+      "to": "account.account_id"
+    },
+    {
+      "from": "order.account_id",
+      "to": "account.account_id"
+    },
+    {
+      "from": "trans.account_id",
+      "to": "account.account_id"
+    }
+  ]
+}
