@@ -1,0 +1,2502 @@
+[
+    {
+        "id": 1471,
+        "db_id": "debit_card_specializing",
+        "text": "ratio of customers who pay in EUR against customers who pay in CZK = count(Currency = 'EUR') / count(Currency = 'CZK')."
+    },
+    {
+        "id": 1472,
+        "db_id": "debit_card_specializing",
+        "text": "Year 2012 can be presented as Between 201201 And 201212; The first 4 strings of the Date values in the yearmonth table can represent year."
+    },
+    {
+        "id": 1473,
+        "db_id": "debit_card_specializing",
+        "text": "Average Monthly consumption = AVG(Consumption) / 12; Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year."
+    },
+    {
+        "id": 1476,
+        "db_id": "debit_card_specializing",
+        "text": "Year 2012 can be presented as Between 201201 And 201212; The first 4 strings of the Date values in the yearmonth table can represent year; Difference in Consumption = CZK customers consumption in 2012 - EUR customers consumption in 2012"
+    },
+    {
+        "id": 1479,
+        "db_id": "debit_card_specializing",
+        "text": "The first 4 strings of the Date values in the yearmonth table can represent year."
+    },
+    {
+        "id": 1480,
+        "db_id": "debit_card_specializing",
+        "text": "Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month."
+    },
+    {
+        "id": 1481,
+        "db_id": "debit_card_specializing",
+        "text": "annual average consumption of customer with the lowest consumption in each segment = total consumption per year / the number of customer with lowest consumption in each segment; Difference in annual average = SME's annual average - LAM's annual average; Difference in annual average = LAM's annual average - KAM's annual average; Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year."
+    },
+    {
+        "id": 1482,
+        "db_id": "debit_card_specializing",
+        "text": "Increase or Decrease = consumption for 2013 - consumption for 2012; Percentage of Increase = (Increase or Decrease / consumption for 2013) * 100%; The first 4 strings of the Date values in the yearmonth table can represent year"
+    },
+    {
+        "id": 1483,
+        "db_id": "debit_card_specializing",
+        "text": "Between August And November 2013 refers to Between 201308 And 201311; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month."
+    },
+    {
+        "id": 1484,
+        "db_id": "debit_card_specializing",
+        "text": "Czech Republic can be represented as the Country value in gasstations table is 'CZE'; Slovakia can be represented as the Country value in the gasstations table is 'SVK';  Computation of more \"discount\" gas stations= Total no. of discount gas stations in Czech Republic - Total no. of discount gas stations in Slovakia"
+    },
+    {
+        "id": 1486,
+        "db_id": "debit_card_specializing",
+        "text": "Amount of more SMEs = Total of SMEs pay using Currency CZK - Total of SMEs pay using Currency EUR"
+    },
+    {
+        "id": 1490,
+        "db_id": "debit_card_specializing",
+        "text": "Percentage of LAM customer consumed more than 46.73 = (Total no. of LAM customers who consumed more than 46.73 / Total no. of LAM customers) * 100."
+    },
+    {
+        "id": 1493,
+        "db_id": "debit_card_specializing",
+        "text": "February 2012 refers to '201202' in yearmonth.date; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month."
+    },
+    {
+        "id": 1498,
+        "db_id": "debit_card_specializing",
+        "text": "The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month."
+    },
+    {
+        "id": 1500,
+        "db_id": "debit_card_specializing",
+        "text": "September 2013 refers to 201309; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month."
+    },
+    {
+        "id": 1501,
+        "db_id": "debit_card_specializing",
+        "text": "June 2013 refers to '201306'; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month;"
+    },
+    {
+        "id": 1505,
+        "db_id": "debit_card_specializing",
+        "text": "Pays in euro = Currency = 'EUR'."
+    },
+    {
+        "id": 1506,
+        "db_id": "debit_card_specializing",
+        "text": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'; "
+    },
+    {
+        "id": 1507,
+        "db_id": "debit_card_specializing",
+        "text": ""
+    },
+    {
+        "id": 1509,
+        "db_id": "debit_card_specializing",
+        "text": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'"
+    },
+    {
+        "id": 1514,
+        "db_id": "debit_card_specializing",
+        "text": "'2012/8/24' can be represented by '2012-08-24'; "
+    },
+    {
+        "id": 1515,
+        "db_id": "debit_card_specializing",
+        "text": "'2012/8/23' can be represented by '2012-08-23'"
+    },
+    {
+        "id": 1521,
+        "db_id": "debit_card_specializing",
+        "text": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'; '2012/8/26' can be represented by '2012-08-26'; during 8:00-9:00 can be represented as Time BETWEEN '08:00:00' AND '09:00:00'"
+    },
+    {
+        "id": 1524,
+        "db_id": "debit_card_specializing",
+        "text": "'2012/8/24' can be represented by '2012-08-24'"
+    },
+    {
+        "id": 1525,
+        "db_id": "debit_card_specializing",
+        "text": "'2012/8/25' can be represented by '2012-08-25'"
+    },
+    {
+        "id": 1526,
+        "db_id": "debit_card_specializing",
+        "text": "'2012/8/24' can be represented by '2012-08-24'; Consumption decrease rate = (consumption_2012 - consumption_2013) / consumption_2012"
+    },
+    {
+        "id": 1528,
+        "db_id": "debit_card_specializing",
+        "text": ""
+    },
+    {
+        "id": 1529,
+        "db_id": "debit_card_specializing",
+        "text": "January 2012 refers to the Date value = '201201'"
+    },
+    {
+        "id": 1531,
+        "db_id": "debit_card_specializing",
+        "text": "average price per single item = Total(price) / Total(amount)"
+    },
+    {
+        "id": 1533,
+        "db_id": "debit_card_specializing",
+        "text": "August of 2012 refers to the Date value = '201208' ; Price per unit of product = Price / Amount;"
+    },
+    {
+        "id": 1312,
+        "db_id": "student_club",
+        "text": "Angela Sanders is the full name; full name refers to first_name, last_name; major refers to major_name."
+    },
+    {
+        "id": 1317,
+        "db_id": "student_club",
+        "text": "Women's Soccer is an event name; T-shirt that is in medium size refers to t_shirt_size = 'Medium'"
+    },
+    {
+        "id": 1322,
+        "db_id": "student_club",
+        "text": "meetings events refers to type = 'Meeting'; attended by more than 10 members refers to COUNT(event_id) > 10"
+    },
+    {
+        "id": 1323,
+        "db_id": "student_club",
+        "text": "name of events refers to event_name; attendance of over 20 students COUNT(event_id) > 20."
+    },
+    {
+        "id": 1331,
+        "db_id": "student_club",
+        "text": "'Vice President' is a position of Student Club; funds received refers to amount."
+    },
+    {
+        "id": 1334,
+        "db_id": "student_club",
+        "text": "full name of member refers to first_name, last_name"
+    },
+    {
+        "id": 1338,
+        "db_id": "student_club",
+        "text": "event_name = 'October Meeting' where event_date = '2019-10-08'; approved = True means expenses was approved; approved = False means expenses was not approved"
+    },
+    {
+        "id": 1339,
+        "db_id": "student_club",
+        "text": "Elijah Allen is the full name; full name refers to first_name, last_name; The 5th and 6th string of the expense_date in the expense table can refer to month; events in September and October refers to month(expense_date) = 9 OR month(expense_date) = 10"
+    },
+    {
+        "id": 1340,
+        "db_id": "student_club",
+        "text": "The first 4 strings of the event_date values in the event table can represent year; The difference of the total amount spent = SUBTRACT(spent where YEAR(event_date) = 2019, spent where YEAR(event_date) = 2020)"
+    },
+    {
+        "id": 1344,
+        "db_id": "student_club",
+        "text": "fundraising on 2019/9/14 refers to source = 'Fundraising' where date_received = '2019-09-14'"
+    },
+    {
+        "id": 1346,
+        "db_id": "student_club",
+        "text": "Carlo Jacobs is the full name; full name refers to first_name, last_name;"
+    },
+    {
+        "id": 1350,
+        "db_id": "student_club",
+        "text": "'Post Cards, Posters' is an expense description; on 2019/8/20 refers to expense_date = '2019-8-20'; status of event refers to event_status"
+    },
+    {
+        "id": 1351,
+        "db_id": "student_club",
+        "text": "Brent Thomason is the full name; full name refers to first_name, last_name; major refers to major_name"
+    },
+    {
+        "id": 1352,
+        "db_id": "student_club",
+        "text": "'Business' is a major name; wear medium size t-shirt refers to t_shirt_size = 'Medium'"
+    },
+    {
+        "id": 1356,
+        "db_id": "student_club",
+        "text": "'President' is a position of Student Club"
+    },
+    {
+        "id": 1357,
+        "db_id": "student_club",
+        "text": "Connor Hilton is the full name; full name refers to first_name, last_name; date the dues was paid refers to date_received where source = 'Dues';"
+    },
+    {
+        "id": 1359,
+        "db_id": "student_club",
+        "text": "budget in Advertisement refer to category = 'Advertisement' in the budget table; DIVIDE(SUM(amount when event_name = 'Yearly Kickoff'), SUM(amount when event_name = 'October Meeting'))"
+    },
+    {
+        "id": 1361,
+        "db_id": "student_club",
+        "text": "total cost of the pizzas refers to SUM(cost) where expense_description = 'Pizza'"
+    },
+    {
+        "id": 1362,
+        "db_id": "student_club",
+        "text": "Orange County is the county name, Virginia is the state name"
+    },
+    {
+        "id": 1368,
+        "db_id": "student_club",
+        "text": "major in refers to major_name"
+    },
+    {
+        "id": 1371,
+        "db_id": "student_club",
+        "text": "'Women's Soccer' is the event name;"
+    },
+    {
+        "id": 1375,
+        "db_id": "student_club",
+        "text": "list all members means to list all the full name; full name refers to first_name, last_name;"
+    },
+    {
+        "id": 1376,
+        "db_id": "student_club",
+        "text": "closed events refers to event_name where status = 'Closed'; highest spend-to budget ratio refers to MAX(DIVIDE(spent, amount))"
+    },
+    {
+        "id": 1378,
+        "db_id": "student_club",
+        "text": "highest amount of budget spend refers to MAX(spent)"
+    },
+    {
+        "id": 1380,
+        "db_id": "student_club",
+        "text": "total amount of money spent refers to SUM(spent); spent for food refers to category = 'Food'"
+    },
+    {
+        "id": 1381,
+        "db_id": "student_club",
+        "text": "name of students means the full name; full name refers to first_name, last_name; attended more than 7 events refers to COUNT(link_to_event) > 7"
+    },
+    {
+        "id": 1387,
+        "db_id": "student_club",
+        "text": "name of students means the full name; full name refers to first_name, last_name;'Yearly Kickoff' is an event name;"
+    },
+    {
+        "id": 1389,
+        "db_id": "student_club",
+        "text": "event refers to event_name; lowest cost means MIN(cost)"
+    },
+    {
+        "id": 1390,
+        "db_id": "student_club",
+        "text": "percentage = DIVIDE(SUM(cost where event_name = 'Yearly Kickoff'), SUM(cost)) * 100"
+    },
+    {
+        "id": 1392,
+        "db_id": "student_club",
+        "text": "top source funds refers to MAX(source); September 2019 means date_received BETWEEN '2019-09-01' and '2019-09-30'"
+    },
+    {
+        "id": 1394,
+        "db_id": "student_club",
+        "text": "'Physics Teaching' is the major_name;"
+    },
+    {
+        "id": 1398,
+        "db_id": "student_club",
+        "text": "Name of event refers to event_name; highest amount spent on advertisement refers to MAX(spent) where category = 'Advertisement'"
+    },
+    {
+        "id": 1399,
+        "db_id": "student_club",
+        "text": "Maya Mclean is the full name; full name refers to first_name, last_name; 'Women's Soccer' is an event_name"
+    },
+    {
+        "id": 1401,
+        "db_id": "student_club",
+        "text": "'Posters' is the expense description; 'September Speaker' is an event name"
+    },
+    {
+        "id": 1403,
+        "db_id": "student_club",
+        "text": "closed events refers to event_name where status = 'Closed'; exceed the budget the most refers to MIN(remaining) where remaining < 0"
+    },
+    {
+        "id": 1404,
+        "db_id": "student_club",
+        "text": "total value refers to SUM(cost); 'October Meeting' is an event name;"
+    },
+    {
+        "id": 1405,
+        "db_id": "student_club",
+        "text": "'April Speaker' is an event name; amount budgeted refers to SUM(amount); budget categories refers to category"
+    },
+    {
+        "id": 1409,
+        "db_id": "student_club",
+        "text": "total expense refers SUM(cost) where expense_date = '2019-08-20'"
+    },
+    {
+        "id": 1410,
+        "db_id": "student_club",
+        "text": "full name refers to first_name, last name"
+    },
+    {
+        "id": 1411,
+        "db_id": "student_club",
+        "text": "kind of expenses refers to expense_description; Sacha Harrison is the full name; full name refers to first_name, last_name;"
+    },
+    {
+        "id": 1422,
+        "db_id": "student_club",
+        "text": "'MU 215' is the location of event; "
+    },
+    {
+        "id": 1426,
+        "db_id": "student_club",
+        "text": "'Environmental Engineering' is the major_name;"
+    },
+    {
+        "id": 1427,
+        "db_id": "student_club",
+        "text": "budget category refers to category; events located at refers to location; type = 'Guest Speaker'; 0 budget spent refers to spent = 0; "
+    },
+    {
+        "id": 1432,
+        "db_id": "student_club",
+        "text": "t_shirt_size = 'Medium' where position = 'Member'; percentage = DIVIDE(COUNT(amount = 50), COUNT(member_id)) * 100"
+    },
+    {
+        "id": 1435,
+        "db_id": "student_club",
+        "text": "name of events refers event_name; game event that was closed refers to type = 'Game' where status = 'Closed'; event_date BETWEEN '2019-03-15' and '2020-03-20'; "
+    },
+    {
+        "id": 1457,
+        "db_id": "student_club",
+        "text": "full name refers to first_name, last_name; contact number refers to phone; had spent more than average on each expense refers to cost > AVG(cost)"
+    },
+    {
+        "id": 1460,
+        "db_id": "student_club",
+        "text": "full name refers to first_name, last name; spent money for refers expense description; expense_description = 'Water, Veggie tray, supplies'"
+    },
+    {
+        "id": 1464,
+        "db_id": "student_club",
+        "text": "full name refers to first_name, last_name, amount of funds received refers to amount, received funds on date refers to date_received"
+    },
+    {
+        "id": 1149,
+        "db_id": "thrombosis_prediction",
+        "text": "male refers to SEX = 'M'; in-patient refers to Admission = '+'; outpatient refers to Admission = '-'; percentage = DIVIDE(COUNT(ID) where SEX = 'M' and Admission = '+', COUNT(ID) where SEX  = 'M' and Admission = '-')"
+    },
+    {
+        "id": 1150,
+        "db_id": "thrombosis_prediction",
+        "text": "female refers to Sex = 'F'; patient who were born after 1930 refers to year(Birthday) > '1930'; calculation = DIVIDE(COUNT(ID) where year(Birthday) > '1930' and SEX = 'F'), (COUNT(ID) where SEX = 'F')"
+    },
+    {
+        "id": 1152,
+        "db_id": "thrombosis_prediction",
+        "text": "'SLE' diagnosed patient means Diagnosis = 'SLE'; inpatient refers to Admission = '+'; outpatient refers to Admission = '-'; calculation =  DIVIDE(COUNT(ID) where Diagnosis = 'SLE' and Admission = '+', COUNT(ID) where Diagnosis = 'SLE' and Admission = '-')"
+    },
+    {
+        "id": 1153,
+        "db_id": "thrombosis_prediction",
+        "text": "'30609' is the Patient ID; disease means Diagnosis"
+    },
+    {
+        "id": 1155,
+        "db_id": "thrombosis_prediction",
+        "text": "LDH beyond normal range refers to LDH > '500';"
+    },
+    {
+        "id": 1156,
+        "db_id": "thrombosis_prediction",
+        "text": "age refers to SUBTRACT(year(current_timestamp), year(Birthday)); positive degree of coagulation refers to RVVT = '+';"
+    },
+    {
+        "id": 1157,
+        "db_id": "thrombosis_prediction",
+        "text": "severe degree of thrombosis refers to thrombosis = 2; disease refers to diagnosis;"
+    },
+    {
+        "id": 1162,
+        "db_id": "thrombosis_prediction",
+        "text": "female refers to sex = 'F'; came at the hospital in 1997 refers to year(Description) = '1997'; immediately followed at the outpatient clinic refers to Admission = '-'"
+    },
+    {
+        "id": 1164,
+        "db_id": "thrombosis_prediction",
+        "text": "the most serious thrombosis refers to Thrombosis = '1' (the most severe one); women refers to sex = 'F'"
+    },
+    {
+        "id": 1166,
+        "db_id": "thrombosis_prediction",
+        "text": "The larger the birthday value, the younger the person is, and vice versa; symptoms observed refers to the symptoms is not NULL"
+    },
+    {
+        "id": 1168,
+        "db_id": "thrombosis_prediction",
+        "text": "The larger the birthday value, the younger the person is, and vice versa; 'SJS' refers to diagnosis; (SUBTRACT(year(`First Date`)), year(Birthday)); age of the patients when they initially arrived at the hospital refers to year(Birthday)"
+    },
+    {
+        "id": 1169,
+        "db_id": "thrombosis_prediction",
+        "text": "male refers to SEX = 'M'; female refers to SEX = 'F'; abnormal uric acid refers to UA < = '8.0' where SEX = 'M', UA < = '6.5' where SEX = 'F'; calculation = DIVIDE(SUM(UA <= '8.0' and SEX = 'M'), SUM(UA <= '6.5 and SEX = 'F'))"
+    },
+    {
+        "id": 1171,
+        "db_id": "thrombosis_prediction",
+        "text": "underage patients refers to year(Birthday) < 18; three-year period from 1990 to 1993 refers to year(`Examination Date`) between '1990' and '1993'"
+    },
+    {
+        "id": 1175,
+        "db_id": "thrombosis_prediction",
+        "text": "How old the patient refers to SUBTRACT(year(`Examination Date`), year(Birthday)); the highest hemoglobin count refers to MAX(HGB)"
+    },
+    {
+        "id": 1179,
+        "db_id": "thrombosis_prediction",
+        "text": "diagnosed with SLE refers to Diagnosis = 'SLE'; 1994/2/19 refers to Description = '1994-02-19'; anti-Cardiolipin refers to aCL IgM; 1993/11/12 refers to Examination Date = '1993/11/12'"
+    },
+    {
+        "id": 1185,
+        "db_id": "thrombosis_prediction",
+        "text": "born on 1959/2/18 refers to Birthday = '1959-02-18'; calculation = DIVISION(SUBTRACT(SUM(Birthday = '1959-02-18' and Date like '1981-11-%' THEN `T-CHO`), SUM(Birthday = '1959-02-18' and Date like '1981-12-%' THEN `T-CHO`)), SUM(Birthday = '1959-02-18' and Date like '1981-12-%' THEN `T-CHO`))"
+    },
+    {
+        "id": 1187,
+        "db_id": "thrombosis_prediction",
+        "text": "examined between 1987/7/6 and 1996/1/31 refers to Date BETWEEN '1987-07-06' AND '1996-01-31'; GPT level greater than 30 refers to GPT > 30; ALB level less than 4 ALB < 4"
+    },
+    {
+        "id": 1189,
+        "db_id": "thrombosis_prediction",
+        "text": "thrombosis level 2 refers to Thrombosis = 2; ANA pattern of only S refers to ANA = 'S'; average anti-Cardiolip in antibody (IgM) refers to AVG(`aCL IgM`); calculation = MULTIPLY(AVG + AVG, 0.2)"
+    },
+    {
+        "id": 1192,
+        "db_id": "thrombosis_prediction",
+        "text": "followed up at the outpatient clinic refers to Admission = '-'; laboratory test in April 1981 refers to Date like '1991-10%'; blood bilirubin level within the normal range refers to T-BIL < 2.0; "
+    },
+    {
+        "id": 1195,
+        "db_id": "thrombosis_prediction",
+        "text": "average blood albumin level refers to AVG(ALB); female refers to SEX = 'F'; PLT greater than 400 refers to PLT > 400; diagnosed with SLE refers to Diagnosis= 'SLE'"
+    },
+    {
+        "id": 1198,
+        "db_id": "thrombosis_prediction",
+        "text": "female refers to SEX = 'F'; APS diagnosis refers to Diagnosis='APS'"
+    },
+    {
+        "id": 1201,
+        "db_id": "thrombosis_prediction",
+        "text": "born in 1980 refers to YEAR(BIRTHDAY) = '1980'; 'RA' refers to Diagnosis='RA' ; women refers to SEX = 'F'; calculation = DIVIDE(SUM(SEX = 'F'), COUNT(SEX)) * 100"
+    },
+    {
+        "id": 1205,
+        "db_id": "thrombosis_prediction",
+        "text": "uric acid within a normal range refers to UA > 8.0 and SEX = 'M'OR UA > 6.5 and SEX = 'F'"
+    },
+    {
+        "id": 1208,
+        "db_id": "thrombosis_prediction",
+        "text": "male refers to SEX = 'M'; ALT glutamic pylvic transaminase (GPT) exceed the normal range refers to GPT > = 60"
+    },
+    {
+        "id": 1209,
+        "db_id": "thrombosis_prediction",
+        "text": "ALT glutamic pylvic transaminase beyond the normal range refers to GPT > 60; The larger the birthday value, the younger the person is, and vice versa; "
+    },
+    {
+        "id": 1220,
+        "db_id": "thrombosis_prediction",
+        "text": "urea nitrogen (UN) just within the borderline of passing refers to UN = 29; "
+    },
+    {
+        "id": 1225,
+        "db_id": "thrombosis_prediction",
+        "text": "List refers to GROUP_CONCAT(DISTINCT ID); total bilirubin (T-BIL) not within normal range refers to T-BIL > = 2.0"
+    },
+    {
+        "id": 1227,
+        "db_id": "thrombosis_prediction",
+        "text": "average age = DIVIDE(SUM(SUBTRACT(YEAR(NOW()), YEAR(birthday))), COUNT(ID)); male patient refers to sex = 'M'; high cholesterol refers to `T-CHO` > = 250;"
+    },
+    {
+        "id": 1229,
+        "db_id": "thrombosis_prediction",
+        "text": "triglyceride (TG) level beyond the normal range refers to TG > = 200; more than 50 years of age = SUBTRACT(year(current_timestamp), year(Birthday)) > 50; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1231,
+        "db_id": "thrombosis_prediction",
+        "text": "born between 1936-1956 refers to year(Birthday) BETWEEN '1936' AND '1956'; male patients refers to sex = 'M'; creatinine phosphokinase beyond the normal range refers to CPK > = 250; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1232,
+        "db_id": "thrombosis_prediction",
+        "text": "age = SUBTRACT(year(current_timestamp), year(Birthday)); blood glucose (GLU) not within normal range refers to GLU > = 180; total cholesterol(T-CHO) within normal range refers to `T-CHO` < 250; "
+    },
+    {
+        "id": 1235,
+        "db_id": "thrombosis_prediction",
+        "text": "patient's diagnosis refers to Diagnosis; lower red blood cell refers to RBC < 3.5; age = SUBTRACT(year(current_timestamp), year(Birthday)); "
+    },
+    {
+        "id": 1238,
+        "db_id": "thrombosis_prediction",
+        "text": "diagnosed with SLE refers to Diagnosis = 'SLE'; The larger the birthday value, the younger the person is, and vice versa; normal hemoglobin level refers to 10 < HGB < 17;"
+    },
+    {
+        "id": 1239,
+        "db_id": "thrombosis_prediction",
+        "text": "age = SUBTRACT(year(current_timestamp), year(Birthday)); patient with two or more laboratory examinations refers to COUNT(ID) > 2; hematoclit level exceeded the normal range refers to HCT > = 52;"
+    },
+    {
+        "id": 1241,
+        "db_id": "thrombosis_prediction",
+        "text": "abnormal platelet level refers to PLT <= 100 or PLT >= 400; platelet level lower than normal range refers to PLT < 100; calculation = SUBTRACT(SUM(PLT < 100), SUM(PLT > 400)); platelet level higher than normal range refers to PLT > 400;"
+    },
+    {
+        "id": 1242,
+        "db_id": "thrombosis_prediction",
+        "text": "laboratory examinations take in 1984 refers to YEAR(Date) = '1984'; below 50 years old = SUBTRACT(year(current_timestamp), year(Birthday)) < 50; normal platelet level refers to PLT between 100 and 400; "
+    },
+    {
+        "id": 1243,
+        "db_id": "thrombosis_prediction",
+        "text": "older than 55 years old = SUBTRACT(year(current_timestamp), year(Birthday)) > 55; abnormal prothrombin time (PT) refers to PT > = 14; percentage = DIVIDE(SUM(PT > = 14 AND SEX = 'F'), SUM(PT > = 14)) * 100; female refers to sex = 'F'; "
+    },
+    {
+        "id": 1247,
+        "db_id": "thrombosis_prediction",
+        "text": "male patients refers to Sex = 'M'; normal level of white blood cells refers to WBC > 3.5 and WBC <9.0; abnormal fibrinogen level refers to FG < = 150 or FG > = 450; Don't compute repetitive ones."
+    },
+    {
+        "id": 1251,
+        "db_id": "thrombosis_prediction",
+        "text": "Ig G higher than normal refers to IGG >= 2000; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1252,
+        "db_id": "thrombosis_prediction",
+        "text": "normal Ig G level refers to IGG > 900 and IGG < 2000; have symptoms refers to Symptoms IS NOT NULL;"
+    },
+    {
+        "id": 1254,
+        "db_id": "thrombosis_prediction",
+        "text": "normal Ig A level refers to IGA > 80 AND IGA < 500; came to the hospital after 1990/1/1 refers to YEAR(`First Date`) > = 1990;"
+    },
+    {
+        "id": 1255,
+        "db_id": "thrombosis_prediction",
+        "text": "abnormal Ig M level refers to IGM <=40 OR IGM >= 400; most common disease refers to MAX(COUNT(Diagnosis));"
+    },
+    {
+        "id": 1256,
+        "db_id": "thrombosis_prediction",
+        "text": "abnormal C-reactive protein refers to CRP ='+'; don't have data recorded refers to Description IS NULL;"
+    },
+    {
+        "id": 1257,
+        "db_id": "thrombosis_prediction",
+        "text": "creatinine level is abnormal refers to CRE >= 1.5; aren't 70 yet refers to SUBTRACT((YEAR(CURDATE()), YEAR(Birthday))) < 70; "
+    },
+    {
+        "id": 1265,
+        "db_id": "thrombosis_prediction",
+        "text": "normal level of anti-ribonuclear protein refers to RNP = '-', '+-'; And'-' means 'negative'; '+-' refers to '0'; admitted to the hospital refers to Admission = '+'; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1267,
+        "db_id": "thrombosis_prediction",
+        "text": "normal anti-SM refers to SM IN('-', '+-'); SM = 'negative' means '-'; SM = '0' means '+-'; SM = '1' means '+'; does not have thrombosis refers to Thrombosis = 0;"
+    },
+    {
+        "id": 1270,
+        "db_id": "thrombosis_prediction",
+        "text": "normal anti-scl70 refers to SC170 IN('negative', '0'); female refers to Sex = 'F'; does not have any symptom refers to symptoms IS NULL; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1275,
+        "db_id": "thrombosis_prediction",
+        "text": "normal level of anti-centromere refers to CENTROMEA IN('-', '+-'); normal level of anti-SSB refers to SSB IN('-', '+-'); male refers to Sex = 'M'; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1281,
+        "db_id": "thrombosis_prediction",
+        "text": "abnormal level of glutamic oxaloacetic transaminase refers to GOT > = 60; The larger the birthday value, the younger the person is, and vice versa;"
+    },
+    {
+        "id": 1302,
+        "db_id": "thrombosis_prediction",
+        "text": "normal range of creatinine phosphokinase refers to CPK < 250; positive measure of degree of coagulation refers to KCT = '+' or RVVT = '+' or LAC = '+' ;"
+    },
+    {
+        "id": 1025,
+        "db_id": "european_football_2",
+        "text": "league that had the most goals refers to MAX(SUM(home_team_goal, away_team_goal)); 2016 season refers to season = '2015/2016';"
+    },
+    {
+        "id": 1028,
+        "db_id": "european_football_2",
+        "text": "Final result should return the Team.team_long_name; Scotland Premier League refers to League.name = 'Scotland Premier League'; away team refers to away_team_api_id; away team that won the most refers to MAX(SUBTRACT(away_team_goal, home_team_goal) > 0); 2010 season refers to season = '2009/2010'; won the most refers to MAX(COUNT(*));"
+    },
+    {
+        "id": 1029,
+        "db_id": "european_football_2",
+        "text": "speed in which attacks are put together refers to buildUpPlaySpeed;highest build up play speed refers to MAX(buildUpPlaySpeed)"
+    },
+    {
+        "id": 1030,
+        "db_id": "european_football_2",
+        "text": "most matches end as draw refers to MAX(SUM(home_team_goal = away_team_goal)); 2016 season refers to season = '2015/2016';"
+    },
+    {
+        "id": 1031,
+        "db_id": "european_football_2",
+        "text": "players age at present = SUBTRACT((DATETIME(), birthday)); sprint speed of no less than 97 refers to sprint_speed > = 97; between 2013 to 2015 refers to YEAR(date) > = '2013' AND YEAR(date) < = '2015'; "
+    },
+    {
+        "id": 1032,
+        "db_id": "european_football_2",
+        "text": " league with highest matches of all time refers to MAX(COUNT(league_id));"
+    },
+    {
+        "id": 1035,
+        "db_id": "european_football_2",
+        "text": "teams with more than 50 but less than 60 build-up play speed refers to buildUpPlaySpeed >50 AND buildUpPlaySpeed <60; "
+    },
+    {
+        "id": 1036,
+        "db_id": "european_football_2",
+        "text": "long name of teams refers to team_long_name; build-up play passing refers to buildUpPlayPassing; above-average build-up play passing = buildUpPlayPassing > DIVIDE(SUM(buildUpPlayPassing), COUNT(team_long_name) WHERE buildUpPlayPassing IS NOT NULL); in 2012 refers to strftime('%Y', date) = '2012'; "
+    },
+    {
+        "id": 1037,
+        "db_id": "european_football_2",
+        "text": "players who prefer left foot refers to preferred_foot = 'left'; percentage of players who prefer left foot = DIVIDE(MULTIPLY((SUM(preferred_foot = 'left'), 100)), COUNT(player_fifa_api_id)); born between 1987 and 1992 refers to YEAR(birthday) BETWEEN '1987' AND '1992';"
+    },
+    {
+        "id": 1039,
+        "db_id": "european_football_2",
+        "text": "average number of long shot = DIVIDE(SUM(long_shots), COUNT(player_fifa_api_id));"
+    },
+    {
+        "id": 1040,
+        "db_id": "european_football_2",
+        "text": "heights are above 180 refers to Player.height > 180; average heading accuracy = DIVIDE(SUM(heading_accuracy), COUNT(player_fifa_api_id));"
+    },
+    {
+        "id": 1042,
+        "db_id": "european_football_2",
+        "text": "name of league refers to League.name; average goals by the home team is higher than the away team = AVG(home_team_goal) > AVG(away_team_goal); AVG(xx_goal) = SUM(xx_goal) / COUNT(DISTINCT Match.id); 2009/2010 season refers to season = '2009/2010'"
+    },
+    {
+        "id": 1044,
+        "db_id": "european_football_2",
+        "text": "players with a birthyear of 1970 and a birthmonth of October refers to substr(birthday,1,7) AS 'year-month',WHERE year = '1970' AND month = '10';"
+    },
+    {
+        "id": 1048,
+        "db_id": "european_football_2",
+        "text": "in year 2011 refers to strftime('%Y', date) = '2011';"
+    },
+    {
+        "id": 1057,
+        "db_id": "european_football_2",
+        "text": "average home team goal = AVG(home_team_goal)= SUM(home_team_goal) / COUNT(DISTINCT Match.id) WHERE name = 'Poland' and season = '2010/2011';"
+    },
+    {
+        "id": 1058,
+        "db_id": "european_football_2",
+        "text": "finishing rate refers to finishing; highest average finishing rate = MAX(AVG(finishing)); highest football player refers to MAX(height); shortest football player refers to MIN(height);"
+    },
+    {
+        "id": 1068,
+        "db_id": "european_football_2",
+        "text": "from 2010 to 2015 refers to strftime('%Y', date) >= '2010' AND <= '2015'; average overall rating = SUM(t2.overall_rating)/ COUNT(t2.id); higher than 170 refers to Player.height > 170;"
+    },
+    {
+        "id": 1076,
+        "db_id": "european_football_2",
+        "text": "difference of the average ball control = SUBTRACT(AVG(ball_control WHERE player_name = 'Abdou Diallo'), AVG(ball_control WHERE player_name = 'Aaron Appindangoye')); AVG(ball_control WHERE player_name = 'XX XX') = SUM(CASE WHEN player_name = 'XX XX' THEN ball_control ELSE 0 END) / COUNT(CASE WHEN player_name = 'XX XX' THEN id ELSE NULL END)"
+    },
+    {
+        "id": 1078,
+        "db_id": "european_football_2",
+        "text": "The larger the birthday value, the younger the person is, and vice versa;"
+    },
+    {
+        "id": 1079,
+        "db_id": "european_football_2",
+        "text": "tallest player refers to MAX(height);"
+    },
+    {
+        "id": 1080,
+        "db_id": "european_football_2",
+        "text": "preferred foot when attacking was the left refers to preferred_foot = 'left'; players who would remain in his position when the team attacked refers to attacking_work_rate = 'low';"
+    },
+    {
+        "id": 1084,
+        "db_id": "european_football_2",
+        "text": "players born before the year 1986 refers to strftime('%Y', birthday)<'1986'; players who would remain in his position and defense while the team attacked refers to defensive_work_rate = 'high'; Should consider DISTINCT in the final result;"
+    },
+    {
+        "id": 1088,
+        "db_id": "european_football_2",
+        "text": "volley score are over 70 refers to volleys > 70; dribbling score refers to dribbling are over 70 refers to dribbling > 70;"
+    },
+    {
+        "id": 1091,
+        "db_id": "european_football_2",
+        "text": "Belgium Jupiler League refers to League.name = 'Belgium Jupiler League'; in April, 2009 refers to SUBSTR(`date`, 1, 7);"
+    },
+    {
+        "id": 1092,
+        "db_id": "european_football_2",
+        "text": "league that had the most matches in the 2008/2009 season refers to MAX(league_name WHERE season = '2008/2009');"
+    },
+    {
+        "id": 1094,
+        "db_id": "european_football_2",
+        "text": "how much higher in percentage = MULTIPLY(DIVIDE(SUBTRACT(overall_rating WHERE player_name = 'Ariel Borysiuk', overall_rating WHERE player_name = 'Paulin Puel'), overall_rating WHERE player_name = 'Paulin Puel'), 100);"
+    },
+    {
+        "id": 1096,
+        "db_id": "european_football_2",
+        "text": "Pietro Marino refers to player_name = 'Pietro Marino'; average overall rating AVG(T1.overall_rating)"
+    },
+    {
+        "id": 1098,
+        "db_id": "european_football_2",
+        "text": "Ajax's refers to team_long_name = 'Ajax'; chance creation passing score refers to MAX(chanceCreationPassing); classified refer to chanceCreationPassingClass"
+    },
+    {
+        "id": 1102,
+        "db_id": "european_football_2",
+        "text": "77 points overall rating refers to overall_rating = 77; on 2016/6/23 refers to date LIKE '2016-06-23%'; The larger the birthday value, the younger the person is, and vice versa;"
+    },
+    {
+        "id": 1103,
+        "db_id": "european_football_2",
+        "text": "Aaron Mooy refers to player_name = 'Aaron Mooy'; on 2016/2/4 refers to date LIKE '2016-02-04%';"
+    },
+    {
+        "id": 1105,
+        "db_id": "european_football_2",
+        "text": "Francesco Migliore refers to player_name = 'Francesco Migliore'; on 2015/5/1 refers to date LIKE '2015-05-01%';"
+    },
+    {
+        "id": 1107,
+        "db_id": "european_football_2",
+        "text": "Kevin Constant refers to player_name = 'Kevin Constant'; highest crossing score refers to MAX(crossing)"
+    },
+    {
+        "id": 1110,
+        "db_id": "european_football_2",
+        "text": "\"FC Lorient\" refers to team_long_name = 'FC Lorient'; on 2010/2/22 refers to date LIKE '2010-02-22%';"
+    },
+    {
+        "id": 1113,
+        "db_id": "european_football_2",
+        "text": "\"Hannover 96\" refers to team_long_name = 'Hannover 96'; on 2015/9/10 refers to date LIKE '2015-09-10%';"
+    },
+    {
+        "id": 1114,
+        "db_id": "european_football_2",
+        "text": "average overall rating refers to avg(overall_rating); Marko Arnautovic refers to player_name = 'Marko Arnautovic'; from 2007/2/22 to 2016/4/21 refers to the first 10 characters of date BETWEEN '2007-02-22' and '2016-04-21'"
+    },
+    {
+        "id": 1115,
+        "db_id": "european_football_2",
+        "text": "Landon Donovan's refers to player_name = 'Landon Donovan'; Jordan Bowery refers to player_name = 'Jordan Bowery'; percentage refers to DIVIDE(SUBTRACT(player_name = 'Landon Donovan' overall_rating; player_name = 'Jordan Bowery' overall_rating), player_name = 'Landon Donovan' overall_rating)*100"
+    },
+    {
+        "id": 1116,
+        "db_id": "european_football_2",
+        "text": "tallest refers to rank based on the height in descending order; Most tallest players refers to rank = 1 "
+    },
+    {
+        "id": 1122,
+        "db_id": "european_football_2",
+        "text": "strongest players refers to player has MAX(overall_rating)"
+    },
+    {
+        "id": 1124,
+        "db_id": "european_football_2",
+        "text": "tend to be attacking when their mates were doing attack moves refers to attacking_work_rate = 'high';"
+    },
+    {
+        "id": 1130,
+        "db_id": "european_football_2",
+        "text": "played safe while creating chance of passing refers to chanceCreationPassingClass = 'Safe'; short name of team refers to team_short_name"
+    },
+    {
+        "id": 1133,
+        "db_id": "european_football_2",
+        "text": "first name \"Aaron\" refers to player_name LIKE 'Aaron%'; born after the 1990s refers to birthday > '1990'"
+    },
+    {
+        "id": 1134,
+        "db_id": "european_football_2",
+        "text": "difference between players 6 and 23's jumping scores refers to SUBTRACT(jumping AND id = 6,jumping AND id = 23)"
+    },
+    {
+        "id": 1135,
+        "db_id": "european_football_2",
+        "text": "lowest potential players refers to MIN(potential); prefer to use the right foot when attacking refers to preferred_foot = 'right'"
+    },
+    {
+        "id": 1136,
+        "db_id": "european_football_2",
+        "text": "highest potential score for crossing refers to MAX(crossing); preferred to use their left foots while attacking refers to preferred_foot = 'left'"
+    },
+    {
+        "id": 1139,
+        "db_id": "european_football_2",
+        "text": "September 24, 2008 refers to date like '2008-09-24%'; in the Belgian Jupiler League refers to League.name = 'Belgium Jupiler League'; final score for home team refers to home_team_goal; final score for away team refers to away_team_goal"
+    },
+    {
+        "id": 1141,
+        "db_id": "european_football_2",
+        "text": "KSV Cercle Brugge refers to team_long_name = 'KSV Cercle Brugge'; speed class refers to buildUpPlaySpeedClass"
+    },
+    {
+        "id": 1144,
+        "db_id": "european_football_2",
+        "text": "finishing rate refer to finishing; curve score refer to curve; heaviest weight refers to MAX(weight)"
+    },
+    {
+        "id": 1145,
+        "db_id": "european_football_2",
+        "text": "in the 2015-2016 season refers to season = '2015/2016'; league with most games refers to League.name where MAX(COUNT(id))"
+    },
+    {
+        "id": 1146,
+        "db_id": "european_football_2",
+        "text": "full name refers to team_long_name; away team refers to away_team_api_id; scored the most goals refers to MAX(away_team_goal)"
+    },
+    {
+        "id": 1147,
+        "db_id": "european_football_2",
+        "text": "overall strength is the greatest refers to MAX(overall_rating)"
+    },
+    {
+        "id": 1148,
+        "db_id": "european_football_2",
+        "text": "percentage refers to DIVIDE(COUNT(height < 180 AND overall_rating > 70),COUNT(id)) * 100"
+    },
+    {
+        "id": 846,
+        "db_id": "formula_1",
+        "text": "driver reference name refers to driverRef; first qualifying period refers to q1; drivers who are eliminated in the first qualifying period refers to 5 drivers with MAX(q1); race number refers to raceId;"
+    },
+    {
+        "id": 847,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; second qualifying period refers to q2; best lap time refers to MIN(q2);"
+    },
+    {
+        "id": 850,
+        "db_id": "formula_1",
+        "text": "Germany is a name of country;"
+    },
+    {
+        "id": 854,
+        "db_id": "formula_1",
+        "text": "coordinate position/location refers to lat, lng; circuits for Australian grand prix refers to races.name = 'Australian Grand Prix'"
+    },
+    {
+        "id": 857,
+        "db_id": "formula_1",
+        "text": "coordinate position/location refers to lat, lng; Abu Dhabi Grand Prix refers to races.name = 'Abu Dhabi Grand Prix'"
+    },
+    {
+        "id": 859,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; Bruno Senna refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;"
+    },
+    {
+        "id": 861,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; finished 0:0M:SS in the Q3 refers to q3 LIKE 'M:SS%'"
+    },
+    {
+        "id": 862,
+        "db_id": "formula_1",
+        "text": "Bahrain Grand Prix refers to races.name = 'Bahrain Grand Prix'; drivers who finished the race refers to time is not empty (i.e. time IS NOT NULL);"
+    },
+    {
+        "id": 865,
+        "db_id": "formula_1",
+        "text": "drivers who finished the race refers to time is not empty (i.e. time IS NOT NULL); race number refers to raceId; date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa;"
+    },
+    {
+        "id": 866,
+        "db_id": "formula_1",
+        "text": "player and driver are synonyms; the lap time of 0:0M:SS refers to lapTime.time LIKE 'M:SS%';race number refers to raceId; introduction website of the drivers refers to url;"
+    },
+    {
+        "id": 868,
+        "db_id": "formula_1",
+        "text": "location coordinates refers to (lat, lng); Malaysian Grand Prix refers to races.name = 'Malaysian Grand Prix'"
+    },
+    {
+        "id": 869,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; constructor which got the highest point refers to MAX(constructorResults.points); introduction website of the constructor refers to url;"
+    },
+    {
+        "id": 872,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; had the Q3 time as 0:0M:SS refers to q3 LIKE 'M:SS%'"
+    },
+    {
+        "id": 875,
+        "db_id": "formula_1",
+        "text": "the season page refers to url; race number refers to raceId;"
+    },
+    {
+        "id": 877,
+        "db_id": "formula_1",
+        "text": "race number refers to raceId; drivers who finished the race refers to time has value; the youngest is a driver where MAX(dob);"
+    },
+    {
+        "id": 879,
+        "db_id": "formula_1",
+        "text": "the fastest lap speed refers to (MAX) fastestLapSpeed;"
+    },
+    {
+        "id": 880,
+        "db_id": "formula_1",
+        "text": "Paul di Resta refers to the full name of the driver; Full name of the driver refers to drivers.forename ='Paul' and drivers.surname = 'di Resta'; race number refers to raceId; percentage = DIVIDE(SUBTRACT(fastestLapSpeed(raceId = 853), (fastestLapSpeed (raceId = 854)) * 100 , (fastestLapSpeed(raceId = 853))"
+    },
+    {
+        "id": 881,
+        "db_id": "formula_1",
+        "text": "DIVIDE(COUNT(driverid when time has value ), (COUNT(driverid )) as percentage; in 1983/7/16 refers to when date = '1983-07-16'"
+    },
+    {
+        "id": 884,
+        "db_id": "formula_1",
+        "text": "earliest recorded year and month refers to year = year(min(date)) and month = month(min(date));"
+    },
+    {
+        "id": 892,
+        "db_id": "formula_1",
+        "text": "the most points scored refers to max(points); Full name of the driver refers to drivers.forename and drivers.surname;"
+    },
+    {
+        "id": 894,
+        "db_id": "formula_1",
+        "text": "the best lap time refers to min(milliseconds); List the driver refers to drivers.forename and drivers.surname; List the race refers to races.name"
+    },
+    {
+        "id": 895,
+        "db_id": "formula_1",
+        "text": "average lap time = AVG(milliseconds); 'Lewis Hamilton' refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname; 'Malaysian Grand Prix' refers to races.name = 'Malaysian Grand Prix'"
+    },
+    {
+        "id": 896,
+        "db_id": "formula_1",
+        "text": "percentage = DIVIDE(COUNT(raceId) where surname = 'Hamilton' and position>1), (COUNT(raceId) where surname = 'Hamilton'); since 2010 refers to year >= 2010"
+    },
+    {
+        "id": 897,
+        "db_id": "formula_1",
+        "text": "Full name of the driver refers to drivers.forename and drivers.surname; the most winning refers to MAX(COUNT(wins)); average point scores refers to MAX(points);"
+    },
+    {
+        "id": 898,
+        "db_id": "formula_1",
+        "text": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa; Japanese refers to nationality = 'Japanese'; age = YEAR(CURRENT_TIMESTAMP) - YEAR(dob);"
+    },
+    {
+        "id": 901,
+        "db_id": "formula_1",
+        "text": "in September 2005 refers to MONTH(date) = 9 and YEAR(date) = 2005"
+    },
+    {
+        "id": 902,
+        "db_id": "formula_1",
+        "text": "Alex Yoong refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;track number less than 10 refers to position < 20"
+    },
+    {
+        "id": 904,
+        "db_id": "formula_1",
+        "text": "fastest lap refers to min(milliseconds); Alex Yoong refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;"
+    },
+    {
+        "id": 906,
+        "db_id": "formula_1",
+        "text": "first race refers to min(Year); Lewis Hamiltonrefers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;"
+    },
+    {
+        "id": 909,
+        "db_id": "formula_1",
+        "text": "European Grand Prix races refers to races.name = 'European Grand Prix';percentage = divide(COUNT(races where country = Germany and name = 'Europearn Grand Prix'),COUNT(races where name = 'Europearn Grand Prix'))*100"
+    },
+    {
+        "id": 910,
+        "db_id": "formula_1",
+        "text": "location coordinates refers to (lat, lng); Silverstone Circuit refers to circuits.name = 'Silverstone Circuit'"
+    },
+    {
+        "id": 912,
+        "db_id": "formula_1",
+        "text": "reference name refers to circuitRef; Marina Bay Street Circuit refers to circuits.name = 'Marina Bay Street Circuit'"
+    },
+    {
+        "id": 915,
+        "db_id": "formula_1",
+        "text": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa;"
+    },
+    {
+        "id": 928,
+        "db_id": "formula_1",
+        "text": "reference name refers to driverRef; Canadian Grand Prix refers to races.name = 'Canadian Grand Prix';"
+    },
+    {
+        "id": 930,
+        "db_id": "formula_1",
+        "text": "rank the highest refers to min(rank); Lewis Hamilton refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;"
+    },
+    {
+        "id": 931,
+        "db_id": "formula_1",
+        "text": "the fastest lap speed among all refers to max(fastestLapSpeed); Spanish Grand Prix refers to races.name = 'Spanish Grand Prix';"
+    },
+    {
+        "id": 933,
+        "db_id": "formula_1",
+        "text": "Lewis Hamilton refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname; final rank refers to positionOrder; Chinese Grand Prix refers to races.name = 'Chinese Grand Prix';"
+    },
+    {
+        "id": 937,
+        "db_id": "formula_1",
+        "text": "finish time refers to time; Chinese Grand Prix refers to races.name = 'Chinese Grand Prix';"
+    },
+    {
+        "id": 940,
+        "db_id": "formula_1",
+        "text": "COUNT(raceID) > 0 reveals that this driver participated in races; drivers who finished the race refers to time has value."
+    },
+    {
+        "id": 944,
+        "db_id": "formula_1",
+        "text": "how much faster in percentage = divide(subtract(incremental time, champion time), last_driver time) * 100; last driver finished time = incremental time + champion time; only champion's finished time is represented by 'HH:MM:SS.mmm'; finished the game refers to time is not null"
+    },
+    {
+        "id": 945,
+        "db_id": "formula_1",
+        "text": "Australia is the country; Melbourne is the location of circuit;"
+    },
+    {
+        "id": 948,
+        "db_id": "formula_1",
+        "text": "maximum points = MAX(points); British is a nationality"
+    },
+    {
+        "id": 950,
+        "db_id": "formula_1",
+        "text": "race at 291 refers to raceID = 291;"
+    },
+    {
+        "id": 951,
+        "db_id": "formula_1",
+        "text": "2 races refers to COUNT(raceID) = 2; Japanese refers to constructors.nationality = 'Japanese';"
+    },
+    {
+        "id": 954,
+        "db_id": "formula_1",
+        "text": "from 2007 to 2009 refers to year between 2007 and 2009; race completion refers to time is not null; percentage = Divide(COUNT(DriverID where time is not null and year between 2007 and 2009),Count (DriverID where year between 2007 and 2009))*100; "
+    },
+    {
+        "id": 955,
+        "db_id": "formula_1",
+        "text": "only champion's finished time is represented by 'HH:MM:SS.mmm'; finished the game refers to time is not null; before year 1975 refers to year < 1975;"
+    },
+    {
+        "id": 959,
+        "db_id": "formula_1",
+        "text": "in 2009 refers to year = 2009; Only the time of the champion shows in the format of \"hour: minutes: seconds.millionsecond\""
+    },
+    {
+        "id": 960,
+        "db_id": "formula_1",
+        "text": "Spanish Grand Prix is the name of race refers to name = 'Spanish Grand Prix'; average fastest lap speed refers to avg(fastestLapSpeed);"
+    },
+    {
+        "id": 962,
+        "db_id": "formula_1",
+        "text": "born before 1985 refers to year(dob)<1985; in 2000 to 2005 refers to year between 2000 and 2005; percentage = Divide(COUNT(driverId where year (dob) <1985 and laps >50),COUNT(DriverID where year between 2000 and 2005) *100;"
+    },
+    {
+        "id": 963,
+        "db_id": "formula_1",
+        "text": "lap time less than 02:00.00 refers to seconds < 120;"
+    },
+    {
+        "id": 964,
+        "db_id": "formula_1",
+        "text": "nationality = 'American'"
+    },
+    {
+        "id": 967,
+        "db_id": "formula_1",
+        "text": "youngest driver refers to Max (year(dob)); Netherlandic and Dutch refer to the same country"
+    },
+    {
+        "id": 971,
+        "db_id": "formula_1",
+        "text": "oldest refers to MIN(year(dob)); reference names appear in drverRef."
+    },
+    {
+        "id": 972,
+        "db_id": "formula_1",
+        "text": "born in 1971 refers to year(dob) = 1971; has the fastest lap time refers to fastestLapTime has values"
+    },
+    {
+        "id": 977,
+        "db_id": "formula_1",
+        "text": "disqualified refers to statusID = 2, finisher refers to time! = null; race no. refers to raceId; raceId > 50 and raceId < 100;"
+    },
+    {
+        "id": 978,
+        "db_id": "formula_1",
+        "text": "location coordinates refers to (lat,lng); Austria refers to country = 'Austria';"
+    },
+    {
+        "id": 981,
+        "db_id": "formula_1",
+        "text": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa; first qualifying race refers to MIN(races.date);"
+    },
+    {
+        "id": 988,
+        "db_id": "formula_1",
+        "text": "Full name of the driver refers to drivers.forename and drivers.surname; born between 1980-1985 refers to 1980<= year(dob) <=1985; Average pitstop duration refers to Divide(SUM(duration),COUNT(duration)); shortest average refers to Min(avg(duration));"
+    },
+    {
+        "id": 989,
+        "db_id": "formula_1",
+        "text": "Only the time of the champion shows in the format of \"hour: minutes: seconds.millionsecond\";"
+    },
+    {
+        "id": 990,
+        "db_id": "formula_1",
+        "text": "the time of the champion shows in the format of \"minutes: seconds.millionsecond\" in which Max(time); constructor reference name refers to constructorRef; website refers to url"
+    },
+    {
+        "id": 717,
+        "db_id": "superhero",
+        "text": "3-D Man refers to superhero_name = '3-D Man'; superpowers refers to power_name"
+    },
+    {
+        "id": 994,
+        "db_id": "formula_1",
+        "text": "Monaco Grand Priz refers to the race; race in year between 1980 and 2010"
+    },
+    {
+        "id": 1001,
+        "db_id": "formula_1",
+        "text": "Ranked 1st in the 3rd qualifying race refer to MIN(q3); 2008 is the year of race; full name of racer = forename, surname"
+    },
+    {
+        "id": 1002,
+        "db_id": "formula_1",
+        "text": "full name refers to forename+surname; Youngest racer = MAX(dob)"
+    },
+    {
+        "id": 1003,
+        "db_id": "formula_1",
+        "text": "number of accidents refers to the number where statusid = 3; Canadian Grand Prix refers to the race of name\n"
+    },
+    {
+        "id": 1011,
+        "db_id": "formula_1",
+        "text": "shortest lap time refers to MIN(time); the time format for the shortest lap time is 'MM:SS.mmm' or 'M:SS.mmm'; full name of the driver refers to forename, surname"
+    },
+    {
+        "id": 1014,
+        "db_id": "formula_1",
+        "text": "lap record means the fastest time recorded which refers to time"
+    },
+    {
+        "id": 719,
+        "db_id": "superhero",
+        "text": "super power of \"Super Strength\" refers to power_name = 'Super Strength'; a height of over 200cm refers to height_cm > 200"
+    },
+    {
+        "id": 723,
+        "db_id": "superhero",
+        "text": "blue eyes refers to colour = 'Blue' and eye_colour_id = colour.id; super power of \"Agility\" refers to power_name = 'Agility'"
+    },
+    {
+        "id": 724,
+        "db_id": "superhero",
+        "text": "blue eyes refers to colour = 'Blue' and eye_colour_id = colour.id; blond hair refers to colour = 'Blond' and hair_colour_id = colour.id; super power of \"Agility\" refers to power_name = 'Agility'"
+    },
+    {
+        "id": 726,
+        "db_id": "superhero",
+        "text": "name refers to superhero_name; the tallest hero refers to MAX(height_cm); published by Marvel Comics refers to publisher_name = 'Marvel Comics'"
+    },
+    {
+        "id": 728,
+        "db_id": "superhero",
+        "text": "the superheroes from Marvel Comics refers to publisher_name = 'Marvel Comics'; most common color refers to COUNT(superhero.id) DESC;"
+    },
+    {
+        "id": 730,
+        "db_id": "superhero",
+        "text": "the superheroes from Marvel Comics refers to publisher_name = 'Marvel Comics'; super power of \"Super Strength\" refers to power_name = 'Super Strength';"
+    },
+    {
+        "id": 732,
+        "db_id": "superhero",
+        "text": "the slowest superhero refers to attribute_name = 'Speed' where MIN(attribute_value); publisher refers to publisher_name"
+    },
+    {
+        "id": 733,
+        "db_id": "superhero",
+        "text": "gold-eyed refers to colour = 'Gold' where eye_colour_id = colour.id; superheroes that Marvel Comics published refers to publisher_name = 'Marvel Comics'"
+    },
+    {
+        "id": 736,
+        "db_id": "superhero",
+        "text": "the dumbest superhero refers to MIN(attribute_value) where attribute_name = 'Intelligence'"
+    },
+    {
+        "id": 737,
+        "db_id": "superhero",
+        "text": "Copycat is the superhero_name;"
+    },
+    {
+        "id": 738,
+        "db_id": "superhero",
+        "text": "durability of less than 50 refers to attribute_name = 'Durability' AND attribute_value < 50"
+    },
+    {
+        "id": 739,
+        "db_id": "superhero",
+        "text": "name of superheroes refers to refers to superhero_name; the power of death touch refers to power_name = 'Death Touch'"
+    },
+    {
+        "id": 740,
+        "db_id": "superhero",
+        "text": "female refers to gender = 'Female'; strength value of 100 refers to attribute_name = 'Strength' AND attribute_value = 100"
+    },
+    {
+        "id": 743,
+        "db_id": "superhero",
+        "text": "published by Marvel Comics refers to publisher_name = 'Marvel Comics'; superheroes who act in their own self-interest or make decisions based on their own moral code refers to alignment = 'Bad'; calculation = MULTIPLY(DIVIDE(SUM(alignment = 'Bad); count(id)), 100)"
+    },
+    {
+        "id": 744,
+        "db_id": "superhero",
+        "text": "DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; calculation = SUBTRACT(SUM(publisher_name = 'Marvel Comics'), SUM(publisher_name = 'DC Comics'))"
+    },
+    {
+        "id": 745,
+        "db_id": "superhero",
+        "text": "Star Trek is the publisher_name;"
+    },
+    {
+        "id": 747,
+        "db_id": "superhero",
+        "text": "superheroes without full name refers to full_name IS NULL"
+    },
+    {
+        "id": 750,
+        "db_id": "superhero",
+        "text": "female refers to gender = 'Female'; average weight refers to AVG(weight_kg)"
+    },
+    {
+        "id": 751,
+        "db_id": "superhero",
+        "text": "male refers to gender = 'Male'; superpowers refers to power_name;"
+    },
+    {
+        "id": 753,
+        "db_id": "superhero",
+        "text": "height from 170 to 190 refers to height_cm BETWEEN 170 AND 190; no eye color refers to colour = 'No Colour'"
+    },
+    {
+        "id": 758,
+        "db_id": "superhero",
+        "text": "185 cm tall refers to height_cm = 185; human superhero refers to race = 'human'; hair colour refers to colour where hair_colour_id = colour.id;"
+    },
+    {
+        "id": 760,
+        "db_id": "superhero",
+        "text": "height between 150 to 180 refers to height_cm BETWEEN 150 AND 180; heroes published by Marvel Comics refers to publisher_name = 'Marvel Comics'; calculation = MULTIPLY(DIVIDE(SUM(publisher.id = 13)), COUNT(publisher.id), 100)"
+    },
+    {
+        "id": 761,
+        "db_id": "superhero",
+        "text": "super hero names refers to superhero_name;male superheros refers to gender = 'Male';Calculation = weight_kg > MULTIPLY(AVG(weight_kg), 0.79)"
+    },
+    {
+        "id": 764,
+        "db_id": "superhero",
+        "text": "superpowers refers to power_name; heroes with ID 1 refers to hero_id = 1;"
+    },
+    {
+        "id": 765,
+        "db_id": "superhero",
+        "text": "stealth power refers to power_name = 'Stealth';"
+    },
+    {
+        "id": 766,
+        "db_id": "superhero",
+        "text": "highest attribute in strength refers to MAX(attribute_value) WHERE attribute_name = 'strength';"
+    },
+    {
+        "id": 769,
+        "db_id": "superhero",
+        "text": "which superhero refers to superhero_name; most durability refers to MAX(attribute_value) WHERE attribute_name = 'durability'; published by Dark Horse Comics refers to publisher_name = 'Dark Horse Comics';"
+    },
+    {
+        "id": 772,
+        "db_id": "superhero",
+        "text": "eyes refers to eye_colour_id; hair refers to hair_colour_id; skin colour refers to skin_colour_id; female superheroes refers to gender = 'Female'; published by Dark Horse Comics refers to publisher_name = 'Dark Horse Comics';"
+    },
+    {
+        "id": 773,
+        "db_id": "superhero",
+        "text": "which superhero refers to superhero_name; the same eyes, hair and skin colour refers to hair_colour_id = skin_colour_id AND hair_colour_id = eye_colour_id; publisher refers to publisher_name;"
+    },
+    {
+        "id": 775,
+        "db_id": "superhero",
+        "text": "percentage = MULTIPLY(DIVIDE(SUM(colour = 'Blue' WHERE gender = 'Female'), COUNT(gender = 'Female')), 100); blue refers to the color = 'Blue' WHERE skin_colour_id = colour.id; female refers to gender = 'Female';"
+    },
+    {
+        "id": 779,
+        "db_id": "superhero",
+        "text": "Amazo hero refers to superhero_name = 'Amazo';"
+    },
+    {
+        "id": 781,
+        "db_id": "superhero",
+        "text": "heights of the heroes refers to height_cm; eye colours are amber refers to colour.colour = 'Amber' WHERE eye_colour_id = colour.id;"
+    },
+    {
+        "id": 782,
+        "db_id": "superhero",
+        "text": "heroes' names refers to superhero_name; eyes and hair colours are both black refers to eye_colour_id AND hair_colour_id WHERE colour.colour = 'Black';"
+    },
+    {
+        "id": 785,
+        "db_id": "superhero",
+        "text": "names of superheroes refers to superhero_name; neutral alignment refers to alignment = 'Neutral';"
+    },
+    {
+        "id": 786,
+        "db_id": "superhero",
+        "text": "highest attribute value in strength refers to MAX(attribute_value) WHERE attribute_name = 'Strength';"
+    },
+    {
+        "id": 788,
+        "db_id": "superhero",
+        "text": "percent = MULTIPLY(DIVIDE(SUM(gender = 'Female' WHERE publisher_name = 'Marvel Comics'), COUNT(publisher_name = 'Marvel Comics')), 100); female heroes refers to gender = 'Female'; Marvel Comics refers to publisher_name = 'Marvel Comics';"
+    },
+    {
+        "id": 790,
+        "db_id": "superhero",
+        "text": "difference = SUBTRACT(SUM(weight_kg WHERE full_name = 'Emil Blonsky'), SUM(weight_kg WHERE full_name = 'Charles Chandler')); Emil Blonsky is the full name of superhero; Charles Chandler is the full name of superhero;"
+    },
+    {
+        "id": 791,
+        "db_id": "superhero",
+        "text": "average = DIVIDE(SUM(height_cm), COUNT(all heros));"
+    },
+    {
+        "id": 792,
+        "db_id": "superhero",
+        "text": "Abomination refers to superhero_name = 'Abomination'; superpower refers to power_name;"
+    },
+    {
+        "id": 794,
+        "db_id": "superhero",
+        "text": "which hero refers to superhero_name; fastest refers to MAX(attribute_value) WHERE attribute_name = 'Speed';"
+    },
+    {
+        "id": 796,
+        "db_id": "superhero",
+        "text": "3-D Man is the superhero_name. attributes refers to attribute_name; values refers to attribute_value;"
+    },
+    {
+        "id": 797,
+        "db_id": "superhero",
+        "text": "which superheroes refers to superhero_name; blue eyes refers to color = 'Blue' and color.id = eye_colour_id; brown hair refers to color = 'Brown' and color.id = hair_colour_id;"
+    },
+    {
+        "id": 798,
+        "db_id": "superhero",
+        "text": "publisher refers to publisher_name; Hawkman refers to superhero_name = 'Hawkman'; Karate Kid refers to superhero_name = 'Karate Kid'; Speedy refers to superhero_name = 'Speedy';"
+    },
+    {
+        "id": 800,
+        "db_id": "superhero",
+        "text": "percentage = MULTIPLY(DIVIDE(SUM(superhero_name WHERE color = 'Blue'), COUNT(superhero_name)), 100.0); blue eyes refers to color = 'Blue' and color.id =  eye_colour_id = 7;"
+    },
+    {
+        "id": 801,
+        "db_id": "superhero",
+        "text": "ratio = DIVIDE(SUM(gender_id = 1) / SUM(gender_id = 2)); male superheroes refers to gender = 'Female'; female superheroes refers to gender = 'Male';"
+    },
+    {
+        "id": 806,
+        "db_id": "superhero",
+        "text": "eye colour refers to colour.colour where eye_colour_id = colour.id; Karen Beecher-Duncan is the full name of superhero;"
+    },
+    {
+        "id": 819,
+        "db_id": "superhero",
+        "text": "missing weight data refers to weight_kg = 0 OR T1.weight_kg = NULL; difference = SUBTRACT(SUM(colour.id = 7), SUM(colour.id = 1)); blue eyes refers to eye_colour_id WHERE colour.id = 7; no eye color refers to eye_colour_id WHERE colour.id = 1;"
+    },
+    {
+        "id": 822,
+        "db_id": "superhero",
+        "text": "green-skinned refers to colour.colour = 'Green' WHERE skin_colour_id = colour.id; villains refers to alignment = 'Bad';"
+    },
+    {
+        "id": 824,
+        "db_id": "superhero",
+        "text": "superheroes refers to superhero_name; can control wind refers to power_name = 'Wind Control';"
+    },
+    {
+        "id": 825,
+        "db_id": "superhero",
+        "text": "ability of Phoenix Force refers to power_name = 'Phoenix Force';"
+    },
+    {
+        "id": 829,
+        "db_id": "superhero",
+        "text": "DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; difference = SUBTRACT(SUM(publisher_name = 'DC Comics'), SUM(publisher_name = 'Marvel Comics'));"
+    },
+    {
+        "id": 531,
+        "db_id": "codebase_community",
+        "text": "\"Harlan\" and \"Jarrod Dixon\" are both DisplayName; highest reputation refers to Max(Reputation)"
+    },
+    {
+        "id": 532,
+        "db_id": "codebase_community",
+        "text": "account created in the year 2011 refers to year(CreationDate) = 2011"
+    },
+    {
+        "id": 533,
+        "db_id": "codebase_community",
+        "text": "last accessed after 2014/9/1 refers to LastAccessDate > '2014-09-01'"
+    },
+    {
+        "id": 539,
+        "db_id": "codebase_community",
+        "text": "\"Eliciting priors from experts\" is the Title of post; owner refers to DisplayName"
+    },
+    {
+        "id": 537,
+        "db_id": "codebase_community",
+        "text": "\"csgillespie\" is the DisplayName of user"
+    },
+    {
+        "id": 544,
+        "db_id": "codebase_community",
+        "text": "\"Examples for teaching: Correlation does not mean causation\" is the Title of post; user who last edited refers to LastEditorUserId"
+    },
+    {
+        "id": 547,
+        "db_id": "codebase_community",
+        "text": "elder users refers to Age > 65; Score of over 19 refers to Score > = 20"
+    },
+    {
+        "id": 549,
+        "db_id": "codebase_community",
+        "text": "\"bayesian\" is the TagName; excerpt from refers to ExcerptPostId"
+    },
+    {
+        "id": 555,
+        "db_id": "codebase_community",
+        "text": "\"csgillespie\" is the DisplayName of user; average score refers to AVG(Score)"
+    },
+    {
+        "id": 557,
+        "db_id": "codebase_community",
+        "text": "score of over 5 refers to Score > 5; elder user refers to Age > 65; percentage = Divide (Count(Id where Age>65), Count(Id)) * 100"
+    },
+    {
+        "id": 563,
+        "db_id": "codebase_community",
+        "text": "user no. 3025 refers to UserId = '3025'; comment at 20:29:39 on 2014/4/23 refers to CreationDate = '2014/4/23 20:29:39.0'"
+    },
+    {
+        "id": 565,
+        "db_id": "codebase_community",
+        "text": "user no. 23853 refers to UserId = '23853'; at 9:08:18 on 2013/7/12 refers to CreationDate = '2013-07-12 09:08:18.0'; not well-finished refers to ClosedDate IS NULL and vice versa"
+    },
+    {
+        "id": 567,
+        "db_id": "codebase_community",
+        "text": "\"Tiago Pasqualini\" is the DisplayName;"
+    },
+    {
+        "id": 568,
+        "db_id": "codebase_community",
+        "text": "vote no. 6347 refers to Id = '6347'"
+    },
+    {
+        "id": 571,
+        "db_id": "codebase_community",
+        "text": "user no. 24 refers to UserId = OwnerUserId = '24'; times of his/her post than votes = Divide (Count(post.Id), Count(votes.Id))"
+    },
+    {
+        "id": 572,
+        "db_id": "codebase_community",
+        "text": "\"Integration of Weka and/or RapidMiner into Informatica PowerCenter/Developer\" is the Title of post; views refers to ViewCount"
+    },
+    {
+        "id": 573,
+        "db_id": "codebase_community",
+        "text": "score of 17 refers to Score = 17; contents of comments refers to Text"
+    },
+    {
+        "id": 576,
+        "db_id": "codebase_community",
+        "text": "\"thank you user93\" is the Text of comment; user refers to DisplayName"
+    },
+    {
+        "id": 578,
+        "db_id": "codebase_community",
+        "text": "\"Understanding what Dassault iSight is doing?\" is the Title of post; user refers to DisplayName;"
+    },
+    {
+        "id": 581,
+        "db_id": "codebase_community",
+        "text": "'Open source tools for visualizing multi-dimensional data' is the Title of Post; owner refers to DisplayName;"
+    },
+    {
+        "id": 584,
+        "db_id": "codebase_community",
+        "text": "\"Why square the difference instead of taking the absolute value in standard deviation?\" is the Title of post;"
+    },
+    {
+        "id": 586,
+        "db_id": "codebase_community",
+        "text": "bounty amount of 50 refers to BountyAmount = 50; user refers to DisplayName; title mentioning variance refers to Title include 'variance'"
+    },
+    {
+        "id": 587,
+        "db_id": "codebase_community",
+        "text": "tagged as  'humor' refers to tag = '<humor>'; comment of the post refers to Text; average view count = AVG(ViewCount)"
+    },
+    {
+        "id": 592,
+        "db_id": "codebase_community",
+        "text": "more than 5 badges refers to Count (Name) > 5; user refers to UserId"
+    },
+    {
+        "id": 595,
+        "db_id": "codebase_community",
+        "text": "having at least 1000 view refers to Views > = 1000; user refers to UserId"
+    },
+    {
+        "id": 598,
+        "db_id": "codebase_community",
+        "text": "student badges refers to badge's name = 'Student'; during 2010 refers to Year(Date) = 2010; during 2011 refers to Year(Date) = 2011; percentage difference = Subtract (Divide(Count(Name where Year(Date) = 2010), Count (Name)) *100, Divide(Count(Name where Year(Date) = 2011), Count(Name)) * 100)"
+    },
+    {
+        "id": 604,
+        "db_id": "codebase_community",
+        "text": "creating more than 10 post refers to Count (UserId) > 10; average of the up votes = Divide (Sum(UpVotes), Count (UserId)); average age = Divide (Sum(Age), Count(UserId))"
+    },
+    {
+        "id": 629,
+        "db_id": "codebase_community",
+        "text": "DIVIDE(COUNT(Id where YEAR(CreationDate) = 2010), COUNT(Id where YEAR(CreationDate) = 2011)) FROM votes;"
+    },
+    {
+        "id": 633,
+        "db_id": "codebase_community",
+        "text": "most answers count refers to MAX(AnswerCount); post by slashnick refers to DisplayName = 'slashnick';"
+    },
+    {
+        "id": 634,
+        "db_id": "codebase_community",
+        "text": "Has higher popularity means the post has higher view count ; calculation = MAX(SUM(ViewCount)) where DisplayName = 'Harvey Motulsky' OR DisplayName = 'Noah Snyder';"
+    },
+    {
+        "id": 637,
+        "db_id": "codebase_community",
+        "text": "used by Mark Meckes refers to DisplayName = 'Mark Meckes'; Doen't have comments refers to CommentCount = 0;"
+    },
+    {
+        "id": 639,
+        "db_id": "codebase_community",
+        "text": "DIVIDE(COUNT(PostId WHERE TagName = 'r')), (COUNT(PostId WHERE DisplayName = 'Community')) as percentage; R language refers to tagname = 'r'"
+    },
+    {
+        "id": 640,
+        "db_id": "codebase_community",
+        "text": "calculation = SUBTRACT(SUM(ViewCount where DisplayName = 'Mornington'), SUM(ViewCount where DisplayName = 'Amos'));"
+    },
+    {
+        "id": 665,
+        "db_id": "codebase_community",
+        "text": "calculation = DIVIDE(COUNT(Id where YEAR(CreationDate) = 2010 and AnswerCount < = 2), 12)"
+    },
+    {
+        "id": 669,
+        "db_id": "codebase_community",
+        "text": "DisplayName = 'chl'; cast its first vote refers to MIN(CreationDate);"
+    },
+    {
+        "id": 671,
+        "db_id": "codebase_community",
+        "text": "Autobiographer is the name of the badge; acquired the first refers to MIN(Date);"
+    },
+    {
+        "id": 672,
+        "db_id": "codebase_community",
+        "text": "favorite amount of 4 or more refers to FavoriteCount > = 4; Location = 'United Kingdom';"
+    },
+    {
+        "id": 678,
+        "db_id": "codebase_community",
+        "text": "DisplayName = 'Harvey Motulsky'; the most views refer to MAX(ViewCount);"
+    },
+    {
+        "id": 682,
+        "db_id": "codebase_community",
+        "text": "the most valuable post in 2010 refers to MAX(FavoriteCount) where year(CreationDate) = 2010;"
+    },
+    {
+        "id": 683,
+        "db_id": "codebase_community",
+        "text": "percentage = DIVIDE(COUNT(Id where YEAR(CreationDate) = 2011 and Reputation > 1000), COUNT(Id) ) * 100;"
+    },
+    {
+        "id": 685,
+        "db_id": "codebase_community",
+        "text": "total views refer to ViewCount; Name the user refers to DisplayName; post 'Computer Game Datasets' refers to Text = 'Computer Game Datasets';"
+    },
+    {
+        "id": 687,
+        "db_id": "codebase_community",
+        "text": "the highest score refers to MAX(Score);"
+    },
+    {
+        "id": 694,
+        "db_id": "codebase_community",
+        "text": "the latest comment refers to MAX(CreationDate);"
+    },
+    {
+        "id": 701,
+        "db_id": "codebase_community",
+        "text": "The higher reputation the user has the more influence; percentage = DIVIDE(COUNT(stats_posts.Id where Score > 50 and MAX(Reputation))), COUNT(stats_posts.Id where MAX(Reputation));"
+    },
+    {
+        "id": 704,
+        "db_id": "codebase_community",
+        "text": "tag named sample refers to TagName = 'sample';"
+    },
+    {
+        "id": 705,
+        "db_id": "codebase_community",
+        "text": "Text = 'fine, you win :)';"
+    },
+    {
+        "id": 707,
+        "db_id": "codebase_community",
+        "text": "views ranging from 100 to 150 refers to ViewCount BETWEEN 100 and 150; comment with the highest score refers to Text where MAX(Score);"
+    },
+    {
+        "id": 710,
+        "db_id": "codebase_community",
+        "text": "in posts with 1 comment refers to CommentCount = 1;"
+    },
+    {
+        "id": 716,
+        "db_id": "codebase_community",
+        "text": "percentage = DIVIDE(COUNT(UserId where UpVotes = 0 and Score BETWEEN 5 and 10))*100, (COUNT(UserId where Score BETWEEN 5 and 10));"
+    },
+    {
+        "id": 340,
+        "db_id": "card_games",
+        "text": "incredibly poweful foils refers to cardKingdomFoilId is not null AND cardKingdomId is not null"
+    },
+    {
+        "id": 341,
+        "db_id": "card_games",
+        "text": "borderless' refers to borderColor; poweful foils refers to cardKingdomFoilId paired with cardKingdomId AND cardKingdomId is not null"
+    },
+    {
+        "id": 344,
+        "db_id": "card_games",
+        "text": "mythic rarity printing refers to rarity = 'mythic'; card banned refers to status = 'Banned'; in gladiator format refers to format = 'gladiator';"
+    },
+    {
+        "id": 345,
+        "db_id": "card_games",
+        "text": "Artifact type of cards refers to types = 'Artifact'; card does not have multiple faces on the same card refers to side is NULL'; vintage play format refers to format = 'vintage';"
+    },
+    {
+        "id": 346,
+        "db_id": "card_games",
+        "text": "unknown power refers to power = '*' or POWER IS NULL; commander play format refers to format = 'commander'; legal for commander play format refers to format = 'commander' where status = 'Legal'"
+    },
+    {
+        "id": 347,
+        "db_id": "card_games",
+        "text": "cards have missing or degraded properties and value refers to hasContentWarning = 1; 'Stephen Daniele' is artist; Find all cards refers to return card id"
+    },
+    {
+        "id": 349,
+        "db_id": "card_games",
+        "text": "with the most ruling information refers to Max(count(rulings.uuid)); the card is the promotional printing refers to isPromo = 1;"
+    },
+    {
+        "id": 352,
+        "db_id": "card_games",
+        "text": "Chinese Simplified' is the language; percentage = Divide(Sum(id where language = 'Chinese Simplified'), Count(id)) *100"
+    },
+    {
+        "id": 356,
+        "db_id": "card_games",
+        "text": "infinite power refers to power = '*';"
+    },
+    {
+        "id": 358,
+        "db_id": "card_games",
+        "text": "name of card  = 'Ancestor''s Chosen' ;"
+    },
+    {
+        "id": 366,
+        "db_id": "card_games",
+        "text": "Benalish Knight' is the name of card; rule of playing card refers to format;"
+    },
+    {
+        "id": 368,
+        "db_id": "card_games",
+        "text": "borderless card refers to borderColor = 'borderless'; percentage = Divide(Count (id) where borderColor = 'borderless', Count(id)) *100"
+    },
+    {
+        "id": 371,
+        "db_id": "card_games",
+        "text": "Story Spotlight card refers to isStorySpotlight = 1; French is the language; Percentage = Divide(Count(id) where language = 'French' and isStorySpotlight = 1, Count(id) where isStorySpotlight = 1)*100"
+    },
+    {
+        "id": 377,
+        "db_id": "card_games",
+        "text": "subtype other than Angel refers to subtypes is not 'Angel';"
+    },
+    {
+        "id": 379,
+        "db_id": "card_games",
+        "text": "duel deck a refers to duelDeck = a;"
+    },
+    {
+        "id": 383,
+        "db_id": "card_games",
+        "text": "banned card refers to status = 'Banned'; white border refers to borderColor = 'white';"
+    },
+    {
+        "id": 391,
+        "db_id": "card_games",
+        "text": "Artifact card refers to originalType = 'Artifact'; black color refers to colors = 'B'; foreign language refers to language in foreign_data"
+    },
+    {
+        "id": 397,
+        "db_id": "card_games",
+        "text": "available in paper and mtgo refers to availability = 'mtgo,paper'; frameVersion = 2003;borderColor = 'black'"
+    },
+    {
+        "id": 402,
+        "db_id": "card_games",
+        "text": "Story Spotlight cards that do not have a text box refers to isStorylight = 1 and isTextless = 0; Percentage = DIVIDE(SUM(count(id) where isStorylight = 1 AND isTextless = 0 ), SUM(count(id))) * 100"
+    },
+    {
+        "id": 405,
+        "db_id": "card_games",
+        "text": "Commander block refer to block = 'Commander'; sets refer to code = setCode; Portuguese refer to language = 'Portuguese (Brasil)'"
+    },
+    {
+        "id": 407,
+        "db_id": "card_games",
+        "text": "German refer to language; all types refer to the subtypes, supertypes; subtypes is not null AND supertypes is not null"
+    },
+    {
+        "id": 408,
+        "db_id": "card_games",
+        "text": "unknown power cards refers to power is null or power = '*';contain info about the triggered ability refers to text contains 'triggered ability'"
+    },
+    {
+        "id": 409,
+        "db_id": "card_games",
+        "text": "pre-modern format refers to format = 'premodern' ;do not have multiple faces refers to side IS NULL"
+    },
+    {
+        "id": 412,
+        "db_id": "card_games",
+        "text": "in French refers to language = 'French'; black border color refers to borderColor = 'black'"
+    },
+    {
+        "id": 414,
+        "db_id": "card_games",
+        "text": "set of 180 cards refers to baseSetSize = 180"
+    },
+    {
+        "id": 415,
+        "db_id": "card_games",
+        "text": "do not have a content warning refers to hasContentWarning = 0; percentage refers to DIVIDE(COUNT(hasContentWarning = 0),COUNT(ID))*100 where format = 'commander' AND Status = 'legal';"
+    },
+    {
+        "id": 416,
+        "db_id": "card_games",
+        "text": "in French refers to language = 'French'; cards without power refers to power IS NULL OR power = '*'; percentage = DIVIDE(COUNT(language = 'French' and power is NULL or power = '*'), COUNT( power is NULL or power = '*'))*100"
+    },
+    {
+        "id": 422,
+        "db_id": "card_games",
+        "text": "multiverse number 149934 refers to multiverseid = 149934;"
+    },
+    {
+        "id": 424,
+        "db_id": "card_games",
+        "text": "do not have a text box refers to isTextless = 1; proportion refers to DIVIDE(COUNT(Textless = 1 and layout = 'normal'),COUNT(Textless))*100"
+    },
+    {
+        "id": 427,
+        "db_id": "card_games",
+        "text": "known as Archenemy refers to mcmName = 'Archenemy'; having the code ARC refers to setCode = 'ARC'"
+    },
+    {
+        "id": 440,
+        "db_id": "card_games",
+        "text": "\"A Pedra Fellwar\" refers to name = 'A Pedra Fellwar'"
+    },
+    {
+        "id": 459,
+        "db_id": "card_games",
+        "text": "\"Serra Angel\" refers to name = 'Serra Angel'; \"Shrine Keeper\" refers to name = 'Shrine Keeper'; card costs more converted mana when the value of convertedManaCost is greater"
+    },
+    {
+        "id": 462,
+        "db_id": "card_games",
+        "text": "Italian is a language which refers to language = 'Italian'; with \"Ancestor's Chosen\" in the card set refers to name = 'Ancestor''s Chosen'"
+    },
+    {
+        "id": 465,
+        "db_id": "card_games",
+        "text": "set of cards with \"Ancestor''s Chosen\" in it refers to name = 'Ancestor''s Chosen'; Korean version refers to language = 'Korean'"
+    },
+    {
+        "id": 466,
+        "db_id": "card_games",
+        "text": "card set \"Hauptset Zehnte Edition\" refers to translation = 'Hauptset Zehnte Edition'; designed by Adam refers to artist = 'Adam Rex'"
+    },
+    {
+        "id": 468,
+        "db_id": "card_games",
+        "text": "Eighth Edition is the name of card set which refers to name = 'Eighth Edition'; Simplified Chinese refers to language = 'Chinese Simplified'; translation of the name refers to translation"
+    },
+    {
+        "id": 469,
+        "db_id": "card_games",
+        "text": "card set \"Angel of Mercy\" refers to name = 'Angel of Mercy'; appear on Magic: The Gathering Online refers to mtgoCode is NOT NULL and vice versa"
+    },
+    {
+        "id": 472,
+        "db_id": "card_games",
+        "text": "sets in the block \"Ice Age\" refers to block = 'Ice Age'; Italian translation refers to language = 'Italian' and translation is not null"
+    },
+    {
+        "id": 473,
+        "db_id": "card_games",
+        "text": "card set Adarkar Valkyrie refers to name = 'Adarkar Valkyrie'; isForeignOnly = 1 means only available outside the United States;"
+    },
+    {
+        "id": 474,
+        "db_id": "card_games",
+        "text": "Italian translation refers to language = 'Italian'; have a translation means translation is not null; base set number of under 100 refers to baseSetSize < 10"
+    },
+    {
+        "id": 477,
+        "db_id": "card_games",
+        "text": "card set Coldsnap refers to name = 'Coldsnap'; Jeremy Jarvis, Aaron Miller or Chippy are the name of artists which refers to artist IN ('Jeremy Jarvis', 'Aaron Miller','Chippy');"
+    },
+    {
+        "id": 479,
+        "db_id": "card_games",
+        "text": "card set Coldsnap refers to name = 'Coldsnap'; converted mana cost higher than 5 refers to convertedManaCost > 5; unknown power refers to power = '*' or T1.power is null"
+    },
+    {
+        "id": 480,
+        "db_id": "card_games",
+        "text": "Italian refers to language = 'Italian'; flavor text refers to flavorText; \"Ancestor''s Chosen\" refers to name = 'Ancestor''s Chosen'"
+    },
+    {
+        "id": 483,
+        "db_id": "card_games",
+        "text": "card set Coldsnap refers to name = 'Coldsnap'; Italian refers to language = 'Italian'"
+    },
+    {
+        "id": 484,
+        "db_id": "card_games",
+        "text": "card set Coldsnap refers to name = 'Coldsnap'; Italian refers to language = 'Italian'; highest converted mana cost refers to MAX(convertedManaCost)"
+    },
+    {
+        "id": 486,
+        "db_id": "card_games",
+        "text": "converted mana cost of 7 refers to convertedManaCost = 7; card set Coldsnap refers to name = 'Coldsnap'; percentage = DIVIDE(SUM(convertedManaCost = 7), SUM(convertedManaCost))*100"
+    },
+    {
+        "id": 487,
+        "db_id": "card_games",
+        "text": "card set Coldsnap refers to name = 'Coldsnap'; foil is incredibly powerful refers to cardKingdomFoilId is not null AND cardKingdomId is not null; the percentage of incredibly powerful cards in the set refers to DIVIDE(SUM(incredibly powerful), SUM(name = 'Coldsnap'))*100"
+    },
+    {
+        "id": 518,
+        "db_id": "card_games",
+        "text": "play format refers to format; banned status refers to status = 'Banned'; the highest number of banned status refers to MAX(COUNT(status = 'Banned'))"
+    },
+    {
+        "id": 522,
+        "db_id": "card_games",
+        "text": "ranked 1st on EDHRec refers to edhrecRank = 1; banned refers to status = 'Banned'; play format refers to format; cards name refers to name"
+    },
+    {
+        "id": 528,
+        "db_id": "card_games",
+        "text": "the set Hour of Devastation refers to set.name = 'Hour of Devastation'; names of all the cards in the set refers to cards.name; legal cards refers to status = 'Legal'; the formats refers to format"
+    },
+    {
+        "id": 529,
+        "db_id": "card_games",
+        "text": "names of sets refers to name; doesn't have Japanese translation refers to language not like '%Japanese%'; have Korean translation refers to language = 'Korean'"
+    },
+    {
+        "id": 530,
+        "db_id": "card_games",
+        "text": "frame styles refers to frameVersion; cards Allen Williams worked on refers to artist = 'Allen Williams'; banned cards refers to status = 'Banned'"
+    },
+    {
+        "id": 195,
+        "db_id": "toxicology",
+        "text": "most common bond type refers MAX(COUNT(bond_type))"
+    },
+    {
+        "id": 197,
+        "db_id": "toxicology",
+        "text": "single-bonded molecules refers to bond_type = '-' ; average number of oxygen atom = AVG(element = 'o')"
+    },
+    {
+        "id": 198,
+        "db_id": "toxicology",
+        "text": "carcinogenic molecules refers to label = '+'; single-bonded refers to bond_type = '-'; average = DIVIDE(SUM(bond_type = '-'), COUNT(atom_id))"
+    },
+    {
+        "id": 200,
+        "db_id": "toxicology",
+        "text": "triple-bonded molecules refers to bond_type = '#'; carcinogenic refers to label = '+'"
+    },
+    {
+        "id": 201,
+        "db_id": "toxicology",
+        "text": "carbon refers to element = 'c'; double-bond molecules refers to bond_type = '='; percentage = DIVIDE(SUM(element = 'c'), COUNT(atom_id))"
+    },
+    {
+        "id": 206,
+        "db_id": "toxicology",
+        "text": "TR004_8_9 bond atoms refers to bond_id = 'TR004_8_9';"
+    },
+    {
+        "id": 207,
+        "db_id": "toxicology",
+        "text": "double type bond refers to bond_type = '=';"
+    },
+    {
+        "id": 208,
+        "db_id": "toxicology",
+        "text": "with hydrogen refers to element = 'h'; label most numerous in atoms refers to MAX(COUNT(label)); "
+    },
+    {
+        "id": 212,
+        "db_id": "toxicology",
+        "text": "label = '-' means molecules are non-carcinogenic; least numerous refers to MIN(COUNT(element));"
+    },
+    {
+        "id": 213,
+        "db_id": "toxicology",
+        "text": "type of bond refers to bond_type; between the atoms TR004_8 and TR004_20 refers to atom_id = 'TR004_8' AND atom_id2 = 'TR004_20' OR another way around"
+    },
+    {
+        "id": 215,
+        "db_id": "toxicology",
+        "text": "with iodine element refer to element = 'i'; with sulfur element refers to element = 's'; single type bond refers to bond_type = '-'; Should consider the distinct atoms when counting;"
+    },
+    {
+        "id": 218,
+        "db_id": "toxicology",
+        "text": "label = '+' mean molecules are carcinogenic; contain fluorine refers to element = 'f'; percentage = DIVIDE(SUM(element = 'f') * 100, COUNT(molecule_id)) where label = '+'; Should consider the distinct atoms when counting;"
+    },
+    {
+        "id": 219,
+        "db_id": "toxicology",
+        "text": "label = '+' mean molecules are carcinogenic; triple bond refers to bond_type = '#'; percentage = DIVIDE(SUM(bond_type = '#') * 100, COUNT(bond_id)) as percent where label = '+'"
+    },
+    {
+        "id": 220,
+        "db_id": "toxicology",
+        "text": "TR000 is the molecule id;"
+    },
+    {
+        "id": 226,
+        "db_id": "toxicology",
+        "text": "double bond refers to bond_type = '='; TR008 is the molecule id; percentage = DIVIDE(SUM(bond_type = '='), COUNT(bond_id)) as percent where molecule_id = 'TR008'"
+    },
+    {
+        "id": 227,
+        "db_id": "toxicology",
+        "text": "label = '+' mean molecules are carcinogenic; percentage = DIVIDE(SUM(label = '+'), COUNT(molecule_id)) as percent"
+    },
+    {
+        "id": 228,
+        "db_id": "toxicology",
+        "text": "hydrogen refers to element = 'h'; TR206 is the molecule id; percentage = DIVIDE(SUM(element = 'h'), COUNT(atom_id)) as percent where molecule_id = 'TR206'"
+    },
+    {
+        "id": 230,
+        "db_id": "toxicology",
+        "text": "TR060 is the molecule id; "
+    },
+    {
+        "id": 231,
+        "db_id": "toxicology",
+        "text": "TR010 is the molecule id; majority of the bond found refers to MAX(COUNT(bond_type)); "
+    },
+    {
+        "id": 232,
+        "db_id": "toxicology",
+        "text": "label = '-' means molecules are not carcinogenic; single type bond refers to bond_type = '-'; list top three molecules refers to return molecule_id and order by molecule_id;"
+    },
+    {
+        "id": 234,
+        "db_id": "toxicology",
+        "text": "TR009 is the molecule id;  involved atom 12 refers to atom_id = 'TR009_12' or atom_id2 = 'TR009_12'"
+    },
+    {
+        "id": 236,
+        "db_id": "toxicology",
+        "text": "atoms refer to atom_id or atom_id2"
+    },
+    {
+        "id": 239,
+        "db_id": "toxicology",
+        "text": "connections refers to bond_id; atom 19 refers to atom_id like 'TR%_19';"
+    },
+    {
+        "id": 240,
+        "db_id": "toxicology",
+        "text": "TR004 is the molecule id;"
+    },
+    {
+        "id": 242,
+        "db_id": "toxicology",
+        "text": "atoms from 21 to 25 refers to SUBSTR(atom_id, 7, 2) between '21' and '25'; label = '+' mean molecules are carcinogenic"
+    },
+    {
+        "id": 243,
+        "db_id": "toxicology",
+        "text": "have phosphorus as atom elements refers to element = 'p'; have nitrogen as atom elements refers to element = 'n'"
+    },
+    {
+        "id": 244,
+        "db_id": "toxicology",
+        "text": "double bond refers to bond_type = ' = '; label = '+' mean molecules are carcinogenic"
+    },
+    {
+        "id": 245,
+        "db_id": "toxicology",
+        "text": "atoms with the element iodine refers to element = 'i'; average = DIVIDE(COUND(bond_id), COUNT(atom_id)) where element = 'i'"
+    },
+    {
+        "id": 247,
+        "db_id": "toxicology",
+        "text": " atoms cannot bond with other atoms means atom_id NOT in connected table;"
+    },
+    {
+        "id": 248,
+        "db_id": "toxicology",
+        "text": "TR041 is the molecule id; triple bond refers to bond_type = '#';"
+    },
+    {
+        "id": 249,
+        "db_id": "toxicology",
+        "text": "TR144_8_19 is the bond id; "
+    },
+    {
+        "id": 253,
+        "db_id": "toxicology",
+        "text": "triple bond refers to bond_type = '#';"
+    },
+    {
+        "id": 255,
+        "db_id": "toxicology",
+        "text": "single bond refers to bond_type = '-'; label = '+' mean molecules are carcinogenic; proportion = DIVIDE(SUM(label = '+') * 100, COUNT(bond_id)) where bond_type = '-'"
+    },
+    {
+        "id": 260,
+        "db_id": "toxicology",
+        "text": "triple bond refers to bond_type = '#'; phosphorus refers to element = 'p'; bromine refers to element = 'br'"
+    },
+    {
+        "id": 263,
+        "db_id": "toxicology",
+        "text": "element chlorine refers to element = 'cl'; single bond refers to bond_type = '-'; percentage = DIVIDE(SUM(element = 'cl'), COUNT(atom_id)) as percent where bond_type = '-'"
+    },
+    {
+        "id": 268,
+        "db_id": "toxicology",
+        "text": "TR001_10_11 is the bond id;"
+    },
+    {
+        "id": 273,
+        "db_id": "toxicology",
+        "text": "chlorine refers to element = 'cl'; label = '+' mean molecules are carcinogenic; percentage = DIVIDE(SUM(element = 'pb'); COUNT(molecule_id)) as percentage where label = '+'"
+    },
+    {
+        "id": 281,
+        "db_id": "toxicology",
+        "text": "label = '+' means molecules are carcinogenic; 4th atom of each molecule refers to substr(atom_id, 7, 1) = '4'; "
+    },
+    {
+        "id": 282,
+        "db_id": "toxicology",
+        "text": "hydrogen refers to element = 'h'; ratio = DIVIDE(SUM(element = 'h'), count(element)) where molecule_id = 'TR006' ; label = '+' mean molecules are carcinogenic; label = '-' means molecules are non-carcinogenic"
+    },
+    {
+        "id": 327,
+        "db_id": "toxicology",
+        "text": "label = '-' means molecules are non-carcinogenic; molecules consisted more than 5 atoms refers to COUNT(molecule_id) > 5"
+    },
+    {
+        "id": 5,
+        "db_id": "california_schools",
+        "text": "Exclusively virtual refers to Virtual = 'F'"
+    },
+    {
+        "id": 11,
+        "db_id": "california_schools",
+        "text": "Total enrollment can be represented by `Enrollment (K-12)` + `Enrollment (Ages 5-17)`"
+    },
+    {
+        "id": 12,
+        "db_id": "california_schools",
+        "text": "Excellence rate = NumGE1500 / NumTstTakr; Eligible free rates for students aged 5-17 = `Free Meal Count (Ages 5-17)` / `Enrollment (Ages 5-17)`"
+    },
+    {
+        "id": 17,
+        "db_id": "california_schools",
+        "text": "Valid charter number means the number is not null"
+    },
+    {
+        "id": 23,
+        "db_id": "california_schools",
+        "text": "Diffrence in enrollement = `Enrollment (K-12)` - `Enrollment (Ages 5-17)`"
+    },
+    {
+        "id": 24,
+        "db_id": "california_schools",
+        "text": "Percent eligible for free meals = Free Meal Count (K-12) / Total (Enrollment (K-12)"
+    },
+    {
+        "id": 25,
+        "db_id": "california_schools",
+        "text": "Average of average math = sum(average math scores) / count(schools)."
+    },
+    {
+        "id": 26,
+        "db_id": "california_schools",
+        "text": "Full communication address should include Street, City, State and zip code if any."
+    },
+    {
+        "id": 27,
+        "db_id": "california_schools",
+        "text": "Communication number refers to phone number."
+    },
+    {
+        "id": 28,
+        "db_id": "california_schools",
+        "text": "Difference between K-12 enrollment and 15-17 enrollment can be computed by `Enrollment (K-12)` - `Enrollment (Ages 5-17)`"
+    },
+    {
+        "id": 31,
+        "db_id": "california_schools",
+        "text": "K-12 refers to students in grades 1 through 12; Eligible free rate for K-12 = `Free Meal Count (K-12)` / `Enrollment (K-12)`"
+    },
+    {
+        "id": 32,
+        "db_id": "california_schools",
+        "text": "grades 1-12 means K-12; Eligible free or reduced price meal rate for K-12 = `FRPM Count (K-12)` / `Enrollment (K-12)`"
+    },
+    {
+        "id": 37,
+        "db_id": "california_schools",
+        "text": "Execellence Rate = NumGE1500 / NumTstTakr; complete address has Street, City, State, Zip code"
+    },
+    {
+        "id": 36,
+        "db_id": "california_schools",
+        "text": "full name means first name, last name; There are at most 3 administrators for each school; SAT Scores are greater or equal to 1500 refers to NumGE1500"
+    },
+    {
+        "id": 39,
+        "db_id": "california_schools",
+        "text": "between 1/1/1980 and 12/31/1980 means the year = 1980"
+    },
+    {
+        "id": 40,
+        "db_id": "california_schools",
+        "text": "Fresno Unified is a name of district;"
+    },
+    {
+        "id": 41,
+        "db_id": "california_schools",
+        "text": "Exclusively virtual refers to Virtual = 'F'; respective counties means PARTITION BY County"
+    },
+    {
+        "id": 45,
+        "db_id": "california_schools",
+        "text": "Usually, administrators manage the school stuff."
+    },
+    {
+        "id": 46,
+        "db_id": "california_schools",
+        "text": "State Special Schools refers to DOC = 31; Grades 1 through 12 means K-12"
+    },
+    {
+        "id": 47,
+        "db_id": "california_schools",
+        "text": "Elementary School District refers to DOC = 52; Monthly average number of schools that opened in 1980 = count(schools that opened in 1980) / 12"
+    },
+    {
+        "id": 48,
+        "db_id": "california_schools",
+        "text": "Elementary School District refers to DOC = 52; Unified School District refers to DOC = 54."
+    },
+    {
+        "id": 50,
+        "db_id": "california_schools",
+        "text": "Postal street and mailing street are synonyms."
+    },
+    {
+        "id": 62,
+        "db_id": "california_schools",
+        "text": "non-chartered schools refer to schools whose Charter = 0; K-12 means grades 1 through 12; percent of eligible free rate for K-12 = `Free Meal Count (K-12)` * 100 / `Enrollment (K-12)`"
+    },
+    {
+        "id": 72,
+        "db_id": "california_schools",
+        "text": "State Special School means EdOpsCode = 'SSS'"
+    },
+    {
+        "id": 77,
+        "db_id": "california_schools",
+        "text": "Percent (%) Eligible FRPM (Ages 5-17) can be acquired by `FRPM Count (Ages 5-17)` / `Enrollment (Ages 5-17)` * 100"
+    },
+    {
+        "id": 79,
+        "db_id": "california_schools",
+        "text": "'Does not offer physical building' means Virtual = F in the database."
+    },
+    {
+        "id": 82,
+        "db_id": "california_schools",
+        "text": "the highest longitude refers to the school with the maximum absolute longitude value."
+    },
+    {
+        "id": 83,
+        "db_id": "california_schools",
+        "text": "Kindergarten to 8th grade refers to K-8; 'Offers a magnet program' means Magnet = 1; Multiple Provision Types refers to `NSLP Provision Status` = 'Multiple Provision Types'"
+    },
+    {
+        "id": 85,
+        "db_id": "california_schools",
+        "text": "Percent (%) Eligible Free (K-12) = `Free Meal Count (K-12)` / `Enrollment (K-12)` * 100%"
+    },
+    {
+        "id": 87,
+        "db_id": "california_schools",
+        "text": "Intermediate/Middle Schools refers to SOC = 62; Unified School refers to DOC = 54; years between 2009 and 2010 can refer to 'between 1/1/2009 to 12/31/2010'"
+    },
+    {
+        "id": 89,
+        "db_id": "financial",
+        "text": "A3 contains the data of region; 'POPLATEK PO OBRATU' represents for 'issuance after transaction'."
+    },
+    {
+        "id": 92,
+        "db_id": "financial",
+        "text": "A11 refers to average salary; Female mapps to gender = 'F'"
+    },
+    {
+        "id": 93,
+        "db_id": "financial",
+        "text": "Male means that gender = 'M'; A3 refers to region; A11 pertains to average salary."
+    },
+    {
+        "id": 94,
+        "db_id": "financial",
+        "text": "Female means gender = 'F'; A11 refers to average salary; Gap = highest average salary - lowest average salary; If the person A's birthdate > B's birthdate, it means that person B is order than person A."
+    },
+    {
+        "id": 95,
+        "db_id": "financial",
+        "text": "If the person A's birthdate < B's birthdate, it means that person B is younger than person A; A11 refers to average salary"
+    },
+    {
+        "id": 98,
+        "db_id": "financial",
+        "text": "'POPLATEK TYDNE' stands for weekly issuance"
+    },
+    {
+        "id": 99,
+        "db_id": "financial",
+        "text": "Loan validity more than 12 months refers to duration > 12"
+    },
+    {
+        "id": 100,
+        "db_id": "financial",
+        "text": "Customers refer to clients; Female refers to gender = 'F'; Names of districts appear in column A2"
+    },
+    {
+        "id": 112,
+        "db_id": "financial",
+        "text": "Female refers to gender = 'F'; A2 refers to district names"
+    },
+    {
+        "id": 115,
+        "db_id": "financial",
+        "text": "Percentage of the male clients = DIVIDE(COUNT(male clients), COUNT(clients)) * 100; Male refers to gender = 'M', A3 is the region name. A4 contains the information about inhabitants."
+    },
+    {
+        "id": 116,
+        "db_id": "financial",
+        "text": "Increase rate of his/her account balance = [(balance of date A - balance of date B) / balance of Date B] * 100%"
+    },
+    {
+        "id": 117,
+        "db_id": "financial",
+        "text": "Loan paid with no issue means contract finished, no problems; status = 'A' means contract finished, no problems; Percentage of accounts by condition = [(total(amount) & condition) / (total amount)] * 100%"
+    },
+    {
+        "id": 118,
+        "db_id": "financial",
+        "text": "Status = 'C' stands for running contract, ok so far; Percentage of accounts by condition = [(total(amount) & condition) / (total amount)] * 100."
+    },
+    {
+        "id": 125,
+        "db_id": "financial",
+        "text": "Unemployment increment rate in percentage = [(unemployment rate 2016 - unemployment rate 2015) / unemployment rate 2015] * 100; unemployment rate 2015 appears in the A12; unemployment rate 2016 appears in the A13; Loan contracts which are still running where client are in debt can be presented as status = 'D'"
+    },
+    {
+        "id": 128,
+        "db_id": "financial",
+        "text": "A2 refers to districts; Female refers to gender = 'F'"
+    },
+    {
+        "id": 136,
+        "db_id": "financial",
+        "text": "Frequency = 'POPLATEK MESICNE' stands for monthly issurance"
+    },
+    {
+        "id": 137,
+        "db_id": "financial",
+        "text": "Status = 'C' stands for running contract, OK so far; Status = 'D' stands for running contract, client in debt"
+    },
+    {
+        "id": 138,
+        "db_id": "financial",
+        "text": "Male refers to gender = 'M'; A15 stands for no. of commited crimes 1995"
+    },
+    {
+        "id": 129,
+        "db_id": "financial",
+        "text": "Non-credit card withdraws refers to type = 'VYDAJ'; January 1996 can be found by date LIKE '1996-01%' in the database; A2 means district names"
+    },
+    {
+        "id": 137,
+        "db_id": "financial",
+        "text": "Status = 'C' stands for running contract, OK so far; Status = 'D' stands for running contract, client in debt"
+    },
+    {
+        "id": 138,
+        "db_id": "financial",
+        "text": "Male refers to gender = 'M'; A15 stands for no. of commited crimes 1995"
+    },
+    {
+        "id": 145,
+        "db_id": "financial",
+        "text": "Operation = 'VYBER KARTOU' refers to credit card withdrawal"
+    },
+    {
+        "id": 149,
+        "db_id": "financial",
+        "text": "A11 represents the average salary; Salary and income share the similar meanings; when the account type = 'OWNER', it's eligible for loans"
+    },
+    {
+        "id": 152,
+        "db_id": "financial",
+        "text": "A3 refers to region names; A15 stands for the average number of crimes commited in 1995."
+    },
+    {
+        "id": 159,
+        "db_id": "financial",
+        "text": "operation = 'VYBER' refers to withdrawal in cash"
+    },
+    {
+        "id": 168,
+        "db_id": "financial",
+        "text": "Female refers to gender = 'F'; Woman and female are closed; Average salary can be found in A11"
+    },
+    {
+        "id": 169,
+        "db_id": "financial",
+        "text": "Growth rate = (sum of amount_1997 - sum of amount_1996) / (sum of amount_1996) * 100%; Male refers to gender = 'M'"
+    },
+    {
+        "id": 173,
+        "db_id": "financial",
+        "text": "k_symbol refers to the purpose of payments"
+    },
+    {
+        "id": 186,
+        "db_id": "financial",
+        "text": "Percentage of male clients = [count(male clients who requested weekly statements / count(clients who requested weekly statements)] * 100%; Male means gender = 'M'; 'POPLATEK TYDNE' stands for weekly issuance"
+    },
+    {
+        "id": 189,
+        "db_id": "financial",
+        "text": "Female refers to 'F' in the gender; A11 contains information about average salary"
+    },
+    {
+        "id": 192,
+        "db_id": "financial",
+        "text": "status = 'C' stands for running contract, OK so far; status = 'D' stands for running contract, client in debt. 'POPLATEK PO OBRATU' stands for issuance after transaction"
+    },
+    {
+        "id": 194,
+        "db_id": "financial",
+        "text": "the credit card is high-level refers to card.type = 'gold'; eligible for loans refers to disp.type = 'OWNER'"
+    }
+]
