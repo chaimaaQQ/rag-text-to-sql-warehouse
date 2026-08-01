@@ -1,22 +1,4 @@
-"""
-schema_parser.py — Module 2 (base commune, exploitée par Étudiant A pour le
-retrieval de schéma)
 
-Extrait, pour chaque base .sqlite de BIRD Mini-Dev, la liste des tables,
-colonnes et clés étrangères directement via PRAGMA (plutôt que retapées à la
-main), et produit un fichier JSON de schéma indexable par db_id.
-
-Structure attendue des données brutes BIRD Mini-Dev :
-    dev_databases/
-        california_schools/
-            california_schools.sqlite
-        card_games/
-            card_games.sqlite
-        ...
-
-Usage:
-    python schema_parser.py --databases_dir dev_databases --output_dir data/schemas
-"""
 
 import argparse
 import json
