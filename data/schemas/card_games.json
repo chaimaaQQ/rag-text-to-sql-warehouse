@@ -1,0 +1,634 @@
+{
+  "db_id": "card_games",
+  "tables": [
+    {
+      "name": "cards",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "artist",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "asciiName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "availability",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "borderColor",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "cardKingdomFoilId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "cardKingdomId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "colorIdentity",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "colorIndicator",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "colors",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "convertedManaCost",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "duelDeck",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "edhrecRank",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "faceConvertedManaCost",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "faceName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "flavorName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "flavorText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "frameEffects",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "frameVersion",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "hand",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "hasAlternativeDeckLimit",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "hasContentWarning",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "hasFoil",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "hasNonFoil",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isAlternative",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isFullArt",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isOnlineOnly",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isOversized",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isPromo",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isReprint",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isReserved",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isStarter",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isStorySpotlight",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isTextless",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isTimeshifted",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "keywords",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "layout",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "leadershipSkills",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "life",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "loyalty",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "manaCost",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mcmId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mcmMetaId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mtgArenaId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mtgjsonV4Id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mtgoFoilId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mtgoId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "multiverseId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "number",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "originalReleaseDate",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "originalText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "originalType",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "otherFaceIds",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "power",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "printings",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "promoTypes",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "purchaseUrls",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "rarity",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "scryfallId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "scryfallIllustrationId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "scryfallOracleId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "setCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "side",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "subtypes",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "supertypes",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "tcgplayerProductId",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "text",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "toughness",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "types",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "uuid",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "variations",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "watermark",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "foreign_data",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "flavorText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "language",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "multiverseid",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "text",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "uuid",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "legalities",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "format",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "uuid",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "sets",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "baseSetSize",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "block",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "booster",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "code",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "isFoilOnly",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isForeignOnly",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isNonFoilOnly",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isOnlineOnly",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "isPartialPreview",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "keyruneCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mcmId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "mcmIdExtras",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "mcmName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "mtgoCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "parentCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "releaseDate",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "tcgplayerGroupId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "totalSetSize",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "set_translations",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "language",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "setCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "translation",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "rulings",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "text",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "uuid",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "foreign_data.uuid",
+      "to": "cards.uuid"
+    },
+    {
+      "from": "legalities.uuid",
+      "to": "cards.uuid"
+    },
+    {
+      "from": "set_translations.setCode",
+      "to": "sets.code"
+    },
+    {
+      "from": "rulings.uuid",
+      "to": "cards.uuid"
+    }
+  ]
+}

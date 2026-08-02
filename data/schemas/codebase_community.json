@@ -1,0 +1,462 @@
+{
+  "db_id": "codebase_community",
+  "tables": [
+    {
+      "name": "badges",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "UserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Date",
+          "type": "DATETIME",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "comments",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Score",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Text",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "CreationDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "UserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "UserDisplayName",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "postHistory",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PostHistoryTypeId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "RevisionGUID",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "CreationDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "UserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Text",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Comment",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "UserDisplayName",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "postLinks",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CreationDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "PostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "RelatedPostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "LinkTypeId",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "posts",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PostTypeId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "AcceptedAnswerId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CreaionDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "Score",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ViewCount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Body",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "OwnerUserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "LasActivityDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "Title",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Tags",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AnswerCount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CommentCount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "FavoriteCount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "LastEditorUserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "LastEditDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "CommunityOwnedDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "ParentId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ClosedDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "OwnerDisplayName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "LastEditorDisplayName",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "tags",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "TagName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Count",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ExcerptPostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "WikiPostId",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Reputation",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CreationDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "DisplayName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "LastAccessDate",
+          "type": "DATETIME",
+          "description": ""
+        },
+        {
+          "name": "WebsiteUrl",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Location",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AboutMe",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Views",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "UpVotes",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "DownVotes",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "AccountId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Age",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ProfileImageUrl",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "votes",
+      "description": "",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PostId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "VoteTypeId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CreationDate",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "UserId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "BountyAmount",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "badges.UserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "comments.UserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "comments.PostId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "postHistory.UserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "postHistory.PostId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "postLinks.RelatedPostId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "postLinks.PostId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "posts.ParentId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "posts.OwnerUserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "posts.LastEditorUserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "tags.ExcerptPostId",
+      "to": "posts.Id"
+    },
+    {
+      "from": "votes.UserId",
+      "to": "users.Id"
+    },
+    {
+      "from": "votes.PostId",
+      "to": "posts.Id"
+    }
+  ]
+}

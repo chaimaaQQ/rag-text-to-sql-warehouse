@@ -1,0 +1,266 @@
+{
+  "db_id": "superhero",
+  "tables": [
+    {
+      "name": "alignment",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "alignment",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "attribute",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "attribute_name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "colour",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "colour",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gender",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "publisher",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "publisher_name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "race",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "race",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "superhero",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "superhero_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "full_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "gender_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "eye_colour_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "hair_colour_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "skin_colour_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "race_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "publisher_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "alignment_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "height_cm",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "weight_kg",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "hero_attribute",
+      "description": "",
+      "columns": [
+        {
+          "name": "hero_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "attribute_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "attribute_value",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "superpower",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "power_name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "hero_power",
+      "description": "",
+      "columns": [
+        {
+          "name": "hero_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "power_id",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "superhero.skin_colour_id",
+      "to": "colour.id"
+    },
+    {
+      "from": "superhero.race_id",
+      "to": "race.id"
+    },
+    {
+      "from": "superhero.publisher_id",
+      "to": "publisher.id"
+    },
+    {
+      "from": "superhero.hair_colour_id",
+      "to": "colour.id"
+    },
+    {
+      "from": "superhero.gender_id",
+      "to": "gender.id"
+    },
+    {
+      "from": "superhero.eye_colour_id",
+      "to": "colour.id"
+    },
+    {
+      "from": "superhero.alignment_id",
+      "to": "alignment.id"
+    },
+    {
+      "from": "hero_attribute.hero_id",
+      "to": "superhero.id"
+    },
+    {
+      "from": "hero_attribute.attribute_id",
+      "to": "attribute.id"
+    },
+    {
+      "from": "hero_power.power_id",
+      "to": "superpower.id"
+    },
+    {
+      "from": "hero_power.hero_id",
+      "to": "superhero.id"
+    }
+  ]
+}

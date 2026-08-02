@@ -1,0 +1,150 @@
+{
+  "db_id": "debit_card_specializing",
+  "tables": [
+    {
+      "name": "customers",
+      "description": "",
+      "columns": [
+        {
+          "name": "CustomerID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Segment",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Currency",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "gasstations",
+      "description": "",
+      "columns": [
+        {
+          "name": "GasStationID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ChainID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Country",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Segment",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "description": "",
+      "columns": [
+        {
+          "name": "ProductID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Description",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "transactions_1k",
+      "description": "",
+      "columns": [
+        {
+          "name": "TransactionID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "Time",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "CustomerID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CardID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "GasStationID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ProductID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Amount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Price",
+          "type": "REAL",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "yearmonth",
+      "description": "",
+      "columns": [
+        {
+          "name": "CustomerID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Consumption",
+          "type": "REAL",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "yearmonth.CustomerID",
+      "to": "customers.None"
+    },
+    {
+      "from": "yearmonth.CustomerID",
+      "to": "customers.None"
+    }
+  ]
+}

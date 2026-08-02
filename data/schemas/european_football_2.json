@@ -1,0 +1,1168 @@
+{
+  "db_id": "european_football_2",
+  "tables": [
+    {
+      "name": "Player_Attributes",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "player_fifa_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "player_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "overall_rating",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "potential",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "preferred_foot",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "attacking_work_rate",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "defensive_work_rate",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "crossing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "finishing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "heading_accuracy",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "short_passing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "volleys",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "dribbling",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "curve",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "free_kick_accuracy",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "long_passing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ball_control",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "acceleration",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "sprint_speed",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "agility",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "reactions",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "balance",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "shot_power",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "jumping",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "stamina",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "strength",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "long_shots",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "aggression",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "interceptions",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "positioning",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "vision",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "penalties",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "marking",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "standing_tackle",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "sliding_tackle",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gk_diving",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gk_handling",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gk_kicking",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gk_positioning",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "gk_reflexes",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Player",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "player_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "player_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "player_fifa_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "birthday",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "height",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "weight",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "League",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "country_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Country",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "team_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "team_fifa_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "team_long_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "team_short_name",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Team_Attributes",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "team_fifa_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "team_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlaySpeed",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlaySpeedClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlayDribbling",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlayDribblingClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlayPassing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlayPassingClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "buildUpPlayPositioningClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationPassing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationPassingClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationCrossing",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationCrossingClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationShooting",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationShootingClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "chanceCreationPositioningClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "defencePressure",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "defencePressureClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "defenceAggression",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "defenceAggressionClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "defenceTeamWidth",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "defenceTeamWidthClass",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "defenceDefenderLineClass",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Match",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "country_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "league_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "season",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "stage",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "match_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_team_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_team_api_id",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_team_goal",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_team_goal",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_X11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_X11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_Y11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_Y11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "home_player_11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_1",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_5",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_6",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_7",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_8",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_9",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_10",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "away_player_11",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "goal",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "shoton",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "shotoff",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "foulcommit",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "card",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "cross",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "corner",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "possession",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "B365H",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "B365D",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "B365A",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BWH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BWD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BWA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "IWH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "IWD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "IWA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "LBH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "LBD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "LBA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "PSH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "PSD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "PSA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "WHH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "WHD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "WHA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "SJH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "SJD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "SJA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "VCH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "VCD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "VCA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "GBH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "GBD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "GBA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BSH",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BSD",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "BSA",
+          "type": "REAL",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "Player_Attributes.player_api_id",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Player_Attributes.player_fifa_api_id",
+      "to": "Player.player_fifa_api_id"
+    },
+    {
+      "from": "League.country_id",
+      "to": "country.id"
+    },
+    {
+      "from": "Team_Attributes.team_api_id",
+      "to": "Team.team_api_id"
+    },
+    {
+      "from": "Team_Attributes.team_fifa_api_id",
+      "to": "Team.team_fifa_api_id"
+    },
+    {
+      "from": "Match.away_player_11",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_10",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_9",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_8",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_7",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_6",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_5",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_4",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_3",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_2",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_player_1",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_11",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_10",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_9",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_8",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_7",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_6",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_5",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_4",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_3",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_2",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.home_player_1",
+      "to": "Player.player_api_id"
+    },
+    {
+      "from": "Match.away_team_api_id",
+      "to": "Team.team_api_id"
+    },
+    {
+      "from": "Match.home_team_api_id",
+      "to": "Team.team_api_id"
+    },
+    {
+      "from": "Match.league_id",
+      "to": "League.None"
+    },
+    {
+      "from": "Match.country_id",
+      "to": "Country.None"
+    }
+  ]
+}
