@@ -1,0 +1,478 @@
+{
+  "db_id": "california_schools",
+  "tables": [
+    {
+      "name": "frpm",
+      "description": "",
+      "columns": [
+        {
+          "name": "CDSCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Academic Year",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "County Code",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "District Code",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "School Code",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "County Name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "District Name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "School Name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "District Type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "School Type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Educational Option Type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "NSLP Provision Status",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Charter School (Y/N)",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Charter School Number",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Charter Funding Type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "IRC",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Low Grade",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "High Grade",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Enrollment (K-12)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Free Meal Count (K-12)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Percent (%) Eligible Free (K-12)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "FRPM Count (K-12)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Percent (%) Eligible FRPM (K-12)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Enrollment (Ages 5-17)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Free Meal Count (Ages 5-17)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Percent (%) Eligible Free (Ages 5-17)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "FRPM Count (Ages 5-17)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Percent (%) Eligible FRPM (Ages 5-17)",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "2013-14 CALPADS Fall 1 Certification Status",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "satscores",
+      "description": "",
+      "columns": [
+        {
+          "name": "cds",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "rtype",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "sname",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "dname",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "cname",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "enroll12",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "NumTstTakr",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "AvgScrRead",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "AvgScrMath",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "AvgScrWrite",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "NumGE1500",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "schools",
+      "description": "",
+      "columns": [
+        {
+          "name": "CDSCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "NCESDist",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "NCESSchool",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "StatusType",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "County",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "District",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "School",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Street",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "StreetAbr",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "City",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Zip",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "State",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "MailStreet",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "MailStrAbr",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "MailCity",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "MailZip",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "MailState",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Phone",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Ext",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Website",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "OpenDate",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "ClosedDate",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "Charter",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CharterNum",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "FundingType",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "DOC",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "DOCType",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SOC",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SOCType",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "EdOpsCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "EdOpsName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "EILCode",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "EILName",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "GSoffered",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "GSserved",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Virtual",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Magnet",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Latitude",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "Longitude",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "AdmFName1",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmLName1",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmEmail1",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmFName2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmLName2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmEmail2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmFName3",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmLName3",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "AdmEmail3",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "LastUpdate",
+          "type": "DATE",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "frpm.CDSCode",
+      "to": "schools.CDSCode"
+    },
+    {
+      "from": "satscores.cds",
+      "to": "schools.CDSCode"
+    }
+  ]
+}

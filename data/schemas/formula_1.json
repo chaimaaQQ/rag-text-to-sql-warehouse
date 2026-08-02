@@ -1,0 +1,631 @@
+{
+  "db_id": "formula_1",
+  "tables": [
+    {
+      "name": "circuits",
+      "description": "",
+      "columns": [
+        {
+          "name": "circuitId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "circuitRef",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "location",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "country",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "lat",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "lng",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "alt",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "constructors",
+      "description": "",
+      "columns": [
+        {
+          "name": "constructorId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "constructorRef",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "nationality",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "drivers",
+      "description": "",
+      "columns": [
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverRef",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "number",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "code",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "forename",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "surname",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "dob",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "nationality",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "seasons",
+      "description": "",
+      "columns": [
+        {
+          "name": "year",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "races",
+      "description": "",
+      "columns": [
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "year",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "round",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "circuitId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "time",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "constructorResults",
+      "description": "",
+      "columns": [
+        {
+          "name": "constructorResultsId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "constructorId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "points",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "constructorStandings",
+      "description": "",
+      "columns": [
+        {
+          "name": "constructorStandingsId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "constructorId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "points",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "positionText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "wins",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "driverStandings",
+      "description": "",
+      "columns": [
+        {
+          "name": "driverStandingsId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "points",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "positionText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "wins",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "lapTimes",
+      "description": "",
+      "columns": [
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "lap",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "time",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "milliseconds",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "pitStops",
+      "description": "",
+      "columns": [
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "stop",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "lap",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "time",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "duration",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "milliseconds",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "qualifying",
+      "description": "",
+      "columns": [
+        {
+          "name": "qualifyId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "constructorId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "number",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "q1",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "q2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "q3",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "description": "",
+      "columns": [
+        {
+          "name": "statusId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "results",
+      "description": "",
+      "columns": [
+        {
+          "name": "resultId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "raceId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "driverId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "constructorId",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "number",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "grid",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "positionText",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "positionOrder",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "points",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "laps",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "time",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "milliseconds",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "fastestLap",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "rank",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "fastestLapTime",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "fastestLapSpeed",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "statusId",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "races.circuitId",
+      "to": "circuits.circuitId"
+    },
+    {
+      "from": "races.year",
+      "to": "seasons.year"
+    },
+    {
+      "from": "constructorResults.constructorId",
+      "to": "constructors.constructorId"
+    },
+    {
+      "from": "constructorResults.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "constructorStandings.constructorId",
+      "to": "constructors.constructorId"
+    },
+    {
+      "from": "constructorStandings.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "driverStandings.driverId",
+      "to": "drivers.driverId"
+    },
+    {
+      "from": "driverStandings.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "lapTimes.driverId",
+      "to": "drivers.driverId"
+    },
+    {
+      "from": "lapTimes.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "pitStops.driverId",
+      "to": "drivers.driverId"
+    },
+    {
+      "from": "pitStops.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "qualifying.constructorId",
+      "to": "constructors.constructorId"
+    },
+    {
+      "from": "qualifying.driverId",
+      "to": "drivers.driverId"
+    },
+    {
+      "from": "qualifying.raceId",
+      "to": "races.raceId"
+    },
+    {
+      "from": "results.statusId",
+      "to": "status.statusId"
+    },
+    {
+      "from": "results.constructorId",
+      "to": "constructors.constructorId"
+    },
+    {
+      "from": "results.driverId",
+      "to": "drivers.driverId"
+    },
+    {
+      "from": "results.raceId",
+      "to": "races.raceId"
+    }
+  ]
+}

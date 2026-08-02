@@ -1,0 +1,327 @@
+{
+  "db_id": "student_club",
+  "tables": [
+    {
+      "name": "event",
+      "description": "",
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "event_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "event_date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "location",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "major",
+      "description": "",
+      "columns": [
+        {
+          "name": "major_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "major_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "department",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "college",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "zip_code",
+      "description": "",
+      "columns": [
+        {
+          "name": "zip_code",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "city",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "county",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "state",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "short_state",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "attendance",
+      "description": "",
+      "columns": [
+        {
+          "name": "link_to_event",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "link_to_member",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "budget",
+      "description": "",
+      "columns": [
+        {
+          "name": "budget_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "spent",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "remaining",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "amount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "event_status",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "link_to_event",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "expense",
+      "description": "",
+      "columns": [
+        {
+          "name": "expense_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "expense_description",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "expense_date",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "cost",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "approved",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "link_to_member",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "link_to_budget",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "income",
+      "description": "",
+      "columns": [
+        {
+          "name": "income_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "date_received",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "amount",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "link_to_member",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "member",
+      "description": "",
+      "columns": [
+        {
+          "name": "member_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "first_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "last_name",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "email",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "t_shirt_size",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "phone",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "zip",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "link_to_major",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "attendance.link_to_member",
+      "to": "member.member_id"
+    },
+    {
+      "from": "attendance.link_to_event",
+      "to": "event.event_id"
+    },
+    {
+      "from": "budget.link_to_event",
+      "to": "event.event_id"
+    },
+    {
+      "from": "expense.link_to_member",
+      "to": "member.member_id"
+    },
+    {
+      "from": "expense.link_to_budget",
+      "to": "budget.budget_id"
+    },
+    {
+      "from": "income.link_to_member",
+      "to": "member.member_id"
+    },
+    {
+      "from": "member.zip",
+      "to": "zip_code.zip_code"
+    },
+    {
+      "from": "member.link_to_major",
+      "to": "major.major_id"
+    }
+  ]
+}

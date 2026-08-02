@@ -1,0 +1,353 @@
+{
+  "db_id": "thrombosis_prediction",
+  "tables": [
+    {
+      "name": "Examination",
+      "description": "",
+      "columns": [
+        {
+          "name": "ID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Examination Date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "aCL IgG",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "aCL IgM",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "ANA",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ANA Pattern",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "aCL IgA",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Diagnosis",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "KCT",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "RVVT",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "LAC",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Symptoms",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Thrombosis",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Patient",
+      "description": "",
+      "columns": [
+        {
+          "name": "ID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "SEX",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Birthday",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "Description",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "First Date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "Admission",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "Diagnosis",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Laboratory",
+      "description": "",
+      "columns": [
+        {
+          "name": "ID",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "Date",
+          "type": "DATE",
+          "description": ""
+        },
+        {
+          "name": "GOT",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "GPT",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "LDH",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "ALP",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "TP",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "ALB",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "UA",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "UN",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CRE",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "T-BIL",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "T-CHO",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "TG",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CPK",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "GLU",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "WBC",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "RBC",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "HGB",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "HCT",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "PLT",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "PT",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "APTT",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "FG",
+          "type": "REAL",
+          "description": ""
+        },
+        {
+          "name": "PIC",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "TAT",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "TAT2",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "U-PRO",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "IGG",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "IGA",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "IGM",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "CRP",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "RA",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "RF",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "C3",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "C4",
+          "type": "INTEGER",
+          "description": ""
+        },
+        {
+          "name": "RNP",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SM",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SC170",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SSA",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "SSB",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "CENTROMEA",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "DNA",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "DNA-II",
+          "type": "INTEGER",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "Examination.ID",
+      "to": "Patient.ID"
+    },
+    {
+      "from": "Laboratory.ID",
+      "to": "Patient.ID"
+    }
+  ]
+}

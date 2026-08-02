@@ -1,0 +1,106 @@
+{
+  "db_id": "toxicology",
+  "tables": [
+    {
+      "name": "atom",
+      "description": "",
+      "columns": [
+        {
+          "name": "atom_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "molecule_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "element",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "bond",
+      "description": "",
+      "columns": [
+        {
+          "name": "bond_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "molecule_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "bond_type",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "connected",
+      "description": "",
+      "columns": [
+        {
+          "name": "atom_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "atom_id2",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "bond_id",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "molecule",
+      "description": "",
+      "columns": [
+        {
+          "name": "molecule_id",
+          "type": "TEXT",
+          "description": ""
+        },
+        {
+          "name": "label",
+          "type": "TEXT",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "foreign_keys": [
+    {
+      "from": "atom.molecule_id",
+      "to": "molecule.molecule_id"
+    },
+    {
+      "from": "bond.molecule_id",
+      "to": "molecule.molecule_id"
+    },
+    {
+      "from": "connected.bond_id",
+      "to": "bond.bond_id"
+    },
+    {
+      "from": "connected.atom_id2",
+      "to": "atom.atom_id"
+    },
+    {
+      "from": "connected.atom_id",
+      "to": "atom.atom_id"
+    }
+  ]
+}
