@@ -1,0 +1,8024 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers"
+    ],
+    "columns_gold": [
+      "customers.Currency"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1480",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1481",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1482",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1483",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1484",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.Segment"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1486",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.Segment"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1490",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1493",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1498",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "yearmonth.Consumption",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1500",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "products",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "products.Description",
+      "products.ProductID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.ProductID",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1501",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.GasStationID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.GasStationID",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1505",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1506",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "products",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.GasStationID",
+      "products.Description",
+      "products.ProductID",
+      "transactions_1k.GasStationID",
+      "transactions_1k.ProductID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1507",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "gasstations.ChainID",
+      "gasstations.GasStationID",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1509",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.GasStationID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.TransactionID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1514",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "gasstations",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "gasstations.GasStationID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1515",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "transactions_1k.CustomerID",
+      "transactions_1k.date",
+      "transactions_1k.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1521",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.GasStationID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Time",
+      "transactions_1k.TransactionID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1524",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.GasStationID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Price"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1525",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "transactions_1k"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1526",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "gasstations.GasStationID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Price",
+      "yearmonth.Consumption"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1528",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations"
+    ],
+    "columns_gold": [
+      "gasstations.Country",
+      "gasstations.Segment"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1529",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "gasstations",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "gasstations.GasStationID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.GasStationID",
+      "transactions_1k.Price",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1531",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "customers",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "transactions_1k.Amount",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Price",
+      "yearmonth.Consumption"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1533",
+    "db_id": "debit_card_specializing",
+    "tables_gold": [
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "columns_gold": [
+      "transactions_1k.Amount",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Price",
+      "transactions_1k.ProductID",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1312",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.major_id",
+      "major.major_name",
+      "member.first_name",
+      "member.last_name",
+      "member.link_to_major"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1317",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event",
+      "member"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "attendance.link_to_member",
+      "event.event_id",
+      "event.event_name",
+      "member.member_id",
+      "member.t_shirt_size"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1322",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "event.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1323",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "event.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1331",
+    "db_id": "student_club",
+    "tables_gold": [
+      "income",
+      "member"
+    ],
+    "columns_gold": [
+      "income.amount",
+      "income.link_to_member",
+      "member.member_id",
+      "member.position"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1334",
+    "db_id": "student_club",
+    "tables_gold": [
+      "member",
+      "zip_code"
+    ],
+    "columns_gold": [
+      "member.first_name",
+      "member.last_name",
+      "member.zip",
+      "zip_code.state",
+      "zip_code.zip_code"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1338",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_date",
+      "event.event_id",
+      "event.event_name",
+      "expense.approved",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1339",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "expense.cost",
+      "expense.expense_date",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1340",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.link_to_event",
+      "budget.spent",
+      "event.event_date",
+      "event.event_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1344",
+    "db_id": "student_club",
+    "tables_gold": [
+      "income"
+    ],
+    "columns_gold": [
+      "income.date_received",
+      "income.notes",
+      "income.source"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1346",
+    "db_id": "student_club",
+    "tables_gold": [
+      "member"
+    ],
+    "columns_gold": [
+      "member.first_name",
+      "member.last_name",
+      "member.phone"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1350",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.event_status",
+      "expense.expense_date",
+      "expense.expense_description",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1351",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.major_id",
+      "major.major_name",
+      "member.first_name",
+      "member.last_name",
+      "member.link_to_major"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1352",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.major_id",
+      "major.major_name",
+      "member.link_to_major",
+      "member.member_id",
+      "member.t_shirt_size"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1356",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.department",
+      "major.major_id",
+      "member.link_to_major",
+      "member.position"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1357",
+    "db_id": "student_club",
+    "tables_gold": [
+      "income",
+      "member"
+    ],
+    "columns_gold": [
+      "income.date_received",
+      "income.link_to_member",
+      "income.source",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1359",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.amount",
+      "budget.category",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "event.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1361",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense"
+    ],
+    "columns_gold": [
+      "expense.cost",
+      "expense.expense_description"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1362",
+    "db_id": "student_club",
+    "tables_gold": [
+      "zip_code"
+    ],
+    "columns_gold": [
+      "zip_code.city",
+      "zip_code.county",
+      "zip_code.state"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1368",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.major_id",
+      "major.major_name",
+      "member.link_to_major",
+      "member.phone"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1371",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "attendance.link_to_member",
+      "event.event_id",
+      "event.event_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1375",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.department",
+      "major.major_id",
+      "member.first_name",
+      "member.last_name",
+      "member.link_to_major"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1376",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.amount",
+      "budget.link_to_event",
+      "budget.spent",
+      "event.event_id",
+      "event.event_name",
+      "event.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1378",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget"
+    ],
+    "columns_gold": [
+      "budget.spent"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1380",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget"
+    ],
+    "columns_gold": [
+      "budget.category",
+      "budget.spent"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1381",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "member"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "attendance.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1387",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "expense.link_to_budget",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1389",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "expense.cost",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1390",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "expense.cost",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1392",
+    "db_id": "student_club",
+    "tables_gold": [
+      "income"
+    ],
+    "columns_gold": [
+      "income.date_received",
+      "income.source"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1394",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.major_id",
+      "major.major_name",
+      "member.link_to_major",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1398",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.category",
+      "budget.link_to_event",
+      "budget.spent",
+      "event.event_id",
+      "event.event_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1399",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event",
+      "member"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "attendance.link_to_member",
+      "event.event_id",
+      "event.event_name",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1401",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "expense.cost",
+      "expense.expense_description",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1403",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.event_status",
+      "budget.link_to_event",
+      "budget.remaining",
+      "event.event_id",
+      "event.event_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1404",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event",
+      "expense"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name",
+      "event.type",
+      "expense.cost",
+      "expense.link_to_budget"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1405",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.amount",
+      "budget.category",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.event_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1409",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense"
+    ],
+    "columns_gold": [
+      "expense.cost",
+      "expense.expense_date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1410",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "expense.cost",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1411",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "expense.expense_description",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1422",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.category",
+      "budget.link_to_event",
+      "event.event_id",
+      "event.location"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1426",
+    "db_id": "student_club",
+    "tables_gold": [
+      "major",
+      "member"
+    ],
+    "columns_gold": [
+      "major.college",
+      "major.department",
+      "major.major_id",
+      "major.major_name",
+      "member.last_name",
+      "member.link_to_major",
+      "member.position"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1427",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "event"
+    ],
+    "columns_gold": [
+      "budget.category",
+      "budget.link_to_event",
+      "budget.spent",
+      "event.event_id",
+      "event.location",
+      "event.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1432",
+    "db_id": "student_club",
+    "tables_gold": [
+      "income",
+      "member"
+    ],
+    "columns_gold": [
+      "income.amount",
+      "income.income_id",
+      "income.link_to_member",
+      "member.member_id",
+      "member.position",
+      "member.t_shirt_size"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1435",
+    "db_id": "student_club",
+    "tables_gold": [
+      "event"
+    ],
+    "columns_gold": [
+      "event.event_date",
+      "event.event_name",
+      "event.status",
+      "event.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1457",
+    "db_id": "student_club",
+    "tables_gold": [
+      "budget",
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "budget.budget_id",
+      "expense.cost",
+      "expense.link_to_budget",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id",
+      "member.phone"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1460",
+    "db_id": "student_club",
+    "tables_gold": [
+      "expense",
+      "member"
+    ],
+    "columns_gold": [
+      "expense.cost",
+      "expense.expense_description",
+      "expense.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1464",
+    "db_id": "student_club",
+    "tables_gold": [
+      "attendance",
+      "event",
+      "income",
+      "member"
+    ],
+    "columns_gold": [
+      "attendance.link_to_event",
+      "attendance.link_to_member",
+      "event.event_id",
+      "income.amount",
+      "income.date_received",
+      "income.link_to_member",
+      "member.first_name",
+      "member.last_name",
+      "member.member_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1149",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Admission",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1150",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Birthday",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1152",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Admission",
+      "patient.Diagnosis"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1153",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.ID",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1155",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.LDH",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1156",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.RVVT",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1157",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.Thrombosis",
+      "patient.Diagnosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1162",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Admission",
+      "patient.Description",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1164",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.Examination Date",
+      "examination.ID",
+      "examination.Thrombosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1166",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.Symptoms",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1168",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.First Date",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1169",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.UA",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1171",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.Examination Date",
+      "examination.ID",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1175",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.HGB",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1179",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.Examination Date",
+      "examination.aCL IgA",
+      "examination.aCL IgG",
+      "examination.aCL IgM",
+      "patient.Description"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1185",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.ID",
+      "laboratory.T-CHO",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1187",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory"
+    ],
+    "columns_gold": [
+      "laboratory.ALB",
+      "laboratory.Date",
+      "laboratory.GPT",
+      "laboratory.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1189",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination"
+    ],
+    "columns_gold": [
+      "examination.ANA Pattern",
+      "examination.Thrombosis",
+      "examination.aCL IgM"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1192",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.ID",
+      "laboratory.T-BIL",
+      "patient.Admission",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1195",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ALB",
+      "laboratory.ID",
+      "laboratory.PLT",
+      "patient.Diagnosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1198",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Diagnosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1201",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "patient"
+    ],
+    "columns_gold": [
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1205",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.UA",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1208",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.GPT",
+      "laboratory.ID",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1209",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.GPT",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1220",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.UN",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1225",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.T-BIL",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1227",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.T-CHO",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1229",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.TG",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1231",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.CPK",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1232",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.GLU",
+      "laboratory.ID",
+      "laboratory.T-CHO",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1235",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.RBC",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1238",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.HGB",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.Diagnosis",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1239",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.HCT",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1241",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.PLT",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1242",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.Date",
+      "laboratory.ID",
+      "laboratory.PLT",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1243",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.PT",
+      "patient.Birthday",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1247",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.FG",
+      "laboratory.ID",
+      "laboratory.WBC",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1251",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "laboratory.ID",
+      "laboratory.IGG",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1252",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.Symptoms",
+      "laboratory.ID",
+      "laboratory.IGG",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1254",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.IGA",
+      "patient.First Date",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1255",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.IGM",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1256",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.CRP",
+      "laboratory.ID",
+      "patient.Description",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1257",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.CRE",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1265",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.ID",
+      "laboratory.RNP",
+      "patient.Admission",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1267",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "laboratory"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.Thrombosis",
+      "laboratory.ID",
+      "laboratory.SM"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1270",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.Symptoms",
+      "laboratory.ID",
+      "laboratory.SC170",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1275",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.CENTROMEA",
+      "laboratory.ID",
+      "laboratory.SSB",
+      "patient.ID",
+      "patient.SEX"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1281",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "laboratory.GOT",
+      "laboratory.ID",
+      "patient.Birthday",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1302",
+    "db_id": "thrombosis_prediction",
+    "tables_gold": [
+      "examination",
+      "laboratory",
+      "patient"
+    ],
+    "columns_gold": [
+      "examination.ID",
+      "examination.KCT",
+      "examination.LAC",
+      "examination.RVVT",
+      "laboratory.CPK",
+      "laboratory.ID",
+      "patient.ID"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1025",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.away_team_goal",
+      "match.home_team_goal",
+      "match.league_id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1028",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match",
+      "team"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.away_team_api_id",
+      "match.away_team_goal",
+      "match.home_team_goal",
+      "match.league_id",
+      "match.season",
+      "team.team_api_id",
+      "team.team_long_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1029",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team_attributes.buildUpPlaySpeed",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1030",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.away_team_goal",
+      "match.home_team_goal",
+      "match.id",
+      "match.league_id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1031",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.player_api_id",
+      "player_attributes.date",
+      "player_attributes.player_api_id",
+      "player_attributes.sprint_speed"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1032",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.league_id",
+      "t1.league_id",
+      "t1.max_count"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1035",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team_attributes.buildUpPlaySpeed",
+      "team_attributes.team_fifa_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1036",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.id",
+      "team.team_api_id",
+      "team.team_long_name",
+      "team_attributes.buildUpPlayPassing",
+      "team_attributes.date",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1037",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.id",
+      "player.player_api_id",
+      "player_attributes.player_api_id",
+      "player_attributes.preferred_foot"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1039",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.long_shots",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1040",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.id",
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.heading_accuracy",
+      "player_attributes.player_api_id",
+      "player_attributes.player_fifa_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1042",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.away_team_goal",
+      "match.home_team_goal",
+      "match.id",
+      "match.league_id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1044",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.player_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1048",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1057",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "country",
+      "match"
+    ],
+    "columns_gold": [
+      "country.id",
+      "country.name",
+      "match.country_id",
+      "match.home_team_goal",
+      "match.id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1058",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.player_api_id",
+      "player_attributes.finishing",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1068",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.player_api_id",
+      "player_attributes.date",
+      "player_attributes.id",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1076",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.ball_control",
+      "player_attributes.id",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1078",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.player_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1079",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.player_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1080",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player_attributes.attacking_work_rate",
+      "player_attributes.player_api_id",
+      "player_attributes.preferred_foot"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1084",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.defensive_work_rate",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1088",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.dribbling",
+      "player_attributes.player_api_id",
+      "player_attributes.volleys"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1091",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.date",
+      "match.id",
+      "match.league_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1092",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.id",
+      "match.league_id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1094",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1096",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.id",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1098",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team.team_long_name",
+      "team_attributes.chanceCreationPassing",
+      "team_attributes.chanceCreationPassingClass",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1102",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1103",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1105",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.attacking_work_rate",
+      "player_attributes.date",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1107",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_fifa_api_id",
+      "player.player_name",
+      "player_attributes.crossing",
+      "player_attributes.date",
+      "player_attributes.player_fifa_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1110",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team.team_long_name",
+      "team_attributes.buildUpPlayPassingClass",
+      "team_attributes.date",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1113",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team.team_long_name",
+      "team_attributes.date",
+      "team_attributes.defenceAggressionClass",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1114",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_fifa_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.id",
+      "player_attributes.overall_rating",
+      "player_attributes.player_fifa_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1115",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_fifa_api_id",
+      "player.player_name",
+      "player_attributes.date",
+      "player_attributes.overall_rating",
+      "player_attributes.player_fifa_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1116",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.player_name",
+      "player.rank"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1122",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1124",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.attacking_work_rate",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1130",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team.team_short_name",
+      "team_attributes.chanceCreationPassingClass",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1133",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player"
+    ],
+    "columns_gold": [
+      "player.birthday",
+      "player.id",
+      "player.player_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1134",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player_attributes.id",
+      "player_attributes.jumping"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1135",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player_attributes.id",
+      "player_attributes.potential",
+      "player_attributes.preferred_foot"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1136",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player_attributes.crossing",
+      "player_attributes.id",
+      "player_attributes.preferred_foot"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1139",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.away_team_goal",
+      "match.date",
+      "match.home_team_goal",
+      "match.league_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1141",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "team",
+      "team_attributes"
+    ],
+    "columns_gold": [
+      "team.team_api_id",
+      "team.team_long_name",
+      "team_attributes.buildUpPlaySpeedClass",
+      "team_attributes.team_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1144",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.weight",
+      "player_attributes.curve",
+      "player_attributes.finishing"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1145",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "league",
+      "match"
+    ],
+    "columns_gold": [
+      "league.id",
+      "league.name",
+      "match.id",
+      "match.league_id",
+      "match.season"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1146",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "match",
+      "team"
+    ],
+    "columns_gold": [
+      "match.away_team_api_id",
+      "match.away_team_goal",
+      "team.team_api_id",
+      "team.team_long_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1147",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.player_api_id",
+      "player.player_name",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1148",
+    "db_id": "european_football_2",
+    "tables_gold": [
+      "player",
+      "player_attributes"
+    ],
+    "columns_gold": [
+      "player.height",
+      "player.id",
+      "player.player_api_id",
+      "player_attributes.overall_rating",
+      "player_attributes.player_api_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_846",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.driverRef",
+      "qualifying.driverId",
+      "qualifying.q1",
+      "qualifying.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_847",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.surname",
+      "qualifying.driverId",
+      "qualifying.q2",
+      "qualifying.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_850",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.country",
+      "races.circuitID",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_854",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.lat",
+      "circuits.lng",
+      "races.circuitID",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_857",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.lat",
+      "circuits.lng",
+      "races.circuitID",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_859",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "qualifying.driverId",
+      "qualifying.q1",
+      "qualifying.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_861",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.number",
+      "qualifying.driverId",
+      "qualifying.q3",
+      "qualifying.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_862",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_865",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_866",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "laptimes"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "drivers.url",
+      "laptimes.driverId",
+      "laptimes.raceId",
+      "laptimes.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_868",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.lat",
+      "circuits.lng",
+      "races.circuitID",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_869",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructorresults",
+      "constructors"
+    ],
+    "columns_gold": [
+      "constructorresults.constructorId",
+      "constructorresults.points",
+      "constructorresults.raceId",
+      "constructors.constructorId",
+      "constructors.url"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_872",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying"
+    ],
+    "columns_gold": [
+      "drivers.code",
+      "drivers.driverId",
+      "qualifying.driverId",
+      "qualifying.q3",
+      "qualifying.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_875",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "seasons"
+    ],
+    "columns_gold": [
+      "races.raceId",
+      "races.year",
+      "seasons.url",
+      "seasons.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_877",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_879",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.nationality",
+      "results.driverId",
+      "results.fastestLapSpeed"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_880",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "results.driverId",
+      "results.fastestLapSpeed",
+      "results.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_881",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.date",
+      "races.raceId",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_884",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races"
+    ],
+    "columns_gold": [
+      "races.date",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_892",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.points",
+      "driverstandings.raceId",
+      "races.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_894",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "laptimes",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "laptimes.driverId",
+      "laptimes.milliseconds",
+      "laptimes.raceId",
+      "races.name",
+      "races.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_895",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "laptimes",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "laptimes.driverId",
+      "laptimes.milliseconds",
+      "laptimes.raceId",
+      "races.name",
+      "races.raceId",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_896",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.driverStandingsId",
+      "driverstandings.position",
+      "driverstandings.raceId",
+      "races.raceId",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_897",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.nationality",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.points",
+      "driverstandings.wins"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_898",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.forename",
+      "drivers.nationality",
+      "drivers.surname"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_901",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.location",
+      "circuits.name",
+      "races.circuitID",
+      "races.date",
+      "races.name",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_902",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.position",
+      "driverstandings.raceId",
+      "races.name",
+      "races.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_904",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "laptimes",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "laptimes.driverId",
+      "laptimes.milliseconds",
+      "laptimes.raceId",
+      "races.name",
+      "races.raceId",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_906",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.points",
+      "driverstandings.raceId",
+      "races.name",
+      "races.raceId",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_909",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "races"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.country",
+      "races.circuitID",
+      "races.circuitId",
+      "races.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_910",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits"
+    ],
+    "columns_gold": [
+      "circuits.lat",
+      "circuits.lng",
+      "circuits.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_912",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits"
+    ],
+    "columns_gold": [
+      "circuits.circuitRef",
+      "circuits.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_915",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.nationality"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_928",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.driverRef",
+      "drivers.forename",
+      "drivers.surname",
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.raceId",
+      "results.rank"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_930",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.forename",
+      "drivers.surname",
+      "results.rank"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_931",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.fastestLapSpeed",
+      "results.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_933",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.positionOrder",
+      "results.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_937",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.raceId",
+      "results.rank",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_940",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_944",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "champion_time",
+      "last_driver_incremental",
+      "races",
+      "results",
+      "time_in_seconds"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.positionOrder",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_945",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.country",
+      "circuits.location"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_948",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructors",
+      "constructorstandings"
+    ],
+    "columns_gold": [
+      "constructors.constructorId",
+      "constructors.nationality",
+      "constructorstandings.constructorId",
+      "constructorstandings.points"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_950",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructors",
+      "constructorstandings"
+    ],
+    "columns_gold": [
+      "constructors.constructorId",
+      "constructors.name",
+      "constructorstandings.constructorId",
+      "constructorstandings.points",
+      "constructorstandings.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_951",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructors",
+      "constructorstandings"
+    ],
+    "columns_gold": [
+      "constructors.constructorId",
+      "constructors.nationality",
+      "constructorstandings.constructorId",
+      "constructorstandings.points",
+      "constructorstandings.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_954",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.nationality",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_955",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "champion_time",
+      "races",
+      "results",
+      "time_in_seconds"
+    ],
+    "columns_gold": [
+      "races.raceId",
+      "races.year",
+      "results.positionOrder",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_959",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.raceId",
+      "races.year",
+      "results.fastestLap",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_960",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.fastestLapSpeed",
+      "results.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_962",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "races.raceId",
+      "races.year",
+      "results.driverId",
+      "results.laps",
+      "results.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_963",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "laptimes"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.nationality",
+      "laptimes.driverId",
+      "laptimes.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_964",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers"
+    ],
+    "columns_gold": [
+      "drivers.Nationality",
+      "drivers.code"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_967",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.nationality",
+      "t3.nationality"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_971",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverRef",
+      "drivers.nationality"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_972",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "results"
+    ],
+    "columns_gold": [
+      "drivers.code",
+      "drivers.dob",
+      "drivers.driverId",
+      "results.driverId",
+      "results.fastestLapTime"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_977",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "results"
+    ],
+    "columns_gold": [
+      "results.raceID",
+      "results.raceId",
+      "results.statusId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_978",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits"
+    ],
+    "columns_gold": [
+      "circuits.country",
+      "circuits.lat",
+      "circuits.lng",
+      "circuits.location"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_981",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "qualifying",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "qualifying.driverId",
+      "qualifying.raceId",
+      "races.date",
+      "races.name",
+      "races.raceId",
+      "races.time",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_988",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "pitstops"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.nationality",
+      "drivers.surname",
+      "pitstops.driverId",
+      "pitstops.duration"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_989",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_990",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructors",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "constructors.constructorId",
+      "constructors.constructorRef",
+      "constructors.url",
+      "races.name",
+      "races.raceId",
+      "races.year",
+      "results.constructorId",
+      "results.raceId",
+      "results.time"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_717",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.id",
+      "superhero.superhero_name",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_994",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "constructorresults",
+      "constructors",
+      "races"
+    ],
+    "columns_gold": [
+      "constructorresults.constructorId",
+      "constructorresults.points",
+      "constructorresults.raceid",
+      "constructors.constructorId",
+      "constructors.name",
+      "constructors.nationality",
+      "races.name",
+      "races.raceid",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1001",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "drivers",
+      "qualifying",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "qualifying.driverId",
+      "qualifying.q3",
+      "qualifying.raceid",
+      "races.circuitId",
+      "races.raceid",
+      "races.year"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1002",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "driverstandings",
+      "races"
+    ],
+    "columns_gold": [
+      "drivers.dob",
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.nationality",
+      "drivers.surname",
+      "driverstandings.driverId",
+      "driverstandings.raceId",
+      "races.name",
+      "races.raceId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1003",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "races",
+      "results",
+      "status"
+    ],
+    "columns_gold": [
+      "races.name",
+      "races.raceId",
+      "results.driverId",
+      "results.raceId",
+      "results.statusId",
+      "status.statusId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1011",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "drivers",
+      "lap_times_in_seconds",
+      "laptimes"
+    ],
+    "columns_gold": [
+      "drivers.driverId",
+      "drivers.forename",
+      "drivers.surname",
+      "t1.driverId",
+      "t1.min_time_in_seconds"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_1014",
+    "db_id": "formula_1",
+    "tables_gold": [
+      "circuits",
+      "fastest_lap_times",
+      "races",
+      "results"
+    ],
+    "columns_gold": [
+      "circuits.circuitId",
+      "circuits.country",
+      "fastest_lap_times.raceId",
+      "fastest_lap_times.time_in_seconds",
+      "races.circuitId",
+      "races.raceId",
+      "results.FastestLapTime",
+      "results.raceId",
+      "t4.min_time_in_seconds"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_719",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.height_cm",
+      "superhero.id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_723",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.eye_colour_id",
+      "superhero.id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_724",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.hair_colour_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_726",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.height_cm",
+      "superhero.publisher_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_728",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.eye_colour_id",
+      "superhero.id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_730",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "publisher",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.id",
+      "superhero.publisher_id",
+      "superhero.superhero_name",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_732",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_733",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.eye_colour_id",
+      "superhero.id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_736",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_737",
+    "db_id": "superhero",
+    "tables_gold": [
+      "race",
+      "superhero"
+    ],
+    "columns_gold": [
+      "race.id",
+      "race.race",
+      "superhero.race_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_738",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_739",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.id",
+      "superhero.superhero_name",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_740",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "gender",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "gender.gender",
+      "gender.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.gender_id",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_743",
+    "db_id": "superhero",
+    "tables_gold": [
+      "alignment",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "alignment.alignment",
+      "alignment.id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.alignment_id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_744",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_745",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_747",
+    "db_id": "superhero",
+    "tables_gold": [
+      "superhero"
+    ],
+    "columns_gold": [
+      "superhero.full_name",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_750",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "superhero"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "superhero.gender_id",
+      "superhero.weight_kg"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_751",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.gender_id",
+      "superhero.id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_753",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.height_cm",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_758",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "race",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "race.id",
+      "race.race",
+      "superhero.hair_colour_id",
+      "superhero.height_cm",
+      "superhero.race_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_760",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.height_cm",
+      "superhero.id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_761",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "superhero"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "superhero.gender_id",
+      "superhero.superhero_name",
+      "superhero.weight_kg"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_764",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_765",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_766",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.full_name",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_769",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.id",
+      "superhero.publisher_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_772",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.eye_colour_id",
+      "superhero.gender_id",
+      "superhero.hair_colour_id",
+      "superhero.publisher_id",
+      "superhero.skin_colour_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_773",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.eye_colour_id",
+      "superhero.hair_colour_id",
+      "superhero.publisher_id",
+      "superhero.skin_colour_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_775",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "gender",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "gender.gender",
+      "gender.id",
+      "superhero.gender_id",
+      "superhero.id",
+      "superhero.skin_colour_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_779",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_781",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.height_cm"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_782",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.hair_colour_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_785",
+    "db_id": "superhero",
+    "tables_gold": [
+      "alignment",
+      "superhero"
+    ],
+    "columns_gold": [
+      "alignment.alignment",
+      "alignment.id",
+      "superhero.alignment_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_786",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_788",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.gender_id",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_790",
+    "db_id": "superhero",
+    "tables_gold": [
+      "superhero"
+    ],
+    "columns_gold": [
+      "superhero.full_name",
+      "superhero.weight_kg"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_791",
+    "db_id": "superhero",
+    "tables_gold": [
+      "superhero"
+    ],
+    "columns_gold": [
+      "superhero.height_cm",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_792",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.id",
+      "superhero.superhero_name",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_794",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_796",
+    "db_id": "superhero",
+    "tables_gold": [
+      "attribute",
+      "hero_attribute",
+      "superhero"
+    ],
+    "columns_gold": [
+      "attribute.attribute_name",
+      "attribute.id",
+      "hero_attribute.attribute_id",
+      "hero_attribute.attribute_value",
+      "hero_attribute.hero_id",
+      "superhero.id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_797",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.hair_colour_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_798",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.publisher_id",
+      "superhero.superhero_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_800",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_801",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "superhero"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "superhero.gender_id",
+      "superhero.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_806",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.full_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_819",
+    "db_id": "superhero",
+    "tables_gold": [
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.weight_kg"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_822",
+    "db_id": "superhero",
+    "tables_gold": [
+      "alignment",
+      "colour",
+      "superhero"
+    ],
+    "columns_gold": [
+      "alignment.alignment",
+      "alignment.id",
+      "colour.colour",
+      "colour.id",
+      "superhero.alignment_id",
+      "superhero.id",
+      "superhero.skin_colour_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_824",
+    "db_id": "superhero",
+    "tables_gold": [
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.id",
+      "superhero.superhero_name",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_825",
+    "db_id": "superhero",
+    "tables_gold": [
+      "gender",
+      "hero_power",
+      "superhero",
+      "superpower"
+    ],
+    "columns_gold": [
+      "gender.gender",
+      "gender.id",
+      "hero_power.hero_id",
+      "hero_power.power_id",
+      "superhero.gender_id",
+      "superhero.id",
+      "superpower.id",
+      "superpower.power_name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_829",
+    "db_id": "superhero",
+    "tables_gold": [
+      "publisher",
+      "superhero"
+    ],
+    "columns_gold": [
+      "publisher.id",
+      "publisher.publisher_name",
+      "superhero.publisher_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_531",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "users"
+    ],
+    "columns_gold": [
+      "users.DisplayName",
+      "users.Reputation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_532",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "users"
+    ],
+    "columns_gold": [
+      "users.CreationDate",
+      "users.DisplayName"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_533",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "users"
+    ],
+    "columns_gold": [
+      "users.Id",
+      "users.LastAccessDate"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_539",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.Title",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_537",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.id",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_544",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.LastEditorUserId",
+      "posts.Title",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_547",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.Id",
+      "posts.OwnerUserId",
+      "posts.Score",
+      "users.Age",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_549",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "tags"
+    ],
+    "columns_gold": [
+      "posts.Body",
+      "posts.Id",
+      "tags.ExcerptPostId",
+      "tags.TagName"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_555",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.Score",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_557",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.Id",
+      "posts.OwnerUserId",
+      "posts.Score",
+      "users.Age",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_563",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "comments.CreationDate",
+      "comments.PostId",
+      "comments.UserId",
+      "posts.FavoriteCount",
+      "posts.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_565",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "comments.CreationDate",
+      "comments.PostId",
+      "comments.UserId",
+      "posts.ClosedDate",
+      "posts.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_567",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_568",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "users",
+      "votes"
+    ],
+    "columns_gold": [
+      "users.DisplayName",
+      "users.Id",
+      "votes.Id",
+      "votes.UserId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_571",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "votes"
+    ],
+    "columns_gold": [
+      "posts.Id",
+      "posts.OwnerUserId",
+      "votes.Id",
+      "votes.UserId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_572",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts"
+    ],
+    "columns_gold": [
+      "posts.Title",
+      "posts.ViewCount"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_573",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments"
+    ],
+    "columns_gold": [
+      "comments.Score",
+      "comments.Text"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_576",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "users"
+    ],
+    "columns_gold": [
+      "comments.Text",
+      "comments.UserId",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_578",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.Title",
+      "users.DisplayName",
+      "users.Id",
+      "users.Reputation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_581",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.Title",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_584",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts"
+    ],
+    "columns_gold": [
+      "posthistory.Comment",
+      "posthistory.PostId",
+      "posts.Id",
+      "posts.Title"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_586",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users",
+      "votes"
+    ],
+    "columns_gold": [
+      "posts.Id",
+      "posts.Title",
+      "users.DisplayName",
+      "users.Id",
+      "votes.BountyAmount",
+      "votes.PostId",
+      "votes.UserId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_587",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "comments.PostId",
+      "comments.Text",
+      "posts.Id",
+      "posts.Tags",
+      "posts.Title",
+      "posts.ViewCount"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_592",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "badges"
+    ],
+    "columns_gold": [
+      "badges.Name",
+      "badges.UserId",
+      "t.num"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_595",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostHistoryTypeId",
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "posts.Id",
+      "posts.ViewCount",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_598",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "badges"
+    ],
+    "columns_gold": [
+      "badges.Date",
+      "badges.Id",
+      "badges.Name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_604",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "t2.OwnerUserId",
+      "users.Age",
+      "users.Id",
+      "users.UpVotes"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_629",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "votes"
+    ],
+    "columns_gold": [
+      "votes.CreationDate"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_633",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "posts.AnswerCount",
+      "posts.Id",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_634",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "posts.Id",
+      "posts.ViewCount",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_637",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "posts.CommentCount",
+      "posts.Id",
+      "posts.Tags",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_639",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "tags",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "tags.ExcerptPostId",
+      "tags.TagName",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_640",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.UserId",
+      "posts.Id",
+      "posts.ViewCount",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_665",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "postlinks",
+      "posts"
+    ],
+    "columns_gold": [
+      "postlinks.CreationDate",
+      "postlinks.Id",
+      "postlinks.PostId",
+      "posts.AnswerCount",
+      "posts.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_669",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "users",
+      "votes"
+    ],
+    "columns_gold": [
+      "users.DisplayName",
+      "users.Id",
+      "votes.CreationDate",
+      "votes.UserId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_671",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "badges",
+      "users"
+    ],
+    "columns_gold": [
+      "badges.Date",
+      "badges.Name",
+      "badges.UserId",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_672",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.FavoriteCount",
+      "posts.OwnerUserId",
+      "users.Id",
+      "users.Location"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_678",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.Id",
+      "posts.OwnerUserId",
+      "posts.Title",
+      "posts.ViewCount",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_682",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.FavoriteCount",
+      "posts.OwnerUserId",
+      "users.CreationDate",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_683",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.CreaionDate",
+      "posts.OwnerUserId",
+      "users.Id",
+      "users.Reputation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_685",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posthistory",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posthistory.PostId",
+      "posthistory.Text",
+      "posts.Id",
+      "posts.LastEditorUserId",
+      "posts.ViewCount",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_687",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "comments.Id",
+      "comments.PostId",
+      "posts.Id",
+      "posts.Score"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_694",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "comments.PostId",
+      "comments.Text",
+      "posts.Id",
+      "posts.OwnerUserId",
+      "posts.Title",
+      "users.CreationDate",
+      "users.DisplayName",
+      "users.Id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_701",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "posts",
+      "users"
+    ],
+    "columns_gold": [
+      "posts.OwnerUserId",
+      "posts.Score",
+      "t3.max_reputation",
+      "users.Id",
+      "users.Reputation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_704",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "tags"
+    ],
+    "columns_gold": [
+      "tags.ExcerptPostId",
+      "tags.TagName",
+      "tags.WikiPostId"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_705",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "users"
+    ],
+    "columns_gold": [
+      "comments.Text",
+      "comments.UserId",
+      "users.Id",
+      "users.Reputation",
+      "users.UpVotes"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_707",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "posts.ViewCount"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_710",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "posts"
+    ],
+    "columns_gold": [
+      "comments.PostId",
+      "comments.id",
+      "posts.CommentCount",
+      "posts.Id",
+      "posts.Score"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_716",
+    "db_id": "codebase_community",
+    "tables_gold": [
+      "comments",
+      "users"
+    ],
+    "columns_gold": [
+      "comments.Score",
+      "comments.UserId",
+      "users.Id",
+      "users.UpVotes"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_340",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.cardKingdomFoilId",
+      "cards.cardKingdomId",
+      "cards.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_341",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.borderColor",
+      "cards.cardKingdomId",
+      "cards.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_344",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.rarity",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_345",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.side",
+      "cards.type",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_346",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.id",
+      "cards.power",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_347",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "rulings"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.hasContentWarning",
+      "cards.id",
+      "cards.uuid",
+      "rulings.text",
+      "rulings.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_349",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "rulings"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.isPromo",
+      "cards.name",
+      "cards.uuid",
+      "rulings.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_352",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_356",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.power"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_358",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.borderColor",
+      "cards.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_366",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_368",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.borderColor",
+      "cards.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_371",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.isStorySpotlight",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_377",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.originalType",
+      "cards.subtypes"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_379",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.duelDeck",
+      "cards.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_383",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.borderColor",
+      "cards.id",
+      "cards.uuid",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_391",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.colors",
+      "cards.name",
+      "cards.originalType",
+      "cards.uuid",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_397",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.availability",
+      "cards.borderColor",
+      "cards.frameVersion",
+      "cards.layout",
+      "cards.manaCost"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_402",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.isStorySpotlight",
+      "cards.isTextless"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_405",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "sets.block",
+      "sets.code",
+      "sets.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_407",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.subtypes",
+      "cards.supertypes",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_408",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "rulings"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.power",
+      "cards.uuid",
+      "rulings.text",
+      "rulings.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_409",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities",
+      "rulings"
+    ],
+    "columns_gold": [
+      "cards.Side",
+      "cards.id",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.uuid",
+      "rulings.text",
+      "rulings.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_412",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.borderColor",
+      "cards.layout",
+      "cards.types"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_414",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "sets.baseSetSize",
+      "sets.block",
+      "sets.code"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_415",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.hasContentWarning",
+      "cards.id",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_416",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.id",
+      "cards.power",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_422",
+    "db_id": "card_games",
+    "tables_gold": [
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "foreign_data.language",
+      "foreign_data.multiverseid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_424",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.isTextless",
+      "cards.layout"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_427",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "sets.code",
+      "sets.mcmName"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_440",
+    "db_id": "card_games",
+    "tables_gold": [
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "foreign_data.language",
+      "foreign_data.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_459",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards"
+    ],
+    "columns_gold": [
+      "cards.convertedManaCost",
+      "cards.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_462",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "set_translations"
+    ],
+    "columns_gold": [
+      "set_translations.translation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_465",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "set_translations"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.setCode",
+      "set_translations.language",
+      "set_translations.setCode",
+      "set_translations.translation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_466",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "set_translations"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.id",
+      "cards.setCode",
+      "set_translations.setCode",
+      "set_translations.translation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_468",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "set_translations.translation",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_469",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.setCode",
+      "sets.code",
+      "sets.mtgoCode"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_472",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "set_translations.translation",
+      "sets.block",
+      "sets.code",
+      "sets.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_473",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.setCode",
+      "sets.code",
+      "sets.isForeignOnly"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_474",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "set_translations.language",
+      "set_translations.setCode",
+      "set_translations.translation",
+      "sets.baseSetSize",
+      "sets.code",
+      "sets.id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_477",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.setCode",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_479",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.convertedManaCost",
+      "cards.power",
+      "cards.setCode",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_480",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.uuid",
+      "foreign_data.flavorText",
+      "foreign_data.language",
+      "foreign_data.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_483",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.setCode",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.text",
+      "foreign_data.uuid",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_484",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "foreign_data",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.convertedManaCost",
+      "cards.name",
+      "cards.setCode",
+      "cards.uuid",
+      "foreign_data.language",
+      "foreign_data.uuid",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_486",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.convertedManaCost",
+      "cards.id",
+      "cards.setCode",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_487",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.cardKingdomFoilId",
+      "cards.cardKingdomId",
+      "cards.id",
+      "cards.setCode",
+      "sets.code",
+      "sets.name"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_518",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities",
+      "maxbanned"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid",
+      "maxbanned.format"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_522",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.edhrecRank",
+      "cards.name",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_528",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities",
+      "sets"
+    ],
+    "columns_gold": [
+      "cards.name",
+      "cards.setCode",
+      "cards.uuid",
+      "legalities.format",
+      "legalities.status",
+      "legalities.uuid",
+      "sets.code"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_529",
+    "db_id": "card_games",
+    "tables_gold": [
+      "set_translations",
+      "sets"
+    ],
+    "columns_gold": [
+      "sets.code"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_530",
+    "db_id": "card_games",
+    "tables_gold": [
+      "cards",
+      "legalities"
+    ],
+    "columns_gold": [
+      "cards.artist",
+      "cards.frameVersion",
+      "cards.name",
+      "cards.uuid",
+      "legalities.status",
+      "legalities.uuid"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_195",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "t.bond_type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_197",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_198",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_200",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_201",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_206",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_207",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "connected.atom_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_208",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id",
+      "t.label"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_212",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id",
+      "t.element"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_213",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "connected.atom_id",
+      "connected.atom_id2",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_215",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "bond.bond_id",
+      "bond.bond_type",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_218",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_219",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_220",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_226",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "bond.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_227",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "molecule"
+    ],
+    "columns_gold": [
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_228",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_230",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_231",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond"
+    ],
+    "columns_gold": [
+      "bond.bond_type",
+      "bond.molecule_id",
+      "t.bond_type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_232",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_234",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.molecule_id",
+      "connected.atom_id",
+      "connected.atom_id2",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_236",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "connected.atom_id",
+      "connected.atom_id2",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_239",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "connected"
+    ],
+    "columns_gold": [
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_240",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_242",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_243",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_244",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id",
+      "t2.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_245",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_247",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_248",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "bond.bond_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "connected.atom_id",
+      "connected.atom_id2",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_249",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_253",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "bond.bond_id",
+      "bond.bond_type",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_255",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_260",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_263",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "bond",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "bond.bond_type",
+      "bond.molecule_id",
+      "molecule.molecule_id",
+      "t.atom_id",
+      "t.element"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_268",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "connected"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "connected.atom_id",
+      "connected.bond_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_273",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_281",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_282",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule",
+      "subquery"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.element",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_327",
+    "db_id": "toxicology",
+    "tables_gold": [
+      "atom",
+      "molecule"
+    ],
+    "columns_gold": [
+      "atom.atom_id",
+      "atom.molecule_id",
+      "molecule.label",
+      "molecule.molecule_id",
+      "t.molecule_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_5",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrMath",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.School",
+      "schools.Virtual"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_11",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "frpm.Enrollment (K-12)",
+      "schools.CDSCode"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_12",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "satscores"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "frpm.Free Meal Count (Ages 5-17)",
+      "satscores.NumGE1500",
+      "satscores.NumTstTakr",
+      "satscores.cds"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_17",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrWrite",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.CharterNum"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_23",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "frpm.Enrollment (K-12)",
+      "schools.CDSCode",
+      "schools.School",
+      "schools.Street"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_24",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "satscores"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (K-12)",
+      "frpm.Free Meal Count (K-12)",
+      "frpm.School Name",
+      "satscores.NumGE1500",
+      "satscores.cds"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_25",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "satscores"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Charter Funding Type",
+      "frpm.District Name",
+      "satscores.AvgScrMath",
+      "satscores.cds",
+      "satscores.sname"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_26",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Free Meal Count (Ages 5-17)",
+      "frpm.School Name",
+      "frpm.School Type",
+      "schools.CDSCode",
+      "schools.City",
+      "schools.County",
+      "schools.State",
+      "schools.Street",
+      "schools.Zip"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_27",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrWrite",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.ClosedDate",
+      "schools.OpenDate",
+      "schools.Phone",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_28",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "frpm.Enrollment (K-12)",
+      "schools.CDSCode",
+      "schools.DOC",
+      "schools.FundingType",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_31",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm"
+    ],
+    "columns_gold": [
+      "frpm.Enrollment (K-12)",
+      "frpm.Free Meal Count (K-12)"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_32",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (K-12)",
+      "frpm.FRPM Count (K-12)",
+      "schools.CDSCode",
+      "schools.SOC"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_37",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.NumGE1500",
+      "satscores.NumTstTakr",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.City",
+      "schools.State",
+      "schools.Street",
+      "schools.Zip"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_36",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.NumGE1500",
+      "satscores.cds",
+      "schools.AdmFName1",
+      "schools.AdmFName2",
+      "schools.AdmFName3",
+      "schools.AdmLName1",
+      "schools.AdmLName2",
+      "schools.AdmLName3",
+      "schools.CDSCode"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_39",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.NumTstTakr",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.County",
+      "schools.OpenDate"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_40",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrRead",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.District",
+      "schools.Phone"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_41",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrRead",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.County",
+      "schools.School",
+      "schools.Virtual"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_45",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrWrite",
+      "satscores.cds",
+      "schools.AdmFName1",
+      "schools.AdmLName1",
+      "schools.CDSCode",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_46",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (K-12)",
+      "schools.CDSCode",
+      "schools.DOC",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_47",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "schools"
+    ],
+    "columns_gold": [
+      "schools.County",
+      "schools.DOC",
+      "schools.OpenDate",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_48",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "schools"
+    ],
+    "columns_gold": [
+      "schools.County",
+      "schools.DOC",
+      "schools.StatusType"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_50",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "satscores",
+      "schools"
+    ],
+    "columns_gold": [
+      "satscores.AvgScrMath",
+      "satscores.cds",
+      "schools.CDSCode",
+      "schools.MailStreet",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_62",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (K-12)",
+      "frpm.Free Meal Count (K-12)",
+      "schools.CDSCode",
+      "schools.Charter",
+      "schools.County",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_72",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.Academic Year",
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "schools.CDSCode",
+      "schools.City",
+      "schools.EdOpsCode"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_77",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.Enrollment (Ages 5-17)",
+      "frpm.FRPM Count (Ages 5-17)",
+      "schools.CDSCode",
+      "schools.County",
+      "schools.GSserved",
+      "schools.School"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_79",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "schools"
+    ],
+    "columns_gold": [
+      "schools.County",
+      "schools.Virtual"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_82",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "schools"
+    ],
+    "columns_gold": [
+      "schools.GSoffered",
+      "schools.longitude"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_83",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.NSLP Provision Status",
+      "schools.CDSCode",
+      "schools.City",
+      "schools.GSoffered",
+      "schools.Magnet"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_85",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "frpm.District Code",
+      "frpm.Enrollment (K-12)",
+      "frpm.Free Meal Count (K-12)",
+      "schools.AdmFName1",
+      "schools.CDSCode"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_87",
+    "db_id": "california_schools",
+    "tables_gold": [
+      "frpm",
+      "schools"
+    ],
+    "columns_gold": [
+      "frpm.CDSCode",
+      "schools.AdmEmail1",
+      "schools.AdmEmail2",
+      "schools.CDSCode",
+      "schools.City",
+      "schools.County",
+      "schools.DOC",
+      "schools.OpenDate",
+      "schools.SOC"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_89",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "account.frequency",
+      "district.A3",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_92",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.district_id",
+      "client.gender",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_93",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A11",
+      "district.A3",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_94",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "client.birth_date",
+      "client.client_id",
+      "client.gender",
+      "disp.account_id",
+      "disp.client_id",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_95",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "client.birth_date",
+      "client.client_id",
+      "disp.account_id",
+      "disp.client_id",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_98",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.frequency",
+      "loan.account_id",
+      "loan.amount",
+      "loan.date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_99",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.date",
+      "loan.account_id",
+      "loan.amount",
+      "loan.duration"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_100",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.birth_date",
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A2",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_112",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.birth_date",
+      "client.district_id",
+      "client.gender",
+      "district.A2",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_115",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A3",
+      "district.A4",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_116",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "loan",
+      "trans"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "loan.account_id",
+      "loan.date",
+      "trans.account_id",
+      "trans.balance",
+      "trans.date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_117",
+    "db_id": "financial",
+    "tables_gold": [
+      "loan"
+    ],
+    "columns_gold": [
+      "loan.amount",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_118",
+    "db_id": "financial",
+    "tables_gold": [
+      "loan"
+    ],
+    "columns_gold": [
+      "loan.account_id",
+      "loan.amount",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_125",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "district.A12",
+      "district.A13",
+      "district.district_id",
+      "loan.account_id",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_128",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A2",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_136",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.frequency",
+      "loan.account_id",
+      "loan.amount",
+      "loan.date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_137",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "district.district_id",
+      "loan.account_id",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_138",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A15",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_129",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district",
+      "trans"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "district.A2",
+      "district.district_id",
+      "trans.account_id",
+      "trans.date",
+      "trans.type"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_137",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "district.district_id",
+      "loan.account_id",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_138",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A15",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_145",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "trans"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "trans.account_id",
+      "trans.amount",
+      "trans.date",
+      "trans.operation"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_149",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "disp",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "disp.account_id",
+      "disp.type",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_152",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "district"
+    ],
+    "columns_gold": [
+      "account.date",
+      "account.district_id",
+      "district.A15",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_159",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "trans"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "client.client_id",
+      "disp.account_id",
+      "disp.client_id",
+      "trans.account_id",
+      "trans.operation",
+      "trans.trans_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_168",
+    "db_id": "financial",
+    "tables_gold": [
+      "client",
+      "district"
+    ],
+    "columns_gold": [
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_169",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "client.client_id",
+      "client.gender",
+      "disp.account_id",
+      "disp.client_id",
+      "disp.type",
+      "loan.account_id",
+      "loan.amount",
+      "loan.date"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_173",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "order"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.frequency",
+      "t2.account_id",
+      "t2.k_symbol",
+      "t2.total_amount"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_186",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "account.frequency",
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "disp.account_id",
+      "disp.client_id",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_189",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "client",
+      "disp",
+      "district"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.district_id",
+      "client.birth_date",
+      "client.client_id",
+      "client.district_id",
+      "client.gender",
+      "disp.account_id",
+      "disp.client_id",
+      "district.A11",
+      "district.district_id"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_192",
+    "db_id": "financial",
+    "tables_gold": [
+      "account",
+      "loan"
+    ],
+    "columns_gold": [
+      "account.account_id",
+      "account.frequency",
+      "loan.account_id",
+      "loan.amount",
+      "loan.status"
+    ],
+    "parse_error": false
+  },
+  {
+    "question_id": "bird_mini_194",
+    "db_id": "financial",
+    "tables_gold": [
+      "card",
+      "client",
+      "disp"
+    ],
+    "columns_gold": [
+      "card.disp_id",
+      "card.type",
+      "client.birth_date",
+      "client.client_id",
+      "disp.client_id",
+      "disp.disp_id",
+      "disp.type"
+    ],
+    "parse_error": false
+  }
+]
