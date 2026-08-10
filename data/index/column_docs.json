@@ -1,0 +1,5588 @@
+[
+  {
+    "doc_id": "california_schools::frpm::CDSCode",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "CDSCode",
+    "text": "Table frpm, colonne CDSCode (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Academic Year",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Academic Year",
+    "text": "Table frpm, colonne Academic Year (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::County Code",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "County Code",
+    "text": "Table frpm, colonne County Code (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::District Code",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "District Code",
+    "text": "Table frpm, colonne District Code (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::frpm::School Code",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "School Code",
+    "text": "Table frpm, colonne School Code (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::County Name",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "County Name",
+    "text": "Table frpm, colonne County Name (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::District Name",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "District Name",
+    "text": "Table frpm, colonne District Name (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::School Name",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "School Name",
+    "text": "Table frpm, colonne School Name (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::District Type",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "District Type",
+    "text": "Table frpm, colonne District Type (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::School Type",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "School Type",
+    "text": "Table frpm, colonne School Type (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Educational Option Type",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Educational Option Type",
+    "text": "Table frpm, colonne Educational Option Type (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::NSLP Provision Status",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "NSLP Provision Status",
+    "text": "Table frpm, colonne NSLP Provision Status (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Charter School (Y/N)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Charter School (Y/N)",
+    "text": "Table frpm, colonne Charter School (Y/N) (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Charter School Number",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Charter School Number",
+    "text": "Table frpm, colonne Charter School Number (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Charter Funding Type",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Charter Funding Type",
+    "text": "Table frpm, colonne Charter Funding Type (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::IRC",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "IRC",
+    "text": "Table frpm, colonne IRC (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Low Grade",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Low Grade",
+    "text": "Table frpm, colonne Low Grade (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::High Grade",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "High Grade",
+    "text": "Table frpm, colonne High Grade (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Enrollment (K-12)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Enrollment (K-12)",
+    "text": "Table frpm, colonne Enrollment (K-12) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Free Meal Count (K-12)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Free Meal Count (K-12)",
+    "text": "Table frpm, colonne Free Meal Count (K-12) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Percent (%) Eligible Free (K-12)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Percent (%) Eligible Free (K-12)",
+    "text": "Table frpm, colonne Percent (%) Eligible Free (K-12) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::FRPM Count (K-12)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "FRPM Count (K-12)",
+    "text": "Table frpm, colonne FRPM Count (K-12) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Percent (%) Eligible FRPM (K-12)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Percent (%) Eligible FRPM (K-12)",
+    "text": "Table frpm, colonne Percent (%) Eligible FRPM (K-12) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Enrollment (Ages 5-17)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Enrollment (Ages 5-17)",
+    "text": "Table frpm, colonne Enrollment (Ages 5-17) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Free Meal Count (Ages 5-17)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Free Meal Count (Ages 5-17)",
+    "text": "Table frpm, colonne Free Meal Count (Ages 5-17) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Percent (%) Eligible Free (Ages 5-17)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Percent (%) Eligible Free (Ages 5-17)",
+    "text": "Table frpm, colonne Percent (%) Eligible Free (Ages 5-17) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::FRPM Count (Ages 5-17)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "FRPM Count (Ages 5-17)",
+    "text": "Table frpm, colonne FRPM Count (Ages 5-17) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::Percent (%) Eligible FRPM (Ages 5-17)",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "Percent (%) Eligible FRPM (Ages 5-17)",
+    "text": "Table frpm, colonne Percent (%) Eligible FRPM (Ages 5-17) (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::frpm::2013-14 CALPADS Fall 1 Certification Status",
+    "db_id": "california_schools",
+    "table_name": "frpm",
+    "column_name": "2013-14 CALPADS Fall 1 Certification Status",
+    "text": "Table frpm, colonne 2013-14 CALPADS Fall 1 Certification Status (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::cds",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "cds",
+    "text": "Table satscores, colonne cds (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::satscores::rtype",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "rtype",
+    "text": "Table satscores, colonne rtype (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::satscores::sname",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "sname",
+    "text": "Table satscores, colonne sname (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::satscores::dname",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "dname",
+    "text": "Table satscores, colonne dname (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::satscores::cname",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "cname",
+    "text": "Table satscores, colonne cname (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::satscores::enroll12",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "enroll12",
+    "text": "Table satscores, colonne enroll12 (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::NumTstTakr",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "NumTstTakr",
+    "text": "Table satscores, colonne NumTstTakr (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::AvgScrRead",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "AvgScrRead",
+    "text": "Table satscores, colonne AvgScrRead (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::AvgScrMath",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "AvgScrMath",
+    "text": "Table satscores, colonne AvgScrMath (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::AvgScrWrite",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "AvgScrWrite",
+    "text": "Table satscores, colonne AvgScrWrite (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::satscores::NumGE1500",
+    "db_id": "california_schools",
+    "table_name": "satscores",
+    "column_name": "NumGE1500",
+    "text": "Table satscores, colonne NumGE1500 (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::schools::CDSCode",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "CDSCode",
+    "text": "Table schools, colonne CDSCode (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::NCESDist",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "NCESDist",
+    "text": "Table schools, colonne NCESDist (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::NCESSchool",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "NCESSchool",
+    "text": "Table schools, colonne NCESSchool (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::StatusType",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "StatusType",
+    "text": "Table schools, colonne StatusType (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::County",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "County",
+    "text": "Table schools, colonne County (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::District",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "District",
+    "text": "Table schools, colonne District (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::School",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "School",
+    "text": "Table schools, colonne School (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Street",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Street",
+    "text": "Table schools, colonne Street (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::StreetAbr",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "StreetAbr",
+    "text": "Table schools, colonne StreetAbr (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::City",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "City",
+    "text": "Table schools, colonne City (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Zip",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Zip",
+    "text": "Table schools, colonne Zip (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::State",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "State",
+    "text": "Table schools, colonne State (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::MailStreet",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "MailStreet",
+    "text": "Table schools, colonne MailStreet (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::MailStrAbr",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "MailStrAbr",
+    "text": "Table schools, colonne MailStrAbr (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::MailCity",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "MailCity",
+    "text": "Table schools, colonne MailCity (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::MailZip",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "MailZip",
+    "text": "Table schools, colonne MailZip (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::MailState",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "MailState",
+    "text": "Table schools, colonne MailState (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Phone",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Phone",
+    "text": "Table schools, colonne Phone (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Ext",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Ext",
+    "text": "Table schools, colonne Ext (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Website",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Website",
+    "text": "Table schools, colonne Website (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::OpenDate",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "OpenDate",
+    "text": "Table schools, colonne OpenDate (type DATE)."
+  },
+  {
+    "doc_id": "california_schools::schools::ClosedDate",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "ClosedDate",
+    "text": "Table schools, colonne ClosedDate (type DATE)."
+  },
+  {
+    "doc_id": "california_schools::schools::Charter",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Charter",
+    "text": "Table schools, colonne Charter (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::schools::CharterNum",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "CharterNum",
+    "text": "Table schools, colonne CharterNum (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::FundingType",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "FundingType",
+    "text": "Table schools, colonne FundingType (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::DOC",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "DOC",
+    "text": "Table schools, colonne DOC (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::DOCType",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "DOCType",
+    "text": "Table schools, colonne DOCType (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::SOC",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "SOC",
+    "text": "Table schools, colonne SOC (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::SOCType",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "SOCType",
+    "text": "Table schools, colonne SOCType (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::EdOpsCode",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "EdOpsCode",
+    "text": "Table schools, colonne EdOpsCode (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::EdOpsName",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "EdOpsName",
+    "text": "Table schools, colonne EdOpsName (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::EILCode",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "EILCode",
+    "text": "Table schools, colonne EILCode (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::EILName",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "EILName",
+    "text": "Table schools, colonne EILName (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::GSoffered",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "GSoffered",
+    "text": "Table schools, colonne GSoffered (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::GSserved",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "GSserved",
+    "text": "Table schools, colonne GSserved (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Virtual",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Virtual",
+    "text": "Table schools, colonne Virtual (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::Magnet",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Magnet",
+    "text": "Table schools, colonne Magnet (type INTEGER)."
+  },
+  {
+    "doc_id": "california_schools::schools::Latitude",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Latitude",
+    "text": "Table schools, colonne Latitude (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::schools::Longitude",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "Longitude",
+    "text": "Table schools, colonne Longitude (type REAL)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmFName1",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmFName1",
+    "text": "Table schools, colonne AdmFName1 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmLName1",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmLName1",
+    "text": "Table schools, colonne AdmLName1 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmEmail1",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmEmail1",
+    "text": "Table schools, colonne AdmEmail1 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmFName2",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmFName2",
+    "text": "Table schools, colonne AdmFName2 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmLName2",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmLName2",
+    "text": "Table schools, colonne AdmLName2 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmEmail2",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmEmail2",
+    "text": "Table schools, colonne AdmEmail2 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmFName3",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmFName3",
+    "text": "Table schools, colonne AdmFName3 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmLName3",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmLName3",
+    "text": "Table schools, colonne AdmLName3 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::AdmEmail3",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "AdmEmail3",
+    "text": "Table schools, colonne AdmEmail3 (type TEXT)."
+  },
+  {
+    "doc_id": "california_schools::schools::LastUpdate",
+    "db_id": "california_schools",
+    "table_name": "schools",
+    "column_name": "LastUpdate",
+    "text": "Table schools, colonne LastUpdate (type DATE)."
+  },
+  {
+    "doc_id": "card_games::cards::id",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "id",
+    "text": "Table cards, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::artist",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "artist",
+    "text": "Table cards, colonne artist (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::asciiName",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "asciiName",
+    "text": "Table cards, colonne asciiName (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::availability",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "availability",
+    "text": "Table cards, colonne availability (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::borderColor",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "borderColor",
+    "text": "Table cards, colonne borderColor (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::cardKingdomFoilId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "cardKingdomFoilId",
+    "text": "Table cards, colonne cardKingdomFoilId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::cardKingdomId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "cardKingdomId",
+    "text": "Table cards, colonne cardKingdomId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::colorIdentity",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "colorIdentity",
+    "text": "Table cards, colonne colorIdentity (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::colorIndicator",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "colorIndicator",
+    "text": "Table cards, colonne colorIndicator (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::colors",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "colors",
+    "text": "Table cards, colonne colors (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::convertedManaCost",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "convertedManaCost",
+    "text": "Table cards, colonne convertedManaCost (type REAL)."
+  },
+  {
+    "doc_id": "card_games::cards::duelDeck",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "duelDeck",
+    "text": "Table cards, colonne duelDeck (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::edhrecRank",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "edhrecRank",
+    "text": "Table cards, colonne edhrecRank (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::faceConvertedManaCost",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "faceConvertedManaCost",
+    "text": "Table cards, colonne faceConvertedManaCost (type REAL)."
+  },
+  {
+    "doc_id": "card_games::cards::faceName",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "faceName",
+    "text": "Table cards, colonne faceName (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::flavorName",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "flavorName",
+    "text": "Table cards, colonne flavorName (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::flavorText",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "flavorText",
+    "text": "Table cards, colonne flavorText (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::frameEffects",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "frameEffects",
+    "text": "Table cards, colonne frameEffects (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::frameVersion",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "frameVersion",
+    "text": "Table cards, colonne frameVersion (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::hand",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "hand",
+    "text": "Table cards, colonne hand (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::hasAlternativeDeckLimit",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "hasAlternativeDeckLimit",
+    "text": "Table cards, colonne hasAlternativeDeckLimit (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::hasContentWarning",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "hasContentWarning",
+    "text": "Table cards, colonne hasContentWarning (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::hasFoil",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "hasFoil",
+    "text": "Table cards, colonne hasFoil (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::hasNonFoil",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "hasNonFoil",
+    "text": "Table cards, colonne hasNonFoil (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isAlternative",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isAlternative",
+    "text": "Table cards, colonne isAlternative (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isFullArt",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isFullArt",
+    "text": "Table cards, colonne isFullArt (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isOnlineOnly",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isOnlineOnly",
+    "text": "Table cards, colonne isOnlineOnly (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isOversized",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isOversized",
+    "text": "Table cards, colonne isOversized (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isPromo",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isPromo",
+    "text": "Table cards, colonne isPromo (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isReprint",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isReprint",
+    "text": "Table cards, colonne isReprint (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isReserved",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isReserved",
+    "text": "Table cards, colonne isReserved (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isStarter",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isStarter",
+    "text": "Table cards, colonne isStarter (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isStorySpotlight",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isStorySpotlight",
+    "text": "Table cards, colonne isStorySpotlight (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isTextless",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isTextless",
+    "text": "Table cards, colonne isTextless (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::isTimeshifted",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "isTimeshifted",
+    "text": "Table cards, colonne isTimeshifted (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::cards::keywords",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "keywords",
+    "text": "Table cards, colonne keywords (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::layout",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "layout",
+    "text": "Table cards, colonne layout (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::leadershipSkills",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "leadershipSkills",
+    "text": "Table cards, colonne leadershipSkills (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::life",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "life",
+    "text": "Table cards, colonne life (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::loyalty",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "loyalty",
+    "text": "Table cards, colonne loyalty (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::manaCost",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "manaCost",
+    "text": "Table cards, colonne manaCost (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mcmId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mcmId",
+    "text": "Table cards, colonne mcmId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mcmMetaId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mcmMetaId",
+    "text": "Table cards, colonne mcmMetaId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mtgArenaId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mtgArenaId",
+    "text": "Table cards, colonne mtgArenaId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mtgjsonV4Id",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mtgjsonV4Id",
+    "text": "Table cards, colonne mtgjsonV4Id (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mtgoFoilId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mtgoFoilId",
+    "text": "Table cards, colonne mtgoFoilId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::mtgoId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "mtgoId",
+    "text": "Table cards, colonne mtgoId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::multiverseId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "multiverseId",
+    "text": "Table cards, colonne multiverseId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::name",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "name",
+    "text": "Table cards, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::number",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "number",
+    "text": "Table cards, colonne number (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::originalReleaseDate",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "originalReleaseDate",
+    "text": "Table cards, colonne originalReleaseDate (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::originalText",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "originalText",
+    "text": "Table cards, colonne originalText (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::originalType",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "originalType",
+    "text": "Table cards, colonne originalType (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::otherFaceIds",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "otherFaceIds",
+    "text": "Table cards, colonne otherFaceIds (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::power",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "power",
+    "text": "Table cards, colonne power (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::printings",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "printings",
+    "text": "Table cards, colonne printings (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::promoTypes",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "promoTypes",
+    "text": "Table cards, colonne promoTypes (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::purchaseUrls",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "purchaseUrls",
+    "text": "Table cards, colonne purchaseUrls (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::rarity",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "rarity",
+    "text": "Table cards, colonne rarity (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::scryfallId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "scryfallId",
+    "text": "Table cards, colonne scryfallId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::scryfallIllustrationId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "scryfallIllustrationId",
+    "text": "Table cards, colonne scryfallIllustrationId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::scryfallOracleId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "scryfallOracleId",
+    "text": "Table cards, colonne scryfallOracleId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::setCode",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "setCode",
+    "text": "Table cards, colonne setCode (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::side",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "side",
+    "text": "Table cards, colonne side (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::subtypes",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "subtypes",
+    "text": "Table cards, colonne subtypes (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::supertypes",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "supertypes",
+    "text": "Table cards, colonne supertypes (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::tcgplayerProductId",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "tcgplayerProductId",
+    "text": "Table cards, colonne tcgplayerProductId (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::text",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "text",
+    "text": "Table cards, colonne text (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::toughness",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "toughness",
+    "text": "Table cards, colonne toughness (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::type",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "type",
+    "text": "Table cards, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::types",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "types",
+    "text": "Table cards, colonne types (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::uuid",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "uuid",
+    "text": "Table cards, colonne uuid (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::variations",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "variations",
+    "text": "Table cards, colonne variations (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::cards::watermark",
+    "db_id": "card_games",
+    "table_name": "cards",
+    "column_name": "watermark",
+    "text": "Table cards, colonne watermark (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::id",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "id",
+    "text": "Table foreign_data, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::flavorText",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "flavorText",
+    "text": "Table foreign_data, colonne flavorText (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::language",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "language",
+    "text": "Table foreign_data, colonne language (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::multiverseid",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "multiverseid",
+    "text": "Table foreign_data, colonne multiverseid (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::name",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "name",
+    "text": "Table foreign_data, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::text",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "text",
+    "text": "Table foreign_data, colonne text (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::type",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "type",
+    "text": "Table foreign_data, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::foreign_data::uuid",
+    "db_id": "card_games",
+    "table_name": "foreign_data",
+    "column_name": "uuid",
+    "text": "Table foreign_data, colonne uuid (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::legalities::id",
+    "db_id": "card_games",
+    "table_name": "legalities",
+    "column_name": "id",
+    "text": "Table legalities, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::legalities::format",
+    "db_id": "card_games",
+    "table_name": "legalities",
+    "column_name": "format",
+    "text": "Table legalities, colonne format (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::legalities::status",
+    "db_id": "card_games",
+    "table_name": "legalities",
+    "column_name": "status",
+    "text": "Table legalities, colonne status (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::legalities::uuid",
+    "db_id": "card_games",
+    "table_name": "legalities",
+    "column_name": "uuid",
+    "text": "Table legalities, colonne uuid (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::id",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "id",
+    "text": "Table sets, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::baseSetSize",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "baseSetSize",
+    "text": "Table sets, colonne baseSetSize (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::block",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "block",
+    "text": "Table sets, colonne block (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::booster",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "booster",
+    "text": "Table sets, colonne booster (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::code",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "code",
+    "text": "Table sets, colonne code (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::isFoilOnly",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "isFoilOnly",
+    "text": "Table sets, colonne isFoilOnly (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::isForeignOnly",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "isForeignOnly",
+    "text": "Table sets, colonne isForeignOnly (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::isNonFoilOnly",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "isNonFoilOnly",
+    "text": "Table sets, colonne isNonFoilOnly (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::isOnlineOnly",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "isOnlineOnly",
+    "text": "Table sets, colonne isOnlineOnly (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::isPartialPreview",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "isPartialPreview",
+    "text": "Table sets, colonne isPartialPreview (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::keyruneCode",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "keyruneCode",
+    "text": "Table sets, colonne keyruneCode (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::mcmId",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "mcmId",
+    "text": "Table sets, colonne mcmId (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::mcmIdExtras",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "mcmIdExtras",
+    "text": "Table sets, colonne mcmIdExtras (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::mcmName",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "mcmName",
+    "text": "Table sets, colonne mcmName (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::mtgoCode",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "mtgoCode",
+    "text": "Table sets, colonne mtgoCode (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::name",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "name",
+    "text": "Table sets, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::parentCode",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "parentCode",
+    "text": "Table sets, colonne parentCode (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::sets::releaseDate",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "releaseDate",
+    "text": "Table sets, colonne releaseDate (type DATE)."
+  },
+  {
+    "doc_id": "card_games::sets::tcgplayerGroupId",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "tcgplayerGroupId",
+    "text": "Table sets, colonne tcgplayerGroupId (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::totalSetSize",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "totalSetSize",
+    "text": "Table sets, colonne totalSetSize (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::sets::type",
+    "db_id": "card_games",
+    "table_name": "sets",
+    "column_name": "type",
+    "text": "Table sets, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::set_translations::id",
+    "db_id": "card_games",
+    "table_name": "set_translations",
+    "column_name": "id",
+    "text": "Table set_translations, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::set_translations::language",
+    "db_id": "card_games",
+    "table_name": "set_translations",
+    "column_name": "language",
+    "text": "Table set_translations, colonne language (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::set_translations::setCode",
+    "db_id": "card_games",
+    "table_name": "set_translations",
+    "column_name": "setCode",
+    "text": "Table set_translations, colonne setCode (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::set_translations::translation",
+    "db_id": "card_games",
+    "table_name": "set_translations",
+    "column_name": "translation",
+    "text": "Table set_translations, colonne translation (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::rulings::id",
+    "db_id": "card_games",
+    "table_name": "rulings",
+    "column_name": "id",
+    "text": "Table rulings, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "card_games::rulings::date",
+    "db_id": "card_games",
+    "table_name": "rulings",
+    "column_name": "date",
+    "text": "Table rulings, colonne date (type DATE)."
+  },
+  {
+    "doc_id": "card_games::rulings::text",
+    "db_id": "card_games",
+    "table_name": "rulings",
+    "column_name": "text",
+    "text": "Table rulings, colonne text (type TEXT)."
+  },
+  {
+    "doc_id": "card_games::rulings::uuid",
+    "db_id": "card_games",
+    "table_name": "rulings",
+    "column_name": "uuid",
+    "text": "Table rulings, colonne uuid (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::badges::Id",
+    "db_id": "codebase_community",
+    "table_name": "badges",
+    "column_name": "Id",
+    "text": "Table badges, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::badges::UserId",
+    "db_id": "codebase_community",
+    "table_name": "badges",
+    "column_name": "UserId",
+    "text": "Table badges, colonne UserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::badges::Name",
+    "db_id": "codebase_community",
+    "table_name": "badges",
+    "column_name": "Name",
+    "text": "Table badges, colonne Name (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::badges::Date",
+    "db_id": "codebase_community",
+    "table_name": "badges",
+    "column_name": "Date",
+    "text": "Table badges, colonne Date (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::comments::Id",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "Id",
+    "text": "Table comments, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::comments::PostId",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "PostId",
+    "text": "Table comments, colonne PostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::comments::Score",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "Score",
+    "text": "Table comments, colonne Score (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::comments::Text",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "Text",
+    "text": "Table comments, colonne Text (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::comments::CreationDate",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "CreationDate",
+    "text": "Table comments, colonne CreationDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::comments::UserId",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "UserId",
+    "text": "Table comments, colonne UserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::comments::UserDisplayName",
+    "db_id": "codebase_community",
+    "table_name": "comments",
+    "column_name": "UserDisplayName",
+    "text": "Table comments, colonne UserDisplayName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::Id",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "Id",
+    "text": "Table postHistory, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::PostHistoryTypeId",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "PostHistoryTypeId",
+    "text": "Table postHistory, colonne PostHistoryTypeId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::PostId",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "PostId",
+    "text": "Table postHistory, colonne PostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::RevisionGUID",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "RevisionGUID",
+    "text": "Table postHistory, colonne RevisionGUID (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::CreationDate",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "CreationDate",
+    "text": "Table postHistory, colonne CreationDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::UserId",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "UserId",
+    "text": "Table postHistory, colonne UserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::Text",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "Text",
+    "text": "Table postHistory, colonne Text (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::Comment",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "Comment",
+    "text": "Table postHistory, colonne Comment (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::postHistory::UserDisplayName",
+    "db_id": "codebase_community",
+    "table_name": "postHistory",
+    "column_name": "UserDisplayName",
+    "text": "Table postHistory, colonne UserDisplayName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::postLinks::Id",
+    "db_id": "codebase_community",
+    "table_name": "postLinks",
+    "column_name": "Id",
+    "text": "Table postLinks, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postLinks::CreationDate",
+    "db_id": "codebase_community",
+    "table_name": "postLinks",
+    "column_name": "CreationDate",
+    "text": "Table postLinks, colonne CreationDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::postLinks::PostId",
+    "db_id": "codebase_community",
+    "table_name": "postLinks",
+    "column_name": "PostId",
+    "text": "Table postLinks, colonne PostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postLinks::RelatedPostId",
+    "db_id": "codebase_community",
+    "table_name": "postLinks",
+    "column_name": "RelatedPostId",
+    "text": "Table postLinks, colonne RelatedPostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::postLinks::LinkTypeId",
+    "db_id": "codebase_community",
+    "table_name": "postLinks",
+    "column_name": "LinkTypeId",
+    "text": "Table postLinks, colonne LinkTypeId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::Id",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "Id",
+    "text": "Table posts, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::PostTypeId",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "PostTypeId",
+    "text": "Table posts, colonne PostTypeId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::AcceptedAnswerId",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "AcceptedAnswerId",
+    "text": "Table posts, colonne AcceptedAnswerId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::CreaionDate",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "CreaionDate",
+    "text": "Table posts, colonne CreaionDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::posts::Score",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "Score",
+    "text": "Table posts, colonne Score (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::ViewCount",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "ViewCount",
+    "text": "Table posts, colonne ViewCount (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::Body",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "Body",
+    "text": "Table posts, colonne Body (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::posts::OwnerUserId",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "OwnerUserId",
+    "text": "Table posts, colonne OwnerUserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::LasActivityDate",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "LasActivityDate",
+    "text": "Table posts, colonne LasActivityDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::posts::Title",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "Title",
+    "text": "Table posts, colonne Title (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::posts::Tags",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "Tags",
+    "text": "Table posts, colonne Tags (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::posts::AnswerCount",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "AnswerCount",
+    "text": "Table posts, colonne AnswerCount (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::CommentCount",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "CommentCount",
+    "text": "Table posts, colonne CommentCount (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::FavoriteCount",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "FavoriteCount",
+    "text": "Table posts, colonne FavoriteCount (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::LastEditorUserId",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "LastEditorUserId",
+    "text": "Table posts, colonne LastEditorUserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::LastEditDate",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "LastEditDate",
+    "text": "Table posts, colonne LastEditDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::posts::CommunityOwnedDate",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "CommunityOwnedDate",
+    "text": "Table posts, colonne CommunityOwnedDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::posts::ParentId",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "ParentId",
+    "text": "Table posts, colonne ParentId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::posts::ClosedDate",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "ClosedDate",
+    "text": "Table posts, colonne ClosedDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::posts::OwnerDisplayName",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "OwnerDisplayName",
+    "text": "Table posts, colonne OwnerDisplayName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::posts::LastEditorDisplayName",
+    "db_id": "codebase_community",
+    "table_name": "posts",
+    "column_name": "LastEditorDisplayName",
+    "text": "Table posts, colonne LastEditorDisplayName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::tags::Id",
+    "db_id": "codebase_community",
+    "table_name": "tags",
+    "column_name": "Id",
+    "text": "Table tags, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::tags::TagName",
+    "db_id": "codebase_community",
+    "table_name": "tags",
+    "column_name": "TagName",
+    "text": "Table tags, colonne TagName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::tags::Count",
+    "db_id": "codebase_community",
+    "table_name": "tags",
+    "column_name": "Count",
+    "text": "Table tags, colonne Count (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::tags::ExcerptPostId",
+    "db_id": "codebase_community",
+    "table_name": "tags",
+    "column_name": "ExcerptPostId",
+    "text": "Table tags, colonne ExcerptPostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::tags::WikiPostId",
+    "db_id": "codebase_community",
+    "table_name": "tags",
+    "column_name": "WikiPostId",
+    "text": "Table tags, colonne WikiPostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::Id",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "Id",
+    "text": "Table users, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::Reputation",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "Reputation",
+    "text": "Table users, colonne Reputation (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::CreationDate",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "CreationDate",
+    "text": "Table users, colonne CreationDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::users::DisplayName",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "DisplayName",
+    "text": "Table users, colonne DisplayName (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::users::LastAccessDate",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "LastAccessDate",
+    "text": "Table users, colonne LastAccessDate (type DATETIME)."
+  },
+  {
+    "doc_id": "codebase_community::users::WebsiteUrl",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "WebsiteUrl",
+    "text": "Table users, colonne WebsiteUrl (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::users::Location",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "Location",
+    "text": "Table users, colonne Location (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::users::AboutMe",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "AboutMe",
+    "text": "Table users, colonne AboutMe (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::users::Views",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "Views",
+    "text": "Table users, colonne Views (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::UpVotes",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "UpVotes",
+    "text": "Table users, colonne UpVotes (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::DownVotes",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "DownVotes",
+    "text": "Table users, colonne DownVotes (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::AccountId",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "AccountId",
+    "text": "Table users, colonne AccountId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::Age",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "Age",
+    "text": "Table users, colonne Age (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::users::ProfileImageUrl",
+    "db_id": "codebase_community",
+    "table_name": "users",
+    "column_name": "ProfileImageUrl",
+    "text": "Table users, colonne ProfileImageUrl (type TEXT)."
+  },
+  {
+    "doc_id": "codebase_community::votes::Id",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "Id",
+    "text": "Table votes, colonne Id (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::votes::PostId",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "PostId",
+    "text": "Table votes, colonne PostId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::votes::VoteTypeId",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "VoteTypeId",
+    "text": "Table votes, colonne VoteTypeId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::votes::CreationDate",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "CreationDate",
+    "text": "Table votes, colonne CreationDate (type DATE)."
+  },
+  {
+    "doc_id": "codebase_community::votes::UserId",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "UserId",
+    "text": "Table votes, colonne UserId (type INTEGER)."
+  },
+  {
+    "doc_id": "codebase_community::votes::BountyAmount",
+    "db_id": "codebase_community",
+    "table_name": "votes",
+    "column_name": "BountyAmount",
+    "text": "Table votes, colonne BountyAmount (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::customers::CustomerID",
+    "db_id": "debit_card_specializing",
+    "table_name": "customers",
+    "column_name": "CustomerID",
+    "text": "Table customers, colonne CustomerID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::customers::Segment",
+    "db_id": "debit_card_specializing",
+    "table_name": "customers",
+    "column_name": "Segment",
+    "text": "Table customers, colonne Segment (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::customers::Currency",
+    "db_id": "debit_card_specializing",
+    "table_name": "customers",
+    "column_name": "Currency",
+    "text": "Table customers, colonne Currency (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::gasstations::GasStationID",
+    "db_id": "debit_card_specializing",
+    "table_name": "gasstations",
+    "column_name": "GasStationID",
+    "text": "Table gasstations, colonne GasStationID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::gasstations::ChainID",
+    "db_id": "debit_card_specializing",
+    "table_name": "gasstations",
+    "column_name": "ChainID",
+    "text": "Table gasstations, colonne ChainID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::gasstations::Country",
+    "db_id": "debit_card_specializing",
+    "table_name": "gasstations",
+    "column_name": "Country",
+    "text": "Table gasstations, colonne Country (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::gasstations::Segment",
+    "db_id": "debit_card_specializing",
+    "table_name": "gasstations",
+    "column_name": "Segment",
+    "text": "Table gasstations, colonne Segment (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::products::ProductID",
+    "db_id": "debit_card_specializing",
+    "table_name": "products",
+    "column_name": "ProductID",
+    "text": "Table products, colonne ProductID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::products::Description",
+    "db_id": "debit_card_specializing",
+    "table_name": "products",
+    "column_name": "Description",
+    "text": "Table products, colonne Description (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::TransactionID",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "TransactionID",
+    "text": "Table transactions_1k, colonne TransactionID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::Date",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "Date",
+    "text": "Table transactions_1k, colonne Date (type DATE)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::Time",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "Time",
+    "text": "Table transactions_1k, colonne Time (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::CustomerID",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "CustomerID",
+    "text": "Table transactions_1k, colonne CustomerID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::CardID",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "CardID",
+    "text": "Table transactions_1k, colonne CardID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::GasStationID",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "GasStationID",
+    "text": "Table transactions_1k, colonne GasStationID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::ProductID",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "ProductID",
+    "text": "Table transactions_1k, colonne ProductID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::Amount",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "Amount",
+    "text": "Table transactions_1k, colonne Amount (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::transactions_1k::Price",
+    "db_id": "debit_card_specializing",
+    "table_name": "transactions_1k",
+    "column_name": "Price",
+    "text": "Table transactions_1k, colonne Price (type REAL)."
+  },
+  {
+    "doc_id": "debit_card_specializing::yearmonth::CustomerID",
+    "db_id": "debit_card_specializing",
+    "table_name": "yearmonth",
+    "column_name": "CustomerID",
+    "text": "Table yearmonth, colonne CustomerID (type INTEGER)."
+  },
+  {
+    "doc_id": "debit_card_specializing::yearmonth::Date",
+    "db_id": "debit_card_specializing",
+    "table_name": "yearmonth",
+    "column_name": "Date",
+    "text": "Table yearmonth, colonne Date (type TEXT)."
+  },
+  {
+    "doc_id": "debit_card_specializing::yearmonth::Consumption",
+    "db_id": "debit_card_specializing",
+    "table_name": "yearmonth",
+    "column_name": "Consumption",
+    "text": "Table yearmonth, colonne Consumption (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::id",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "id",
+    "text": "Table Player_Attributes, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::player_fifa_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "player_fifa_api_id",
+    "text": "Table Player_Attributes, colonne player_fifa_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::player_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "player_api_id",
+    "text": "Table Player_Attributes, colonne player_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::date",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "date",
+    "text": "Table Player_Attributes, colonne date (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::overall_rating",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "overall_rating",
+    "text": "Table Player_Attributes, colonne overall_rating (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::potential",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "potential",
+    "text": "Table Player_Attributes, colonne potential (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::preferred_foot",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "preferred_foot",
+    "text": "Table Player_Attributes, colonne preferred_foot (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::attacking_work_rate",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "attacking_work_rate",
+    "text": "Table Player_Attributes, colonne attacking_work_rate (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::defensive_work_rate",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "defensive_work_rate",
+    "text": "Table Player_Attributes, colonne defensive_work_rate (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::crossing",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "crossing",
+    "text": "Table Player_Attributes, colonne crossing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::finishing",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "finishing",
+    "text": "Table Player_Attributes, colonne finishing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::heading_accuracy",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "heading_accuracy",
+    "text": "Table Player_Attributes, colonne heading_accuracy (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::short_passing",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "short_passing",
+    "text": "Table Player_Attributes, colonne short_passing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::volleys",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "volleys",
+    "text": "Table Player_Attributes, colonne volleys (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::dribbling",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "dribbling",
+    "text": "Table Player_Attributes, colonne dribbling (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::curve",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "curve",
+    "text": "Table Player_Attributes, colonne curve (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::free_kick_accuracy",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "free_kick_accuracy",
+    "text": "Table Player_Attributes, colonne free_kick_accuracy (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::long_passing",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "long_passing",
+    "text": "Table Player_Attributes, colonne long_passing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::ball_control",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "ball_control",
+    "text": "Table Player_Attributes, colonne ball_control (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::acceleration",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "acceleration",
+    "text": "Table Player_Attributes, colonne acceleration (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::sprint_speed",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "sprint_speed",
+    "text": "Table Player_Attributes, colonne sprint_speed (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::agility",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "agility",
+    "text": "Table Player_Attributes, colonne agility (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::reactions",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "reactions",
+    "text": "Table Player_Attributes, colonne reactions (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::balance",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "balance",
+    "text": "Table Player_Attributes, colonne balance (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::shot_power",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "shot_power",
+    "text": "Table Player_Attributes, colonne shot_power (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::jumping",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "jumping",
+    "text": "Table Player_Attributes, colonne jumping (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::stamina",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "stamina",
+    "text": "Table Player_Attributes, colonne stamina (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::strength",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "strength",
+    "text": "Table Player_Attributes, colonne strength (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::long_shots",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "long_shots",
+    "text": "Table Player_Attributes, colonne long_shots (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::aggression",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "aggression",
+    "text": "Table Player_Attributes, colonne aggression (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::interceptions",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "interceptions",
+    "text": "Table Player_Attributes, colonne interceptions (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::positioning",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "positioning",
+    "text": "Table Player_Attributes, colonne positioning (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::vision",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "vision",
+    "text": "Table Player_Attributes, colonne vision (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::penalties",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "penalties",
+    "text": "Table Player_Attributes, colonne penalties (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::marking",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "marking",
+    "text": "Table Player_Attributes, colonne marking (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::standing_tackle",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "standing_tackle",
+    "text": "Table Player_Attributes, colonne standing_tackle (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::sliding_tackle",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "sliding_tackle",
+    "text": "Table Player_Attributes, colonne sliding_tackle (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::gk_diving",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "gk_diving",
+    "text": "Table Player_Attributes, colonne gk_diving (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::gk_handling",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "gk_handling",
+    "text": "Table Player_Attributes, colonne gk_handling (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::gk_kicking",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "gk_kicking",
+    "text": "Table Player_Attributes, colonne gk_kicking (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::gk_positioning",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "gk_positioning",
+    "text": "Table Player_Attributes, colonne gk_positioning (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player_Attributes::gk_reflexes",
+    "db_id": "european_football_2",
+    "table_name": "Player_Attributes",
+    "column_name": "gk_reflexes",
+    "text": "Table Player_Attributes, colonne gk_reflexes (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player::id",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "id",
+    "text": "Table Player, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player::player_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "player_api_id",
+    "text": "Table Player, colonne player_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player::player_name",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "player_name",
+    "text": "Table Player, colonne player_name (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player::player_fifa_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "player_fifa_api_id",
+    "text": "Table Player, colonne player_fifa_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player::birthday",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "birthday",
+    "text": "Table Player, colonne birthday (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Player::height",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "height",
+    "text": "Table Player, colonne height (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Player::weight",
+    "db_id": "european_football_2",
+    "table_name": "Player",
+    "column_name": "weight",
+    "text": "Table Player, colonne weight (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::League::id",
+    "db_id": "european_football_2",
+    "table_name": "League",
+    "column_name": "id",
+    "text": "Table League, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::League::country_id",
+    "db_id": "european_football_2",
+    "table_name": "League",
+    "column_name": "country_id",
+    "text": "Table League, colonne country_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::League::name",
+    "db_id": "european_football_2",
+    "table_name": "League",
+    "column_name": "name",
+    "text": "Table League, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Country::id",
+    "db_id": "european_football_2",
+    "table_name": "Country",
+    "column_name": "id",
+    "text": "Table Country, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Country::name",
+    "db_id": "european_football_2",
+    "table_name": "Country",
+    "column_name": "name",
+    "text": "Table Country, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team::id",
+    "db_id": "european_football_2",
+    "table_name": "Team",
+    "column_name": "id",
+    "text": "Table Team, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team::team_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Team",
+    "column_name": "team_api_id",
+    "text": "Table Team, colonne team_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team::team_fifa_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Team",
+    "column_name": "team_fifa_api_id",
+    "text": "Table Team, colonne team_fifa_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team::team_long_name",
+    "db_id": "european_football_2",
+    "table_name": "Team",
+    "column_name": "team_long_name",
+    "text": "Table Team, colonne team_long_name (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team::team_short_name",
+    "db_id": "european_football_2",
+    "table_name": "Team",
+    "column_name": "team_short_name",
+    "text": "Table Team, colonne team_short_name (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::id",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "id",
+    "text": "Table Team_Attributes, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::team_fifa_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "team_fifa_api_id",
+    "text": "Table Team_Attributes, colonne team_fifa_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::team_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "team_api_id",
+    "text": "Table Team_Attributes, colonne team_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::date",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "date",
+    "text": "Table Team_Attributes, colonne date (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlaySpeed",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlaySpeed",
+    "text": "Table Team_Attributes, colonne buildUpPlaySpeed (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlaySpeedClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlaySpeedClass",
+    "text": "Table Team_Attributes, colonne buildUpPlaySpeedClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlayDribbling",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlayDribbling",
+    "text": "Table Team_Attributes, colonne buildUpPlayDribbling (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlayDribblingClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlayDribblingClass",
+    "text": "Table Team_Attributes, colonne buildUpPlayDribblingClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlayPassing",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlayPassing",
+    "text": "Table Team_Attributes, colonne buildUpPlayPassing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlayPassingClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlayPassingClass",
+    "text": "Table Team_Attributes, colonne buildUpPlayPassingClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::buildUpPlayPositioningClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "buildUpPlayPositioningClass",
+    "text": "Table Team_Attributes, colonne buildUpPlayPositioningClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationPassing",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationPassing",
+    "text": "Table Team_Attributes, colonne chanceCreationPassing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationPassingClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationPassingClass",
+    "text": "Table Team_Attributes, colonne chanceCreationPassingClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationCrossing",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationCrossing",
+    "text": "Table Team_Attributes, colonne chanceCreationCrossing (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationCrossingClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationCrossingClass",
+    "text": "Table Team_Attributes, colonne chanceCreationCrossingClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationShooting",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationShooting",
+    "text": "Table Team_Attributes, colonne chanceCreationShooting (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationShootingClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationShootingClass",
+    "text": "Table Team_Attributes, colonne chanceCreationShootingClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::chanceCreationPositioningClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "chanceCreationPositioningClass",
+    "text": "Table Team_Attributes, colonne chanceCreationPositioningClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defencePressure",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defencePressure",
+    "text": "Table Team_Attributes, colonne defencePressure (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defencePressureClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defencePressureClass",
+    "text": "Table Team_Attributes, colonne defencePressureClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defenceAggression",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defenceAggression",
+    "text": "Table Team_Attributes, colonne defenceAggression (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defenceAggressionClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defenceAggressionClass",
+    "text": "Table Team_Attributes, colonne defenceAggressionClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defenceTeamWidth",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defenceTeamWidth",
+    "text": "Table Team_Attributes, colonne defenceTeamWidth (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defenceTeamWidthClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defenceTeamWidthClass",
+    "text": "Table Team_Attributes, colonne defenceTeamWidthClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Team_Attributes::defenceDefenderLineClass",
+    "db_id": "european_football_2",
+    "table_name": "Team_Attributes",
+    "column_name": "defenceDefenderLineClass",
+    "text": "Table Team_Attributes, colonne defenceDefenderLineClass (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "id",
+    "text": "Table Match, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::country_id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "country_id",
+    "text": "Table Match, colonne country_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::league_id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "league_id",
+    "text": "Table Match, colonne league_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::season",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "season",
+    "text": "Table Match, colonne season (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::stage",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "stage",
+    "text": "Table Match, colonne stage (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::date",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "date",
+    "text": "Table Match, colonne date (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::match_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "match_api_id",
+    "text": "Table Match, colonne match_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_team_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_team_api_id",
+    "text": "Table Match, colonne home_team_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_team_api_id",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_team_api_id",
+    "text": "Table Match, colonne away_team_api_id (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_team_goal",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_team_goal",
+    "text": "Table Match, colonne home_team_goal (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_team_goal",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_team_goal",
+    "text": "Table Match, colonne away_team_goal (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X1",
+    "text": "Table Match, colonne home_player_X1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X2",
+    "text": "Table Match, colonne home_player_X2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X3",
+    "text": "Table Match, colonne home_player_X3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X4",
+    "text": "Table Match, colonne home_player_X4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X5",
+    "text": "Table Match, colonne home_player_X5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X6",
+    "text": "Table Match, colonne home_player_X6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X7",
+    "text": "Table Match, colonne home_player_X7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X8",
+    "text": "Table Match, colonne home_player_X8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X9",
+    "text": "Table Match, colonne home_player_X9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X10",
+    "text": "Table Match, colonne home_player_X10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_X11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_X11",
+    "text": "Table Match, colonne home_player_X11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X1",
+    "text": "Table Match, colonne away_player_X1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X2",
+    "text": "Table Match, colonne away_player_X2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X3",
+    "text": "Table Match, colonne away_player_X3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X4",
+    "text": "Table Match, colonne away_player_X4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X5",
+    "text": "Table Match, colonne away_player_X5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X6",
+    "text": "Table Match, colonne away_player_X6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X7",
+    "text": "Table Match, colonne away_player_X7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X8",
+    "text": "Table Match, colonne away_player_X8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X9",
+    "text": "Table Match, colonne away_player_X9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X10",
+    "text": "Table Match, colonne away_player_X10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_X11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_X11",
+    "text": "Table Match, colonne away_player_X11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y1",
+    "text": "Table Match, colonne home_player_Y1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y2",
+    "text": "Table Match, colonne home_player_Y2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y3",
+    "text": "Table Match, colonne home_player_Y3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y4",
+    "text": "Table Match, colonne home_player_Y4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y5",
+    "text": "Table Match, colonne home_player_Y5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y6",
+    "text": "Table Match, colonne home_player_Y6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y7",
+    "text": "Table Match, colonne home_player_Y7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y8",
+    "text": "Table Match, colonne home_player_Y8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y9",
+    "text": "Table Match, colonne home_player_Y9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y10",
+    "text": "Table Match, colonne home_player_Y10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_Y11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_Y11",
+    "text": "Table Match, colonne home_player_Y11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y1",
+    "text": "Table Match, colonne away_player_Y1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y2",
+    "text": "Table Match, colonne away_player_Y2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y3",
+    "text": "Table Match, colonne away_player_Y3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y4",
+    "text": "Table Match, colonne away_player_Y4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y5",
+    "text": "Table Match, colonne away_player_Y5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y6",
+    "text": "Table Match, colonne away_player_Y6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y7",
+    "text": "Table Match, colonne away_player_Y7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y8",
+    "text": "Table Match, colonne away_player_Y8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y9",
+    "text": "Table Match, colonne away_player_Y9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y10",
+    "text": "Table Match, colonne away_player_Y10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_Y11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_Y11",
+    "text": "Table Match, colonne away_player_Y11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_1",
+    "text": "Table Match, colonne home_player_1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_2",
+    "text": "Table Match, colonne home_player_2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_3",
+    "text": "Table Match, colonne home_player_3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_4",
+    "text": "Table Match, colonne home_player_4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_5",
+    "text": "Table Match, colonne home_player_5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_6",
+    "text": "Table Match, colonne home_player_6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_7",
+    "text": "Table Match, colonne home_player_7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_8",
+    "text": "Table Match, colonne home_player_8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_9",
+    "text": "Table Match, colonne home_player_9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_10",
+    "text": "Table Match, colonne home_player_10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::home_player_11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "home_player_11",
+    "text": "Table Match, colonne home_player_11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_1",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_1",
+    "text": "Table Match, colonne away_player_1 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_2",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_2",
+    "text": "Table Match, colonne away_player_2 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_3",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_3",
+    "text": "Table Match, colonne away_player_3 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_4",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_4",
+    "text": "Table Match, colonne away_player_4 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_5",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_5",
+    "text": "Table Match, colonne away_player_5 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_6",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_6",
+    "text": "Table Match, colonne away_player_6 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_7",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_7",
+    "text": "Table Match, colonne away_player_7 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_8",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_8",
+    "text": "Table Match, colonne away_player_8 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_9",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_9",
+    "text": "Table Match, colonne away_player_9 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_10",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_10",
+    "text": "Table Match, colonne away_player_10 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::away_player_11",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "away_player_11",
+    "text": "Table Match, colonne away_player_11 (type INTEGER)."
+  },
+  {
+    "doc_id": "european_football_2::Match::goal",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "goal",
+    "text": "Table Match, colonne goal (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::shoton",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "shoton",
+    "text": "Table Match, colonne shoton (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::shotoff",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "shotoff",
+    "text": "Table Match, colonne shotoff (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::foulcommit",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "foulcommit",
+    "text": "Table Match, colonne foulcommit (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::card",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "card",
+    "text": "Table Match, colonne card (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::cross",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "cross",
+    "text": "Table Match, colonne cross (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::corner",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "corner",
+    "text": "Table Match, colonne corner (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::possession",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "possession",
+    "text": "Table Match, colonne possession (type TEXT)."
+  },
+  {
+    "doc_id": "european_football_2::Match::B365H",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "B365H",
+    "text": "Table Match, colonne B365H (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::B365D",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "B365D",
+    "text": "Table Match, colonne B365D (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::B365A",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "B365A",
+    "text": "Table Match, colonne B365A (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BWH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BWH",
+    "text": "Table Match, colonne BWH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BWD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BWD",
+    "text": "Table Match, colonne BWD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BWA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BWA",
+    "text": "Table Match, colonne BWA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::IWH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "IWH",
+    "text": "Table Match, colonne IWH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::IWD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "IWD",
+    "text": "Table Match, colonne IWD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::IWA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "IWA",
+    "text": "Table Match, colonne IWA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::LBH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "LBH",
+    "text": "Table Match, colonne LBH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::LBD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "LBD",
+    "text": "Table Match, colonne LBD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::LBA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "LBA",
+    "text": "Table Match, colonne LBA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::PSH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "PSH",
+    "text": "Table Match, colonne PSH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::PSD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "PSD",
+    "text": "Table Match, colonne PSD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::PSA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "PSA",
+    "text": "Table Match, colonne PSA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::WHH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "WHH",
+    "text": "Table Match, colonne WHH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::WHD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "WHD",
+    "text": "Table Match, colonne WHD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::WHA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "WHA",
+    "text": "Table Match, colonne WHA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::SJH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "SJH",
+    "text": "Table Match, colonne SJH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::SJD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "SJD",
+    "text": "Table Match, colonne SJD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::SJA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "SJA",
+    "text": "Table Match, colonne SJA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::VCH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "VCH",
+    "text": "Table Match, colonne VCH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::VCD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "VCD",
+    "text": "Table Match, colonne VCD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::VCA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "VCA",
+    "text": "Table Match, colonne VCA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::GBH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "GBH",
+    "text": "Table Match, colonne GBH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::GBD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "GBD",
+    "text": "Table Match, colonne GBD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::GBA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "GBA",
+    "text": "Table Match, colonne GBA (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BSH",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BSH",
+    "text": "Table Match, colonne BSH (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BSD",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BSD",
+    "text": "Table Match, colonne BSD (type REAL)."
+  },
+  {
+    "doc_id": "european_football_2::Match::BSA",
+    "db_id": "european_football_2",
+    "table_name": "Match",
+    "column_name": "BSA",
+    "text": "Table Match, colonne BSA (type REAL)."
+  },
+  {
+    "doc_id": "financial::account::account_id",
+    "db_id": "financial",
+    "table_name": "account",
+    "column_name": "account_id",
+    "text": "Table account, colonne account_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::account::district_id",
+    "db_id": "financial",
+    "table_name": "account",
+    "column_name": "district_id",
+    "text": "Table account, colonne district_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::account::frequency",
+    "db_id": "financial",
+    "table_name": "account",
+    "column_name": "frequency",
+    "text": "Table account, colonne frequency (type TEXT)."
+  },
+  {
+    "doc_id": "financial::account::date",
+    "db_id": "financial",
+    "table_name": "account",
+    "column_name": "date",
+    "text": "Table account, colonne date (type DATE)."
+  },
+  {
+    "doc_id": "financial::card::card_id",
+    "db_id": "financial",
+    "table_name": "card",
+    "column_name": "card_id",
+    "text": "Table card, colonne card_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::card::disp_id",
+    "db_id": "financial",
+    "table_name": "card",
+    "column_name": "disp_id",
+    "text": "Table card, colonne disp_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::card::type",
+    "db_id": "financial",
+    "table_name": "card",
+    "column_name": "type",
+    "text": "Table card, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "financial::card::issued",
+    "db_id": "financial",
+    "table_name": "card",
+    "column_name": "issued",
+    "text": "Table card, colonne issued (type DATE)."
+  },
+  {
+    "doc_id": "financial::client::client_id",
+    "db_id": "financial",
+    "table_name": "client",
+    "column_name": "client_id",
+    "text": "Table client, colonne client_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::client::gender",
+    "db_id": "financial",
+    "table_name": "client",
+    "column_name": "gender",
+    "text": "Table client, colonne gender (type TEXT)."
+  },
+  {
+    "doc_id": "financial::client::birth_date",
+    "db_id": "financial",
+    "table_name": "client",
+    "column_name": "birth_date",
+    "text": "Table client, colonne birth_date (type DATE)."
+  },
+  {
+    "doc_id": "financial::client::district_id",
+    "db_id": "financial",
+    "table_name": "client",
+    "column_name": "district_id",
+    "text": "Table client, colonne district_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::disp::disp_id",
+    "db_id": "financial",
+    "table_name": "disp",
+    "column_name": "disp_id",
+    "text": "Table disp, colonne disp_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::disp::client_id",
+    "db_id": "financial",
+    "table_name": "disp",
+    "column_name": "client_id",
+    "text": "Table disp, colonne client_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::disp::account_id",
+    "db_id": "financial",
+    "table_name": "disp",
+    "column_name": "account_id",
+    "text": "Table disp, colonne account_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::disp::type",
+    "db_id": "financial",
+    "table_name": "disp",
+    "column_name": "type",
+    "text": "Table disp, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::district_id",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "district_id",
+    "text": "Table district, colonne district_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A2",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A2",
+    "text": "Table district, colonne A2 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A3",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A3",
+    "text": "Table district, colonne A3 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A4",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A4",
+    "text": "Table district, colonne A4 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A5",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A5",
+    "text": "Table district, colonne A5 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A6",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A6",
+    "text": "Table district, colonne A6 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A7",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A7",
+    "text": "Table district, colonne A7 (type TEXT)."
+  },
+  {
+    "doc_id": "financial::district::A8",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A8",
+    "text": "Table district, colonne A8 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A9",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A9",
+    "text": "Table district, colonne A9 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A10",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A10",
+    "text": "Table district, colonne A10 (type REAL)."
+  },
+  {
+    "doc_id": "financial::district::A11",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A11",
+    "text": "Table district, colonne A11 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A12",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A12",
+    "text": "Table district, colonne A12 (type REAL)."
+  },
+  {
+    "doc_id": "financial::district::A13",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A13",
+    "text": "Table district, colonne A13 (type REAL)."
+  },
+  {
+    "doc_id": "financial::district::A14",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A14",
+    "text": "Table district, colonne A14 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A15",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A15",
+    "text": "Table district, colonne A15 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::district::A16",
+    "db_id": "financial",
+    "table_name": "district",
+    "column_name": "A16",
+    "text": "Table district, colonne A16 (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::loan::loan_id",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "loan_id",
+    "text": "Table loan, colonne loan_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::loan::account_id",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "account_id",
+    "text": "Table loan, colonne account_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::loan::date",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "date",
+    "text": "Table loan, colonne date (type DATE)."
+  },
+  {
+    "doc_id": "financial::loan::amount",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "amount",
+    "text": "Table loan, colonne amount (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::loan::duration",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "duration",
+    "text": "Table loan, colonne duration (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::loan::payments",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "payments",
+    "text": "Table loan, colonne payments (type REAL)."
+  },
+  {
+    "doc_id": "financial::loan::status",
+    "db_id": "financial",
+    "table_name": "loan",
+    "column_name": "status",
+    "text": "Table loan, colonne status (type TEXT)."
+  },
+  {
+    "doc_id": "financial::order::order_id",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "order_id",
+    "text": "Table order, colonne order_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::order::account_id",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "account_id",
+    "text": "Table order, colonne account_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::order::bank_to",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "bank_to",
+    "text": "Table order, colonne bank_to (type TEXT)."
+  },
+  {
+    "doc_id": "financial::order::account_to",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "account_to",
+    "text": "Table order, colonne account_to (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::order::amount",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "amount",
+    "text": "Table order, colonne amount (type REAL)."
+  },
+  {
+    "doc_id": "financial::order::k_symbol",
+    "db_id": "financial",
+    "table_name": "order",
+    "column_name": "k_symbol",
+    "text": "Table order, colonne k_symbol (type TEXT)."
+  },
+  {
+    "doc_id": "financial::trans::trans_id",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "trans_id",
+    "text": "Table trans, colonne trans_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::trans::account_id",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "account_id",
+    "text": "Table trans, colonne account_id (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::trans::date",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "date",
+    "text": "Table trans, colonne date (type DATE)."
+  },
+  {
+    "doc_id": "financial::trans::type",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "type",
+    "text": "Table trans, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "financial::trans::operation",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "operation",
+    "text": "Table trans, colonne operation (type TEXT)."
+  },
+  {
+    "doc_id": "financial::trans::amount",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "amount",
+    "text": "Table trans, colonne amount (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::trans::balance",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "balance",
+    "text": "Table trans, colonne balance (type INTEGER)."
+  },
+  {
+    "doc_id": "financial::trans::k_symbol",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "k_symbol",
+    "text": "Table trans, colonne k_symbol (type TEXT)."
+  },
+  {
+    "doc_id": "financial::trans::bank",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "bank",
+    "text": "Table trans, colonne bank (type TEXT)."
+  },
+  {
+    "doc_id": "financial::trans::account",
+    "db_id": "financial",
+    "table_name": "trans",
+    "column_name": "account",
+    "text": "Table trans, colonne account (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::circuits::circuitId",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "circuitId",
+    "text": "Table circuits, colonne circuitId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::circuits::circuitRef",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "circuitRef",
+    "text": "Table circuits, colonne circuitRef (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::circuits::name",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "name",
+    "text": "Table circuits, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::circuits::location",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "location",
+    "text": "Table circuits, colonne location (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::circuits::country",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "country",
+    "text": "Table circuits, colonne country (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::circuits::lat",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "lat",
+    "text": "Table circuits, colonne lat (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::circuits::lng",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "lng",
+    "text": "Table circuits, colonne lng (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::circuits::alt",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "alt",
+    "text": "Table circuits, colonne alt (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::circuits::url",
+    "db_id": "formula_1",
+    "table_name": "circuits",
+    "column_name": "url",
+    "text": "Table circuits, colonne url (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructors::constructorId",
+    "db_id": "formula_1",
+    "table_name": "constructors",
+    "column_name": "constructorId",
+    "text": "Table constructors, colonne constructorId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructors::constructorRef",
+    "db_id": "formula_1",
+    "table_name": "constructors",
+    "column_name": "constructorRef",
+    "text": "Table constructors, colonne constructorRef (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructors::name",
+    "db_id": "formula_1",
+    "table_name": "constructors",
+    "column_name": "name",
+    "text": "Table constructors, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructors::nationality",
+    "db_id": "formula_1",
+    "table_name": "constructors",
+    "column_name": "nationality",
+    "text": "Table constructors, colonne nationality (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructors::url",
+    "db_id": "formula_1",
+    "table_name": "constructors",
+    "column_name": "url",
+    "text": "Table constructors, colonne url (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::driverId",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "driverId",
+    "text": "Table drivers, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::drivers::driverRef",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "driverRef",
+    "text": "Table drivers, colonne driverRef (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::number",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "number",
+    "text": "Table drivers, colonne number (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::drivers::code",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "code",
+    "text": "Table drivers, colonne code (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::forename",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "forename",
+    "text": "Table drivers, colonne forename (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::surname",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "surname",
+    "text": "Table drivers, colonne surname (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::dob",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "dob",
+    "text": "Table drivers, colonne dob (type DATE)."
+  },
+  {
+    "doc_id": "formula_1::drivers::nationality",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "nationality",
+    "text": "Table drivers, colonne nationality (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::drivers::url",
+    "db_id": "formula_1",
+    "table_name": "drivers",
+    "column_name": "url",
+    "text": "Table drivers, colonne url (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::seasons::year",
+    "db_id": "formula_1",
+    "table_name": "seasons",
+    "column_name": "year",
+    "text": "Table seasons, colonne year (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::seasons::url",
+    "db_id": "formula_1",
+    "table_name": "seasons",
+    "column_name": "url",
+    "text": "Table seasons, colonne url (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::races::raceId",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "raceId",
+    "text": "Table races, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::races::year",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "year",
+    "text": "Table races, colonne year (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::races::round",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "round",
+    "text": "Table races, colonne round (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::races::circuitId",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "circuitId",
+    "text": "Table races, colonne circuitId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::races::name",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "name",
+    "text": "Table races, colonne name (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::races::date",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "date",
+    "text": "Table races, colonne date (type DATE)."
+  },
+  {
+    "doc_id": "formula_1::races::time",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "time",
+    "text": "Table races, colonne time (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::races::url",
+    "db_id": "formula_1",
+    "table_name": "races",
+    "column_name": "url",
+    "text": "Table races, colonne url (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructorResults::constructorResultsId",
+    "db_id": "formula_1",
+    "table_name": "constructorResults",
+    "column_name": "constructorResultsId",
+    "text": "Table constructorResults, colonne constructorResultsId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorResults::raceId",
+    "db_id": "formula_1",
+    "table_name": "constructorResults",
+    "column_name": "raceId",
+    "text": "Table constructorResults, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorResults::constructorId",
+    "db_id": "formula_1",
+    "table_name": "constructorResults",
+    "column_name": "constructorId",
+    "text": "Table constructorResults, colonne constructorId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorResults::points",
+    "db_id": "formula_1",
+    "table_name": "constructorResults",
+    "column_name": "points",
+    "text": "Table constructorResults, colonne points (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::constructorResults::status",
+    "db_id": "formula_1",
+    "table_name": "constructorResults",
+    "column_name": "status",
+    "text": "Table constructorResults, colonne status (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::constructorStandingsId",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "constructorStandingsId",
+    "text": "Table constructorStandings, colonne constructorStandingsId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::raceId",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "raceId",
+    "text": "Table constructorStandings, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::constructorId",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "constructorId",
+    "text": "Table constructorStandings, colonne constructorId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::points",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "points",
+    "text": "Table constructorStandings, colonne points (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::position",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "position",
+    "text": "Table constructorStandings, colonne position (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::positionText",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "positionText",
+    "text": "Table constructorStandings, colonne positionText (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::constructorStandings::wins",
+    "db_id": "formula_1",
+    "table_name": "constructorStandings",
+    "column_name": "wins",
+    "text": "Table constructorStandings, colonne wins (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::driverStandingsId",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "driverStandingsId",
+    "text": "Table driverStandings, colonne driverStandingsId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::raceId",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "raceId",
+    "text": "Table driverStandings, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::driverId",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "driverId",
+    "text": "Table driverStandings, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::points",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "points",
+    "text": "Table driverStandings, colonne points (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::position",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "position",
+    "text": "Table driverStandings, colonne position (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::positionText",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "positionText",
+    "text": "Table driverStandings, colonne positionText (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::driverStandings::wins",
+    "db_id": "formula_1",
+    "table_name": "driverStandings",
+    "column_name": "wins",
+    "text": "Table driverStandings, colonne wins (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::raceId",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "raceId",
+    "text": "Table lapTimes, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::driverId",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "driverId",
+    "text": "Table lapTimes, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::lap",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "lap",
+    "text": "Table lapTimes, colonne lap (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::position",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "position",
+    "text": "Table lapTimes, colonne position (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::time",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "time",
+    "text": "Table lapTimes, colonne time (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::lapTimes::milliseconds",
+    "db_id": "formula_1",
+    "table_name": "lapTimes",
+    "column_name": "milliseconds",
+    "text": "Table lapTimes, colonne milliseconds (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::raceId",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "raceId",
+    "text": "Table pitStops, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::driverId",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "driverId",
+    "text": "Table pitStops, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::stop",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "stop",
+    "text": "Table pitStops, colonne stop (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::lap",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "lap",
+    "text": "Table pitStops, colonne lap (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::time",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "time",
+    "text": "Table pitStops, colonne time (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::duration",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "duration",
+    "text": "Table pitStops, colonne duration (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::pitStops::milliseconds",
+    "db_id": "formula_1",
+    "table_name": "pitStops",
+    "column_name": "milliseconds",
+    "text": "Table pitStops, colonne milliseconds (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::qualifyId",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "qualifyId",
+    "text": "Table qualifying, colonne qualifyId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::raceId",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "raceId",
+    "text": "Table qualifying, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::driverId",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "driverId",
+    "text": "Table qualifying, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::constructorId",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "constructorId",
+    "text": "Table qualifying, colonne constructorId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::number",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "number",
+    "text": "Table qualifying, colonne number (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::position",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "position",
+    "text": "Table qualifying, colonne position (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::q1",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "q1",
+    "text": "Table qualifying, colonne q1 (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::q2",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "q2",
+    "text": "Table qualifying, colonne q2 (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::qualifying::q3",
+    "db_id": "formula_1",
+    "table_name": "qualifying",
+    "column_name": "q3",
+    "text": "Table qualifying, colonne q3 (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::status::statusId",
+    "db_id": "formula_1",
+    "table_name": "status",
+    "column_name": "statusId",
+    "text": "Table status, colonne statusId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::status::status",
+    "db_id": "formula_1",
+    "table_name": "status",
+    "column_name": "status",
+    "text": "Table status, colonne status (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::results::resultId",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "resultId",
+    "text": "Table results, colonne resultId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::raceId",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "raceId",
+    "text": "Table results, colonne raceId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::driverId",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "driverId",
+    "text": "Table results, colonne driverId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::constructorId",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "constructorId",
+    "text": "Table results, colonne constructorId (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::number",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "number",
+    "text": "Table results, colonne number (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::grid",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "grid",
+    "text": "Table results, colonne grid (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::position",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "position",
+    "text": "Table results, colonne position (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::positionText",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "positionText",
+    "text": "Table results, colonne positionText (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::results::positionOrder",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "positionOrder",
+    "text": "Table results, colonne positionOrder (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::points",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "points",
+    "text": "Table results, colonne points (type REAL)."
+  },
+  {
+    "doc_id": "formula_1::results::laps",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "laps",
+    "text": "Table results, colonne laps (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::time",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "time",
+    "text": "Table results, colonne time (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::results::milliseconds",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "milliseconds",
+    "text": "Table results, colonne milliseconds (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::fastestLap",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "fastestLap",
+    "text": "Table results, colonne fastestLap (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::rank",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "rank",
+    "text": "Table results, colonne rank (type INTEGER)."
+  },
+  {
+    "doc_id": "formula_1::results::fastestLapTime",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "fastestLapTime",
+    "text": "Table results, colonne fastestLapTime (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::results::fastestLapSpeed",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "fastestLapSpeed",
+    "text": "Table results, colonne fastestLapSpeed (type TEXT)."
+  },
+  {
+    "doc_id": "formula_1::results::statusId",
+    "db_id": "formula_1",
+    "table_name": "results",
+    "column_name": "statusId",
+    "text": "Table results, colonne statusId (type INTEGER)."
+  },
+  {
+    "doc_id": "student_club::event::event_id",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "event_id",
+    "text": "Table event, colonne event_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::event_name",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "event_name",
+    "text": "Table event, colonne event_name (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::event_date",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "event_date",
+    "text": "Table event, colonne event_date (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::type",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "type",
+    "text": "Table event, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::notes",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "notes",
+    "text": "Table event, colonne notes (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::location",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "location",
+    "text": "Table event, colonne location (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::event::status",
+    "db_id": "student_club",
+    "table_name": "event",
+    "column_name": "status",
+    "text": "Table event, colonne status (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::major::major_id",
+    "db_id": "student_club",
+    "table_name": "major",
+    "column_name": "major_id",
+    "text": "Table major, colonne major_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::major::major_name",
+    "db_id": "student_club",
+    "table_name": "major",
+    "column_name": "major_name",
+    "text": "Table major, colonne major_name (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::major::department",
+    "db_id": "student_club",
+    "table_name": "major",
+    "column_name": "department",
+    "text": "Table major, colonne department (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::major::college",
+    "db_id": "student_club",
+    "table_name": "major",
+    "column_name": "college",
+    "text": "Table major, colonne college (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::zip_code::zip_code",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "zip_code",
+    "text": "Table zip_code, colonne zip_code (type INTEGER)."
+  },
+  {
+    "doc_id": "student_club::zip_code::type",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "type",
+    "text": "Table zip_code, colonne type (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::zip_code::city",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "city",
+    "text": "Table zip_code, colonne city (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::zip_code::county",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "county",
+    "text": "Table zip_code, colonne county (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::zip_code::state",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "state",
+    "text": "Table zip_code, colonne state (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::zip_code::short_state",
+    "db_id": "student_club",
+    "table_name": "zip_code",
+    "column_name": "short_state",
+    "text": "Table zip_code, colonne short_state (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::attendance::link_to_event",
+    "db_id": "student_club",
+    "table_name": "attendance",
+    "column_name": "link_to_event",
+    "text": "Table attendance, colonne link_to_event (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::attendance::link_to_member",
+    "db_id": "student_club",
+    "table_name": "attendance",
+    "column_name": "link_to_member",
+    "text": "Table attendance, colonne link_to_member (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::budget::budget_id",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "budget_id",
+    "text": "Table budget, colonne budget_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::budget::category",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "category",
+    "text": "Table budget, colonne category (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::budget::spent",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "spent",
+    "text": "Table budget, colonne spent (type REAL)."
+  },
+  {
+    "doc_id": "student_club::budget::remaining",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "remaining",
+    "text": "Table budget, colonne remaining (type REAL)."
+  },
+  {
+    "doc_id": "student_club::budget::amount",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "amount",
+    "text": "Table budget, colonne amount (type INTEGER)."
+  },
+  {
+    "doc_id": "student_club::budget::event_status",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "event_status",
+    "text": "Table budget, colonne event_status (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::budget::link_to_event",
+    "db_id": "student_club",
+    "table_name": "budget",
+    "column_name": "link_to_event",
+    "text": "Table budget, colonne link_to_event (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::expense_id",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "expense_id",
+    "text": "Table expense, colonne expense_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::expense_description",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "expense_description",
+    "text": "Table expense, colonne expense_description (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::expense_date",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "expense_date",
+    "text": "Table expense, colonne expense_date (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::cost",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "cost",
+    "text": "Table expense, colonne cost (type REAL)."
+  },
+  {
+    "doc_id": "student_club::expense::approved",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "approved",
+    "text": "Table expense, colonne approved (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::link_to_member",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "link_to_member",
+    "text": "Table expense, colonne link_to_member (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::expense::link_to_budget",
+    "db_id": "student_club",
+    "table_name": "expense",
+    "column_name": "link_to_budget",
+    "text": "Table expense, colonne link_to_budget (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::income::income_id",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "income_id",
+    "text": "Table income, colonne income_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::income::date_received",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "date_received",
+    "text": "Table income, colonne date_received (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::income::amount",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "amount",
+    "text": "Table income, colonne amount (type INTEGER)."
+  },
+  {
+    "doc_id": "student_club::income::source",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "source",
+    "text": "Table income, colonne source (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::income::notes",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "notes",
+    "text": "Table income, colonne notes (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::income::link_to_member",
+    "db_id": "student_club",
+    "table_name": "income",
+    "column_name": "link_to_member",
+    "text": "Table income, colonne link_to_member (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::member_id",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "member_id",
+    "text": "Table member, colonne member_id (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::first_name",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "first_name",
+    "text": "Table member, colonne first_name (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::last_name",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "last_name",
+    "text": "Table member, colonne last_name (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::email",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "email",
+    "text": "Table member, colonne email (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::position",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "position",
+    "text": "Table member, colonne position (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::t_shirt_size",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "t_shirt_size",
+    "text": "Table member, colonne t_shirt_size (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::phone",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "phone",
+    "text": "Table member, colonne phone (type TEXT)."
+  },
+  {
+    "doc_id": "student_club::member::zip",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "zip",
+    "text": "Table member, colonne zip (type INTEGER)."
+  },
+  {
+    "doc_id": "student_club::member::link_to_major",
+    "db_id": "student_club",
+    "table_name": "member",
+    "column_name": "link_to_major",
+    "text": "Table member, colonne link_to_major (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::alignment::id",
+    "db_id": "superhero",
+    "table_name": "alignment",
+    "column_name": "id",
+    "text": "Table alignment, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::alignment::alignment",
+    "db_id": "superhero",
+    "table_name": "alignment",
+    "column_name": "alignment",
+    "text": "Table alignment, colonne alignment (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::attribute::id",
+    "db_id": "superhero",
+    "table_name": "attribute",
+    "column_name": "id",
+    "text": "Table attribute, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::attribute::attribute_name",
+    "db_id": "superhero",
+    "table_name": "attribute",
+    "column_name": "attribute_name",
+    "text": "Table attribute, colonne attribute_name (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::colour::id",
+    "db_id": "superhero",
+    "table_name": "colour",
+    "column_name": "id",
+    "text": "Table colour, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::colour::colour",
+    "db_id": "superhero",
+    "table_name": "colour",
+    "column_name": "colour",
+    "text": "Table colour, colonne colour (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::gender::id",
+    "db_id": "superhero",
+    "table_name": "gender",
+    "column_name": "id",
+    "text": "Table gender, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::gender::gender",
+    "db_id": "superhero",
+    "table_name": "gender",
+    "column_name": "gender",
+    "text": "Table gender, colonne gender (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::publisher::id",
+    "db_id": "superhero",
+    "table_name": "publisher",
+    "column_name": "id",
+    "text": "Table publisher, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::publisher::publisher_name",
+    "db_id": "superhero",
+    "table_name": "publisher",
+    "column_name": "publisher_name",
+    "text": "Table publisher, colonne publisher_name (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::race::id",
+    "db_id": "superhero",
+    "table_name": "race",
+    "column_name": "id",
+    "text": "Table race, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::race::race",
+    "db_id": "superhero",
+    "table_name": "race",
+    "column_name": "race",
+    "text": "Table race, colonne race (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::superhero::id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "id",
+    "text": "Table superhero, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::superhero_name",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "superhero_name",
+    "text": "Table superhero, colonne superhero_name (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::superhero::full_name",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "full_name",
+    "text": "Table superhero, colonne full_name (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::superhero::gender_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "gender_id",
+    "text": "Table superhero, colonne gender_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::eye_colour_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "eye_colour_id",
+    "text": "Table superhero, colonne eye_colour_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::hair_colour_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "hair_colour_id",
+    "text": "Table superhero, colonne hair_colour_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::skin_colour_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "skin_colour_id",
+    "text": "Table superhero, colonne skin_colour_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::race_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "race_id",
+    "text": "Table superhero, colonne race_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::publisher_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "publisher_id",
+    "text": "Table superhero, colonne publisher_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::alignment_id",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "alignment_id",
+    "text": "Table superhero, colonne alignment_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::height_cm",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "height_cm",
+    "text": "Table superhero, colonne height_cm (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superhero::weight_kg",
+    "db_id": "superhero",
+    "table_name": "superhero",
+    "column_name": "weight_kg",
+    "text": "Table superhero, colonne weight_kg (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::hero_attribute::hero_id",
+    "db_id": "superhero",
+    "table_name": "hero_attribute",
+    "column_name": "hero_id",
+    "text": "Table hero_attribute, colonne hero_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::hero_attribute::attribute_id",
+    "db_id": "superhero",
+    "table_name": "hero_attribute",
+    "column_name": "attribute_id",
+    "text": "Table hero_attribute, colonne attribute_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::hero_attribute::attribute_value",
+    "db_id": "superhero",
+    "table_name": "hero_attribute",
+    "column_name": "attribute_value",
+    "text": "Table hero_attribute, colonne attribute_value (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superpower::id",
+    "db_id": "superhero",
+    "table_name": "superpower",
+    "column_name": "id",
+    "text": "Table superpower, colonne id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::superpower::power_name",
+    "db_id": "superhero",
+    "table_name": "superpower",
+    "column_name": "power_name",
+    "text": "Table superpower, colonne power_name (type TEXT)."
+  },
+  {
+    "doc_id": "superhero::hero_power::hero_id",
+    "db_id": "superhero",
+    "table_name": "hero_power",
+    "column_name": "hero_id",
+    "text": "Table hero_power, colonne hero_id (type INTEGER)."
+  },
+  {
+    "doc_id": "superhero::hero_power::power_id",
+    "db_id": "superhero",
+    "table_name": "hero_power",
+    "column_name": "power_id",
+    "text": "Table hero_power, colonne power_id (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::ID",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "ID",
+    "text": "Table Examination, colonne ID (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::Examination Date",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "Examination Date",
+    "text": "Table Examination, colonne Examination Date (type DATE)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::aCL IgG",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "aCL IgG",
+    "text": "Table Examination, colonne aCL IgG (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::aCL IgM",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "aCL IgM",
+    "text": "Table Examination, colonne aCL IgM (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::ANA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "ANA",
+    "text": "Table Examination, colonne ANA (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::ANA Pattern",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "ANA Pattern",
+    "text": "Table Examination, colonne ANA Pattern (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::aCL IgA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "aCL IgA",
+    "text": "Table Examination, colonne aCL IgA (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::Diagnosis",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "Diagnosis",
+    "text": "Table Examination, colonne Diagnosis (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::KCT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "KCT",
+    "text": "Table Examination, colonne KCT (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::RVVT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "RVVT",
+    "text": "Table Examination, colonne RVVT (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::LAC",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "LAC",
+    "text": "Table Examination, colonne LAC (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::Symptoms",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "Symptoms",
+    "text": "Table Examination, colonne Symptoms (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Examination::Thrombosis",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Examination",
+    "column_name": "Thrombosis",
+    "text": "Table Examination, colonne Thrombosis (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::ID",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "ID",
+    "text": "Table Patient, colonne ID (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::SEX",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "SEX",
+    "text": "Table Patient, colonne SEX (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::Birthday",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "Birthday",
+    "text": "Table Patient, colonne Birthday (type DATE)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::Description",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "Description",
+    "text": "Table Patient, colonne Description (type DATE)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::First Date",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "First Date",
+    "text": "Table Patient, colonne First Date (type DATE)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::Admission",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "Admission",
+    "text": "Table Patient, colonne Admission (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Patient::Diagnosis",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Patient",
+    "column_name": "Diagnosis",
+    "text": "Table Patient, colonne Diagnosis (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::ID",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "ID",
+    "text": "Table Laboratory, colonne ID (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::Date",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "Date",
+    "text": "Table Laboratory, colonne Date (type DATE)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::GOT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "GOT",
+    "text": "Table Laboratory, colonne GOT (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::GPT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "GPT",
+    "text": "Table Laboratory, colonne GPT (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::LDH",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "LDH",
+    "text": "Table Laboratory, colonne LDH (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::ALP",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "ALP",
+    "text": "Table Laboratory, colonne ALP (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::TP",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "TP",
+    "text": "Table Laboratory, colonne TP (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::ALB",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "ALB",
+    "text": "Table Laboratory, colonne ALB (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::UA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "UA",
+    "text": "Table Laboratory, colonne UA (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::UN",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "UN",
+    "text": "Table Laboratory, colonne UN (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::CRE",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "CRE",
+    "text": "Table Laboratory, colonne CRE (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::T-BIL",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "T-BIL",
+    "text": "Table Laboratory, colonne T-BIL (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::T-CHO",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "T-CHO",
+    "text": "Table Laboratory, colonne T-CHO (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::TG",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "TG",
+    "text": "Table Laboratory, colonne TG (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::CPK",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "CPK",
+    "text": "Table Laboratory, colonne CPK (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::GLU",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "GLU",
+    "text": "Table Laboratory, colonne GLU (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::WBC",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "WBC",
+    "text": "Table Laboratory, colonne WBC (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::RBC",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "RBC",
+    "text": "Table Laboratory, colonne RBC (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::HGB",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "HGB",
+    "text": "Table Laboratory, colonne HGB (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::HCT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "HCT",
+    "text": "Table Laboratory, colonne HCT (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::PLT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "PLT",
+    "text": "Table Laboratory, colonne PLT (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::PT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "PT",
+    "text": "Table Laboratory, colonne PT (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::APTT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "APTT",
+    "text": "Table Laboratory, colonne APTT (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::FG",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "FG",
+    "text": "Table Laboratory, colonne FG (type REAL)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::PIC",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "PIC",
+    "text": "Table Laboratory, colonne PIC (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::TAT",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "TAT",
+    "text": "Table Laboratory, colonne TAT (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::TAT2",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "TAT2",
+    "text": "Table Laboratory, colonne TAT2 (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::U-PRO",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "U-PRO",
+    "text": "Table Laboratory, colonne U-PRO (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::IGG",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "IGG",
+    "text": "Table Laboratory, colonne IGG (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::IGA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "IGA",
+    "text": "Table Laboratory, colonne IGA (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::IGM",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "IGM",
+    "text": "Table Laboratory, colonne IGM (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::CRP",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "CRP",
+    "text": "Table Laboratory, colonne CRP (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::RA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "RA",
+    "text": "Table Laboratory, colonne RA (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::RF",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "RF",
+    "text": "Table Laboratory, colonne RF (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::C3",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "C3",
+    "text": "Table Laboratory, colonne C3 (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::C4",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "C4",
+    "text": "Table Laboratory, colonne C4 (type INTEGER)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::RNP",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "RNP",
+    "text": "Table Laboratory, colonne RNP (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::SM",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "SM",
+    "text": "Table Laboratory, colonne SM (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::SC170",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "SC170",
+    "text": "Table Laboratory, colonne SC170 (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::SSA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "SSA",
+    "text": "Table Laboratory, colonne SSA (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::SSB",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "SSB",
+    "text": "Table Laboratory, colonne SSB (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::CENTROMEA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "CENTROMEA",
+    "text": "Table Laboratory, colonne CENTROMEA (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::DNA",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "DNA",
+    "text": "Table Laboratory, colonne DNA (type TEXT)."
+  },
+  {
+    "doc_id": "thrombosis_prediction::Laboratory::DNA-II",
+    "db_id": "thrombosis_prediction",
+    "table_name": "Laboratory",
+    "column_name": "DNA-II",
+    "text": "Table Laboratory, colonne DNA-II (type INTEGER)."
+  },
+  {
+    "doc_id": "toxicology::atom::atom_id",
+    "db_id": "toxicology",
+    "table_name": "atom",
+    "column_name": "atom_id",
+    "text": "Table atom, colonne atom_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::atom::molecule_id",
+    "db_id": "toxicology",
+    "table_name": "atom",
+    "column_name": "molecule_id",
+    "text": "Table atom, colonne molecule_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::atom::element",
+    "db_id": "toxicology",
+    "table_name": "atom",
+    "column_name": "element",
+    "text": "Table atom, colonne element (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::bond::bond_id",
+    "db_id": "toxicology",
+    "table_name": "bond",
+    "column_name": "bond_id",
+    "text": "Table bond, colonne bond_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::bond::molecule_id",
+    "db_id": "toxicology",
+    "table_name": "bond",
+    "column_name": "molecule_id",
+    "text": "Table bond, colonne molecule_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::bond::bond_type",
+    "db_id": "toxicology",
+    "table_name": "bond",
+    "column_name": "bond_type",
+    "text": "Table bond, colonne bond_type (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::connected::atom_id",
+    "db_id": "toxicology",
+    "table_name": "connected",
+    "column_name": "atom_id",
+    "text": "Table connected, colonne atom_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::connected::atom_id2",
+    "db_id": "toxicology",
+    "table_name": "connected",
+    "column_name": "atom_id2",
+    "text": "Table connected, colonne atom_id2 (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::connected::bond_id",
+    "db_id": "toxicology",
+    "table_name": "connected",
+    "column_name": "bond_id",
+    "text": "Table connected, colonne bond_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::molecule::molecule_id",
+    "db_id": "toxicology",
+    "table_name": "molecule",
+    "column_name": "molecule_id",
+    "text": "Table molecule, colonne molecule_id (type TEXT)."
+  },
+  {
+    "doc_id": "toxicology::molecule::label",
+    "db_id": "toxicology",
+    "table_name": "molecule",
+    "column_name": "label",
+    "text": "Table molecule, colonne label (type TEXT)."
+  }
+]
