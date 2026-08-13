@@ -130,7 +130,8 @@ class HybridRetriever:
                 merged.append(document)
 
         return merged[:top_k]
-        # ---------------------------------------------------------
+
+    # ---------------------------------------------------------
     # Display Hybrid Results
     # ---------------------------------------------------------
 
@@ -182,7 +183,7 @@ def main():
 
     retriever.initialize()
 
-    query = "store sales revenue"
+    query = "What is the customer count?"
 
     retriever.show_results(
         query=query,
