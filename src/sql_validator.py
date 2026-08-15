@@ -1,173 +1,341 @@
-"""
-sql_validator.py — Module 5, volet structurel
-
-
-"""
-
-import argparse
 import json
+import re
 from pathlib import Path
 
 import sqlglot
 from sqlglot import exp
 
-from evaluator import load_schema_lookup
 
+class SQLValidator:
+    """
+    SQL validator based on the TPC-DS glossary.
 
-# 1. Validation structurelle d'une requête
+    Checks:
+    - Only SELECT queries are allowed
+    - SQL syntax is valid
+    - Tables exist in the glossary
+    - Columns exist in the corresponding tables
+    """
 
+    FORBIDDEN_KEYWORDS = [
+        "INSERT",
+        "UPDATE",
+        "DELETE",
+        "DROP",
+        "ALTER",
+        "TRUNCATE",
+        "CREATE",
+        "GRANT",
+        "REVOKE",
+    ]
 
-def validate_query(sql: str, db_id: str, schema_lookup: dict) -> dict:
-    
-    report = {
-        "is_valid": False,
-        "error_type": None,
-        "error_detail": None,
-        "tables_used": [],
-        "tables_missing": [],
-        "columns_used": [],
-        "columns_missing": [],
-    }
+    def __init__(
+        self,
+        glossary_path="data/business_docs/glossary.json"
+    ):
+        self.glossary_path = Path(glossary_path)
 
-    if db_id not in schema_lookup:
-        report["error_type"] = "db_unknown"
-        report["error_detail"] = f"db_id '{db_id}' absent des schémas chargés"
-        return report
+        self.tables = set()
+        self.columns = {}
 
-    db_tables = schema_lookup[db_id]  # {table_name_lower: [colonnes]}
+        self._load_glossary()
 
-    # --- 1. Parsing syntaxique ---
-    try:
-        parsed = sqlglot.parse_one(sql, dialect="sqlite")
-    except Exception as e:
-        report["error_type"] = "syntax_error"
-        report["error_detail"] = str(e)
-        return report
+    # ---------------------------------------------------------
+    # Load TPC-DS glossary
+    # ---------------------------------------------------------
 
-    # --- 2. Vérification des tables ---
-    tables_used, alias_to_table = set(), {}
-    for table_node in parsed.find_all(exp.Table):
-        table_name = table_node.name.lower()
-        tables_used.add(table_name)
-        if table_node.alias:
-            alias_to_table[table_node.alias.lower()] = table_name
+    def _load_glossary(self):
+        """
+        Load tables and columns from the TPC-DS glossary.
+        """
 
-    tables_missing = sorted(t for t in tables_used if t not in db_tables)
-    report["tables_used"] = sorted(tables_used)
-    report["tables_missing"] = tables_missing
+        with open(
+            self.glossary_path,
+            "r",
+            encoding="utf-8"
+        ) as file:
 
-    if tables_missing:
-        report["error_type"] = "table_not_found"
-        report["error_detail"] = f"Table(s) inexistante(s) dans le schéma : {', '.join(tables_missing)}"
-        return report
+            glossary = json.load(file)
 
-    # --- 3. Vérification des colonnes ---
-    columns_used, columns_missing, unresolved = set(), set(), []
+        for document in glossary:
 
-    for col_node in parsed.find_all(exp.Column):
-        col_name = col_node.name
-        table_ref = col_node.table.lower() if col_node.table else None
-        resolved_table = alias_to_table.get(table_ref, table_ref)
+            table_name = document.get("table")
 
-        if resolved_table is None and len(tables_used) == 1:
-            resolved_table = next(iter(tables_used))
-
-        if resolved_table is None:
-            candidates = [t for t in tables_used if col_name in db_tables.get(t, [])]
-            if len(candidates) == 1:
-                resolved_table = candidates[0]
-            else:
-                unresolved.append(col_name)
+            if not table_name:
                 continue
 
-        columns_used.add(f"{resolved_table}.{col_name}")
-        if col_name not in db_tables.get(resolved_table, []):
-            columns_missing.add(f"{resolved_table}.{col_name}")
+            table_name = table_name.lower()
 
-    report["columns_used"] = sorted(columns_used)
-    report["columns_missing"] = sorted(columns_missing)
+            self.tables.add(table_name)
 
-    if columns_missing:
-        report["error_type"] = "column_not_found"
-        report["error_detail"] = f"Colonne(s) inexistante(s) : {', '.join(sorted(columns_missing))}"
-        return report
+            columns = document.get("columns", [])
 
-    if unresolved:
-        report["error_type"] = "column_unresolved"
-        report["error_detail"] = f"Colonne(s) ambiguë(s), non rattachée(s) à une table : {', '.join(unresolved)}"
-        return report
+            self.columns[table_name] = {
+                column.lower()
+                for column in columns
+            }
 
-    report["is_valid"] = True
-    return report
+        print("=" * 60)
+        print("TPC-DS GLOSSARY LOADED")
+        print("=" * 60)
+        print("Tables:", len(self.tables))
+        print("Tables with columns:", len(self.columns))
+
+    # ---------------------------------------------------------
+    # Validate SQL
+    # ---------------------------------------------------------
+
+    def validate(self, sql):
+        """
+        Validate a generated SQL query.
+
+        Returns a dictionary containing:
+        - valid
+        - reason
+        - sql
+        - tables
+        - columns
+        """
+
+        # -----------------------------------------------------
+        # Empty SQL
+        # -----------------------------------------------------
+
+        if not sql or not sql.strip():
+
+            return {
+                "valid": False,
+                "reason": "SQL query is empty."
+            }
+
+        # -----------------------------------------------------
+        # Remove Markdown code fences
+        # -----------------------------------------------------
+
+        cleaned_sql = re.sub(
+            r"```sql|```",
+            "",
+            sql,
+            flags=re.IGNORECASE
+        ).strip()
+
+        # -----------------------------------------------------
+        # Only SELECT queries are allowed
+        # -----------------------------------------------------
+
+        if not re.match(
+            r"^SELECT\b",
+            cleaned_sql,
+            re.IGNORECASE
+        ):
+
+            return {
+                "valid": False,
+                "reason": "Only SELECT queries are allowed."
+            }
+
+        # -----------------------------------------------------
+        # Forbidden SQL commands
+        # -----------------------------------------------------
+
+        for keyword in self.FORBIDDEN_KEYWORDS:
+
+            if re.search(
+                rf"\b{keyword}\b",
+                cleaned_sql,
+                re.IGNORECASE
+            ):
+
+                return {
+                    "valid": False,
+                    "reason": (
+                        f"Forbidden SQL command detected: {keyword}"
+                    )
+                }
+
+        # -----------------------------------------------------
+        # Parse SQL
+        # -----------------------------------------------------
+
+        try:
+
+            parsed = sqlglot.parse_one(
+                cleaned_sql,
+                dialect="postgres"
+            )
+
+        except Exception as error:
+
+            return {
+                "valid": False,
+                "reason": f"Invalid SQL syntax: {error}"
+            }
+
+        # -----------------------------------------------------
+        # Validate tables
+        # -----------------------------------------------------
+
+        sql_tables = []
+
+        for table in parsed.find_all(exp.Table):
+
+            table_name = table.name.lower()
+
+            if table_name not in sql_tables:
+                sql_tables.append(table_name)
+
+            if table_name not in self.tables:
+
+                return {
+                    "valid": False,
+                    "reason": f"Unknown table: {table_name}"
+                }
+
+        # -----------------------------------------------------
+        # Validate columns
+        # -----------------------------------------------------
+
+        sql_columns = []
+
+        for column in parsed.find_all(exp.Column):
+
+            column_name = column.name.lower()
+
+            if column_name not in sql_columns:
+                sql_columns.append(column_name)
+
+            # -------------------------------------------------
+            # Case 1: table.column
+            # -------------------------------------------------
+
+            table_name = column.table
+
+            if table_name:
+
+                table_name = table_name.lower()
+
+                if table_name not in self.tables:
+
+                    return {
+                        "valid": False,
+                        "reason": (
+                            f"Unknown table for column: {table_name}"
+                        )
+                    }
+
+                if column_name not in self.columns.get(
+                    table_name,
+                    set()
+                ):
+
+                    return {
+                        "valid": False,
+                        "reason": (
+                            f"Unknown column '{column_name}' "
+                            f"in table '{table_name}'"
+                        )
+                    }
+
+            # -------------------------------------------------
+            # Case 2: column without table qualification
+            # Example:
+            #
+            # SELECT ss_net_paid
+            # FROM store_sales;
+            # -------------------------------------------------
+
+            else:
+
+                found = False
+
+                for table_name in sql_tables:
+
+                    table_columns = self.columns.get(
+                        table_name,
+                        set()
+                    )
+
+                    if column_name in table_columns:
+
+                        found = True
+                        break
+
+                if not found:
+
+                    return {
+                        "valid": False,
+                        "reason": (
+                            f"Unknown column '{column_name}' "
+                            f"in the query tables"
+                        )
+                    }
+
+        # -----------------------------------------------------
+        # Validation successful
+        # -----------------------------------------------------
+
+        return {
+            "valid": True,
+            "reason": "SQL passed validation.",
+            "sql": cleaned_sql,
+            "tables": sql_tables,
+            "columns": sql_columns
+        }
 
 
-# 2. Validation en lot
-
-def validate_batch(generated_path: str, schemas_dir: str, sql_field: str = "sql_generated") -> list[dict]:
-    with open(generated_path, "r", encoding="utf-8") as f:
-        items = json.load(f)
-
-    schema_lookup = load_schema_lookup(schemas_dir)
-
-    results = []
-    for item in items:
-        report = validate_query(item[sql_field], item["db_id"], schema_lookup)
-        results.append({
-            "question_id": item["question_id"],
-            "db_id": item["db_id"],
-            **report,
-        })
-
-    n_valid = sum(r["is_valid"] for r in results)
-    print(f"{n_valid}/{len(results)} requêtes structurellement valides ({100 * n_valid / len(results):.1f}%)")
-
-    # Répartition des erreurs, utile pour l'analyse d'erreurs structurelles
-    error_counts = {}
-    for r in results:
-        if r["error_type"]:
-            error_counts[r["error_type"]] = error_counts.get(r["error_type"], 0) + 1
-    if error_counts:
-        print("Répartition des erreurs :", json.dumps(error_counts, ensure_ascii=False))
-
-    return results
-
-
-def save_results(results: list[dict], output_path: str):
-    out_path = Path(output_path)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    print(f"Rapport écrit dans {out_path}")
-
-
-# 3. CLI
-
+# ============================================================
+# TEST
+# ============================================================
 
 def main():
-    parser = argparse.ArgumentParser(description="Validation structurelle du SQL (tables/colonnes vs schéma).")
-    subparsers = parser.add_subparsers(dest="command", required=True)
 
-    check_p = subparsers.add_parser("check", help="Valide une seule requête (test rapide)")
-    check_p.add_argument("--sql", required=True)
-    check_p.add_argument("--db_id", required=True)
-    check_p.add_argument("--schemas_dir", required=True)
+    validator = SQLValidator()
 
-    batch_p = subparsers.add_parser("validate-batch", help="Valide un lot de requêtes")
-    batch_p.add_argument("--generated", required=True, help="JSON avec [{question_id, db_id, <sql_field>}, ...]")
-    batch_p.add_argument("--schemas_dir", required=True)
-    batch_p.add_argument("--output", required=True)
-    batch_p.add_argument("--sql_field", default="sql_generated", help="Nom du champ SQL à valider (ex: sql_gold pour un auto-test)")
+    tests = [
 
-    args = parser.parse_args()
+        # -----------------------------------------------------
+        # VALID
+        # -----------------------------------------------------
 
-    if args.command == "check":
-        schema_lookup = load_schema_lookup(args.schemas_dir)
-        report = validate_query(args.sql, args.db_id, schema_lookup)
-        print(json.dumps(report, ensure_ascii=False, indent=2))
+        "SELECT SUM(ss_net_paid) FROM store_sales;",
 
-    elif args.command == "validate-batch":
-        results = validate_batch(args.generated, args.schemas_dir, args.sql_field)
-        save_results(results, args.output)
+        # -----------------------------------------------------
+        # INVALID COLUMN
+        # -----------------------------------------------------
+
+        "SELECT SUM(price) FROM store_sales;",
+
+        # -----------------------------------------------------
+        # INVALID TABLE
+        # -----------------------------------------------------
+
+        "SELECT SUM(ss_net_paid) FROM unknown_table;",
+
+        # -----------------------------------------------------
+        # FORBIDDEN COMMAND
+        # -----------------------------------------------------
+
+        "DELETE FROM store_sales;"
+    ]
+
+    for index, query in enumerate(tests, start=1):
+
+        print("\n" + "=" * 60)
+        print(f"TEST {index}")
+        print("=" * 60)
+
+        print("SQL:")
+        print(query)
+
+        result = validator.validate(query)
+
+        print("\nVALID:", result["valid"])
+        print("REASON:", result["reason"])
+
+        if result["valid"]:
+
+            print("TABLES:", result["tables"])
+            print("COLUMNS:", result["columns"])
 
 
 if __name__ == "__main__":
