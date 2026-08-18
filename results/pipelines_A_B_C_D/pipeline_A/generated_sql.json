@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    COUNT(CASE WHEN payment_type = 'EUR' THEN customer_id ELSE NULL END) / \n    COUNT(CASE WHEN payment_type = 'CZK' THEN customer_id ELSE NULL END) AS ratio\nFROM \n    customers;",
+    "raw_response": "```sql\nSELECT \n    COUNT(CASE WHEN payment_type = 'EUR' THEN customer_id ELSE NULL END) / \n    COUNT(CASE WHEN payment_type = 'CZK' THEN customer_id ELSE NULL END) AS ratio\nFROM \n    customers\n```",
+    "latency_seconds": 24.537305900012143,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    l_orderkey AS \"Order Key\",\n    SUM(l_quantity) AS \"Total Consumption\"\nFROM \n    lineitem\nWHERE \n    l_shipdate BETWEEN '2012-01-01' AND '2012-12-31'\nGROUP BY \n    l_orderkey\nORDER BY \n    \"Total Consumption\" ASC\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT \n    l_orderkey AS \"Order Key\",\n    SUM(l_quantity) AS \"Total Consumption\"\nFROM \n    lineitem\nWHERE \n    l_shipdate BETWEEN '2012-01-01' AND '2012-12-31'\nGROUP BY \n    l_orderkey\nORDER BY \n    \"Total Consumption\" ASC\nLIMIT 1;\n```",
+    "latency_seconds": 11.139728400012245,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT AVG(T1.CUSTOMER_CONSUMPTION) AS AVERAGE_CONSUMPTION\nFROM CUSTOMER_CONSUMPTION AS T1\nJOIN CUSTOMER_TYPE AS T2 ON T1.CUSTOMER_ID = T2.CUSTOMER_ID\nWHERE T2.CUSTOMER_TYPE = 'SME'\nAND T1.MONTH = '2013-01';",
+    "raw_response": "```sql\nSELECT AVG(T1.CUSTOMER_CONSUMPTION) AS AVERAGE_CONSUMPTION\nFROM CUSTOMER_CONSUMPTION AS T1\nJOIN CUSTOMER_TYPE AS T2 ON T1.CUSTOMER_ID = T2.CUSTOMER_ID\nWHERE T2.CUSTOMER_TYPE = 'SME'\nAND T1.MONTH = '2013-01';\n```",
+    "latency_seconds": 10.402962899999693,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    'CZK-paying' AS currency,\n    SUM(\n        CASE \n            WHEN payment_type = 'CZK' THEN gas_consumption\n            ELSE 0\n        END\n    ) AS czk_consumption,\n    'EUR-paying' AS currency,\n    SUM(\n        CASE \n            WHEN payment_type = 'EUR' THEN gas_consumption\n            ELSE 0\n        END\n    ) AS eur_consumption\nFROM \n    customers\nJOIN \n    orders ON customers.customer_id = orders.customer_id\nJOIN \n    order_items ON orders.order_id = order_items.order_id\nJOIN \n    line_items ON order_items.line_item_id = line_items.line_item_id\nWHERE \n    YEAR(order_date) = 2012\nGROUP BY \n    currency\nORDER BY \n    czk_consumption, eur_consumption;",
+    "raw_response": "```sql\nSELECT \n    'CZK-paying' AS currency,\n    SUM(\n        CASE \n            WHEN payment_type = 'CZK' THEN gas_consumption\n            ELSE 0\n        END\n    ) AS czk_consumption,\n    'EUR-paying' AS currency,\n    SUM(\n        CASE \n            WHEN payment_type = 'EUR' THEN gas_consumption\n            ELSE 0\n        END\n    ) AS eur_consumption\nFROM \n    customers\nJOIN \n    orders ON customers.customer_id = orders.customer_id\nJOIN \n    order_items ON orders.order_id = order_items.order_id\nJOIN \n    line_items ON order_items.line_item_id = line_items.line_item_id\nWHERE \n    YEAR(order_date) = 2012\nGROUP BY \n    currency\nORDER BY \n    czk_consumption, eur_consumption;\n```",
+    "latency_seconds": 21.25850409999839,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT EXTRACT(YEAR FROM order_date) AS year, SUM(amount) AS total_consumption\nFROM orders\nWHERE payment_type = 'CZK'\nGROUP BY EXTRACT(YEAR FROM order_date)\nORDER BY total_consumption DESC\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT EXTRACT(YEAR FROM order_date) AS year, SUM(amount) AS total_consumption\nFROM orders\nWHERE payment_type = 'CZK'\nGROUP BY EXTRACT(YEAR FROM order_date)\nORDER BY total_consumption DESC\nLIMIT 1;\n```",
+    "latency_seconds": 10.07107370000449,
+    "error": null
+  }
+]

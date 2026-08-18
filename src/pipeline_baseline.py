@@ -19,6 +19,7 @@ import json
 from dataclasses import asdict
 from pathlib import Path
 
+import sql_generator
 from prompt_builder import PromptBuilder
 from sql_generator import SQLGenerator
 from retriever_adapters import NullRetriever
@@ -31,8 +32,14 @@ def run_pipeline_a(questions_path: str, model: str, temperature: float, limit: i
     if limit:
         questions = questions[:limit]
 
+    # Correctif : sql_generator.py fait `self.builder = PromptBuilder()` sans
+    # argument dans son __init__, mais PromptBuilder exige un retriever ->
+    # plante avant même qu'on puisse remplacer generator.builder après coup.
+    # On patche donc la référence PromptBuilder vue par le module
+    # sql_generator, le temps de construire le générateur, pour qu'elle
+    # renvoie un prompt sans aucun contexte (baseline). A signaler à B.
+    sql_generator.PromptBuilder = lambda: PromptBuilder(NullRetriever())
     generator = SQLGenerator(model=model, temperature=temperature)
-    generator.builder = PromptBuilder(NullRetriever())  # correctif : voir note de coordination avec B
 
     results = []
     for i, q in enumerate(questions, start=1):

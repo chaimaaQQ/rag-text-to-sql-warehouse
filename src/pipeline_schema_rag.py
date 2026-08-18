@@ -16,6 +16,7 @@ import argparse
 import json
 from pathlib import Path
 
+import sql_generator
 from prompt_builder import PromptBuilder
 from sql_generator import SQLGenerator
 from retriever_adapters import SchemaRetrieverAdapter
@@ -31,8 +32,12 @@ def run_pipeline_b(questions_path: str, index_dir: str, method: str, top_k: int,
 
     adapter = SchemaRetrieverAdapter(index_dir, method=method, level="table")
 
+    # Correctif : même bug que dans pipeline_baseline.py (voir commentaire
+    # là-bas) — PromptBuilder() sans argument plante dans sql_generator.py.
+    # On patche pour injecter l'adaptateur de retrieval de schéma.
+    sql_generator.PromptBuilder = lambda: PromptBuilder(adapter)
+
     generator = SQLGenerator(model=model, temperature=temperature, top_k=top_k)
-    generator.builder = PromptBuilder(adapter)  # correctif : voir note de coordination avec B
 
     results = []
     for i, q in enumerate(questions, start=1):
@@ -80,4 +85,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
