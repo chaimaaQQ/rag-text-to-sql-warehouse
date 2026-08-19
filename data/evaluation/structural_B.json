@@ -1,0 +1,121 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : CustomerID, CustomerID",
+    "tables_used": [
+      "customers",
+      "gasstations",
+      "products",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "gasstations.GasStationID",
+      "products.ProductID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date",
+      "transactions_1k.GasStationID",
+      "transactions_1k.ProductID",
+      "yearmonth.CustomerID"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : TotalConsumption",
+    "tables_used": [
+      "customers",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "customers.Segment",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date",
+      "yearmonth.Consumption",
+      "yearmonth.Date"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "customers",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.CustomerID",
+      "customers.Segment",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : transactions_1k.Consumption",
+    "tables_used": [
+      "customers",
+      "transactions_1k"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "transactions_1k.Consumption",
+      "transactions_1k.CustomerID",
+      "transactions_1k.Date"
+    ],
+    "columns_missing": [
+      "transactions_1k.Consumption"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : TotalConsumption",
+    "tables_used": [
+      "customers",
+      "products",
+      "transactions_1k",
+      "yearmonth"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.Currency",
+      "customers.CustomerID",
+      "products.ProductID",
+      "transactions_1k.CustomerID",
+      "transactions_1k.ProductID",
+      "yearmonth.Consumption",
+      "yearmonth.CustomerID",
+      "yearmonth.Date"
+    ],
+    "columns_missing": []
+  }
+]

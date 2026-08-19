@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (COUNT(CASE WHEN Currency = 'EUR' THEN CustomerID ELSE NULL END) / \n     COUNT(CASE WHEN Currency = 'CZK' THEN CustomerID ELSE NULL END)) * 100 AS Ratio\nFROM \n    customers\nJOIN \n    transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN \n    yearmonth ON transactions_1k.CustomerID = yearmonth.CustomerID\nJOIN \n    products ON transactions_1k.ProductID = products.ProductID\nJOIN \n    gasstations ON transactions_1k.GasStationID = gasstations.GasStationID\nWHERE \n    transactions_1k.Date BETWEEN '2020-01-01' AND '2020-12-31';",
+    "raw_response": "```sql\nSELECT \n    (COUNT(CASE WHEN Currency = 'EUR' THEN CustomerID ELSE NULL END) / \n     COUNT(CASE WHEN Currency = 'CZK' THEN CustomerID ELSE NULL END)) * 100 AS Ratio\nFROM \n    customers\nJOIN \n    transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN \n    yearmonth ON transactions_1k.CustomerID = yearmonth.CustomerID\nJOIN \n    products ON transactions_1k.ProductID = products.ProductID\nJOIN \n    gasstations ON transactions_1k.GasStationID = gasstations.GasStationID\nWHERE \n    transactions_1k.Date BETWEEN '2020-01-01' AND '2020-12-31'\n```",
+    "latency_seconds": 34.720030800031964,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT customers.CustomerID, customers.Segment, customers.Currency, SUM(yearmonth.Consumption) AS TotalConsumption\nFROM customers\nJOIN transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN yearmonth ON transactions_1k.Date = yearmonth.Date\nWHERE YEAR(transactions_1k.Date) = 2012\nGROUP BY customers.CustomerID, customers.Segment, customers.Currency\nORDER BY TotalConsumption ASC\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT customers.CustomerID, customers.Segment, customers.Currency, SUM(yearmonth.Consumption) AS TotalConsumption\nFROM customers\nJOIN transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN yearmonth ON transactions_1k.Date = yearmonth.Date\nWHERE YEAR(transactions_1k.Date) = 2012\nGROUP BY customers.CustomerID, customers.Segment, customers.Currency\nORDER BY TotalConsumption ASC\nLIMIT 1;\n```",
+    "latency_seconds": 17.758952700009104,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT AVG(Consumption) AS AverageMonthlyConsumption\nFROM yearmonth\nJOIN customers ON yearmonth.CustomerID = customers.CustomerID\nJOIN transactions_1k ON yearmonth.CustomerID = transactions_1k.CustomerID\nWHERE YEAR(transactions_1k.Date) = 2013 AND customers.Segment = 'SME';",
+    "raw_response": "```sql\nSELECT AVG(Consumption) AS AverageMonthlyConsumption\nFROM yearmonth\nJOIN customers ON yearmonth.CustomerID = customers.CustomerID\nJOIN transactions_1k ON yearmonth.CustomerID = transactions_1k.CustomerID\nWHERE YEAR(transactions_1k.Date) = 2013 AND customers.Segment = 'SME';\n```",
+    "latency_seconds": 24.382312700035982,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    SUM(CASE WHEN T1.Currency = 'CZK' THEN T2.Consumption ELSE 0 END) - \n    SUM(CASE WHEN T1.Currency = 'EUR' THEN T2.Consumption ELSE 0 END) AS DifferenceInGasConsumption\nFROM \n    customers AS T1\nJOIN \n    transactions_1k AS T2\nON \n    T1.CustomerID = T2.CustomerID\nWHERE \n    T1.Currency IN ('CZK', 'EUR')\n    AND YEAR(T2.Date) = 2012;",
+    "raw_response": "```sql\nSELECT \n    SUM(CASE WHEN T1.Currency = 'CZK' THEN T2.Consumption ELSE 0 END) - \n    SUM(CASE WHEN T1.Currency = 'EUR' THEN T2.Consumption ELSE 0 END) AS DifferenceInGasConsumption\nFROM \n    customers AS T1\nJOIN \n    transactions_1k AS T2\nON \n    T1.CustomerID = T2.CustomerID\nWHERE \n    T1.Currency IN ('CZK', 'EUR')\n    AND YEAR(T2.Date) = 2012;\n```",
+    "latency_seconds": 27.337227699987125,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    ym.Date,\n    SUM(ym.Consumption) AS TotalConsumption,\n    'CZK' AS Currency\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    customers c ON t.CustomerID = c.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Currency = 'CZK'\nGROUP BY \n    ym.Date\nORDER BY \n    TotalConsumption DESC\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT \n    ym.Date,\n    SUM(ym.Consumption) AS TotalConsumption,\n    'CZK' AS Currency\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    customers c ON t.CustomerID = c.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Currency = 'CZK'\nGROUP BY \n    ym.Date\nORDER BY \n    TotalConsumption DESC\nLIMIT 1;\n```",
+    "latency_seconds": 17.475804000045173,
+    "error": null
+  }
+]

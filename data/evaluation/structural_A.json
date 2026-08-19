@@ -1,0 +1,88 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : customers.customer_id, customers.payment_type",
+    "tables_used": [
+      "customers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.customer_id",
+      "customers.payment_type"
+    ],
+    "columns_missing": [
+      "customers.customer_id",
+      "customers.payment_type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : lineitem",
+    "tables_used": [
+      "lineitem"
+    ],
+    "tables_missing": [
+      "lineitem"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer_consumption, customer_type",
+    "tables_used": [
+      "customer_consumption",
+      "customer_type"
+    ],
+    "tables_missing": [
+      "customer_consumption",
+      "customer_type"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : line_items, order_items, orders",
+    "tables_used": [
+      "customers",
+      "line_items",
+      "order_items",
+      "orders"
+    ],
+    "tables_missing": [
+      "line_items",
+      "order_items",
+      "orders"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : orders",
+    "tables_used": [
+      "orders"
+    ],
+    "tables_missing": [
+      "orders"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  }
+]
