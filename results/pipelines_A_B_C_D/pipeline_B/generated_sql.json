@@ -4,7 +4,7 @@
     "db_id": "debit_card_specializing",
     "sql_generated": "SELECT \n    (COUNT(CASE WHEN Currency = 'EUR' THEN CustomerID ELSE NULL END) / \n     COUNT(CASE WHEN Currency = 'CZK' THEN CustomerID ELSE NULL END)) * 100 AS Ratio\nFROM \n    customers\nJOIN \n    transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN \n    yearmonth ON transactions_1k.CustomerID = yearmonth.CustomerID\nJOIN \n    products ON transactions_1k.ProductID = products.ProductID\nJOIN \n    gasstations ON transactions_1k.GasStationID = gasstations.GasStationID\nWHERE \n    transactions_1k.Date BETWEEN '2020-01-01' AND '2020-12-31';",
     "raw_response": "```sql\nSELECT \n    (COUNT(CASE WHEN Currency = 'EUR' THEN CustomerID ELSE NULL END) / \n     COUNT(CASE WHEN Currency = 'CZK' THEN CustomerID ELSE NULL END)) * 100 AS Ratio\nFROM \n    customers\nJOIN \n    transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN \n    yearmonth ON transactions_1k.CustomerID = yearmonth.CustomerID\nJOIN \n    products ON transactions_1k.ProductID = products.ProductID\nJOIN \n    gasstations ON transactions_1k.GasStationID = gasstations.GasStationID\nWHERE \n    transactions_1k.Date BETWEEN '2020-01-01' AND '2020-12-31'\n```",
-    "latency_seconds": 34.720030800031964,
+    "latency_seconds": 42.86372140003368,
     "error": null
   },
   {
@@ -12,7 +12,7 @@
     "db_id": "debit_card_specializing",
     "sql_generated": "SELECT customers.CustomerID, customers.Segment, customers.Currency, SUM(yearmonth.Consumption) AS TotalConsumption\nFROM customers\nJOIN transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN yearmonth ON transactions_1k.Date = yearmonth.Date\nWHERE YEAR(transactions_1k.Date) = 2012\nGROUP BY customers.CustomerID, customers.Segment, customers.Currency\nORDER BY TotalConsumption ASC\nLIMIT 1;",
     "raw_response": "```sql\nSELECT customers.CustomerID, customers.Segment, customers.Currency, SUM(yearmonth.Consumption) AS TotalConsumption\nFROM customers\nJOIN transactions_1k ON customers.CustomerID = transactions_1k.CustomerID\nJOIN yearmonth ON transactions_1k.Date = yearmonth.Date\nWHERE YEAR(transactions_1k.Date) = 2012\nGROUP BY customers.CustomerID, customers.Segment, customers.Currency\nORDER BY TotalConsumption ASC\nLIMIT 1;\n```",
-    "latency_seconds": 17.758952700009104,
+    "latency_seconds": 16.082427700050175,
     "error": null
   },
   {
@@ -20,7 +20,7 @@
     "db_id": "debit_card_specializing",
     "sql_generated": "SELECT AVG(Consumption) AS AverageMonthlyConsumption\nFROM yearmonth\nJOIN customers ON yearmonth.CustomerID = customers.CustomerID\nJOIN transactions_1k ON yearmonth.CustomerID = transactions_1k.CustomerID\nWHERE YEAR(transactions_1k.Date) = 2013 AND customers.Segment = 'SME';",
     "raw_response": "```sql\nSELECT AVG(Consumption) AS AverageMonthlyConsumption\nFROM yearmonth\nJOIN customers ON yearmonth.CustomerID = customers.CustomerID\nJOIN transactions_1k ON yearmonth.CustomerID = transactions_1k.CustomerID\nWHERE YEAR(transactions_1k.Date) = 2013 AND customers.Segment = 'SME';\n```",
-    "latency_seconds": 24.382312700035982,
+    "latency_seconds": 14.098527000052854,
     "error": null
   },
   {
@@ -28,7 +28,7 @@
     "db_id": "debit_card_specializing",
     "sql_generated": "SELECT \n    SUM(CASE WHEN T1.Currency = 'CZK' THEN T2.Consumption ELSE 0 END) - \n    SUM(CASE WHEN T1.Currency = 'EUR' THEN T2.Consumption ELSE 0 END) AS DifferenceInGasConsumption\nFROM \n    customers AS T1\nJOIN \n    transactions_1k AS T2\nON \n    T1.CustomerID = T2.CustomerID\nWHERE \n    T1.Currency IN ('CZK', 'EUR')\n    AND YEAR(T2.Date) = 2012;",
     "raw_response": "```sql\nSELECT \n    SUM(CASE WHEN T1.Currency = 'CZK' THEN T2.Consumption ELSE 0 END) - \n    SUM(CASE WHEN T1.Currency = 'EUR' THEN T2.Consumption ELSE 0 END) AS DifferenceInGasConsumption\nFROM \n    customers AS T1\nJOIN \n    transactions_1k AS T2\nON \n    T1.CustomerID = T2.CustomerID\nWHERE \n    T1.Currency IN ('CZK', 'EUR')\n    AND YEAR(T2.Date) = 2012;\n```",
-    "latency_seconds": 27.337227699987125,
+    "latency_seconds": 18.888735700049438,
     "error": null
   },
   {
@@ -36,7 +36,367 @@
     "db_id": "debit_card_specializing",
     "sql_generated": "SELECT \n    ym.Date,\n    SUM(ym.Consumption) AS TotalConsumption,\n    'CZK' AS Currency\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    customers c ON t.CustomerID = c.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Currency = 'CZK'\nGROUP BY \n    ym.Date\nORDER BY \n    TotalConsumption DESC\nLIMIT 1;",
     "raw_response": "```sql\nSELECT \n    ym.Date,\n    SUM(ym.Consumption) AS TotalConsumption,\n    'CZK' AS Currency\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    customers c ON t.CustomerID = c.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Currency = 'CZK'\nGROUP BY \n    ym.Date\nORDER BY \n    TotalConsumption DESC\nLIMIT 1;\n```",
-    "latency_seconds": 17.475804000045173,
+    "latency_seconds": 17.94570880010724,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1480",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    ym.Date AS PeakMonth,\n    ym.Consumption AS PeakGasConsumption\nFROM \n    yearmonth ym\nJOIN \n    customers c ON ym.CustomerID = c.CustomerID\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Segment = 'SME' \n    AND ym.Year = 2013\nORDER BY \n    ym.Date DESC;",
+    "raw_response": "```sql\nSELECT \n    ym.Date AS PeakMonth,\n    ym.Consumption AS PeakGasConsumption\nFROM \n    yearmonth ym\nJOIN \n    customers c ON ym.CustomerID = c.CustomerID\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    c.Segment = 'SME' \n    AND ym.Year = 2013\nORDER BY \n    ym.Date DESC;\n```",
+    "latency_seconds": 16.631371000083163,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1481",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    'SME' AS Segment, \n    'LAM' AS Partner, \n    'KAM' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'SME'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'SME'\nUNION ALL\nSELECT \n    'SME' AS Segment, \n    'LAM' AS Partner, \n    'KAM' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'LAM'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'LAM'\nUNION ALL\nSELECT \n    'KAM' AS Segment, \n    'LAM' AS Partner, \n    'SME' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'KAM'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'KAM';",
+    "raw_response": "```sql\nSELECT \n    'SME' AS Segment, \n    'LAM' AS Partner, \n    'KAM' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'SME'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'SME'\nUNION ALL\nSELECT \n    'SME' AS Segment, \n    'LAM' AS Partner, \n    'KAM' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'LAM'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'LAM'\nUNION ALL\nSELECT \n    'KAM' AS Segment, \n    'LAM' AS Partner, \n    'SME' AS Partner, \n    AVG(T1.Consumption) AS Difference\nFROM \n    yearmonth AS T1\nJOIN \n    customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN \n    gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN \n    products AS T5 ON T1.ProductID = T5.ProductID\nWHERE \n    T1.Date BETWEEN '2013-01-01' AND '2013-12-31'\n    AND T2.Segment = 'KAM'\nGROUP BY \n    T1.CustomerID, T2.Segment, T3.TransactionID, T4.GasStationID, T5.ProductID\nHAVING \n    T2.Segment = 'KAM';\n```",
+    "latency_seconds": 57.812006900087,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1482",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    Segment, \n    (SUM(CASE WHEN YearMonth.Date BETWEEN '2012-01-01' AND '2012-12-31' THEN Consumption ELSE 0 END) / \n     SUM(CASE WHEN YearMonth.Date BETWEEN '2013-01-01' AND '2013-12-31' THEN Consumption ELSE 0 END)) * 100 AS PercentageIncrease,\n    (SUM(CASE WHEN YearMonth.Date BETWEEN '2012-01-01' AND '2012-12-31' THEN Consumption ELSE 0 END) / \n     SUM(CASE WHEN YearMonth.Date BETWEEN '2013-01-01' AND '2013-12-31' THEN Consumption ELSE 0 END)) * 100 AS PercentageDecrease\nFROM \n    customers c\nJOIN \n    yearmonth ym ON c.CustomerID = ym.CustomerID\nJOIN \n    transactions_1k tx ON c.CustomerID = tx.CustomerID\nJOIN \n    products p ON tx.ProductID = p.ProductID\nJOIN \n    gasstations g ON tx.GasStationID = g.GasStationID\nWHERE \n    c.Segment IN ('SME', 'LAM', 'KAM')\nGROUP BY \n    Segment\nORDER BY \n    PercentageIncrease DESC, PercentageDecrease ASC;",
+    "raw_response": "```sql\nSELECT \n    Segment, \n    (SUM(CASE WHEN YearMonth.Date BETWEEN '2012-01-01' AND '2012-12-31' THEN Consumption ELSE 0 END) / \n     SUM(CASE WHEN YearMonth.Date BETWEEN '2013-01-01' AND '2013-12-31' THEN Consumption ELSE 0 END)) * 100 AS PercentageIncrease,\n    (SUM(CASE WHEN YearMonth.Date BETWEEN '2012-01-01' AND '2012-12-31' THEN Consumption ELSE 0 END) / \n     SUM(CASE WHEN YearMonth.Date BETWEEN '2013-01-01' AND '2013-12-31' THEN Consumption ELSE 0 END)) * 100 AS PercentageDecrease\nFROM \n    customers c\nJOIN \n    yearmonth ym ON c.CustomerID = ym.CustomerID\nJOIN \n    transactions_1k tx ON c.CustomerID = tx.CustomerID\nJOIN \n    products p ON tx.ProductID = p.ProductID\nJOIN \n    gasstations g ON tx.GasStationID = g.GasStationID\nWHERE \n    c.Segment IN ('SME', 'LAM', 'KAM')\nGROUP BY \n    Segment\nORDER BY \n    PercentageIncrease DESC, PercentageDecrease ASC;\n```",
+    "latency_seconds": 29.604442300042138,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1483",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT SUM(T1.Amount) AS TotalConsumption\nFROM transactions_1k AS T1\nJOIN customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T1.Date = T3.Date\nWHERE T2.CustomerID = 6\n  AND T3.Date BETWEEN '2013-08-01' AND '2013-11-30';",
+    "raw_response": "```sql\nSELECT SUM(T1.Amount) AS TotalConsumption\nFROM transactions_1k AS T1\nJOIN customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T1.Date = T3.Date\nWHERE T2.CustomerID = 6\n  AND T3.Date BETWEEN '2013-08-01' AND '2013-11-30';\n```",
+    "latency_seconds": 14.716800799942575,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1484",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    COUNT(DISTINCT CASE WHEN Segment = 'discount' THEN GasStationID ELSE NULL END) AS discount_stations\nFROM \n    gasstations AS gs\nJOIN \n    customers AS c ON gs.CustomerID = c.CustomerID\nJOIN \n    products AS p ON c.CustomerID = p.CustomerID\nJOIN \n    transactions_1k AS t ON c.CustomerID = t.CustomerID\nWHERE \n    Country = 'Czech Republic' OR Country = 'Slovakia';",
+    "raw_response": "```sql\nSELECT \n    COUNT(DISTINCT CASE WHEN Segment = 'discount' THEN GasStationID ELSE NULL END) AS discount_stations\nFROM \n    gasstations AS gs\nJOIN \n    customers AS c ON gs.CustomerID = c.CustomerID\nJOIN \n    products AS p ON c.CustomerID = p.CustomerID\nJOIN \n    transactions_1k AS t ON c.CustomerID = t.CustomerID\nWHERE \n    Country = 'Czech Republic' OR Country = 'Slovakia';\n```",
+    "latency_seconds": 15.42233899992425,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1486",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT SUM(CASE WHEN T1.Currency = 'CZK' THEN 1 ELSE 0 END) - SUM(CASE WHEN T1.Currency = 'EUR' THEN 1 ELSE 0 END) AS Difference\nFROM customers AS T1\nJOIN transactions_1k AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN products AS T5 ON T1.CustomerID = T5.CustomerID\nWHERE T1.Segment = 'SME';",
+    "raw_response": "```sql\nSELECT SUM(CASE WHEN T1.Currency = 'CZK' THEN 1 ELSE 0 END) - SUM(CASE WHEN T1.Currency = 'EUR' THEN 1 ELSE 0 END) AS Difference\nFROM customers AS T1\nJOIN transactions_1k AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN gasstations AS T4 ON T1.CustomerID = T4.CustomerID\nJOIN products AS T5 ON T1.CustomerID = T5.CustomerID\nWHERE T1.Segment = 'SME';\n```",
+    "latency_seconds": 19.76353380002547,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1490",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (SUM(CASE \n            WHEN Consumption > 46.73 THEN 1\n            ELSE 0\n        END) * 100) / COUNT(DISTINCT CustomerID) AS Percentage\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN \n    yearmonth y ON t.Date = y.Date\nJOIN \n    products p ON t.ProductID = p.ProductID\nJOIN \n    gasstations g ON t.GasStationID = g.GasStationID\nWHERE \n    c.Segment = 'LAM';",
+    "raw_response": "```sql\nSELECT \n    (SUM(CASE \n            WHEN Consumption > 46.73 THEN 1\n            ELSE 0\n        END) * 100) / COUNT(DISTINCT CustomerID) AS Percentage\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN \n    yearmonth y ON t.Date = y.Date\nJOIN \n    products p ON t.ProductID = p.ProductID\nJOIN \n    gasstations g ON t.GasStationID = g.GasStationID\nWHERE \n    c.Segment = 'LAM'\n```",
+    "latency_seconds": 16.855288900085725,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1493",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (SUM(CASE \n            WHEN T1.Consumption > 528.3 THEN 1\n            ELSE 0\n        END) * 100) / COUNT(T1.TransactionID) AS Percentage\nFROM \n    customers AS T1\nJOIN \n    yearmonth AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nWHERE \n    T2.Date = '2012-02-01' AND T3.Date = '2012-02-01';",
+    "raw_response": "```sql\nSELECT \n    (SUM(CASE \n            WHEN T1.Consumption > 528.3 THEN 1\n            ELSE 0\n        END) * 100) / COUNT(T1.TransactionID) AS Percentage\nFROM \n    customers AS T1\nJOIN \n    yearmonth AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN \n    transactions_1k AS T3 ON T1.CustomerID = T3.CustomerID\nWHERE \n    T2.Date = '2012-02-01' AND T3.Date = '2012-02-01';\n```",
+    "latency_seconds": 18.028169699944556,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1498",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    ym.Date,\n    ym.Consumption\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nWHERE \n    ym.Date LIKE '2012%'\nORDER BY \n    ym.Date\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT \n    ym.Date,\n    ym.Consumption\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nWHERE \n    ym.Date LIKE '2012%'\nORDER BY \n    ym.Date\nLIMIT 1;\n```",
+    "latency_seconds": 12.34805720008444,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1500",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT p.Description\nFROM products p\nJOIN transactions_1k t ON p.ProductID = t.ProductID\nJOIN yearmonth y ON t.CustomerID = y.CustomerID\nWHERE y.Date BETWEEN '2013-09-01' AND '2013-09-30';",
+    "raw_response": "```sql\nSELECT p.Description\nFROM products p\nJOIN transactions_1k t ON p.ProductID = t.ProductID\nJOIN yearmonth y ON t.CustomerID = y.CustomerID\nWHERE y.Date BETWEEN '2013-09-01' AND '2013-09-30';\n```",
+    "latency_seconds": 13.212310099974275,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1501",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT DISTINCT T1.Country\nFROM gasstations AS T1\nJOIN transactions_1k AS T2 ON T1.GasStationID = T2.GasStationID\nJOIN yearmonth AS T3 ON T2.CustomerID = T3.CustomerID\nWHERE T3.Date BETWEEN '2013-06-01' AND '2013-06-30';",
+    "raw_response": "```sql\nSELECT DISTINCT T1.Country\nFROM gasstations AS T1\nJOIN transactions_1k AS T2 ON T1.GasStationID = T2.GasStationID\nJOIN yearmonth AS T3 ON T2.CustomerID = T3.CustomerID\nWHERE T3.Date BETWEEN '2013-06-01' AND '2013-06-30';\n```",
+    "latency_seconds": 13.701681999955326,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1505",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT COUNT(DISTINCT c.CustomerID) AS NumberOfCustomers\nFROM customers c\nJOIN transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN yearmonth y ON c.CustomerID = y.CustomerID\nJOIN products p ON t.ProductID = p.ProductID\nJOIN gasstations g ON t.GasStationID = g.GasStationID\nWHERE c.Currency = 'EUR' AND y.Consumption > 1000;",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT c.CustomerID) AS NumberOfCustomers\nFROM customers c\nJOIN transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN yearmonth y ON c.CustomerID = y.CustomerID\nJOIN products p ON t.ProductID = p.ProductID\nJOIN gasstations g ON t.GasStationID = g.GasStationID\nWHERE c.Currency = 'EUR' AND y.Consumption > 1000;\n```",
+    "latency_seconds": 17.633447799948044,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1506",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT p.Description\nFROM products p\nJOIN transactions_1k t ON p.ProductID = t.ProductID\nJOIN gasstations gs ON t.GasStationID = gs.GasStationID\nJOIN yearmonth y ON t.CustomerID = y.CustomerID\nWHERE gs.Country = 'Czech Republic';",
+    "raw_response": "```sql\nSELECT p.Description\nFROM products p\nJOIN transactions_1k t ON p.ProductID = t.ProductID\nJOIN gasstations gs ON t.GasStationID = gs.GasStationID\nJOIN yearmonth y ON t.CustomerID = y.CustomerID\nWHERE gs.Country = 'Czech Republic';\n```",
+    "latency_seconds": 15.126794699928723,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1507",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    t.TransactionID, \n    t.Date, \n    t.Time, \n    g.ChainID, \n    g.Country, \n    g.Segment, \n    p.Description\nFROM \n    transactions_1k t\nJOIN \n    gasstations g ON t.GasStationID = g.GasStationID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    g.ChainID = 11;",
+    "raw_response": "```sql\nSELECT \n    t.TransactionID, \n    t.Date, \n    t.Time, \n    g.ChainID, \n    g.Country, \n    g.Segment, \n    p.Description\nFROM \n    transactions_1k t\nJOIN \n    gasstations g ON t.GasStationID = g.GasStationID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    g.ChainID = 11;\n```",
+    "latency_seconds": 20.031625199946575,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1509",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT COUNT(T1.TransactionID) AS TransactionsAfter2012\nFROM transactions_1k AS T1\nJOIN gasstations AS T2 ON T1.GasStationID = T2.GasStationID\nJOIN customers AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN products AS T4 ON T1.ProductID = T4.ProductID\nWHERE T1.Date > '2012-01-01';",
+    "raw_response": "```sql\nSELECT COUNT(T1.TransactionID) AS TransactionsAfter2012\nFROM transactions_1k AS T1\nJOIN gasstations AS T2 ON T1.GasStationID = T2.GasStationID\nJOIN customers AS T3 ON T1.CustomerID = T3.CustomerID\nJOIN products AS T4 ON T1.ProductID = T4.ProductID\nWHERE T1.Date > '2012-01-01';\n```",
+    "latency_seconds": 17.888727299985476,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1514",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT Currency\nFROM customers\nWHERE CustomerID = (\n    SELECT CustomerID\n    FROM transactions_1k\n    WHERE Date = '2012-08-24' AND Time = '16:25:00'\n);",
+    "raw_response": "```sql\nSELECT Currency\nFROM customers\nWHERE CustomerID = (\n    SELECT CustomerID\n    FROM transactions_1k\n    WHERE Date = '2012-08-24' AND Time = '16:25:00'\n);\n```",
+    "latency_seconds": 13.26181459997315,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1515",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT Segment\nFROM customers\nWHERE CustomerID = (\n    SELECT CustomerID\n    FROM transactions_1k\n    WHERE Date = '2012-08-23 21:20:00'\n);",
+    "raw_response": "```sql\nSELECT Segment\nFROM customers\nWHERE CustomerID = (\n    SELECT CustomerID\n    FROM transactions_1k\n    WHERE Date = '2012-08-23 21:20:00'\n);\n```",
+    "latency_seconds": 15.42013240000233,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1521",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT COUNT(T1.TransactionID) AS TransactionCount\nFROM transactions_1k AS T1\nJOIN customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN products AS T3 ON T1.ProductID = T3.ProductID\nJOIN yearmonth AS T4 ON T1.CustomerID = T4.CustomerID\nWHERE T1.Date BETWEEN '2012-08-26' AND '2012-08-26 09:00:00'\n  AND T2.Country = 'CZE';",
+    "raw_response": "```sql\nSELECT COUNT(T1.TransactionID) AS TransactionCount\nFROM transactions_1k AS T1\nJOIN customers AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN products AS T3 ON T1.ProductID = T3.ProductID\nJOIN yearmonth AS T4 ON T1.CustomerID = T4.CustomerID\nWHERE T1.Date BETWEEN '2012-08-26' AND '2012-08-26 09:00:00'\n  AND T2.Country = 'CZE';\n```",
+    "latency_seconds": 18.395701800007373,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1524",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT T1.CustomerID, T1.Segment, T1.Currency, T1.Nationality\nFROM customers AS T1\nJOIN transactions_1k AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T2.Date = T3.Date\nWHERE T3.Date = '2012-08-24' AND T2.Amount = 548.4;",
+    "raw_response": "```sql\nSELECT T1.CustomerID, T1.Segment, T1.Currency, T1.Nationality\nFROM customers AS T1\nJOIN transactions_1k AS T2 ON T1.CustomerID = T2.CustomerID\nJOIN yearmonth AS T3 ON T2.Date = T3.Date\nWHERE T3.Date = '2012-08-24' AND T2.Amount = 548.4;\n```",
+    "latency_seconds": 14.526613499969244,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1525",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (SELECT COUNT(*) \n     FROM customers \n     WHERE Currency = 'EUR') / \n    (SELECT COUNT(*) \n     FROM customers) * 100 AS Percentage_EUR_Used;",
+    "raw_response": "```sql\nSELECT \n    (SELECT COUNT(*) \n     FROM customers \n     WHERE Currency = 'EUR') / \n    (SELECT COUNT(*) \n     FROM customers) * 100 AS Percentage_EUR_Used\n```",
+    "latency_seconds": 12.156632900005206,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1526",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (SELECT Consumption \n     FROM yearmonth \n     WHERE CustomerID = (SELECT CustomerID \n                          FROM transactions_1k \n                          WHERE Date = '2012-08-25' \n                            AND Amount = 634.8)) \n    - (SELECT Consumption \n     FROM yearmonth \n     WHERE CustomerID = (SELECT CustomerID \n                          FROM transactions_1k \n                          WHERE Date = '2013-01-01' \n                            AND Amount = 634.8)) AS ConsumptionDecreaseRate\nFROM customers\nWHERE CustomerID = (SELECT CustomerID \n                    FROM transactions_1k \n                    WHERE Date = '2012-08-25' \n                      AND Amount = 634.8);",
+    "raw_response": "```sql\nSELECT \n    (SELECT Consumption \n     FROM yearmonth \n     WHERE CustomerID = (SELECT CustomerID \n                          FROM transactions_1k \n                          WHERE Date = '2012-08-25' \n                            AND Amount = 634.8)) \n    - (SELECT Consumption \n     FROM yearmonth \n     WHERE CustomerID = (SELECT CustomerID \n                          FROM transactions_1k \n                          WHERE Date = '2013-01-01' \n                            AND Amount = 634.8)) AS ConsumptionDecreaseRate\nFROM customers\nWHERE CustomerID = (SELECT CustomerID \n                    FROM transactions_1k \n                    WHERE Date = '2012-08-25' \n                      AND Amount = 634.8);\n```",
+    "latency_seconds": 22.208669899962842,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1528",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    (SUM(CASE WHEN Segment = 'Premium' THEN 1 ELSE 0 END) / COUNT(*)) * 100 AS PremiumPercentage\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN \n    yearmonth y ON t.CustomerID = y.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    Country = 'SVK';",
+    "raw_response": "```sql\nSELECT \n    (SUM(CASE WHEN Segment = 'Premium' THEN 1 ELSE 0 END) / COUNT(*)) * 100 AS PremiumPercentage\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nJOIN \n    yearmonth y ON t.CustomerID = y.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    Country = 'SVK';\n```",
+    "latency_seconds": 16.75138270005118,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1529",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    t1.TransactionID, \n    t1.Date, \n    t1.Time, \n    t1.CustomerID, \n    t1.CardID, \n    t1.GasStationID, \n    t1.ProductID, \n    t1.Amount, \n    t1.Price, \n    g1.Description AS GasStationDescription\nFROM \n    transactions_1k t1\nJOIN \n    customers c ON t1.CustomerID = c.CustomerID\nJOIN \n    gasstations g1 ON t1.GasStationID = g1.GasStationID\nWHERE \n    c.CustomerID = '38508'\n    AND t1.Date BETWEEN '2012-01-01' AND '2012-12-31';",
+    "raw_response": "```sql\nSELECT \n    t1.TransactionID, \n    t1.Date, \n    t1.Time, \n    t1.CustomerID, \n    t1.CardID, \n    t1.GasStationID, \n    t1.ProductID, \n    t1.Amount, \n    t1.Price, \n    g1.Description AS GasStationDescription\nFROM \n    transactions_1k t1\nJOIN \n    customers c ON t1.CustomerID = c.CustomerID\nJOIN \n    gasstations g1 ON t1.GasStationID = g1.GasStationID\nWHERE \n    c.CustomerID = '38508'\n    AND t1.Date BETWEEN '2012-01-01' AND '2012-12-31';\n```",
+    "latency_seconds": 23.28117570001632,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1531",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    c.CustomerID AS Top_Spender,\n    AVG(t.Price) AS Average_Price,\n    c.Currency AS Currency\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nWHERE \n    t.Date = (SELECT MAX(Date) FROM transactions_1k)\nGROUP BY \n    c.CustomerID, c.Currency\nORDER BY \n    Average_Price DESC\nLIMIT 1;",
+    "raw_response": "```sql\nSELECT \n    c.CustomerID AS Top_Spender,\n    AVG(t.Price) AS Average_Price,\n    c.Currency AS Currency\nFROM \n    customers c\nJOIN \n    transactions_1k t ON c.CustomerID = t.CustomerID\nWHERE \n    t.Date = (SELECT MAX(Date) FROM transactions_1k)\nGROUP BY \n    c.CustomerID, c.Currency\nORDER BY \n    Average_Price DESC\nLIMIT 1;\n```",
+    "latency_seconds": 17.071132000070065,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1533",
+    "db_id": "debit_card_specializing",
+    "sql_generated": "SELECT \n    ym.CustomerID, \n    ym.Date, \n    ym.Consumption\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    p.ProductID = 5 AND \n    t.Amount * t.Price > 29.00 AND \n    ym.Date LIKE '2012-08-%';",
+    "raw_response": "```sql\nSELECT \n    ym.CustomerID, \n    ym.Date, \n    ym.Consumption\nFROM \n    yearmonth ym\nJOIN \n    transactions_1k t ON ym.CustomerID = t.CustomerID\nJOIN \n    products p ON t.ProductID = p.ProductID\nWHERE \n    p.ProductID = 5 AND \n    t.Amount * t.Price > 29.00 AND \n    ym.Date LIKE '2012-08-%';\n```",
+    "latency_seconds": 19.092076399945654,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1312",
+    "db_id": "student_club",
+    "sql_generated": "SELECT major_name\nFROM major\nWHERE first_name = 'Angela' AND last_name = 'Sanders';",
+    "raw_response": "```sql\nSELECT major_name\nFROM major\nWHERE first_name = 'Angela' AND last_name = 'Sanders';\n```",
+    "latency_seconds": 13.891037399997003,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1317",
+    "db_id": "student_club",
+    "sql_generated": "SELECT COUNT(DISTINCT CASE WHEN m.first_name = 'Jane' AND m.last_name = 'Doe' THEN m.member_id ELSE NULL END) AS medium_size_t_shirt_attendees\nFROM member m\nJOIN attendance a ON m.member_id = a.link_to_member\nJOIN event e ON a.link_to_event = e.event_id\nWHERE e.event_name = 'Women\\'s Soccer';",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT CASE WHEN m.first_name = 'Jane' AND m.last_name = 'Doe' THEN m.member_id ELSE NULL END) AS medium_size_t_shirt_attendees\nFROM member m\nJOIN attendance a ON m.member_id = a.link_to_member\nJOIN event e ON a.link_to_event = e.event_id\nWHERE e.event_name = 'Women\\'s Soccer';\n```",
+    "latency_seconds": 19.59990530007053,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1322",
+    "db_id": "student_club",
+    "sql_generated": "SELECT COUNT(DISTINCT e.event_id) AS meeting_count\nFROM event e\nJOIN attendance a ON e.event_id = a.link_to_event\nJOIN member m ON a.link_to_member = m.member_id\nGROUP BY e.event_id\nHAVING COUNT(m.member_id) > 10;",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT e.event_id) AS meeting_count\nFROM event e\nJOIN attendance a ON e.event_id = a.link_to_event\nJOIN member m ON a.link_to_member = m.member_id\nGROUP BY e.event_id\nHAVING COUNT(m.member_id) > 10;\n```",
+    "latency_seconds": 17.893200899939984,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1323",
+    "db_id": "student_club",
+    "sql_generated": "SELECT event_name\nFROM event\nWHERE event_id IN (\n    SELECT event_id\n    FROM attendance\n    WHERE link_to_event IN (\n        SELECT event_id\n        FROM event\n        WHERE event_status = 'Fundraiser'\n    )\n    GROUP BY event_id\n    HAVING COUNT(link_to_event) > 20\n);",
+    "raw_response": "```sql\nSELECT event_name\nFROM event\nWHERE event_id IN (\n    SELECT event_id\n    FROM attendance\n    WHERE link_to_event IN (\n        SELECT event_id\n        FROM event\n        WHERE event_status = 'Fundraiser'\n    )\n    GROUP BY event_id\n    HAVING COUNT(link_to_event) > 20\n)\n```",
+    "latency_seconds": 17.708003900013864,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1331",
+    "db_id": "student_club",
+    "sql_generated": "SELECT SUM(amount) AS total_funds\nFROM income\nWHERE source = 'Vice President';",
+    "raw_response": "```sql\nSELECT SUM(amount) AS total_funds\nFROM income\nWHERE source = 'Vice President';\n```",
+    "latency_seconds": 14.183635999914259,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1334",
+    "db_id": "student_club",
+    "sql_generated": "SELECT first_name, last_name\nFROM member\nWHERE state = 'IL';",
+    "raw_response": "```sql\nSELECT first_name, last_name\nFROM member\nWHERE state = 'IL';\n```",
+    "latency_seconds": 13.53084229992237,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1338",
+    "db_id": "student_club",
+    "sql_generated": "SELECT expense_id\nFROM expense\nWHERE expense_date = '2019-10-08' AND approved = 'yes';",
+    "raw_response": "```sql\nSELECT expense_id\nFROM expense\nWHERE expense_date = '2019-10-08' AND approved = 'yes';\n```",
+    "latency_seconds": 15.207662499975413,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1339",
+    "db_id": "student_club",
+    "sql_generated": "SELECT AVG(e.cost) AS average_cost\nFROM event e\nJOIN budget b ON e.link_to_budget = b.budget_id\nJOIN expense es ON e.event_id = es.link_to_event\nWHERE MONTH(es.expense_date) IN (9, 10);",
+    "raw_response": "```sql\nSELECT AVG(e.cost) AS average_cost\nFROM event e\nJOIN budget b ON e.link_to_budget = b.budget_id\nJOIN expense es ON e.event_id = es.link_to_event\nWHERE MONTH(es.expense_date) IN (9, 10)\n```",
+    "latency_seconds": 17.01334519998636,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1340",
+    "db_id": "student_club",
+    "sql_generated": "SELECT \n    SUM(CASE WHEN YEAR(expense.expense_date) = 2019 THEN cost ELSE 0 END) AS 2019_spent,\n    SUM(CASE WHEN YEAR(expense.expense_date) = 2020 THEN cost ELSE 0 END) AS 2020_spent\nFROM \n    expense\nJOIN \n    event ON expense.link_to_event = event.event_id\nJOIN \n    budget ON expense.link_to_budget = budget.budget_id\nJOIN \n    attendance ON event.event_id = attendance.link_to_event\nJOIN \n    income ON event.event_id = income.link_to_event\nWHERE \n    budget.category = 'Student_Club'\n    AND event.status = 'Active'\nGROUP BY \n    YEAR(expense.expense_date);",
+    "raw_response": "```sql\nSELECT \n    SUM(CASE WHEN YEAR(expense.expense_date) = 2019 THEN cost ELSE 0 END) AS 2019_spent,\n    SUM(CASE WHEN YEAR(expense.expense_date) = 2020 THEN cost ELSE 0 END) AS 2020_spent\nFROM \n    expense\nJOIN \n    event ON expense.link_to_event = event.event_id\nJOIN \n    budget ON expense.link_to_budget = budget.budget_id\nJOIN \n    attendance ON event.event_id = attendance.link_to_event\nJOIN \n    income ON event.event_id = income.link_to_event\nWHERE \n    budget.category = 'Student_Club'\n    AND event.status = 'Active'\nGROUP BY \n    YEAR(expense.expense_date)\n```",
+    "latency_seconds": 24.6676680999808,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1344",
+    "db_id": "student_club",
+    "sql_generated": "SELECT notes\nFROM income\nWHERE date_received = '2019-09-14';",
+    "raw_response": "```sql\nSELECT notes\nFROM income\nWHERE date_received = '2019-09-14';\n```",
+    "latency_seconds": 14.204666499979794,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1346",
+    "db_id": "student_club",
+    "sql_generated": "SELECT phone FROM member WHERE first_name = 'Carlo' AND last_name = 'Jacobs';",
+    "raw_response": "```sql\nSELECT phone FROM member WHERE first_name = 'Carlo' AND last_name = 'Jacobs';\n```",
+    "latency_seconds": 13.872982500004582,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1350",
+    "db_id": "student_club",
+    "sql_generated": "SELECT status\nFROM event\nWHERE event_name = 'Post Cards, Posters'\n  AND event_date = '2019-08-20';",
+    "raw_response": "```sql\nSELECT status\nFROM event\nWHERE event_name = 'Post Cards, Posters'\n  AND event_date = '2019-08-20';\n```",
+    "latency_seconds": 14.809482700075023,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1351",
+    "db_id": "student_club",
+    "sql_generated": "SELECT major_name\nFROM major\nWHERE major_id = (\n    SELECT link_to_major\n    FROM member\n    WHERE first_name = 'Brent' AND last_name = 'Thomason'\n);",
+    "raw_response": "```sql\nSELECT major_name\nFROM major\nWHERE major_id = (\n    SELECT link_to_major\n    FROM member\n    WHERE first_name = 'Brent' AND last_name = 'Thomason'\n);\n```",
+    "latency_seconds": 14.421547599951737,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1352",
+    "db_id": "student_club",
+    "sql_generated": "SELECT COUNT(DISTINCT m.member_id) AS medium_t_shirt_wearers\nFROM member m\nJOIN major mm ON m.link_to_major = mm.major_id\nWHERE mm.major_name = 'Business';",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT m.member_id) AS medium_t_shirt_wearers\nFROM member m\nJOIN major mm ON m.link_to_major = mm.major_id\nWHERE mm.major_name = 'Business';\n```",
+    "latency_seconds": 15.33350460010115,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1356",
+    "db_id": "student_club",
+    "sql_generated": "SELECT department\nFROM member\nWHERE position = 'President';",
+    "raw_response": "```sql\nSELECT department\nFROM member\nWHERE position = 'President';\n```",
+    "latency_seconds": 12.570975599926896,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1357",
+    "db_id": "student_club",
+    "sql_generated": "SELECT MAX(expense_date) AS date_paid\nFROM expense\nWHERE link_to_member = 'Connor Hilton';",
+    "raw_response": "```sql\nSELECT MAX(expense_date) AS date_paid\nFROM expense\nWHERE link_to_member = 'Connor Hilton';\n```",
+    "latency_seconds": 13.61303680005949,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1359",
+    "db_id": "student_club",
+    "sql_generated": "SELECT COUNT(DISTINCT budget_id) AS times_more_than\nFROM (\n    SELECT budget_id\n    FROM (\n        SELECT budget_id, category, spent, remaining, amount, event_status, link_to_event\n        FROM budget\n        WHERE event_status = 'Advertisement for \"Yearly Kickoff\" meeting'\n    ) AS yearly_kickoff_budget\n    JOIN (\n        SELECT budget_id, category, spent, remaining, amount, event_status, link_to_event\n        FROM budget\n        WHERE event_status = 'October Meeting'\n    ) AS october_meeting_budget\n    ON yearly_kickoff_budget.link_to_event = october_meeting_budget.link_to_event\n) AS final_budget;",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT budget_id) AS times_more_than\nFROM (\n    SELECT budget_id\n    FROM (\n        SELECT budget_id, category, spent, remaining, amount, event_status, link_to_event\n        FROM budget\n        WHERE event_status = 'Advertisement for \"Yearly Kickoff\" meeting'\n    ) AS yearly_kickoff_budget\n    JOIN (\n        SELECT budget_id, category, spent, remaining, amount, event_status, link_to_event\n        FROM budget\n        WHERE event_status = 'October Meeting'\n    ) AS october_meeting_budget\n    ON yearly_kickoff_budget.link_to_event = october_meeting_budget.link_to_event\n) AS final_budget\n```",
+    "latency_seconds": 23.99368250009138,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1361",
+    "db_id": "student_club",
+    "sql_generated": "SELECT SUM(cost) AS total_cost\nFROM expense\nWHERE expense_description LIKE '%pizzas%'\nAND link_to_event IN (\n    SELECT event_id\n    FROM event\n);",
+    "raw_response": "```sql\nSELECT SUM(cost) AS total_cost\nFROM expense\nWHERE expense_description LIKE '%pizzas%'\nAND link_to_event IN (\n    SELECT event_id\n    FROM event\n);\n```",
+    "latency_seconds": 14.276723799994215,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1362",
+    "db_id": "student_club",
+    "sql_generated": "SELECT COUNT(DISTINCT city) AS city_count\nFROM zip_code\nWHERE state = 'Orange County, Virginia';",
+    "raw_response": "```sql\nSELECT COUNT(DISTINCT city) AS city_count\nFROM zip_code\nWHERE state = 'Orange County, Virginia';\n```",
+    "latency_seconds": 13.406833899905905,
+    "error": null
+  },
+  {
+    "question_id": "bird_mini_1368",
+    "db_id": "student_club",
+    "sql_generated": "SELECT major_name\nFROM member\nWHERE phone = '809-555-3360';",
+    "raw_response": "```sql\nSELECT major_name\nFROM member\nWHERE phone = '809-555-3360';\n```",
+    "latency_seconds": 12.5512198000215,
     "error": null
   }
 ]

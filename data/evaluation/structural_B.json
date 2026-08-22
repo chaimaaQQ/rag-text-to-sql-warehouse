@@ -29,9 +29,9 @@
   {
     "question_id": "bird_mini_1472",
     "db_id": "debit_card_specializing",
-    "is_valid": false,
-    "error_type": "column_unresolved",
-    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : TotalConsumption",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
     "tables_used": [
       "customers",
       "transactions_1k",
@@ -96,9 +96,9 @@
   {
     "question_id": "bird_mini_1479",
     "db_id": "debit_card_specializing",
-    "is_valid": false,
-    "error_type": "column_unresolved",
-    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : TotalConsumption",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
     "tables_used": [
       "customers",
       "products",

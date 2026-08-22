@@ -106,11 +106,21 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
         return report
 
     # --- 3. Vérification des colonnes ---
+    # Les alias définis dans le SELECT (ex: SUM(x) AS TotalConsumption) ne sont
+    # pas de vraies colonnes de schéma — s'ils sont réutilisés sans préfixe
+    # dans ORDER BY / GROUP BY / HAVING, ce n'est PAS une erreur structurelle.
+    select_aliases = {a.alias.lower() for a in parsed.find_all(exp.Alias) if a.alias}
+
     columns_used, columns_missing, unresolved = set(), set(), []
 
     for col_node in parsed.find_all(exp.Column):
         col_name = col_node.name
         table_ref = col_node.table.lower() if col_node.table else None
+
+        # Référence à un alias de SELECT (non préfixée) -> pas une colonne de schéma, on ignore
+        if table_ref is None and col_name.lower() in select_aliases:
+            continue
+
         resolved_table = alias_to_table.get(table_ref, table_ref)
 
         if resolved_table is None and len(tables_used) == 1:
