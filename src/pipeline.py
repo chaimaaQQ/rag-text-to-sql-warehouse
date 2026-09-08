@@ -57,18 +57,14 @@ class TextToSQLPipeline:
         print("INITIALIZING TEXT-TO-SQL PIPELINE")
         print("=" * 80)
 
-        # ==================================================
-        # 1. Hybrid Retriever
-        # ==================================================
+      
 
         print("\n[1] Initializing Hybrid Retriever...")
 
         self.retriever = HybridRetriever()
         self.retriever.initialize()
 
-        # ==================================================
-        # 2. Prompt Builder
-        # ==================================================
+
 
         print("\n[2] Initializing Prompt Builder...")
 
@@ -76,25 +72,19 @@ class TextToSQLPipeline:
             retriever=self.retriever
         )
 
-        # ==================================================
-        # 3. LLM Client
-        # ==================================================
+
 
         print("\n[3] Initializing LLM Client...")
 
         self.llm_client = LLMClient()
 
-        # ==================================================
-        # 4. SQL Validator
-        # ==================================================
+    
 
         print("\n[4] Initializing SQL Validator...")
 
         self.validator = SQLValidator()
 
-        # ==================================================
-        # 5. Auto Corrector
-        # ==================================================
+      
 
         print("\n[5] Initializing SQL Auto-Corrector...")
 
@@ -108,9 +98,6 @@ class TextToSQLPipeline:
         print("PIPELINE INITIALIZED SUCCESSFULLY")
         print("=" * 80)
 
-    # ======================================================
-    # BUILD PROMPT
-    # ======================================================
 
     def build_prompt(self, question, top_k=5):
         """
@@ -131,9 +118,7 @@ class TextToSQLPipeline:
         dupliquer la logique de process().
         """
         return self.process(question, top_k=top_k)
-    # ======================================================
-    # PROCESS QUESTION
-    # ======================================================
+
 
     def process(self, question, top_k=5):
 
@@ -156,9 +141,7 @@ class TextToSQLPipeline:
 
         print(question)
 
-        # ==================================================
-        # STEP 1 - RAG / PROMPT
-        # ==================================================
+ 
 
         print("\n" + "=" * 80)
         print("[1] BUILDING RAG PROMPT")
@@ -171,9 +154,7 @@ class TextToSQLPipeline:
 
         print("\nPROMPT BUILT SUCCESSFULLY.")
 
-        # ==================================================
-        # STEP 2 - LLM GENERATION
-        # ==================================================
+
 
         print("\n" + "=" * 80)
         print("[2] GENERATING SQL")
@@ -205,9 +186,7 @@ class TextToSQLPipeline:
         print("\nRAW LLM RESPONSE:")
         print(raw_response)
 
-        # ==================================================
-        # STEP 3 - SQL EXTRACTION
-        # ==================================================
+
 
         sql = self.llm_client.extract_sql(
             raw_response
@@ -241,9 +220,7 @@ class TextToSQLPipeline:
         print("\nSQL GENERATED:")
         print(sql)
 
-        # ==================================================
-        # STEP 4 - VALIDATION + AUTO-CORRECTION
-        # ==================================================
+
 
         print("\n" + "=" * 80)
         print("[3] SQL VALIDATION")
@@ -254,9 +231,7 @@ class TextToSQLPipeline:
             context=prompt
         )
 
-        # ==================================================
-        # STEP 5 - FINAL RESULT
-        # ==================================================
+
 
         final_sql = correction_result.get(
             "sql"
@@ -342,9 +317,6 @@ class TextToSQLPipeline:
         }
 
 
-# ============================================================
-# TEST
-# ============================================================
 
 def main():
 
@@ -352,9 +324,6 @@ def main():
         max_correction_attempts=3
     )
 
-    # --------------------------------------------------------
-    # Test question
-    # --------------------------------------------------------
 
     question = (
         "What is the total catalog sales revenue?"
@@ -365,9 +334,7 @@ def main():
         top_k=5
     )
 
-    # --------------------------------------------------------
-    # Final summary
-    # --------------------------------------------------------
+
 
     print("\n")
     print("=" * 80)

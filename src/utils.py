@@ -37,7 +37,6 @@ class SQLValidator:
                 "reason": "SQL query is empty."
             }
 
-        # Remove markdown code fences
         cleaned_sql = re.sub(
             r"```sql|```",
             "",
@@ -45,14 +44,12 @@ class SQLValidator:
             flags=re.IGNORECASE
         ).strip()
 
-        # Check first SQL command
         if not re.match(r"^\s*SELECT\b", cleaned_sql, re.IGNORECASE):
             return {
                 "valid": False,
                 "reason": "Only SELECT queries are allowed."
             }
 
-        # Check forbidden commands
         for keyword in self.FORBIDDEN_KEYWORDS:
             if re.search(
                 rf"\b{keyword}\b",
@@ -77,16 +74,13 @@ def main():
 
     test_queries = [
 
-        # Valid
+        
         "SELECT SUM(ss_net_paid) FROM store_sales;",
 
-        # Invalid
         "DELETE FROM store_sales;",
 
-        # Invalid
         "DROP TABLE store_sales;",
 
-        # Invalid
         "UPDATE store_sales SET ss_net_paid = 0;"
     ]
 

@@ -48,9 +48,6 @@ from evaluator import load_schema_lookup
 FORBIDDEN_KEYWORDS = ["INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "TRUNCATE", "CREATE", "GRANT", "REVOKE"]
 
 
-# ============================================================================
-# 1. Validation structurelle d'une requête
-# ============================================================================
 
 def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sqlite") -> dict:
     """Retourne un rapport structurel complet pour une requête SQL donnée.
@@ -80,16 +77,12 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
 
     db_tables = schema_lookup[db_id]  # {table_name_lower: [colonnes]}
 
-    # --- 0. SQL vide : ce n'est PAS une erreur de syntaxe, c'est l'absence
-    # de toute tentative (typiquement un refus volontaire du LLM du type
-    # ADDITIONAL_INFORMATION_REQUIRED, cf. sql_generator.py). À ne jamais
-    # confondre avec un vrai SQL syntaxiquement invalide dans les métriques.
+
     if not sql or not sql.strip():
         report["error_type"] = "empty_sql"
         report["error_detail"] = "Aucune requête SQL fournie (sql_generated vide)."
         return report
 
-    # --- 1. Parsing syntaxique ---
     try:
         parsed = sqlglot.parse_one(sql, dialect=dialect)
     except Exception as e:
@@ -97,7 +90,6 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
         report["error_detail"] = str(e)
         return report
 
-    # --- 2. Vérification des tables ---
     tables_used, alias_to_table = set(), {}
     for table_node in parsed.find_all(exp.Table):
         table_name = table_node.name.lower()
@@ -114,7 +106,6 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
         report["error_detail"] = f"Table(s) inexistante(s) dans le schéma : {', '.join(tables_missing)}"
         return report
 
-    # --- 3. Vérification des colonnes ---
     columns_used, columns_missing, unresolved = set(), set(), []
 
     for col_node in parsed.find_all(exp.Column):
@@ -154,11 +145,8 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
     return report
 
 
-# ============================================================================
-# 1bis. Classe SQLValidator — interface attendue par llm_client.py (B)
-# ============================================================================
 
-DEFAULT_SCHEMAS_DIR = "data/schemas"  # relatif à l'endroit d'exécution du script appelant
+DEFAULT_SCHEMAS_DIR = "data/schemas"
 
 
 class SQLValidator:
@@ -182,15 +170,12 @@ class SQLValidator:
         self.schema_lookup = {}
 
         if schemas_dir:
-            # Track A explicite : priorité au schéma BIRD si fourni
             try:
                 self.schema_lookup = load_schema_lookup(schemas_dir)
             except Exception:
                 self.schema_lookup = {}
         elif glossary_path and Path(glossary_path).exists():
-            # Comportement par défaut de B : glossaire TPC-DS, chemin par défaut inchangé
             self.schema_lookup = self._load_glossary(glossary_path)
-        # sinon : aucun schéma disponible -> validation SELECT-only + syntaxe uniquement
 
     @staticmethod
     def _load_glossary(glossary_path: str) -> dict:
@@ -222,7 +207,6 @@ class SQLValidator:
             if re.search(rf"\b{keyword}\b", cleaned_sql, re.IGNORECASE):
                 return {"valid": False, "reason": f"Commande interdite détectée : {keyword}", "tables": [], "columns": []}
 
-        # Aucun schéma chargé : on ne bloque pas, on vérifie juste la syntaxe
         if not self.schema_lookup:
             try:
                 sqlglot.parse_one(cleaned_sql, dialect=self.dialect)
@@ -257,9 +241,7 @@ class SQLValidator:
         }
 
 
-# ============================================================================
-# 2. Validation en lot
-# ============================================================================
+
 
 def validate_batch(generated_path: str, schemas_dir: str, sql_field: str = "sql_generated") -> list[dict]:
     with open(generated_path, "r", encoding="utf-8") as f:
@@ -279,7 +261,6 @@ def validate_batch(generated_path: str, schemas_dir: str, sql_field: str = "sql_
     n_valid = sum(r["is_valid"] for r in results)
     print(f"{n_valid}/{len(results)} requêtes structurellement valides ({100 * n_valid / len(results):.1f}%)")
 
-    # Répartition des erreurs, utile pour l'analyse d'erreurs structurelles
     error_counts = {}
     for r in results:
         if r["error_type"]:
@@ -298,9 +279,7 @@ def save_results(results: list[dict], output_path: str):
     print(f"Rapport écrit dans {out_path}")
 
 
-# ============================================================================
-# 3. CLI
-# ============================================================================
+
 
 def main():
     parser = argparse.ArgumentParser(description="Validation structurelle du SQL (tables/colonnes vs schéma).")

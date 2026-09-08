@@ -32,9 +32,6 @@ class SQLAutoCorrector:
         self.llm_client = llm_client
         self.validator = validator
 
-    # ---------------------------------------------------------
-    # Build correction prompt
-    # ---------------------------------------------------------
 
     def build_correction_prompt(self, sql, error, question, context):
         """
@@ -79,9 +76,7 @@ class SQLAutoCorrector:
     Return ONLY the corrected SQL.
     """
 
-    # ---------------------------------------------------------
-    # Extract context from prompt
-    # ---------------------------------------------------------
+
 
     def extract_context(self, prompt):
         """
@@ -108,9 +103,7 @@ class SQLAutoCorrector:
 
         return prompt
 
-    # ---------------------------------------------------------
-    # Correct SQL
-    # ---------------------------------------------------------
+ 
 
     def correct(self, sql, question="", context=""):
         """
@@ -145,9 +138,7 @@ class SQLAutoCorrector:
             print(f"VALIDATION ATTEMPT {attempt}")
             print("=" * 60)
 
-            # -------------------------------------------------
-            # Validate current SQL
-            # -------------------------------------------------
+         
 
             validation = self.validator.validate(current_sql)
 
@@ -157,9 +148,7 @@ class SQLAutoCorrector:
             print("\nVALID:", validation["valid"])
             print("REASON:", validation["reason"])
 
-            # -------------------------------------------------
-            # SQL is valid
-            # -------------------------------------------------
+       
 
             if validation["valid"]:
 
@@ -182,9 +171,7 @@ class SQLAutoCorrector:
                 "reason": validation["reason"]
             })
 
-            # -------------------------------------------------
-            # Maximum attempts reached
-            # -------------------------------------------------
+
 
             if attempt >= self.max_attempts:
 
@@ -201,9 +188,6 @@ class SQLAutoCorrector:
                     "columns": validation.get("columns", [])
                 }
 
-            # -------------------------------------------------
-            # Ask LLM to correct SQL
-            # -------------------------------------------------
 
             correction_prompt = self.build_correction_prompt(
                 sql=current_sql,
@@ -234,9 +218,7 @@ class SQLAutoCorrector:
             print("\nRAW CORRECTION RESPONSE:")
             print(raw_response)
 
-            # -------------------------------------------------
-            # Extract corrected SQL
-            # -------------------------------------------------
+ 
 
             corrected_sql = self.llm_client.extract_sql(
                 raw_response
@@ -269,9 +251,7 @@ class SQLAutoCorrector:
         }
 
 
-# ============================================================
-# TEST
-# ============================================================
+
 
 def main():
 
@@ -347,9 +327,7 @@ SELECT SUM(price)
 FROM store_sales;
 """
 
-    # ---------------------------------------------------------
-    # Retrieved business context
-    # ---------------------------------------------------------
+
 
     context = """
 Table: store_sales
@@ -384,9 +362,6 @@ using ss_net_paid.
     print("\nINVALID SQL:")
     print(sql)
 
-    # ---------------------------------------------------------
-    # Run correction
-    # ---------------------------------------------------------
 
     result = corrector.correct(
         sql=sql,
@@ -394,9 +369,7 @@ using ss_net_paid.
         context=context
     )
 
-    # ---------------------------------------------------------
-    # Final result
-    # ---------------------------------------------------------
+
 
     print("\n")
     print("=" * 80)

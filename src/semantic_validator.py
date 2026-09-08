@@ -50,7 +50,7 @@ def extract_discriminants(evidence: str) -> list[str]:
         return []
     quoted = re.findall(r"'([^']+)'", evidence)
     numbers = re.findall(r"\b\d+(?:\.\d+)?\b", evidence)
-    return list(dict.fromkeys(quoted + numbers))  # dédoublonne en gardant l'ordre
+    return list(dict.fromkeys(quoted + numbers))  
 
 
 def extract_agg(sql: str) -> set[str]:
@@ -107,7 +107,6 @@ def run(generated_path: str, structural_path: str, questions_path: str) -> list[
         }
 
         if struct.get("is_valid") is False:
-            # Ne pas double-compter : déjà classé comme erreur structurelle.
             entry["is_semantic_error"] = None
             entry["error_type"] = None
             entry["error_detail"] = "Ignoré : requête déjà structurellement invalide."

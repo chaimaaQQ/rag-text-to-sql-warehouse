@@ -15,7 +15,6 @@ def get_tables(cursor: sqlite3.Cursor) -> list[str]:
 
 def get_columns(cursor: sqlite3.Cursor, table_name: str) -> list[dict]:
     cursor.execute(f'PRAGMA table_info("{table_name}");')
-    # colonnes retournées : (cid, name, type, notnull, dflt_value, pk)
     return [
         {"name": row[1], "type": row[2] or "", "description": ""}
         for row in cursor.fetchall()
@@ -24,7 +23,6 @@ def get_columns(cursor: sqlite3.Cursor, table_name: str) -> list[dict]:
 
 def get_foreign_keys(cursor: sqlite3.Cursor, table_name: str) -> list[dict]:
     cursor.execute(f'PRAGMA foreign_key_list("{table_name}");')
-    # colonnes retournées : (id, seq, table, from, to, on_update, on_delete, match)
     return [
         {"from": f"{table_name}.{row[3]}", "to": f"{row[2]}.{row[4]}"}
         for row in cursor.fetchall()

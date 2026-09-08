@@ -41,9 +41,6 @@ class DocumentRetriever:
         self.document_embeddings = None
         self.faiss_index = None
 
-    # ---------------------------------------------------------
-    # Load Knowledge Base
-    # ---------------------------------------------------------
 
     def load_documents(self):
 
@@ -142,9 +139,7 @@ class DocumentRetriever:
 
         return results
 
-    # ---------------------------------------------------------
-    # Prepare Corpus
-    # ---------------------------------------------------------
+
 
     def prepare_corpus(self):
 
@@ -162,9 +157,7 @@ class DocumentRetriever:
 
         print(f"Corpus prepared : {len(self.corpus)} documents")
 
-    # ---------------------------------------------------------
-    # Build BM25 Index
-    # ---------------------------------------------------------
+
 
     def build_bm25_index(self):
 
@@ -180,9 +173,6 @@ class DocumentRetriever:
         print("=" * 50)
         print(f"Indexed documents : {len(self.tokenized_corpus)}")
 
-    # ---------------------------------------------------------
-    # Retrieve using BM25
-    # ---------------------------------------------------------
 
     def retrieve_bm25(self, query, top_k=5):
 
@@ -210,9 +200,6 @@ class DocumentRetriever:
 
         return results
 
-    # ---------------------------------------------------------
-    # Display Helpers
-    # ---------------------------------------------------------
 
     def show_sample(self):
         """
@@ -255,9 +242,7 @@ class DocumentRetriever:
             print("-" * 60)
 
 
-# =============================================================
-# Main
-# =============================================================
+
 
 
 def main():
@@ -294,8 +279,7 @@ def main():
         print(f"Content : {doc['content']}")
         print("-" * 60)
 
-    # Embedding-based retrieval is done once, after the BM25 loop,
-    # not inside it.
+   
     retriever.load_embedding_model()
 
     retriever.build_embedding_index()

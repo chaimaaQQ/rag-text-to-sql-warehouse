@@ -25,19 +25,11 @@ from prompt_builder import PromptBuilder
 from llm_client import LLMClient
 
 
-# ============================================================
-# Sentinel used by the prompt (see prompt_builder.py, rule 9) when the
-# LLM decides the retrieved context does not contain enough information
-# to answer without guessing a table/column name. This is a DELIBERATE
-# anti-hallucination mechanism, not a generation failure.
-# ============================================================
 
 INSUFFICIENT_CONTEXT_SENTINEL = "ADDITIONAL_INFORMATION_REQUIRED"
 
 
-# ============================================================
-# Result structure
-# ============================================================
+
 
 @dataclass
 class GenerationResult:
@@ -48,8 +40,8 @@ class GenerationResult:
     """
 
     question: str
-    sql: str                     # cleaned SQL, ready for execution
-    raw_response: str            # untouched LLM output, for debugging/audit
+    sql: str                    
+    raw_response: str            
     prompt_used: str
     model: str
     temperature: float
@@ -57,25 +49,18 @@ class GenerationResult:
     latency_seconds: float
     prompt_tokens: int
     completion_tokens: int
-    run_index: int = 0           # 0, 1, 2 for the 3 independent trials
+    run_index: int = 0          
     timestamp: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
     error: str | None = None
-    insufficient_context: bool = False  # True si le LLM a explicitement répondu
-    # ADDITIONAL_INFORMATION_REQUIRED (règle 8/9 du prompt) plutôt que d'inventer
-    # une table/colonne. À reporter comme "Ambiguity Detection Accuracy"
-    # (section 11), PAS comme une erreur structurelle ou une panne technique.
-
+    insufficient_context: bool = False  
     @property
     def is_valid(self):
         """True if a non-empty SQL string was extracted."""
         return bool(self.sql) and self.error is None
 
 
-# ============================================================
-# SQL Extraction helper
-# ============================================================
 
 def extract_sql(raw_text):
     """
@@ -90,16 +75,13 @@ def extract_sql(raw_text):
     if not raw_text:
         return ""
 
-    # Case 1 & 2 : fenced code block
     fenced = re.search(r"```(?:sql)?\s*(.*?)```", raw_text, re.DOTALL | re.IGNORECASE)
     if fenced:
         candidate = fenced.group(1).strip()
         if candidate:
             return candidate.rstrip(";").strip() + ";"
 
-    # Case 3 : no fence, locate the first SQL keyword and take the
-    # rest of the text from there (LLMs sometimes add a preamble like
-    # "Here is the SQL query:")
+   
     match = re.search(
         r"(SELECT|WITH|INSERT|UPDATE|DELETE)\b",
         raw_text,
@@ -107,17 +89,13 @@ def extract_sql(raw_text):
     )
     if match:
         candidate = raw_text[match.start():].strip()
-        # Stop at the first blank line followed by prose, if any
         candidate = candidate.split("\n\n")[0].strip()
         return candidate.rstrip(";").strip() + ";"
 
-    # Nothing recognizable was found
     return ""
 
 
-# ============================================================
-# SQL Generator
-# ============================================================
+
 
 class SQLGenerator:
     """
@@ -136,9 +114,7 @@ class SQLGenerator:
         self.top_k = top_k
         self.model = model
 
-    # ---------------------------------------------------------
-    # Single generation
-    # ---------------------------------------------------------
+
 
     def generate_sql(self, question, run_index=0, seed=None, top_k=None):
         """
@@ -178,8 +154,7 @@ class SQLGenerator:
         sql = "" if is_insufficient else extract_sql(raw_response)
 
         if is_insufficient:
-            # Refus volontaire et attendu du LLM (règle 9 du prompt) : ne PAS
-            # le traiter comme une panne d'extraction.
+          
             error_msg = None
         elif sql:
             error_msg = None
@@ -202,9 +177,6 @@ class SQLGenerator:
             insufficient_context=is_insufficient,
         )
 
-    # ---------------------------------------------------------
-    # Repeated generation (variance study, section 4.5)
-    # ---------------------------------------------------------
 
     def generate_sql_with_variance(self, question, n_runs=3, top_k=None):
         """
@@ -218,7 +190,7 @@ class SQLGenerator:
         results = []
 
         for i in range(n_runs):
-            seed = i  # simple, reproducible seed per run
+            seed = i 
             result = self.generate_sql(
                 question=question,
                 run_index=i,
@@ -229,9 +201,7 @@ class SQLGenerator:
 
         return results
 
-    # ---------------------------------------------------------
-    # Debug helper
-    # ---------------------------------------------------------
+
 
     def show_generation(self, question, top_k=None):
         """
@@ -255,9 +225,7 @@ class SQLGenerator:
         print("=" * 70)
 
 
-# ============================================================
-# Main (manual test)
-# ============================================================
+
 
 def main():
 

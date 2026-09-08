@@ -30,9 +30,7 @@ import sqlglot
 from sqlglot import exp
 
 
-# ============================================================================
-# 1. Extraction du ground truth depuis sql_gold (track A)
-# ============================================================================
+
 
 def load_schema_lookup(schemas_dir: str) -> dict:
     """Construit {db_id: {table_name_lower: [colonnes...]}} pour désambiguïser
@@ -108,9 +106,7 @@ def build_ground_truth(questions_path: str, schemas_dir: str) -> list[dict]:
     return ground_truth
 
 
-# ============================================================================
-# 2. Métriques de retrieval génériques (réutilisables par A et B)
-# ============================================================================
+
 
 def recall_at_k(retrieved: list[str], gold: list[str], k: int) -> float:
     if not gold:
@@ -169,9 +165,7 @@ def evaluate_run(all_retrieved: list[list[str]], all_gold: list[list[str]], k: i
     }
 
 
-# ============================================================================
-# 3. Évaluation bout-en-bout du retriever de schéma (track A)
-# ============================================================================
+
 
 def evaluate_schema_retriever(index_dir: str, level: str, ground_truth_path: str,
                                questions_path: str, method: str, k: int) -> dict:
@@ -205,9 +199,7 @@ def evaluate_schema_retriever(index_dir: str, level: str, ground_truth_path: str
     return evaluate_run(all_retrieved, all_gold, k)
 
 
-# ============================================================================
-# 4. CLI
-# ============================================================================
+
 
 def main():
     parser = argparse.ArgumentParser(description="Extraction du ground truth et évaluation du retrieval.")

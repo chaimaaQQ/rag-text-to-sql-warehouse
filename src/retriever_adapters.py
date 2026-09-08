@@ -38,7 +38,7 @@ class SchemaRetrieverAdapter:
     def __init__(self, index_dir: str, method: str = "hybrid", level: str = "table"):
         self.docs, self.bm25, self.embeddings, self.model_name = rs.load_index(index_dir, level)
         self.method = method
-        self.db_id = None  # à renseigner avant chaque appel : adapter.db_id = "california_schools"
+        self.db_id = None 
 
     def retrieve(self, query, top_k=5):
         if self.db_id is None:
@@ -52,7 +52,6 @@ class SchemaRetrieverAdapter:
             db_id=self.db_id, k=top_k, method=self.method,
         )
 
-        # Reformatage au format attendu par PromptBuilder.format_context()
         documents = []
         for r in results:
             doc = r["doc"]
@@ -63,17 +62,7 @@ class SchemaRetrieverAdapter:
                 "metadata": {"retrieval_score": round(r["score"], 4), "db_id": self.db_id},
             })
         return documents
-# ============================================================================
-# À AJOUTER À LA FIN DE src/retriever_adapters.py (ne remplace rien d'existant)
-# ============================================================================
-#
-# Contexte (section 3.2 du cahier des charges) : sur BIRD Mini-Dev, le champ
-# `evidence` de chaque question EST la connaissance métier — il n'y a pas de
-# corpus à interroger, donc pas de "retrieval documentaire" à proprement
-# parler pour le pipeline C/D sur ce dataset. On injecte `evidence` tel quel,
-# exactement comme le cahier des charges l'impose pour D, et on applique la
-# même règle à C par cohérence (aucune retrieval documentaire testée sur BIRD
-# en dehors de l'étude secondaire sur BIRD-Evidence-Corpus, section 3.2/4.4).
+
 
 
 class EvidenceRetriever:
@@ -86,7 +75,7 @@ class EvidenceRetriever:
     une par une)."""
 
     def __init__(self):
-        self.evidence = None  # à renseigner : adapter.evidence = q["evidence"]
+        self.evidence = None  
 
     def retrieve(self, query, top_k=5):
         if not self.evidence:
