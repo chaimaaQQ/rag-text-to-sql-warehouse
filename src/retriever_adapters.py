@@ -63,3 +63,74 @@ class SchemaRetrieverAdapter:
                 "metadata": {"retrieval_score": round(r["score"], 4), "db_id": self.db_id},
             })
         return documents
+# ============================================================================
+# À AJOUTER À LA FIN DE src/retriever_adapters.py (ne remplace rien d'existant)
+# ============================================================================
+#
+# Contexte (section 3.2 du cahier des charges) : sur BIRD Mini-Dev, le champ
+# `evidence` de chaque question EST la connaissance métier — il n'y a pas de
+# corpus à interroger, donc pas de "retrieval documentaire" à proprement
+# parler pour le pipeline C/D sur ce dataset. On injecte `evidence` tel quel,
+# exactement comme le cahier des charges l'impose pour D, et on applique la
+# même règle à C par cohérence (aucune retrieval documentaire testée sur BIRD
+# en dehors de l'étude secondaire sur BIRD-Evidence-Corpus, section 3.2/4.4).
+
+
+class EvidenceRetriever:
+    """Retriever pour le Pipeline C (RAG métier seul) sur BIRD.
+
+    Ne fait AUCUN retrieval : renvoie directement le champ `evidence` de la
+    question courante, au format attendu par PromptBuilder.format_context().
+    L'attribut `.evidence` doit être renseigné avant chaque appel, comme
+    `.db_id` pour SchemaRetrieverAdapter (une pipeline traite les questions
+    une par une)."""
+
+    def __init__(self):
+        self.evidence = None  # à renseigner : adapter.evidence = q["evidence"]
+
+    def retrieve(self, query, top_k=5):
+        if not self.evidence:
+            return []
+        return [{
+            "type": "business_evidence",
+            "title": "Connaissance métier (evidence BIRD)",
+            "content": self.evidence,
+            "metadata": {},
+        }]
+
+
+class CombinedRetriever:
+    """Retriever pour le Pipeline D (RAG hybride) sur BIRD.
+
+    Combine :
+      - le retrieval de schéma (SchemaRetrieverAdapter, tables/colonnes
+        pertinentes, stratégie fixée par l'ablation préliminaire section 4.3)
+      - la connaissance métier fournie telle quelle (evidence BIRD, comme
+        imposé section 3.2 — jamais de retrieval documentaire sur BIRD)
+
+    À renseigner avant chaque appel : `.db_id` et `.evidence`."""
+
+    def __init__(self, schema_adapter):
+        self.schema_adapter = schema_adapter
+        self.evidence_adapter = EvidenceRetriever()
+
+    @property
+    def db_id(self):
+        return self.schema_adapter.db_id
+
+    @db_id.setter
+    def db_id(self, value):
+        self.schema_adapter.db_id = value
+
+    @property
+    def evidence(self):
+        return self.evidence_adapter.evidence
+
+    @evidence.setter
+    def evidence(self, value):
+        self.evidence_adapter.evidence = value
+
+    def retrieve(self, query, top_k=5):
+        schema_docs = self.schema_adapter.retrieve(query, top_k=top_k)
+        evidence_docs = self.evidence_adapter.retrieve(query, top_k=top_k)
+        return schema_docs + evidence_docs

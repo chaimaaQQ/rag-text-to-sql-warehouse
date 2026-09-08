@@ -1,0 +1,85 @@
+{
+  "n_total": 40,
+  "n_agree": 27,
+  "agreement_rate": 0.675,
+  "disagreements": [
+    {
+      "question_id": "tpcds_eval_021",
+      "doc_id": "KB0032",
+      "question": "What is the rule for calculating web returns?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_024",
+      "doc_id": "KB0036",
+      "question": "What business rule applies to product counting?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_022",
+      "doc_id": "KB0033",
+      "question": "Which column should be used to compute inventory quantity?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_026",
+      "doc_id": "KB0038",
+      "question": "Which column should be used to compute warehouse analysis?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_018",
+      "doc_id": "KB0029",
+      "question": "Which column should be used to compute web sales revenue?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_025",
+      "doc_id": "KB0037",
+      "question": "What business rule applies to promotion analysis?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_019",
+      "doc_id": "KB0030",
+      "question": "How should store returns be computed according to company policy?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_023",
+      "doc_id": "KB0034",
+      "question": "How should customer counting be computed according to company policy?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_016",
+      "doc_id": "KB0025",
+      "question": "Which column should be used to compute store sales revenue?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_016",
+      "doc_id": "KB0026",
+      "question": "Which column should be used to compute store sales revenue?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_020",
+      "doc_id": "KB0031",
+      "question": "What business rule applies to catalog returns?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_027",
+      "doc_id": "KB0039",
+      "question": "Which column should be used to compute discount analysis?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    },
+    {
+      "question_id": "tpcds_eval_017",
+      "doc_id": "KB0028",
+      "question": "How should catalog sales revenue be computed according to company policy?",
+      "comment": "pre-rempli a partir de la suggestion Claude, revue rapide"
+    }
+  ]
+}

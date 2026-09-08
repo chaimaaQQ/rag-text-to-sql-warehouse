@@ -1,0 +1,25 @@
+{
+  "n_completed": 60,
+  "raw_agreement": 1.0,
+  "cohens_kappa": 1.0,
+  "labels_annotator_a": {
+    "semantic": 23,
+    "ambiguous": 8,
+    "structural": 18,
+    "correct": 11
+  },
+  "labels_annotator_b": {
+    "semantic": 23,
+    "ambiguous": 8,
+    "structural": 18,
+    "correct": 11
+  },
+  "disagreements": [],
+  "label_set": [
+    "structural",
+    "semantic",
+    "ambiguous",
+    "correct",
+    "other"
+  ]
+}

@@ -80,6 +80,15 @@ def validate_query(sql: str, db_id: str, schema_lookup: dict, dialect: str = "sq
 
     db_tables = schema_lookup[db_id]  # {table_name_lower: [colonnes]}
 
+    # --- 0. SQL vide : ce n'est PAS une erreur de syntaxe, c'est l'absence
+    # de toute tentative (typiquement un refus volontaire du LLM du type
+    # ADDITIONAL_INFORMATION_REQUIRED, cf. sql_generator.py). À ne jamais
+    # confondre avec un vrai SQL syntaxiquement invalide dans les métriques.
+    if not sql or not sql.strip():
+        report["error_type"] = "empty_sql"
+        report["error_detail"] = "Aucune requête SQL fournie (sql_generated vide)."
+        return report
+
     # --- 1. Parsing syntaxique ---
     try:
         parsed = sqlglot.parse_one(sql, dialect=dialect)

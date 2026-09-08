@@ -1,0 +1,70 @@
+{
+  "rates_B": {
+    "n_total": 498,
+    "n_refusal_or_empty": 353,
+    "n_attempted": 145,
+    "n_match": 32,
+    "n_structural_errors": 37,
+    "n_semantic_errors": 76
+  },
+  "rates_D": {
+    "n_total": 498,
+    "n_refusal_or_empty": 113,
+    "n_attempted": 385,
+    "n_match": 113,
+    "n_structural_errors": 136,
+    "n_semantic_errors": 136
+  },
+  "structural_test": {
+    "contingency_table": {
+      "B": {
+        "errors": 37,
+        "ok": 108
+      },
+      "D": {
+        "errors": 136,
+        "ok": 249
+      }
+    },
+    "rate_B": 0.25517241379310346,
+    "rate_D": 0.35324675324675325,
+    "odds_ratio": 0.6272467320261438,
+    "p_value": 0.03749837928960861,
+    "significant_at_0.05": true
+  },
+  "semantic_test": {
+    "contingency_table": {
+      "B": {
+        "errors": 76,
+        "ok": 69
+      },
+      "D": {
+        "errors": 136,
+        "ok": 249
+      }
+    },
+    "rate_B": 0.5241379310344828,
+    "rate_D": 0.35324675324675325,
+    "odds_ratio": 2.016624040920716,
+    "p_value": 0.0004772789657909438,
+    "significant_at_0.05": true
+  },
+  "refusal_test_informatif": {
+    "contingency_table": {
+      "B": {
+        "errors": 353,
+        "ok": 145
+      },
+      "D": {
+        "errors": 113,
+        "ok": 385
+      }
+    },
+    "rate_B": 0.7088353413654619,
+    "rate_D": 0.22690763052208834,
+    "odds_ratio": 8.29447665547757,
+    "p_value": 3.329810555406763e-54,
+    "significant_at_0.05": true
+  },
+  "H1_supported": false
+}

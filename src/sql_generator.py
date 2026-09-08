@@ -26,6 +26,16 @@ from llm_client import LLMClient
 
 
 # ============================================================
+# Sentinel used by the prompt (see prompt_builder.py, rule 9) when the
+# LLM decides the retrieved context does not contain enough information
+# to answer without guessing a table/column name. This is a DELIBERATE
+# anti-hallucination mechanism, not a generation failure.
+# ============================================================
+
+INSUFFICIENT_CONTEXT_SENTINEL = "ADDITIONAL_INFORMATION_REQUIRED"
+
+
+# ============================================================
 # Result structure
 # ============================================================
 
@@ -52,6 +62,10 @@ class GenerationResult:
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
     error: str | None = None
+    insufficient_context: bool = False  # True si le LLM a explicitement répondu
+    # ADDITIONAL_INFORMATION_REQUIRED (règle 8/9 du prompt) plutôt que d'inventer
+    # une table/colonne. À reporter comme "Ambiguity Detection Accuracy"
+    # (section 11), PAS comme une erreur structurelle ou une panne technique.
 
     @property
     def is_valid(self):
@@ -160,7 +174,17 @@ class SQLGenerator:
             )
 
         raw_response = result["response"]
-        sql = extract_sql(raw_response)
+        is_insufficient = raw_response.strip().lower() == INSUFFICIENT_CONTEXT_SENTINEL.lower()
+        sql = "" if is_insufficient else extract_sql(raw_response)
+
+        if is_insufficient:
+            # Refus volontaire et attendu du LLM (règle 9 du prompt) : ne PAS
+            # le traiter comme une panne d'extraction.
+            error_msg = None
+        elif sql:
+            error_msg = None
+        else:
+            error_msg = "No SQL could be extracted from the response."
 
         return GenerationResult(
             question=question,
@@ -174,7 +198,8 @@ class SQLGenerator:
             prompt_tokens=result.get("prompt_tokens", 0),
             completion_tokens=result.get("completion_tokens", 0),
             run_index=run_index,
-            error=None if sql else "No SQL could be extracted from the response."
+            error=error_msg,
+            insufficient_context=is_insufficient,
         )
 
     # ---------------------------------------------------------
@@ -223,7 +248,9 @@ class SQLGenerator:
         print(f"model={result.model} | temperature={result.temperature} "
               f"| latency={result.latency_seconds:.2f}s "
               f"| tokens(in/out)={result.prompt_tokens}/{result.completion_tokens}")
-        if result.error:
+        if result.insufficient_context:
+            print("INSUFFICIENT CONTEXT (ADDITIONAL_INFORMATION_REQUIRED)")
+        elif result.error:
             print("ERROR:", result.error)
         print("=" * 70)
 

@@ -1,0 +1,22 @@
+{
+  "study_name": "BIRD Mini-Dev main study",
+  "n_questions": 500,
+  "runs": 3,
+  "seeds": [0, 1, 2],
+  "pipelines": ["A", "B", "C", "D"],
+  "generator": {
+    "provider": "ollama",
+    "model": "qwen2.5:7b",
+    "temperature": 0.0,
+    "top_k": 5
+  },
+  "schema_retrieval_method": "hybrid",
+  "auto_correction": false,
+  "execution": {
+    "databases_dir": "data/raw/bird/dev_databases",
+    "timeout_seconds": 15,
+    "round_decimals": 2
+  },
+  "run_layout": "Pipelines were executed individually with resumable per-question checkpoints. Seed-0 B/C/D artifacts were verified and integrated from results/study_run_00.",
+  "analysis_dir": "results/main_study_final/analysis"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "pipeline": "A - Sans RAG",
+    "execution_accuracy": 0.0,
+    "execution_accuracy_std": 0.0,
+    "valid_sql_rate": 0.0,
+    "refusal_rate": 0.798,
+    "execution_structural_error_rate": 1.0,
+    "wrong_execution_result_rate": 0.0
+  },
+  {
+    "pipeline": "B - RAG schema seul",
+    "execution_accuracy": 0.06451612903225806,
+    "execution_accuracy_std": 0.0,
+    "valid_sql_rate": 0.19533333333333333,
+    "refusal_rate": 0.7106666666666667,
+    "execution_structural_error_rate": 0.26036079182630906,
+    "wrong_execution_result_rate": 0.5184386973180077
+  },
+  {
+    "pipeline": "C - RAG metier seul",
+    "execution_accuracy": 0.013440860215053764,
+    "execution_accuracy_std": 0.0009504123403044993,
+    "valid_sql_rate": 0.025333333333333333,
+    "refusal_rate": 0.42866666666666664,
+    "execution_structural_error_rate": 0.9660448068528128,
+    "wrong_execution_result_rate": 0.010538670620212503
+  },
+  {
+    "pipeline": "D - RAG hybride",
+    "execution_accuracy": 0.22849462365591397,
+    "execution_accuracy_std": 0.001900824680608997,
+    "valid_sql_rate": 0.508,
+    "refusal_rate": 0.22866666666666668,
+    "execution_structural_error_rate": 0.3552788148307447,
+    "wrong_execution_result_rate": 0.35009743290517675
+  }
+]

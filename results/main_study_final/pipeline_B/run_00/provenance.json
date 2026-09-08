@@ -1,0 +1,10 @@
+{
+  "source_run": "results/study_run_00/pipeline_B",
+  "pipeline": "B",
+  "run_index": 0,
+  "seed": 0,
+  "model": "qwen2.5:7b",
+  "temperature": 0.0,
+  "n_questions": 500,
+  "integration": "Validated and integrated from the exploratory seed-0 run."
+}

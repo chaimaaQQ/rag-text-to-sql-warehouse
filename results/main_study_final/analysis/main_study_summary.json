@@ -1,0 +1,348 @@
+{
+  "pipelines": {
+    "A": {
+      "runs": {
+        "run_00": {
+          "execution_accuracy": 0.0,
+          "n_match": 0,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.0,
+          "refusal_rate": 0.798,
+          "execution_structural_error_rate": 1.0,
+          "wrong_execution_result_rate": 0.0
+        },
+        "run_01": {
+          "execution_accuracy": 0.0,
+          "n_match": 0,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.0,
+          "refusal_rate": 0.798,
+          "execution_structural_error_rate": 1.0,
+          "wrong_execution_result_rate": 0.0
+        },
+        "run_02": {
+          "execution_accuracy": 0.0,
+          "n_match": 0,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.0,
+          "refusal_rate": 0.798,
+          "execution_structural_error_rate": 1.0,
+          "wrong_execution_result_rate": 0.0
+        }
+      },
+      "summary": {
+        "execution_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "valid_sql_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "refusal_rate": {
+          "mean": 0.798,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            0.798,
+            0.798,
+            0.798
+          ]
+        },
+        "execution_structural_error_rate": {
+          "mean": 1.0,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "wrong_execution_result_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "B": {
+      "runs": {
+        "run_00": {
+          "execution_accuracy": 0.06451612903225806,
+          "n_match": 32,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.194,
+          "refusal_rate": 0.712,
+          "execution_structural_error_rate": 0.2569444444444444,
+          "wrong_execution_result_rate": 0.5208333333333334
+        },
+        "run_01": {
+          "execution_accuracy": 0.06451612903225806,
+          "n_match": 32,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.196,
+          "refusal_rate": 0.71,
+          "execution_structural_error_rate": 0.2620689655172414,
+          "wrong_execution_result_rate": 0.5172413793103449
+        },
+        "run_02": {
+          "execution_accuracy": 0.06451612903225806,
+          "n_match": 32,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.196,
+          "refusal_rate": 0.71,
+          "execution_structural_error_rate": 0.2620689655172414,
+          "wrong_execution_result_rate": 0.5172413793103449
+        }
+      },
+      "summary": {
+        "execution_accuracy": {
+          "mean": 0.06451612903225806,
+          "std": 0.0,
+          "n_runs": 3,
+          "values": [
+            0.06451612903225806,
+            0.06451612903225806,
+            0.06451612903225806
+          ]
+        },
+        "valid_sql_rate": {
+          "mean": 0.19533333333333333,
+          "std": 0.0009428090415820643,
+          "n_runs": 3,
+          "values": [
+            0.194,
+            0.196,
+            0.196
+          ]
+        },
+        "refusal_rate": {
+          "mean": 0.7106666666666667,
+          "std": 0.0009428090415820643,
+          "n_runs": 3,
+          "values": [
+            0.712,
+            0.71,
+            0.71
+          ]
+        },
+        "execution_structural_error_rate": {
+          "mean": 0.26036079182630906,
+          "std": 0.0024157224006054055,
+          "n_runs": 3,
+          "values": [
+            0.2569444444444444,
+            0.2620689655172414,
+            0.2620689655172414
+          ]
+        },
+        "wrong_execution_result_rate": {
+          "mean": 0.5184386973180077,
+          "std": 0.0016932633649103161,
+          "n_runs": 3,
+          "values": [
+            0.5208333333333334,
+            0.5172413793103449,
+            0.5172413793103449
+          ]
+        }
+      }
+    },
+    "C": {
+      "runs": {
+        "run_00": {
+          "execution_accuracy": 0.014112903225806451,
+          "n_match": 7,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.026,
+          "refusal_rate": 0.428,
+          "execution_structural_error_rate": 0.9649122807017544,
+          "wrong_execution_result_rate": 0.010526315789473684
+        },
+        "run_01": {
+          "execution_accuracy": 0.012096774193548387,
+          "n_match": 6,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.024,
+          "refusal_rate": 0.43,
+          "execution_structural_error_rate": 0.9683098591549296,
+          "wrong_execution_result_rate": 0.01056338028169014
+        },
+        "run_02": {
+          "execution_accuracy": 0.014112903225806451,
+          "n_match": 7,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.026,
+          "refusal_rate": 0.428,
+          "execution_structural_error_rate": 0.9649122807017544,
+          "wrong_execution_result_rate": 0.010526315789473684
+        }
+      },
+      "summary": {
+        "execution_accuracy": {
+          "mean": 0.013440860215053764,
+          "std": 0.0009504123403044993,
+          "n_runs": 3,
+          "values": [
+            0.014112903225806451,
+            0.012096774193548387,
+            0.014112903225806451
+          ]
+        },
+        "valid_sql_rate": {
+          "mean": 0.025333333333333333,
+          "std": 0.0009428090415820625,
+          "n_runs": 3,
+          "values": [
+            0.026,
+            0.024,
+            0.026
+          ]
+        },
+        "refusal_rate": {
+          "mean": 0.42866666666666664,
+          "std": 0.0009428090415820643,
+          "n_runs": 3,
+          "values": [
+            0.428,
+            0.43,
+            0.428
+          ]
+        },
+        "execution_structural_error_rate": {
+          "mean": 0.9660448068528128,
+          "std": 0.001601633842569005,
+          "n_runs": 3,
+          "values": [
+            0.9649122807017544,
+            0.9683098591549296,
+            0.9649122807017544
+          ]
+        },
+        "wrong_execution_result_rate": {
+          "mean": 0.010538670620212503,
+          "std": 1.7472369191661683e-05,
+          "n_runs": 3,
+          "values": [
+            0.010526315789473684,
+            0.01056338028169014,
+            0.010526315789473684
+          ]
+        }
+      }
+    },
+    "D": {
+      "runs": {
+        "run_00": {
+          "execution_accuracy": 0.22983870967741934,
+          "n_match": 114,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.51,
+          "refusal_rate": 0.224,
+          "execution_structural_error_rate": 0.35658914728682173,
+          "wrong_execution_result_rate": 0.3488372093023256
+        },
+        "run_01": {
+          "execution_accuracy": 0.22580645161290322,
+          "n_match": 112,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.506,
+          "refusal_rate": 0.234,
+          "execution_structural_error_rate": 0.35340314136125656,
+          "wrong_execution_result_rate": 0.35340314136125656
+        },
+        "run_02": {
+          "execution_accuracy": 0.22983870967741934,
+          "n_match": 114,
+          "n_comparable": 496,
+          "n_total": 498,
+          "valid_sql_rate": 0.508,
+          "refusal_rate": 0.228,
+          "execution_structural_error_rate": 0.35584415584415585,
+          "wrong_execution_result_rate": 0.34805194805194806
+        }
+      },
+      "summary": {
+        "execution_accuracy": {
+          "mean": 0.22849462365591397,
+          "std": 0.001900824680608997,
+          "n_runs": 3,
+          "values": [
+            0.22983870967741934,
+            0.22580645161290322,
+            0.22983870967741934
+          ]
+        },
+        "valid_sql_rate": {
+          "mean": 0.508,
+          "std": 0.0016329931618554534,
+          "n_runs": 3,
+          "values": [
+            0.51,
+            0.506,
+            0.508
+          ]
+        },
+        "refusal_rate": {
+          "mean": 0.22866666666666668,
+          "std": 0.0041096093353126546,
+          "n_runs": 3,
+          "values": [
+            0.224,
+            0.234,
+            0.228
+          ]
+        },
+        "execution_structural_error_rate": {
+          "mean": 0.3552788148307447,
+          "std": 0.0013607268365393665,
+          "n_runs": 3,
+          "values": [
+            0.35658914728682173,
+            0.35340314136125656,
+            0.35584415584415585
+          ]
+        },
+        "wrong_execution_result_rate": {
+          "mean": 0.35009743290517675,
+          "std": 0.0023593699872754663,
+          "n_runs": 3,
+          "values": [
+            0.3488372093023256,
+            0.35340314136125656,
+            0.34805194805194806
+          ]
+        }
+      }
+    }
+  }
+}

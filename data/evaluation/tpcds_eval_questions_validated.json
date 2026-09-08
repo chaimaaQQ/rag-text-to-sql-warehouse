@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "tpcds_eval_001",
+    "question": "How is Total Store Sales calculated?",
+    "relevant_doc_ids": [
+      "KB0025"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI001"
+  },
+  {
+    "question_id": "tpcds_eval_002",
+    "question": "How is Average Store Sales calculated?",
+    "relevant_doc_ids": [
+      "KB0026"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI002"
+  },
+  {
+    "question_id": "tpcds_eval_003",
+    "question": "How do we compute the total quantity sold for the store_sales table?",
+    "relevant_doc_ids": [
+      "KB0027"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI003"
+  },
+  {
+    "question_id": "tpcds_eval_004",
+    "question": "What is the formula for Total Catalog Sales?",
+    "relevant_doc_ids": [
+      "KB0028"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI004"
+  },
+  {
+    "question_id": "tpcds_eval_005",
+    "question": "What is the formula for Total Web Sales?",
+    "relevant_doc_ids": [
+      "KB0029"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI005"
+  },
+  {
+    "question_id": "tpcds_eval_006",
+    "question": "What is the formula for Total Store Returns?",
+    "relevant_doc_ids": [
+      "KB0030"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI006"
+  },
+  {
+    "question_id": "tpcds_eval_007",
+    "question": "How is Total Catalog Returns calculated?",
+    "relevant_doc_ids": [
+      "KB0031"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI007"
+  },
+  {
+    "question_id": "tpcds_eval_008",
+    "question": "How is Total Web Returns calculated?",
+    "relevant_doc_ids": [
+      "KB0032"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI008"
+  },
+  {
+    "question_id": "tpcds_eval_009",
+    "question": "Which measure should I aggregate to get inventory quantity?",
+    "relevant_doc_ids": [
+      "KB0033"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI009"
+  },
+  {
+    "question_id": "tpcds_eval_010",
+    "question": "How is Customer Count calculated?",
+    "relevant_doc_ids": [
+      "KB0034"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI010"
+  },
+  {
+    "question_id": "tpcds_eval_011",
+    "question": "How is Store Count calculated?",
+    "relevant_doc_ids": [
+      "KB0035"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI011"
+  },
+  {
+    "question_id": "tpcds_eval_012",
+    "question": "How is Product Count calculated?",
+    "relevant_doc_ids": [
+      "KB0036"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI012"
+  },
+  {
+    "question_id": "tpcds_eval_013",
+    "question": "What is the formula for Promotion Count?",
+    "relevant_doc_ids": [
+      "KB0037"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI013"
+  },
+  {
+    "question_id": "tpcds_eval_014",
+    "question": "What is the formula for Warehouse Count?",
+    "relevant_doc_ids": [
+      "KB0038"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI014"
+  },
+  {
+    "question_id": "tpcds_eval_015",
+    "question": "How is Average Discount calculated?",
+    "relevant_doc_ids": [
+      "KB0039"
+    ],
+    "source_type": "kpi",
+    "source_id": "KPI015"
+  },
+  {
+    "question_id": "tpcds_eval_016",
+    "question": "Which column should be used to compute store sales revenue?",
+    "relevant_doc_ids": [
+      "KB0040"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR001"
+  },
+  {
+    "question_id": "tpcds_eval_017",
+    "question": "How should catalog sales revenue be computed according to company policy?",
+    "relevant_doc_ids": [
+      "KB0041"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR002"
+  },
+  {
+    "question_id": "tpcds_eval_018",
+    "question": "Which column should be used to compute web sales revenue?",
+    "relevant_doc_ids": [
+      "KB0042"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR003"
+  },
+  {
+    "question_id": "tpcds_eval_019",
+    "question": "How should store returns be computed according to company policy?",
+    "relevant_doc_ids": [
+      "KB0043"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR004"
+  },
+  {
+    "question_id": "tpcds_eval_020",
+    "question": "What business rule applies to catalog returns?",
+    "relevant_doc_ids": [
+      "KB0044"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR005"
+  },
+  {
+    "question_id": "tpcds_eval_021",
+    "question": "What is the rule for calculating web returns?",
+    "relevant_doc_ids": [
+      "KB0045"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR006"
+  },
+  {
+    "question_id": "tpcds_eval_022",
+    "question": "Which column should be used to compute inventory quantity?",
+    "relevant_doc_ids": [
+      "KB0046"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR007"
+  },
+  {
+    "question_id": "tpcds_eval_023",
+    "question": "How should customer counting be computed according to company policy?",
+    "relevant_doc_ids": [
+      "KB0047"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR008"
+  },
+  {
+    "question_id": "tpcds_eval_024",
+    "question": "What business rule applies to product counting?",
+    "relevant_doc_ids": [
+      "KB0048"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR009"
+  },
+  {
+    "question_id": "tpcds_eval_025",
+    "question": "What business rule applies to promotion analysis?",
+    "relevant_doc_ids": [
+      "KB0049"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR010"
+  },
+  {
+    "question_id": "tpcds_eval_026",
+    "question": "Which column should be used to compute warehouse analysis?",
+    "relevant_doc_ids": [
+      "KB0050"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR011"
+  },
+  {
+    "question_id": "tpcds_eval_027",
+    "question": "Which column should be used to compute discount analysis?",
+    "relevant_doc_ids": [
+      "KB0051"
+    ],
+    "source_type": "business_rule",
+    "source_id": "BR012"
+  }
+]

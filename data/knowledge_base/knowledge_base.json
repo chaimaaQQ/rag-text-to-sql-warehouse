@@ -863,7 +863,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0041",
         "type": "business_rule",
         "title": "Catalog Sales Revenue",
         "content": "Revenue generated from catalog orders must use the net paid amount.",
@@ -885,7 +885,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0042",
         "type": "business_rule",
         "title": "Web Sales Revenue",
         "content": "Revenue generated from online sales must use the net paid amount.",
@@ -907,7 +907,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0043",
         "type": "business_rule",
         "title": "Store Returns",
         "content": "Returned products in physical stores must be calculated using the return amount.",
@@ -929,7 +929,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0044",
         "type": "business_rule",
         "title": "Catalog Returns",
         "content": "Returned catalog products must use the catalog return amount.",
@@ -950,7 +950,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0045",
         "type": "business_rule",
         "title": "Web Returns",
         "content": "Returned web orders must use the web return amount.",
@@ -971,7 +971,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0046",
         "type": "business_rule",
         "title": "Inventory Quantity",
         "content": "Inventory level is determined using the quantity currently on hand.",
@@ -993,7 +993,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0047",
         "type": "business_rule",
         "title": "Customer Counting",
         "content": "The number of customers must be calculated using the customer surrogate key.",
@@ -1014,7 +1014,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0048",
         "type": "business_rule",
         "title": "Product Counting",
         "content": "Products are identified using the item surrogate key.",
@@ -1035,7 +1035,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0049",
         "type": "business_rule",
         "title": "Promotion Analysis",
         "content": "Promotion analysis must use the promotion dimension.",
@@ -1056,7 +1056,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0050",
         "type": "business_rule",
         "title": "Warehouse Analysis",
         "content": "Warehouse analysis must use the warehouse dimension.",
@@ -1076,7 +1076,7 @@
         }
     },
     {
-        "id": "KB0040",
+        "id": "KB0051",
         "type": "business_rule",
         "title": "Discount Analysis",
         "content": "Average discounts must be computed using the extended discount amount.",
@@ -1097,7 +1097,7 @@
         }
     },
     {
-        "id": "KB0041",
+        "id": "KB0052",
         "type": "bird_evidence",
         "title": "Evidence 1471",
         "content": "ratio of customers who pay in EUR against customers who pay in CZK = count(Currency = 'EUR') / count(Currency = 'CZK').",
@@ -1107,7 +1107,7 @@
         }
     },
     {
-        "id": "KB0042",
+        "id": "KB0053",
         "type": "bird_evidence",
         "title": "Evidence 1472",
         "content": "Year 2012 can be presented as Between 201201 And 201212; The first 4 strings of the Date values in the yearmonth table can represent year.",
@@ -1117,7 +1117,7 @@
         }
     },
     {
-        "id": "KB0043",
+        "id": "KB0054",
         "type": "bird_evidence",
         "title": "Evidence 1473",
         "content": "Average Monthly consumption = AVG(Consumption) / 12; Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year.",
@@ -1127,7 +1127,7 @@
         }
     },
     {
-        "id": "KB0044",
+        "id": "KB0055",
         "type": "bird_evidence",
         "title": "Evidence 1476",
         "content": "Year 2012 can be presented as Between 201201 And 201212; The first 4 strings of the Date values in the yearmonth table can represent year; Difference in Consumption = CZK customers consumption in 2012 - EUR customers consumption in 2012",
@@ -1137,7 +1137,7 @@
         }
     },
     {
-        "id": "KB0045",
+        "id": "KB0056",
         "type": "bird_evidence",
         "title": "Evidence 1479",
         "content": "The first 4 strings of the Date values in the yearmonth table can represent year.",
@@ -1147,7 +1147,7 @@
         }
     },
     {
-        "id": "KB0046",
+        "id": "KB0057",
         "type": "bird_evidence",
         "title": "Evidence 1480",
         "content": "Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month.",
@@ -1157,7 +1157,7 @@
         }
     },
     {
-        "id": "KB0047",
+        "id": "KB0058",
         "type": "bird_evidence",
         "title": "Evidence 1481",
         "content": "annual average consumption of customer with the lowest consumption in each segment = total consumption per year / the number of customer with lowest consumption in each segment; Difference in annual average = SME's annual average - LAM's annual average; Difference in annual average = LAM's annual average - KAM's annual average; Year 2013 can be presented as Between 201301 And 201312; The first 4 strings of the Date values in the yearmonth table can represent year.",
@@ -1167,7 +1167,7 @@
         }
     },
     {
-        "id": "KB0048",
+        "id": "KB0059",
         "type": "bird_evidence",
         "title": "Evidence 1482",
         "content": "Increase or Decrease = consumption for 2013 - consumption for 2012; Percentage of Increase = (Increase or Decrease / consumption for 2013) * 100%; The first 4 strings of the Date values in the yearmonth table can represent year",
@@ -1177,7 +1177,7 @@
         }
     },
     {
-        "id": "KB0049",
+        "id": "KB0060",
         "type": "bird_evidence",
         "title": "Evidence 1483",
         "content": "Between August And November 2013 refers to Between 201308 And 201311; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month.",
@@ -1187,7 +1187,7 @@
         }
     },
     {
-        "id": "KB0050",
+        "id": "KB0061",
         "type": "bird_evidence",
         "title": "Evidence 1484",
         "content": "Czech Republic can be represented as the Country value in gasstations table is 'CZE'; Slovakia can be represented as the Country value in the gasstations table is 'SVK';  Computation of more \"discount\" gas stations= Total no. of discount gas stations in Czech Republic - Total no. of discount gas stations in Slovakia",
@@ -1197,7 +1197,7 @@
         }
     },
     {
-        "id": "KB0051",
+        "id": "KB0062",
         "type": "bird_evidence",
         "title": "Evidence 1486",
         "content": "Amount of more SMEs = Total of SMEs pay using Currency CZK - Total of SMEs pay using Currency EUR",
@@ -1207,7 +1207,7 @@
         }
     },
     {
-        "id": "KB0052",
+        "id": "KB0063",
         "type": "bird_evidence",
         "title": "Evidence 1490",
         "content": "Percentage of LAM customer consumed more than 46.73 = (Total no. of LAM customers who consumed more than 46.73 / Total no. of LAM customers) * 100.",
@@ -1217,7 +1217,7 @@
         }
     },
     {
-        "id": "KB0053",
+        "id": "KB0064",
         "type": "bird_evidence",
         "title": "Evidence 1493",
         "content": "February 2012 refers to '201202' in yearmonth.date; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month.",
@@ -1227,7 +1227,7 @@
         }
     },
     {
-        "id": "KB0054",
+        "id": "KB0065",
         "type": "bird_evidence",
         "title": "Evidence 1498",
         "content": "The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month.",
@@ -1237,7 +1237,7 @@
         }
     },
     {
-        "id": "KB0055",
+        "id": "KB0066",
         "type": "bird_evidence",
         "title": "Evidence 1500",
         "content": "September 2013 refers to 201309; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month.",
@@ -1247,7 +1247,7 @@
         }
     },
     {
-        "id": "KB0056",
+        "id": "KB0067",
         "type": "bird_evidence",
         "title": "Evidence 1501",
         "content": "June 2013 refers to '201306'; The first 4 strings of the Date values in the yearmonth table can represent year; The 5th and 6th string of the date can refer to month;",
@@ -1257,7 +1257,7 @@
         }
     },
     {
-        "id": "KB0057",
+        "id": "KB0068",
         "type": "bird_evidence",
         "title": "Evidence 1505",
         "content": "Pays in euro = Currency = 'EUR'.",
@@ -1267,7 +1267,7 @@
         }
     },
     {
-        "id": "KB0058",
+        "id": "KB0069",
         "type": "bird_evidence",
         "title": "Evidence 1506",
         "content": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'; ",
@@ -1277,7 +1277,7 @@
         }
     },
     {
-        "id": "KB0059",
+        "id": "KB0070",
         "type": "bird_evidence",
         "title": "Evidence 1507",
         "content": "",
@@ -1287,7 +1287,7 @@
         }
     },
     {
-        "id": "KB0060",
+        "id": "KB0071",
         "type": "bird_evidence",
         "title": "Evidence 1509",
         "content": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'",
@@ -1297,7 +1297,7 @@
         }
     },
     {
-        "id": "KB0061",
+        "id": "KB0072",
         "type": "bird_evidence",
         "title": "Evidence 1514",
         "content": "'2012/8/24' can be represented by '2012-08-24'; ",
@@ -1307,7 +1307,7 @@
         }
     },
     {
-        "id": "KB0062",
+        "id": "KB0073",
         "type": "bird_evidence",
         "title": "Evidence 1515",
         "content": "'2012/8/23' can be represented by '2012-08-23'",
@@ -1317,7 +1317,7 @@
         }
     },
     {
-        "id": "KB0063",
+        "id": "KB0074",
         "type": "bird_evidence",
         "title": "Evidence 1521",
         "content": "Czech Republic can be represented as the Country value in the gasstations table is 'CZE'; '2012/8/26' can be represented by '2012-08-26'; during 8:00-9:00 can be represented as Time BETWEEN '08:00:00' AND '09:00:00'",
@@ -1327,7 +1327,7 @@
         }
     },
     {
-        "id": "KB0064",
+        "id": "KB0075",
         "type": "bird_evidence",
         "title": "Evidence 1524",
         "content": "'2012/8/24' can be represented by '2012-08-24'",
@@ -1337,7 +1337,7 @@
         }
     },
     {
-        "id": "KB0065",
+        "id": "KB0076",
         "type": "bird_evidence",
         "title": "Evidence 1525",
         "content": "'2012/8/25' can be represented by '2012-08-25'",
@@ -1347,7 +1347,7 @@
         }
     },
     {
-        "id": "KB0066",
+        "id": "KB0077",
         "type": "bird_evidence",
         "title": "Evidence 1526",
         "content": "'2012/8/24' can be represented by '2012-08-24'; Consumption decrease rate = (consumption_2012 - consumption_2013) / consumption_2012",
@@ -1357,7 +1357,7 @@
         }
     },
     {
-        "id": "KB0067",
+        "id": "KB0078",
         "type": "bird_evidence",
         "title": "Evidence 1528",
         "content": "",
@@ -1367,7 +1367,7 @@
         }
     },
     {
-        "id": "KB0068",
+        "id": "KB0079",
         "type": "bird_evidence",
         "title": "Evidence 1529",
         "content": "January 2012 refers to the Date value = '201201'",
@@ -1377,7 +1377,7 @@
         }
     },
     {
-        "id": "KB0069",
+        "id": "KB0080",
         "type": "bird_evidence",
         "title": "Evidence 1531",
         "content": "average price per single item = Total(price) / Total(amount)",
@@ -1387,7 +1387,7 @@
         }
     },
     {
-        "id": "KB0070",
+        "id": "KB0081",
         "type": "bird_evidence",
         "title": "Evidence 1533",
         "content": "August of 2012 refers to the Date value = '201208' ; Price per unit of product = Price / Amount;",
@@ -1397,7 +1397,7 @@
         }
     },
     {
-        "id": "KB0071",
+        "id": "KB0082",
         "type": "bird_evidence",
         "title": "Evidence 1312",
         "content": "Angela Sanders is the full name; full name refers to first_name, last_name; major refers to major_name.",
@@ -1407,7 +1407,7 @@
         }
     },
     {
-        "id": "KB0072",
+        "id": "KB0083",
         "type": "bird_evidence",
         "title": "Evidence 1317",
         "content": "Women's Soccer is an event name; T-shirt that is in medium size refers to t_shirt_size = 'Medium'",
@@ -1417,7 +1417,7 @@
         }
     },
     {
-        "id": "KB0073",
+        "id": "KB0084",
         "type": "bird_evidence",
         "title": "Evidence 1322",
         "content": "meetings events refers to type = 'Meeting'; attended by more than 10 members refers to COUNT(event_id) > 10",
@@ -1427,7 +1427,7 @@
         }
     },
     {
-        "id": "KB0074",
+        "id": "KB0085",
         "type": "bird_evidence",
         "title": "Evidence 1323",
         "content": "name of events refers to event_name; attendance of over 20 students COUNT(event_id) > 20.",
@@ -1437,7 +1437,7 @@
         }
     },
     {
-        "id": "KB0075",
+        "id": "KB0086",
         "type": "bird_evidence",
         "title": "Evidence 1331",
         "content": "'Vice President' is a position of Student Club; funds received refers to amount.",
@@ -1447,7 +1447,7 @@
         }
     },
     {
-        "id": "KB0076",
+        "id": "KB0087",
         "type": "bird_evidence",
         "title": "Evidence 1334",
         "content": "full name of member refers to first_name, last_name",
@@ -1457,7 +1457,7 @@
         }
     },
     {
-        "id": "KB0077",
+        "id": "KB0088",
         "type": "bird_evidence",
         "title": "Evidence 1338",
         "content": "event_name = 'October Meeting' where event_date = '2019-10-08'; approved = True means expenses was approved; approved = False means expenses was not approved",
@@ -1467,7 +1467,7 @@
         }
     },
     {
-        "id": "KB0078",
+        "id": "KB0089",
         "type": "bird_evidence",
         "title": "Evidence 1339",
         "content": "Elijah Allen is the full name; full name refers to first_name, last_name; The 5th and 6th string of the expense_date in the expense table can refer to month; events in September and October refers to month(expense_date) = 9 OR month(expense_date) = 10",
@@ -1477,7 +1477,7 @@
         }
     },
     {
-        "id": "KB0079",
+        "id": "KB0090",
         "type": "bird_evidence",
         "title": "Evidence 1340",
         "content": "The first 4 strings of the event_date values in the event table can represent year; The difference of the total amount spent = SUBTRACT(spent where YEAR(event_date) = 2019, spent where YEAR(event_date) = 2020)",
@@ -1487,7 +1487,7 @@
         }
     },
     {
-        "id": "KB0080",
+        "id": "KB0091",
         "type": "bird_evidence",
         "title": "Evidence 1344",
         "content": "fundraising on 2019/9/14 refers to source = 'Fundraising' where date_received = '2019-09-14'",
@@ -1497,7 +1497,7 @@
         }
     },
     {
-        "id": "KB0081",
+        "id": "KB0092",
         "type": "bird_evidence",
         "title": "Evidence 1346",
         "content": "Carlo Jacobs is the full name; full name refers to first_name, last_name;",
@@ -1507,7 +1507,7 @@
         }
     },
     {
-        "id": "KB0082",
+        "id": "KB0093",
         "type": "bird_evidence",
         "title": "Evidence 1350",
         "content": "'Post Cards, Posters' is an expense description; on 2019/8/20 refers to expense_date = '2019-8-20'; status of event refers to event_status",
@@ -1517,7 +1517,7 @@
         }
     },
     {
-        "id": "KB0083",
+        "id": "KB0094",
         "type": "bird_evidence",
         "title": "Evidence 1351",
         "content": "Brent Thomason is the full name; full name refers to first_name, last_name; major refers to major_name",
@@ -1527,7 +1527,7 @@
         }
     },
     {
-        "id": "KB0084",
+        "id": "KB0095",
         "type": "bird_evidence",
         "title": "Evidence 1352",
         "content": "'Business' is a major name; wear medium size t-shirt refers to t_shirt_size = 'Medium'",
@@ -1537,7 +1537,7 @@
         }
     },
     {
-        "id": "KB0085",
+        "id": "KB0096",
         "type": "bird_evidence",
         "title": "Evidence 1356",
         "content": "'President' is a position of Student Club",
@@ -1547,7 +1547,7 @@
         }
     },
     {
-        "id": "KB0086",
+        "id": "KB0097",
         "type": "bird_evidence",
         "title": "Evidence 1357",
         "content": "Connor Hilton is the full name; full name refers to first_name, last_name; date the dues was paid refers to date_received where source = 'Dues';",
@@ -1557,7 +1557,7 @@
         }
     },
     {
-        "id": "KB0087",
+        "id": "KB0098",
         "type": "bird_evidence",
         "title": "Evidence 1359",
         "content": "budget in Advertisement refer to category = 'Advertisement' in the budget table; DIVIDE(SUM(amount when event_name = 'Yearly Kickoff'), SUM(amount when event_name = 'October Meeting'))",
@@ -1567,7 +1567,7 @@
         }
     },
     {
-        "id": "KB0088",
+        "id": "KB0099",
         "type": "bird_evidence",
         "title": "Evidence 1361",
         "content": "total cost of the pizzas refers to SUM(cost) where expense_description = 'Pizza'",
@@ -1577,7 +1577,7 @@
         }
     },
     {
-        "id": "KB0089",
+        "id": "KB0100",
         "type": "bird_evidence",
         "title": "Evidence 1362",
         "content": "Orange County is the county name, Virginia is the state name",
@@ -1587,7 +1587,7 @@
         }
     },
     {
-        "id": "KB0090",
+        "id": "KB0101",
         "type": "bird_evidence",
         "title": "Evidence 1368",
         "content": "major in refers to major_name",
@@ -1597,7 +1597,7 @@
         }
     },
     {
-        "id": "KB0091",
+        "id": "KB0102",
         "type": "bird_evidence",
         "title": "Evidence 1371",
         "content": "'Women's Soccer' is the event name;",
@@ -1607,7 +1607,7 @@
         }
     },
     {
-        "id": "KB0092",
+        "id": "KB0103",
         "type": "bird_evidence",
         "title": "Evidence 1375",
         "content": "list all members means to list all the full name; full name refers to first_name, last_name;",
@@ -1617,7 +1617,7 @@
         }
     },
     {
-        "id": "KB0093",
+        "id": "KB0104",
         "type": "bird_evidence",
         "title": "Evidence 1376",
         "content": "closed events refers to event_name where status = 'Closed'; highest spend-to budget ratio refers to MAX(DIVIDE(spent, amount))",
@@ -1627,7 +1627,7 @@
         }
     },
     {
-        "id": "KB0094",
+        "id": "KB0105",
         "type": "bird_evidence",
         "title": "Evidence 1378",
         "content": "highest amount of budget spend refers to MAX(spent)",
@@ -1637,7 +1637,7 @@
         }
     },
     {
-        "id": "KB0095",
+        "id": "KB0106",
         "type": "bird_evidence",
         "title": "Evidence 1380",
         "content": "total amount of money spent refers to SUM(spent); spent for food refers to category = 'Food'",
@@ -1647,7 +1647,7 @@
         }
     },
     {
-        "id": "KB0096",
+        "id": "KB0107",
         "type": "bird_evidence",
         "title": "Evidence 1381",
         "content": "name of students means the full name; full name refers to first_name, last_name; attended more than 7 events refers to COUNT(link_to_event) > 7",
@@ -1657,7 +1657,7 @@
         }
     },
     {
-        "id": "KB0097",
+        "id": "KB0108",
         "type": "bird_evidence",
         "title": "Evidence 1387",
         "content": "name of students means the full name; full name refers to first_name, last_name;'Yearly Kickoff' is an event name;",
@@ -1667,7 +1667,7 @@
         }
     },
     {
-        "id": "KB0098",
+        "id": "KB0109",
         "type": "bird_evidence",
         "title": "Evidence 1389",
         "content": "event refers to event_name; lowest cost means MIN(cost)",
@@ -1677,7 +1677,7 @@
         }
     },
     {
-        "id": "KB0099",
+        "id": "KB0110",
         "type": "bird_evidence",
         "title": "Evidence 1390",
         "content": "percentage = DIVIDE(SUM(cost where event_name = 'Yearly Kickoff'), SUM(cost)) * 100",
@@ -1687,7 +1687,7 @@
         }
     },
     {
-        "id": "KB0100",
+        "id": "KB0111",
         "type": "bird_evidence",
         "title": "Evidence 1392",
         "content": "top source funds refers to MAX(source); September 2019 means date_received BETWEEN '2019-09-01' and '2019-09-30'",
@@ -1697,7 +1697,7 @@
         }
     },
     {
-        "id": "KB0101",
+        "id": "KB0112",
         "type": "bird_evidence",
         "title": "Evidence 1394",
         "content": "'Physics Teaching' is the major_name;",
@@ -1707,7 +1707,7 @@
         }
     },
     {
-        "id": "KB0102",
+        "id": "KB0113",
         "type": "bird_evidence",
         "title": "Evidence 1398",
         "content": "Name of event refers to event_name; highest amount spent on advertisement refers to MAX(spent) where category = 'Advertisement'",
@@ -1717,7 +1717,7 @@
         }
     },
     {
-        "id": "KB0103",
+        "id": "KB0114",
         "type": "bird_evidence",
         "title": "Evidence 1399",
         "content": "Maya Mclean is the full name; full name refers to first_name, last_name; 'Women's Soccer' is an event_name",
@@ -1727,7 +1727,7 @@
         }
     },
     {
-        "id": "KB0104",
+        "id": "KB0115",
         "type": "bird_evidence",
         "title": "Evidence 1401",
         "content": "'Posters' is the expense description; 'September Speaker' is an event name",
@@ -1737,7 +1737,7 @@
         }
     },
     {
-        "id": "KB0105",
+        "id": "KB0116",
         "type": "bird_evidence",
         "title": "Evidence 1403",
         "content": "closed events refers to event_name where status = 'Closed'; exceed the budget the most refers to MIN(remaining) where remaining < 0",
@@ -1747,7 +1747,7 @@
         }
     },
     {
-        "id": "KB0106",
+        "id": "KB0117",
         "type": "bird_evidence",
         "title": "Evidence 1404",
         "content": "total value refers to SUM(cost); 'October Meeting' is an event name;",
@@ -1757,7 +1757,7 @@
         }
     },
     {
-        "id": "KB0107",
+        "id": "KB0118",
         "type": "bird_evidence",
         "title": "Evidence 1405",
         "content": "'April Speaker' is an event name; amount budgeted refers to SUM(amount); budget categories refers to category",
@@ -1767,7 +1767,7 @@
         }
     },
     {
-        "id": "KB0108",
+        "id": "KB0119",
         "type": "bird_evidence",
         "title": "Evidence 1409",
         "content": "total expense refers SUM(cost) where expense_date = '2019-08-20'",
@@ -1777,7 +1777,7 @@
         }
     },
     {
-        "id": "KB0109",
+        "id": "KB0120",
         "type": "bird_evidence",
         "title": "Evidence 1410",
         "content": "full name refers to first_name, last name",
@@ -1787,7 +1787,7 @@
         }
     },
     {
-        "id": "KB0110",
+        "id": "KB0121",
         "type": "bird_evidence",
         "title": "Evidence 1411",
         "content": "kind of expenses refers to expense_description; Sacha Harrison is the full name; full name refers to first_name, last_name;",
@@ -1797,7 +1797,7 @@
         }
     },
     {
-        "id": "KB0111",
+        "id": "KB0122",
         "type": "bird_evidence",
         "title": "Evidence 1422",
         "content": "'MU 215' is the location of event; ",
@@ -1807,7 +1807,7 @@
         }
     },
     {
-        "id": "KB0112",
+        "id": "KB0123",
         "type": "bird_evidence",
         "title": "Evidence 1426",
         "content": "'Environmental Engineering' is the major_name;",
@@ -1817,7 +1817,7 @@
         }
     },
     {
-        "id": "KB0113",
+        "id": "KB0124",
         "type": "bird_evidence",
         "title": "Evidence 1427",
         "content": "budget category refers to category; events located at refers to location; type = 'Guest Speaker'; 0 budget spent refers to spent = 0; ",
@@ -1827,7 +1827,7 @@
         }
     },
     {
-        "id": "KB0114",
+        "id": "KB0125",
         "type": "bird_evidence",
         "title": "Evidence 1432",
         "content": "t_shirt_size = 'Medium' where position = 'Member'; percentage = DIVIDE(COUNT(amount = 50), COUNT(member_id)) * 100",
@@ -1837,7 +1837,7 @@
         }
     },
     {
-        "id": "KB0115",
+        "id": "KB0126",
         "type": "bird_evidence",
         "title": "Evidence 1435",
         "content": "name of events refers event_name; game event that was closed refers to type = 'Game' where status = 'Closed'; event_date BETWEEN '2019-03-15' and '2020-03-20'; ",
@@ -1847,7 +1847,7 @@
         }
     },
     {
-        "id": "KB0116",
+        "id": "KB0127",
         "type": "bird_evidence",
         "title": "Evidence 1457",
         "content": "full name refers to first_name, last_name; contact number refers to phone; had spent more than average on each expense refers to cost > AVG(cost)",
@@ -1857,7 +1857,7 @@
         }
     },
     {
-        "id": "KB0117",
+        "id": "KB0128",
         "type": "bird_evidence",
         "title": "Evidence 1460",
         "content": "full name refers to first_name, last name; spent money for refers expense description; expense_description = 'Water, Veggie tray, supplies'",
@@ -1867,7 +1867,7 @@
         }
     },
     {
-        "id": "KB0118",
+        "id": "KB0129",
         "type": "bird_evidence",
         "title": "Evidence 1464",
         "content": "full name refers to first_name, last_name, amount of funds received refers to amount, received funds on date refers to date_received",
@@ -1877,7 +1877,7 @@
         }
     },
     {
-        "id": "KB0119",
+        "id": "KB0130",
         "type": "bird_evidence",
         "title": "Evidence 1149",
         "content": "male refers to SEX = 'M'; in-patient refers to Admission = '+'; outpatient refers to Admission = '-'; percentage = DIVIDE(COUNT(ID) where SEX = 'M' and Admission = '+', COUNT(ID) where SEX  = 'M' and Admission = '-')",
@@ -1887,7 +1887,7 @@
         }
     },
     {
-        "id": "KB0120",
+        "id": "KB0131",
         "type": "bird_evidence",
         "title": "Evidence 1150",
         "content": "female refers to Sex = 'F'; patient who were born after 1930 refers to year(Birthday) > '1930'; calculation = DIVIDE(COUNT(ID) where year(Birthday) > '1930' and SEX = 'F'), (COUNT(ID) where SEX = 'F')",
@@ -1897,7 +1897,7 @@
         }
     },
     {
-        "id": "KB0121",
+        "id": "KB0132",
         "type": "bird_evidence",
         "title": "Evidence 1152",
         "content": "'SLE' diagnosed patient means Diagnosis = 'SLE'; inpatient refers to Admission = '+'; outpatient refers to Admission = '-'; calculation =  DIVIDE(COUNT(ID) where Diagnosis = 'SLE' and Admission = '+', COUNT(ID) where Diagnosis = 'SLE' and Admission = '-')",
@@ -1907,7 +1907,7 @@
         }
     },
     {
-        "id": "KB0122",
+        "id": "KB0133",
         "type": "bird_evidence",
         "title": "Evidence 1153",
         "content": "'30609' is the Patient ID; disease means Diagnosis",
@@ -1917,7 +1917,7 @@
         }
     },
     {
-        "id": "KB0123",
+        "id": "KB0134",
         "type": "bird_evidence",
         "title": "Evidence 1155",
         "content": "LDH beyond normal range refers to LDH > '500';",
@@ -1927,7 +1927,7 @@
         }
     },
     {
-        "id": "KB0124",
+        "id": "KB0135",
         "type": "bird_evidence",
         "title": "Evidence 1156",
         "content": "age refers to SUBTRACT(year(current_timestamp), year(Birthday)); positive degree of coagulation refers to RVVT = '+';",
@@ -1937,7 +1937,7 @@
         }
     },
     {
-        "id": "KB0125",
+        "id": "KB0136",
         "type": "bird_evidence",
         "title": "Evidence 1157",
         "content": "severe degree of thrombosis refers to thrombosis = 2; disease refers to diagnosis;",
@@ -1947,7 +1947,7 @@
         }
     },
     {
-        "id": "KB0126",
+        "id": "KB0137",
         "type": "bird_evidence",
         "title": "Evidence 1162",
         "content": "female refers to sex = 'F'; came at the hospital in 1997 refers to year(Description) = '1997'; immediately followed at the outpatient clinic refers to Admission = '-'",
@@ -1957,7 +1957,7 @@
         }
     },
     {
-        "id": "KB0127",
+        "id": "KB0138",
         "type": "bird_evidence",
         "title": "Evidence 1164",
         "content": "the most serious thrombosis refers to Thrombosis = '1' (the most severe one); women refers to sex = 'F'",
@@ -1967,7 +1967,7 @@
         }
     },
     {
-        "id": "KB0128",
+        "id": "KB0139",
         "type": "bird_evidence",
         "title": "Evidence 1166",
         "content": "The larger the birthday value, the younger the person is, and vice versa; symptoms observed refers to the symptoms is not NULL",
@@ -1977,7 +1977,7 @@
         }
     },
     {
-        "id": "KB0129",
+        "id": "KB0140",
         "type": "bird_evidence",
         "title": "Evidence 1168",
         "content": "The larger the birthday value, the younger the person is, and vice versa; 'SJS' refers to diagnosis; (SUBTRACT(year(`First Date`)), year(Birthday)); age of the patients when they initially arrived at the hospital refers to year(Birthday)",
@@ -1987,7 +1987,7 @@
         }
     },
     {
-        "id": "KB0130",
+        "id": "KB0141",
         "type": "bird_evidence",
         "title": "Evidence 1169",
         "content": "male refers to SEX = 'M'; female refers to SEX = 'F'; abnormal uric acid refers to UA < = '8.0' where SEX = 'M', UA < = '6.5' where SEX = 'F'; calculation = DIVIDE(SUM(UA <= '8.0' and SEX = 'M'), SUM(UA <= '6.5 and SEX = 'F'))",
@@ -1997,7 +1997,7 @@
         }
     },
     {
-        "id": "KB0131",
+        "id": "KB0142",
         "type": "bird_evidence",
         "title": "Evidence 1171",
         "content": "underage patients refers to year(Birthday) < 18; three-year period from 1990 to 1993 refers to year(`Examination Date`) between '1990' and '1993'",
@@ -2007,7 +2007,7 @@
         }
     },
     {
-        "id": "KB0132",
+        "id": "KB0143",
         "type": "bird_evidence",
         "title": "Evidence 1175",
         "content": "How old the patient refers to SUBTRACT(year(`Examination Date`), year(Birthday)); the highest hemoglobin count refers to MAX(HGB)",
@@ -2017,7 +2017,7 @@
         }
     },
     {
-        "id": "KB0133",
+        "id": "KB0144",
         "type": "bird_evidence",
         "title": "Evidence 1179",
         "content": "diagnosed with SLE refers to Diagnosis = 'SLE'; 1994/2/19 refers to Description = '1994-02-19'; anti-Cardiolipin refers to aCL IgM; 1993/11/12 refers to Examination Date = '1993/11/12'",
@@ -2027,7 +2027,7 @@
         }
     },
     {
-        "id": "KB0134",
+        "id": "KB0145",
         "type": "bird_evidence",
         "title": "Evidence 1185",
         "content": "born on 1959/2/18 refers to Birthday = '1959-02-18'; calculation = DIVISION(SUBTRACT(SUM(Birthday = '1959-02-18' and Date like '1981-11-%' THEN `T-CHO`), SUM(Birthday = '1959-02-18' and Date like '1981-12-%' THEN `T-CHO`)), SUM(Birthday = '1959-02-18' and Date like '1981-12-%' THEN `T-CHO`))",
@@ -2037,7 +2037,7 @@
         }
     },
     {
-        "id": "KB0135",
+        "id": "KB0146",
         "type": "bird_evidence",
         "title": "Evidence 1187",
         "content": "examined between 1987/7/6 and 1996/1/31 refers to Date BETWEEN '1987-07-06' AND '1996-01-31'; GPT level greater than 30 refers to GPT > 30; ALB level less than 4 ALB < 4",
@@ -2047,7 +2047,7 @@
         }
     },
     {
-        "id": "KB0136",
+        "id": "KB0147",
         "type": "bird_evidence",
         "title": "Evidence 1189",
         "content": "thrombosis level 2 refers to Thrombosis = 2; ANA pattern of only S refers to ANA = 'S'; average anti-Cardiolip in antibody (IgM) refers to AVG(`aCL IgM`); calculation = MULTIPLY(AVG + AVG, 0.2)",
@@ -2057,7 +2057,7 @@
         }
     },
     {
-        "id": "KB0137",
+        "id": "KB0148",
         "type": "bird_evidence",
         "title": "Evidence 1192",
         "content": "followed up at the outpatient clinic refers to Admission = '-'; laboratory test in April 1981 refers to Date like '1991-10%'; blood bilirubin level within the normal range refers to T-BIL < 2.0; ",
@@ -2067,7 +2067,7 @@
         }
     },
     {
-        "id": "KB0138",
+        "id": "KB0149",
         "type": "bird_evidence",
         "title": "Evidence 1195",
         "content": "average blood albumin level refers to AVG(ALB); female refers to SEX = 'F'; PLT greater than 400 refers to PLT > 400; diagnosed with SLE refers to Diagnosis= 'SLE'",
@@ -2077,7 +2077,7 @@
         }
     },
     {
-        "id": "KB0139",
+        "id": "KB0150",
         "type": "bird_evidence",
         "title": "Evidence 1198",
         "content": "female refers to SEX = 'F'; APS diagnosis refers to Diagnosis='APS'",
@@ -2087,7 +2087,7 @@
         }
     },
     {
-        "id": "KB0140",
+        "id": "KB0151",
         "type": "bird_evidence",
         "title": "Evidence 1201",
         "content": "born in 1980 refers to YEAR(BIRTHDAY) = '1980'; 'RA' refers to Diagnosis='RA' ; women refers to SEX = 'F'; calculation = DIVIDE(SUM(SEX = 'F'), COUNT(SEX)) * 100",
@@ -2097,7 +2097,7 @@
         }
     },
     {
-        "id": "KB0141",
+        "id": "KB0152",
         "type": "bird_evidence",
         "title": "Evidence 1205",
         "content": "uric acid within a normal range refers to UA > 8.0 and SEX = 'M'OR UA > 6.5 and SEX = 'F'",
@@ -2107,7 +2107,7 @@
         }
     },
     {
-        "id": "KB0142",
+        "id": "KB0153",
         "type": "bird_evidence",
         "title": "Evidence 1208",
         "content": "male refers to SEX = 'M'; ALT glutamic pylvic transaminase (GPT) exceed the normal range refers to GPT > = 60",
@@ -2117,7 +2117,7 @@
         }
     },
     {
-        "id": "KB0143",
+        "id": "KB0154",
         "type": "bird_evidence",
         "title": "Evidence 1209",
         "content": "ALT glutamic pylvic transaminase beyond the normal range refers to GPT > 60; The larger the birthday value, the younger the person is, and vice versa; ",
@@ -2127,7 +2127,7 @@
         }
     },
     {
-        "id": "KB0144",
+        "id": "KB0155",
         "type": "bird_evidence",
         "title": "Evidence 1220",
         "content": "urea nitrogen (UN) just within the borderline of passing refers to UN = 29; ",
@@ -2137,7 +2137,7 @@
         }
     },
     {
-        "id": "KB0145",
+        "id": "KB0156",
         "type": "bird_evidence",
         "title": "Evidence 1225",
         "content": "List refers to GROUP_CONCAT(DISTINCT ID); total bilirubin (T-BIL) not within normal range refers to T-BIL > = 2.0",
@@ -2147,7 +2147,7 @@
         }
     },
     {
-        "id": "KB0146",
+        "id": "KB0157",
         "type": "bird_evidence",
         "title": "Evidence 1227",
         "content": "average age = DIVIDE(SUM(SUBTRACT(YEAR(NOW()), YEAR(birthday))), COUNT(ID)); male patient refers to sex = 'M'; high cholesterol refers to `T-CHO` > = 250;",
@@ -2157,7 +2157,7 @@
         }
     },
     {
-        "id": "KB0147",
+        "id": "KB0158",
         "type": "bird_evidence",
         "title": "Evidence 1229",
         "content": "triglyceride (TG) level beyond the normal range refers to TG > = 200; more than 50 years of age = SUBTRACT(year(current_timestamp), year(Birthday)) > 50; Should consider DISTINCT in the final result;",
@@ -2167,7 +2167,7 @@
         }
     },
     {
-        "id": "KB0148",
+        "id": "KB0159",
         "type": "bird_evidence",
         "title": "Evidence 1231",
         "content": "born between 1936-1956 refers to year(Birthday) BETWEEN '1936' AND '1956'; male patients refers to sex = 'M'; creatinine phosphokinase beyond the normal range refers to CPK > = 250; Should consider DISTINCT in the final result;",
@@ -2177,7 +2177,7 @@
         }
     },
     {
-        "id": "KB0149",
+        "id": "KB0160",
         "type": "bird_evidence",
         "title": "Evidence 1232",
         "content": "age = SUBTRACT(year(current_timestamp), year(Birthday)); blood glucose (GLU) not within normal range refers to GLU > = 180; total cholesterol(T-CHO) within normal range refers to `T-CHO` < 250; ",
@@ -2187,7 +2187,7 @@
         }
     },
     {
-        "id": "KB0150",
+        "id": "KB0161",
         "type": "bird_evidence",
         "title": "Evidence 1235",
         "content": "patient's diagnosis refers to Diagnosis; lower red blood cell refers to RBC < 3.5; age = SUBTRACT(year(current_timestamp), year(Birthday)); ",
@@ -2197,7 +2197,7 @@
         }
     },
     {
-        "id": "KB0151",
+        "id": "KB0162",
         "type": "bird_evidence",
         "title": "Evidence 1238",
         "content": "diagnosed with SLE refers to Diagnosis = 'SLE'; The larger the birthday value, the younger the person is, and vice versa; normal hemoglobin level refers to 10 < HGB < 17;",
@@ -2207,7 +2207,7 @@
         }
     },
     {
-        "id": "KB0152",
+        "id": "KB0163",
         "type": "bird_evidence",
         "title": "Evidence 1239",
         "content": "age = SUBTRACT(year(current_timestamp), year(Birthday)); patient with two or more laboratory examinations refers to COUNT(ID) > 2; hematoclit level exceeded the normal range refers to HCT > = 52;",
@@ -2217,7 +2217,7 @@
         }
     },
     {
-        "id": "KB0153",
+        "id": "KB0164",
         "type": "bird_evidence",
         "title": "Evidence 1241",
         "content": "abnormal platelet level refers to PLT <= 100 or PLT >= 400; platelet level lower than normal range refers to PLT < 100; calculation = SUBTRACT(SUM(PLT < 100), SUM(PLT > 400)); platelet level higher than normal range refers to PLT > 400;",
@@ -2227,7 +2227,7 @@
         }
     },
     {
-        "id": "KB0154",
+        "id": "KB0165",
         "type": "bird_evidence",
         "title": "Evidence 1242",
         "content": "laboratory examinations take in 1984 refers to YEAR(Date) = '1984'; below 50 years old = SUBTRACT(year(current_timestamp), year(Birthday)) < 50; normal platelet level refers to PLT between 100 and 400; ",
@@ -2237,7 +2237,7 @@
         }
     },
     {
-        "id": "KB0155",
+        "id": "KB0166",
         "type": "bird_evidence",
         "title": "Evidence 1243",
         "content": "older than 55 years old = SUBTRACT(year(current_timestamp), year(Birthday)) > 55; abnormal prothrombin time (PT) refers to PT > = 14; percentage = DIVIDE(SUM(PT > = 14 AND SEX = 'F'), SUM(PT > = 14)) * 100; female refers to sex = 'F'; ",
@@ -2247,7 +2247,7 @@
         }
     },
     {
-        "id": "KB0156",
+        "id": "KB0167",
         "type": "bird_evidence",
         "title": "Evidence 1247",
         "content": "male patients refers to Sex = 'M'; normal level of white blood cells refers to WBC > 3.5 and WBC <9.0; abnormal fibrinogen level refers to FG < = 150 or FG > = 450; Don't compute repetitive ones.",
@@ -2257,7 +2257,7 @@
         }
     },
     {
-        "id": "KB0157",
+        "id": "KB0168",
         "type": "bird_evidence",
         "title": "Evidence 1251",
         "content": "Ig G higher than normal refers to IGG >= 2000; Should consider DISTINCT in the final result;",
@@ -2267,7 +2267,7 @@
         }
     },
     {
-        "id": "KB0158",
+        "id": "KB0169",
         "type": "bird_evidence",
         "title": "Evidence 1252",
         "content": "normal Ig G level refers to IGG > 900 and IGG < 2000; have symptoms refers to Symptoms IS NOT NULL;",
@@ -2277,7 +2277,7 @@
         }
     },
     {
-        "id": "KB0159",
+        "id": "KB0170",
         "type": "bird_evidence",
         "title": "Evidence 1254",
         "content": "normal Ig A level refers to IGA > 80 AND IGA < 500; came to the hospital after 1990/1/1 refers to YEAR(`First Date`) > = 1990;",
@@ -2287,7 +2287,7 @@
         }
     },
     {
-        "id": "KB0160",
+        "id": "KB0171",
         "type": "bird_evidence",
         "title": "Evidence 1255",
         "content": "abnormal Ig M level refers to IGM <=40 OR IGM >= 400; most common disease refers to MAX(COUNT(Diagnosis));",
@@ -2297,7 +2297,7 @@
         }
     },
     {
-        "id": "KB0161",
+        "id": "KB0172",
         "type": "bird_evidence",
         "title": "Evidence 1256",
         "content": "abnormal C-reactive protein refers to CRP ='+'; don't have data recorded refers to Description IS NULL;",
@@ -2307,7 +2307,7 @@
         }
     },
     {
-        "id": "KB0162",
+        "id": "KB0173",
         "type": "bird_evidence",
         "title": "Evidence 1257",
         "content": "creatinine level is abnormal refers to CRE >= 1.5; aren't 70 yet refers to SUBTRACT((YEAR(CURDATE()), YEAR(Birthday))) < 70; ",
@@ -2317,7 +2317,7 @@
         }
     },
     {
-        "id": "KB0163",
+        "id": "KB0174",
         "type": "bird_evidence",
         "title": "Evidence 1265",
         "content": "normal level of anti-ribonuclear protein refers to RNP = '-', '+-'; And'-' means 'negative'; '+-' refers to '0'; admitted to the hospital refers to Admission = '+'; Should consider DISTINCT in the final result;",
@@ -2327,7 +2327,7 @@
         }
     },
     {
-        "id": "KB0164",
+        "id": "KB0175",
         "type": "bird_evidence",
         "title": "Evidence 1267",
         "content": "normal anti-SM refers to SM IN('-', '+-'); SM = 'negative' means '-'; SM = '0' means '+-'; SM = '1' means '+'; does not have thrombosis refers to Thrombosis = 0;",
@@ -2337,7 +2337,7 @@
         }
     },
     {
-        "id": "KB0165",
+        "id": "KB0176",
         "type": "bird_evidence",
         "title": "Evidence 1270",
         "content": "normal anti-scl70 refers to SC170 IN('negative', '0'); female refers to Sex = 'F'; does not have any symptom refers to symptoms IS NULL; Should consider DISTINCT in the final result;",
@@ -2347,7 +2347,7 @@
         }
     },
     {
-        "id": "KB0166",
+        "id": "KB0177",
         "type": "bird_evidence",
         "title": "Evidence 1275",
         "content": "normal level of anti-centromere refers to CENTROMEA IN('-', '+-'); normal level of anti-SSB refers to SSB IN('-', '+-'); male refers to Sex = 'M'; Should consider DISTINCT in the final result;",
@@ -2357,7 +2357,7 @@
         }
     },
     {
-        "id": "KB0167",
+        "id": "KB0178",
         "type": "bird_evidence",
         "title": "Evidence 1281",
         "content": "abnormal level of glutamic oxaloacetic transaminase refers to GOT > = 60; The larger the birthday value, the younger the person is, and vice versa;",
@@ -2367,7 +2367,7 @@
         }
     },
     {
-        "id": "KB0168",
+        "id": "KB0179",
         "type": "bird_evidence",
         "title": "Evidence 1302",
         "content": "normal range of creatinine phosphokinase refers to CPK < 250; positive measure of degree of coagulation refers to KCT = '+' or RVVT = '+' or LAC = '+' ;",
@@ -2377,7 +2377,7 @@
         }
     },
     {
-        "id": "KB0169",
+        "id": "KB0180",
         "type": "bird_evidence",
         "title": "Evidence 1025",
         "content": "league that had the most goals refers to MAX(SUM(home_team_goal, away_team_goal)); 2016 season refers to season = '2015/2016';",
@@ -2387,7 +2387,7 @@
         }
     },
     {
-        "id": "KB0170",
+        "id": "KB0181",
         "type": "bird_evidence",
         "title": "Evidence 1028",
         "content": "Final result should return the Team.team_long_name; Scotland Premier League refers to League.name = 'Scotland Premier League'; away team refers to away_team_api_id; away team that won the most refers to MAX(SUBTRACT(away_team_goal, home_team_goal) > 0); 2010 season refers to season = '2009/2010'; won the most refers to MAX(COUNT(*));",
@@ -2397,7 +2397,7 @@
         }
     },
     {
-        "id": "KB0171",
+        "id": "KB0182",
         "type": "bird_evidence",
         "title": "Evidence 1029",
         "content": "speed in which attacks are put together refers to buildUpPlaySpeed;highest build up play speed refers to MAX(buildUpPlaySpeed)",
@@ -2407,7 +2407,7 @@
         }
     },
     {
-        "id": "KB0172",
+        "id": "KB0183",
         "type": "bird_evidence",
         "title": "Evidence 1030",
         "content": "most matches end as draw refers to MAX(SUM(home_team_goal = away_team_goal)); 2016 season refers to season = '2015/2016';",
@@ -2417,7 +2417,7 @@
         }
     },
     {
-        "id": "KB0173",
+        "id": "KB0184",
         "type": "bird_evidence",
         "title": "Evidence 1031",
         "content": "players age at present = SUBTRACT((DATETIME(), birthday)); sprint speed of no less than 97 refers to sprint_speed > = 97; between 2013 to 2015 refers to YEAR(date) > = '2013' AND YEAR(date) < = '2015'; ",
@@ -2427,7 +2427,7 @@
         }
     },
     {
-        "id": "KB0174",
+        "id": "KB0185",
         "type": "bird_evidence",
         "title": "Evidence 1032",
         "content": " league with highest matches of all time refers to MAX(COUNT(league_id));",
@@ -2437,7 +2437,7 @@
         }
     },
     {
-        "id": "KB0175",
+        "id": "KB0186",
         "type": "bird_evidence",
         "title": "Evidence 1035",
         "content": "teams with more than 50 but less than 60 build-up play speed refers to buildUpPlaySpeed >50 AND buildUpPlaySpeed <60; ",
@@ -2447,7 +2447,7 @@
         }
     },
     {
-        "id": "KB0176",
+        "id": "KB0187",
         "type": "bird_evidence",
         "title": "Evidence 1036",
         "content": "long name of teams refers to team_long_name; build-up play passing refers to buildUpPlayPassing; above-average build-up play passing = buildUpPlayPassing > DIVIDE(SUM(buildUpPlayPassing), COUNT(team_long_name) WHERE buildUpPlayPassing IS NOT NULL); in 2012 refers to strftime('%Y', date) = '2012'; ",
@@ -2457,7 +2457,7 @@
         }
     },
     {
-        "id": "KB0177",
+        "id": "KB0188",
         "type": "bird_evidence",
         "title": "Evidence 1037",
         "content": "players who prefer left foot refers to preferred_foot = 'left'; percentage of players who prefer left foot = DIVIDE(MULTIPLY((SUM(preferred_foot = 'left'), 100)), COUNT(player_fifa_api_id)); born between 1987 and 1992 refers to YEAR(birthday) BETWEEN '1987' AND '1992';",
@@ -2467,7 +2467,7 @@
         }
     },
     {
-        "id": "KB0178",
+        "id": "KB0189",
         "type": "bird_evidence",
         "title": "Evidence 1039",
         "content": "average number of long shot = DIVIDE(SUM(long_shots), COUNT(player_fifa_api_id));",
@@ -2477,7 +2477,7 @@
         }
     },
     {
-        "id": "KB0179",
+        "id": "KB0190",
         "type": "bird_evidence",
         "title": "Evidence 1040",
         "content": "heights are above 180 refers to Player.height > 180; average heading accuracy = DIVIDE(SUM(heading_accuracy), COUNT(player_fifa_api_id));",
@@ -2487,7 +2487,7 @@
         }
     },
     {
-        "id": "KB0180",
+        "id": "KB0191",
         "type": "bird_evidence",
         "title": "Evidence 1042",
         "content": "name of league refers to League.name; average goals by the home team is higher than the away team = AVG(home_team_goal) > AVG(away_team_goal); AVG(xx_goal) = SUM(xx_goal) / COUNT(DISTINCT Match.id); 2009/2010 season refers to season = '2009/2010'",
@@ -2497,7 +2497,7 @@
         }
     },
     {
-        "id": "KB0181",
+        "id": "KB0192",
         "type": "bird_evidence",
         "title": "Evidence 1044",
         "content": "players with a birthyear of 1970 and a birthmonth of October refers to substr(birthday,1,7) AS 'year-month',WHERE year = '1970' AND month = '10';",
@@ -2507,7 +2507,7 @@
         }
     },
     {
-        "id": "KB0182",
+        "id": "KB0193",
         "type": "bird_evidence",
         "title": "Evidence 1048",
         "content": "in year 2011 refers to strftime('%Y', date) = '2011';",
@@ -2517,7 +2517,7 @@
         }
     },
     {
-        "id": "KB0183",
+        "id": "KB0194",
         "type": "bird_evidence",
         "title": "Evidence 1057",
         "content": "average home team goal = AVG(home_team_goal)= SUM(home_team_goal) / COUNT(DISTINCT Match.id) WHERE name = 'Poland' and season = '2010/2011';",
@@ -2527,7 +2527,7 @@
         }
     },
     {
-        "id": "KB0184",
+        "id": "KB0195",
         "type": "bird_evidence",
         "title": "Evidence 1058",
         "content": "finishing rate refers to finishing; highest average finishing rate = MAX(AVG(finishing)); highest football player refers to MAX(height); shortest football player refers to MIN(height);",
@@ -2537,7 +2537,7 @@
         }
     },
     {
-        "id": "KB0185",
+        "id": "KB0196",
         "type": "bird_evidence",
         "title": "Evidence 1068",
         "content": "from 2010 to 2015 refers to strftime('%Y', date) >= '2010' AND <= '2015'; average overall rating = SUM(t2.overall_rating)/ COUNT(t2.id); higher than 170 refers to Player.height > 170;",
@@ -2547,7 +2547,7 @@
         }
     },
     {
-        "id": "KB0186",
+        "id": "KB0197",
         "type": "bird_evidence",
         "title": "Evidence 1076",
         "content": "difference of the average ball control = SUBTRACT(AVG(ball_control WHERE player_name = 'Abdou Diallo'), AVG(ball_control WHERE player_name = 'Aaron Appindangoye')); AVG(ball_control WHERE player_name = 'XX XX') = SUM(CASE WHEN player_name = 'XX XX' THEN ball_control ELSE 0 END) / COUNT(CASE WHEN player_name = 'XX XX' THEN id ELSE NULL END)",
@@ -2557,7 +2557,7 @@
         }
     },
     {
-        "id": "KB0187",
+        "id": "KB0198",
         "type": "bird_evidence",
         "title": "Evidence 1078",
         "content": "The larger the birthday value, the younger the person is, and vice versa;",
@@ -2567,7 +2567,7 @@
         }
     },
     {
-        "id": "KB0188",
+        "id": "KB0199",
         "type": "bird_evidence",
         "title": "Evidence 1079",
         "content": "tallest player refers to MAX(height);",
@@ -2577,7 +2577,7 @@
         }
     },
     {
-        "id": "KB0189",
+        "id": "KB0200",
         "type": "bird_evidence",
         "title": "Evidence 1080",
         "content": "preferred foot when attacking was the left refers to preferred_foot = 'left'; players who would remain in his position when the team attacked refers to attacking_work_rate = 'low';",
@@ -2587,7 +2587,7 @@
         }
     },
     {
-        "id": "KB0190",
+        "id": "KB0201",
         "type": "bird_evidence",
         "title": "Evidence 1084",
         "content": "players born before the year 1986 refers to strftime('%Y', birthday)<'1986'; players who would remain in his position and defense while the team attacked refers to defensive_work_rate = 'high'; Should consider DISTINCT in the final result;",
@@ -2597,7 +2597,7 @@
         }
     },
     {
-        "id": "KB0191",
+        "id": "KB0202",
         "type": "bird_evidence",
         "title": "Evidence 1088",
         "content": "volley score are over 70 refers to volleys > 70; dribbling score refers to dribbling are over 70 refers to dribbling > 70;",
@@ -2607,7 +2607,7 @@
         }
     },
     {
-        "id": "KB0192",
+        "id": "KB0203",
         "type": "bird_evidence",
         "title": "Evidence 1091",
         "content": "Belgium Jupiler League refers to League.name = 'Belgium Jupiler League'; in April, 2009 refers to SUBSTR(`date`, 1, 7);",
@@ -2617,7 +2617,7 @@
         }
     },
     {
-        "id": "KB0193",
+        "id": "KB0204",
         "type": "bird_evidence",
         "title": "Evidence 1092",
         "content": "league that had the most matches in the 2008/2009 season refers to MAX(league_name WHERE season = '2008/2009');",
@@ -2627,7 +2627,7 @@
         }
     },
     {
-        "id": "KB0194",
+        "id": "KB0205",
         "type": "bird_evidence",
         "title": "Evidence 1094",
         "content": "how much higher in percentage = MULTIPLY(DIVIDE(SUBTRACT(overall_rating WHERE player_name = 'Ariel Borysiuk', overall_rating WHERE player_name = 'Paulin Puel'), overall_rating WHERE player_name = 'Paulin Puel'), 100);",
@@ -2637,7 +2637,7 @@
         }
     },
     {
-        "id": "KB0195",
+        "id": "KB0206",
         "type": "bird_evidence",
         "title": "Evidence 1096",
         "content": "Pietro Marino refers to player_name = 'Pietro Marino'; average overall rating AVG(T1.overall_rating)",
@@ -2647,7 +2647,7 @@
         }
     },
     {
-        "id": "KB0196",
+        "id": "KB0207",
         "type": "bird_evidence",
         "title": "Evidence 1098",
         "content": "Ajax's refers to team_long_name = 'Ajax'; chance creation passing score refers to MAX(chanceCreationPassing); classified refer to chanceCreationPassingClass",
@@ -2657,7 +2657,7 @@
         }
     },
     {
-        "id": "KB0197",
+        "id": "KB0208",
         "type": "bird_evidence",
         "title": "Evidence 1102",
         "content": "77 points overall rating refers to overall_rating = 77; on 2016/6/23 refers to date LIKE '2016-06-23%'; The larger the birthday value, the younger the person is, and vice versa;",
@@ -2667,7 +2667,7 @@
         }
     },
     {
-        "id": "KB0198",
+        "id": "KB0209",
         "type": "bird_evidence",
         "title": "Evidence 1103",
         "content": "Aaron Mooy refers to player_name = 'Aaron Mooy'; on 2016/2/4 refers to date LIKE '2016-02-04%';",
@@ -2677,7 +2677,7 @@
         }
     },
     {
-        "id": "KB0199",
+        "id": "KB0210",
         "type": "bird_evidence",
         "title": "Evidence 1105",
         "content": "Francesco Migliore refers to player_name = 'Francesco Migliore'; on 2015/5/1 refers to date LIKE '2015-05-01%';",
@@ -2687,7 +2687,7 @@
         }
     },
     {
-        "id": "KB0200",
+        "id": "KB0211",
         "type": "bird_evidence",
         "title": "Evidence 1107",
         "content": "Kevin Constant refers to player_name = 'Kevin Constant'; highest crossing score refers to MAX(crossing)",
@@ -2697,7 +2697,7 @@
         }
     },
     {
-        "id": "KB0201",
+        "id": "KB0212",
         "type": "bird_evidence",
         "title": "Evidence 1110",
         "content": "\"FC Lorient\" refers to team_long_name = 'FC Lorient'; on 2010/2/22 refers to date LIKE '2010-02-22%';",
@@ -2707,7 +2707,7 @@
         }
     },
     {
-        "id": "KB0202",
+        "id": "KB0213",
         "type": "bird_evidence",
         "title": "Evidence 1113",
         "content": "\"Hannover 96\" refers to team_long_name = 'Hannover 96'; on 2015/9/10 refers to date LIKE '2015-09-10%';",
@@ -2717,7 +2717,7 @@
         }
     },
     {
-        "id": "KB0203",
+        "id": "KB0214",
         "type": "bird_evidence",
         "title": "Evidence 1114",
         "content": "average overall rating refers to avg(overall_rating); Marko Arnautovic refers to player_name = 'Marko Arnautovic'; from 2007/2/22 to 2016/4/21 refers to the first 10 characters of date BETWEEN '2007-02-22' and '2016-04-21'",
@@ -2727,7 +2727,7 @@
         }
     },
     {
-        "id": "KB0204",
+        "id": "KB0215",
         "type": "bird_evidence",
         "title": "Evidence 1115",
         "content": "Landon Donovan's refers to player_name = 'Landon Donovan'; Jordan Bowery refers to player_name = 'Jordan Bowery'; percentage refers to DIVIDE(SUBTRACT(player_name = 'Landon Donovan' overall_rating; player_name = 'Jordan Bowery' overall_rating), player_name = 'Landon Donovan' overall_rating)*100",
@@ -2737,7 +2737,7 @@
         }
     },
     {
-        "id": "KB0205",
+        "id": "KB0216",
         "type": "bird_evidence",
         "title": "Evidence 1116",
         "content": "tallest refers to rank based on the height in descending order; Most tallest players refers to rank = 1 ",
@@ -2747,7 +2747,7 @@
         }
     },
     {
-        "id": "KB0206",
+        "id": "KB0217",
         "type": "bird_evidence",
         "title": "Evidence 1122",
         "content": "strongest players refers to player has MAX(overall_rating)",
@@ -2757,7 +2757,7 @@
         }
     },
     {
-        "id": "KB0207",
+        "id": "KB0218",
         "type": "bird_evidence",
         "title": "Evidence 1124",
         "content": "tend to be attacking when their mates were doing attack moves refers to attacking_work_rate = 'high';",
@@ -2767,7 +2767,7 @@
         }
     },
     {
-        "id": "KB0208",
+        "id": "KB0219",
         "type": "bird_evidence",
         "title": "Evidence 1130",
         "content": "played safe while creating chance of passing refers to chanceCreationPassingClass = 'Safe'; short name of team refers to team_short_name",
@@ -2777,7 +2777,7 @@
         }
     },
     {
-        "id": "KB0209",
+        "id": "KB0220",
         "type": "bird_evidence",
         "title": "Evidence 1133",
         "content": "first name \"Aaron\" refers to player_name LIKE 'Aaron%'; born after the 1990s refers to birthday > '1990'",
@@ -2787,7 +2787,7 @@
         }
     },
     {
-        "id": "KB0210",
+        "id": "KB0221",
         "type": "bird_evidence",
         "title": "Evidence 1134",
         "content": "difference between players 6 and 23's jumping scores refers to SUBTRACT(jumping AND id = 6,jumping AND id = 23)",
@@ -2797,7 +2797,7 @@
         }
     },
     {
-        "id": "KB0211",
+        "id": "KB0222",
         "type": "bird_evidence",
         "title": "Evidence 1135",
         "content": "lowest potential players refers to MIN(potential); prefer to use the right foot when attacking refers to preferred_foot = 'right'",
@@ -2807,7 +2807,7 @@
         }
     },
     {
-        "id": "KB0212",
+        "id": "KB0223",
         "type": "bird_evidence",
         "title": "Evidence 1136",
         "content": "highest potential score for crossing refers to MAX(crossing); preferred to use their left foots while attacking refers to preferred_foot = 'left'",
@@ -2817,7 +2817,7 @@
         }
     },
     {
-        "id": "KB0213",
+        "id": "KB0224",
         "type": "bird_evidence",
         "title": "Evidence 1139",
         "content": "September 24, 2008 refers to date like '2008-09-24%'; in the Belgian Jupiler League refers to League.name = 'Belgium Jupiler League'; final score for home team refers to home_team_goal; final score for away team refers to away_team_goal",
@@ -2827,7 +2827,7 @@
         }
     },
     {
-        "id": "KB0214",
+        "id": "KB0225",
         "type": "bird_evidence",
         "title": "Evidence 1141",
         "content": "KSV Cercle Brugge refers to team_long_name = 'KSV Cercle Brugge'; speed class refers to buildUpPlaySpeedClass",
@@ -2837,7 +2837,7 @@
         }
     },
     {
-        "id": "KB0215",
+        "id": "KB0226",
         "type": "bird_evidence",
         "title": "Evidence 1144",
         "content": "finishing rate refer to finishing; curve score refer to curve; heaviest weight refers to MAX(weight)",
@@ -2847,7 +2847,7 @@
         }
     },
     {
-        "id": "KB0216",
+        "id": "KB0227",
         "type": "bird_evidence",
         "title": "Evidence 1145",
         "content": "in the 2015-2016 season refers to season = '2015/2016'; league with most games refers to League.name where MAX(COUNT(id))",
@@ -2857,7 +2857,7 @@
         }
     },
     {
-        "id": "KB0217",
+        "id": "KB0228",
         "type": "bird_evidence",
         "title": "Evidence 1146",
         "content": "full name refers to team_long_name; away team refers to away_team_api_id; scored the most goals refers to MAX(away_team_goal)",
@@ -2867,7 +2867,7 @@
         }
     },
     {
-        "id": "KB0218",
+        "id": "KB0229",
         "type": "bird_evidence",
         "title": "Evidence 1147",
         "content": "overall strength is the greatest refers to MAX(overall_rating)",
@@ -2877,7 +2877,7 @@
         }
     },
     {
-        "id": "KB0219",
+        "id": "KB0230",
         "type": "bird_evidence",
         "title": "Evidence 1148",
         "content": "percentage refers to DIVIDE(COUNT(height < 180 AND overall_rating > 70),COUNT(id)) * 100",
@@ -2887,7 +2887,7 @@
         }
     },
     {
-        "id": "KB0220",
+        "id": "KB0231",
         "type": "bird_evidence",
         "title": "Evidence 846",
         "content": "driver reference name refers to driverRef; first qualifying period refers to q1; drivers who are eliminated in the first qualifying period refers to 5 drivers with MAX(q1); race number refers to raceId;",
@@ -2897,7 +2897,7 @@
         }
     },
     {
-        "id": "KB0221",
+        "id": "KB0232",
         "type": "bird_evidence",
         "title": "Evidence 847",
         "content": "race number refers to raceId; second qualifying period refers to q2; best lap time refers to MIN(q2);",
@@ -2907,7 +2907,7 @@
         }
     },
     {
-        "id": "KB0222",
+        "id": "KB0233",
         "type": "bird_evidence",
         "title": "Evidence 850",
         "content": "Germany is a name of country;",
@@ -2917,7 +2917,7 @@
         }
     },
     {
-        "id": "KB0223",
+        "id": "KB0234",
         "type": "bird_evidence",
         "title": "Evidence 854",
         "content": "coordinate position/location refers to lat, lng; circuits for Australian grand prix refers to races.name = 'Australian Grand Prix'",
@@ -2927,7 +2927,7 @@
         }
     },
     {
-        "id": "KB0224",
+        "id": "KB0235",
         "type": "bird_evidence",
         "title": "Evidence 857",
         "content": "coordinate position/location refers to lat, lng; Abu Dhabi Grand Prix refers to races.name = 'Abu Dhabi Grand Prix'",
@@ -2937,7 +2937,7 @@
         }
     },
     {
-        "id": "KB0225",
+        "id": "KB0236",
         "type": "bird_evidence",
         "title": "Evidence 859",
         "content": "race number refers to raceId; Bruno Senna refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;",
@@ -2947,7 +2947,7 @@
         }
     },
     {
-        "id": "KB0226",
+        "id": "KB0237",
         "type": "bird_evidence",
         "title": "Evidence 861",
         "content": "race number refers to raceId; finished 0:0M:SS in the Q3 refers to q3 LIKE 'M:SS%'",
@@ -2957,7 +2957,7 @@
         }
     },
     {
-        "id": "KB0227",
+        "id": "KB0238",
         "type": "bird_evidence",
         "title": "Evidence 862",
         "content": "Bahrain Grand Prix refers to races.name = 'Bahrain Grand Prix'; drivers who finished the race refers to time is not empty (i.e. time IS NOT NULL);",
@@ -2967,7 +2967,7 @@
         }
     },
     {
-        "id": "KB0228",
+        "id": "KB0239",
         "type": "bird_evidence",
         "title": "Evidence 865",
         "content": "drivers who finished the race refers to time is not empty (i.e. time IS NOT NULL); race number refers to raceId; date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa;",
@@ -2977,7 +2977,7 @@
         }
     },
     {
-        "id": "KB0229",
+        "id": "KB0240",
         "type": "bird_evidence",
         "title": "Evidence 866",
         "content": "player and driver are synonyms; the lap time of 0:0M:SS refers to lapTime.time LIKE 'M:SS%';race number refers to raceId; introduction website of the drivers refers to url;",
@@ -2987,7 +2987,7 @@
         }
     },
     {
-        "id": "KB0230",
+        "id": "KB0241",
         "type": "bird_evidence",
         "title": "Evidence 868",
         "content": "location coordinates refers to (lat, lng); Malaysian Grand Prix refers to races.name = 'Malaysian Grand Prix'",
@@ -2997,7 +2997,7 @@
         }
     },
     {
-        "id": "KB0231",
+        "id": "KB0242",
         "type": "bird_evidence",
         "title": "Evidence 869",
         "content": "race number refers to raceId; constructor which got the highest point refers to MAX(constructorResults.points); introduction website of the constructor refers to url;",
@@ -3007,7 +3007,7 @@
         }
     },
     {
-        "id": "KB0232",
+        "id": "KB0243",
         "type": "bird_evidence",
         "title": "Evidence 872",
         "content": "race number refers to raceId; had the Q3 time as 0:0M:SS refers to q3 LIKE 'M:SS%'",
@@ -3017,7 +3017,7 @@
         }
     },
     {
-        "id": "KB0233",
+        "id": "KB0244",
         "type": "bird_evidence",
         "title": "Evidence 875",
         "content": "the season page refers to url; race number refers to raceId;",
@@ -3027,7 +3027,7 @@
         }
     },
     {
-        "id": "KB0234",
+        "id": "KB0245",
         "type": "bird_evidence",
         "title": "Evidence 877",
         "content": "race number refers to raceId; drivers who finished the race refers to time has value; the youngest is a driver where MAX(dob);",
@@ -3037,7 +3037,7 @@
         }
     },
     {
-        "id": "KB0235",
+        "id": "KB0246",
         "type": "bird_evidence",
         "title": "Evidence 879",
         "content": "the fastest lap speed refers to (MAX) fastestLapSpeed;",
@@ -3047,7 +3047,7 @@
         }
     },
     {
-        "id": "KB0236",
+        "id": "KB0247",
         "type": "bird_evidence",
         "title": "Evidence 880",
         "content": "Paul di Resta refers to the full name of the driver; Full name of the driver refers to drivers.forename ='Paul' and drivers.surname = 'di Resta'; race number refers to raceId; percentage = DIVIDE(SUBTRACT(fastestLapSpeed(raceId = 853), (fastestLapSpeed (raceId = 854)) * 100 , (fastestLapSpeed(raceId = 853))",
@@ -3057,7 +3057,7 @@
         }
     },
     {
-        "id": "KB0237",
+        "id": "KB0248",
         "type": "bird_evidence",
         "title": "Evidence 881",
         "content": "DIVIDE(COUNT(driverid when time has value ), (COUNT(driverid )) as percentage; in 1983/7/16 refers to when date = '1983-07-16'",
@@ -3067,7 +3067,7 @@
         }
     },
     {
-        "id": "KB0238",
+        "id": "KB0249",
         "type": "bird_evidence",
         "title": "Evidence 884",
         "content": "earliest recorded year and month refers to year = year(min(date)) and month = month(min(date));",
@@ -3077,7 +3077,7 @@
         }
     },
     {
-        "id": "KB0239",
+        "id": "KB0250",
         "type": "bird_evidence",
         "title": "Evidence 892",
         "content": "the most points scored refers to max(points); Full name of the driver refers to drivers.forename and drivers.surname;",
@@ -3087,7 +3087,7 @@
         }
     },
     {
-        "id": "KB0240",
+        "id": "KB0251",
         "type": "bird_evidence",
         "title": "Evidence 894",
         "content": "the best lap time refers to min(milliseconds); List the driver refers to drivers.forename and drivers.surname; List the race refers to races.name",
@@ -3097,7 +3097,7 @@
         }
     },
     {
-        "id": "KB0241",
+        "id": "KB0252",
         "type": "bird_evidence",
         "title": "Evidence 895",
         "content": "average lap time = AVG(milliseconds); 'Lewis Hamilton' refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname; 'Malaysian Grand Prix' refers to races.name = 'Malaysian Grand Prix'",
@@ -3107,7 +3107,7 @@
         }
     },
     {
-        "id": "KB0242",
+        "id": "KB0253",
         "type": "bird_evidence",
         "title": "Evidence 896",
         "content": "percentage = DIVIDE(COUNT(raceId) where surname = 'Hamilton' and position>1), (COUNT(raceId) where surname = 'Hamilton'); since 2010 refers to year >= 2010",
@@ -3117,7 +3117,7 @@
         }
     },
     {
-        "id": "KB0243",
+        "id": "KB0254",
         "type": "bird_evidence",
         "title": "Evidence 897",
         "content": "Full name of the driver refers to drivers.forename and drivers.surname; the most winning refers to MAX(COUNT(wins)); average point scores refers to MAX(points);",
@@ -3127,7 +3127,7 @@
         }
     },
     {
-        "id": "KB0244",
+        "id": "KB0255",
         "type": "bird_evidence",
         "title": "Evidence 898",
         "content": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa; Japanese refers to nationality = 'Japanese'; age = YEAR(CURRENT_TIMESTAMP) - YEAR(dob);",
@@ -3137,7 +3137,7 @@
         }
     },
     {
-        "id": "KB0245",
+        "id": "KB0256",
         "type": "bird_evidence",
         "title": "Evidence 901",
         "content": "in September 2005 refers to MONTH(date) = 9 and YEAR(date) = 2005",
@@ -3147,7 +3147,7 @@
         }
     },
     {
-        "id": "KB0246",
+        "id": "KB0257",
         "type": "bird_evidence",
         "title": "Evidence 902",
         "content": "Alex Yoong refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;track number less than 10 refers to position < 20",
@@ -3157,7 +3157,7 @@
         }
     },
     {
-        "id": "KB0247",
+        "id": "KB0258",
         "type": "bird_evidence",
         "title": "Evidence 904",
         "content": "fastest lap refers to min(milliseconds); Alex Yoong refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;",
@@ -3167,7 +3167,7 @@
         }
     },
     {
-        "id": "KB0248",
+        "id": "KB0259",
         "type": "bird_evidence",
         "title": "Evidence 906",
         "content": "first race refers to min(Year); Lewis Hamiltonrefers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;",
@@ -3177,7 +3177,7 @@
         }
     },
     {
-        "id": "KB0249",
+        "id": "KB0260",
         "type": "bird_evidence",
         "title": "Evidence 909",
         "content": "European Grand Prix races refers to races.name = 'European Grand Prix';percentage = divide(COUNT(races where country = Germany and name = 'Europearn Grand Prix'),COUNT(races where name = 'Europearn Grand Prix'))*100",
@@ -3187,7 +3187,7 @@
         }
     },
     {
-        "id": "KB0250",
+        "id": "KB0261",
         "type": "bird_evidence",
         "title": "Evidence 910",
         "content": "location coordinates refers to (lat, lng); Silverstone Circuit refers to circuits.name = 'Silverstone Circuit'",
@@ -3197,7 +3197,7 @@
         }
     },
     {
-        "id": "KB0251",
+        "id": "KB0262",
         "type": "bird_evidence",
         "title": "Evidence 912",
         "content": "reference name refers to circuitRef; Marina Bay Street Circuit refers to circuits.name = 'Marina Bay Street Circuit'",
@@ -3207,7 +3207,7 @@
         }
     },
     {
-        "id": "KB0252",
+        "id": "KB0263",
         "type": "bird_evidence",
         "title": "Evidence 915",
         "content": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa;",
@@ -3217,7 +3217,7 @@
         }
     },
     {
-        "id": "KB0253",
+        "id": "KB0264",
         "type": "bird_evidence",
         "title": "Evidence 928",
         "content": "reference name refers to driverRef; Canadian Grand Prix refers to races.name = 'Canadian Grand Prix';",
@@ -3227,7 +3227,7 @@
         }
     },
     {
-        "id": "KB0254",
+        "id": "KB0265",
         "type": "bird_evidence",
         "title": "Evidence 930",
         "content": "rank the highest refers to min(rank); Lewis Hamilton refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;",
@@ -3237,7 +3237,7 @@
         }
     },
     {
-        "id": "KB0255",
+        "id": "KB0266",
         "type": "bird_evidence",
         "title": "Evidence 931",
         "content": "the fastest lap speed among all refers to max(fastestLapSpeed); Spanish Grand Prix refers to races.name = 'Spanish Grand Prix';",
@@ -3247,7 +3247,7 @@
         }
     },
     {
-        "id": "KB0256",
+        "id": "KB0267",
         "type": "bird_evidence",
         "title": "Evidence 933",
         "content": "Lewis Hamilton refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname; final rank refers to positionOrder; Chinese Grand Prix refers to races.name = 'Chinese Grand Prix';",
@@ -3257,7 +3257,7 @@
         }
     },
     {
-        "id": "KB0257",
+        "id": "KB0268",
         "type": "bird_evidence",
         "title": "Evidence 937",
         "content": "finish time refers to time; Chinese Grand Prix refers to races.name = 'Chinese Grand Prix';",
@@ -3267,7 +3267,7 @@
         }
     },
     {
-        "id": "KB0258",
+        "id": "KB0269",
         "type": "bird_evidence",
         "title": "Evidence 940",
         "content": "COUNT(raceID) > 0 reveals that this driver participated in races; drivers who finished the race refers to time has value.",
@@ -3277,7 +3277,7 @@
         }
     },
     {
-        "id": "KB0259",
+        "id": "KB0270",
         "type": "bird_evidence",
         "title": "Evidence 944",
         "content": "how much faster in percentage = divide(subtract(incremental time, champion time), last_driver time) * 100; last driver finished time = incremental time + champion time; only champion's finished time is represented by 'HH:MM:SS.mmm'; finished the game refers to time is not null",
@@ -3287,7 +3287,7 @@
         }
     },
     {
-        "id": "KB0260",
+        "id": "KB0271",
         "type": "bird_evidence",
         "title": "Evidence 945",
         "content": "Australia is the country; Melbourne is the location of circuit;",
@@ -3297,7 +3297,7 @@
         }
     },
     {
-        "id": "KB0261",
+        "id": "KB0272",
         "type": "bird_evidence",
         "title": "Evidence 948",
         "content": "maximum points = MAX(points); British is a nationality",
@@ -3307,7 +3307,7 @@
         }
     },
     {
-        "id": "KB0262",
+        "id": "KB0273",
         "type": "bird_evidence",
         "title": "Evidence 950",
         "content": "race at 291 refers to raceID = 291;",
@@ -3317,7 +3317,7 @@
         }
     },
     {
-        "id": "KB0263",
+        "id": "KB0274",
         "type": "bird_evidence",
         "title": "Evidence 951",
         "content": "2 races refers to COUNT(raceID) = 2; Japanese refers to constructors.nationality = 'Japanese';",
@@ -3327,7 +3327,7 @@
         }
     },
     {
-        "id": "KB0264",
+        "id": "KB0275",
         "type": "bird_evidence",
         "title": "Evidence 954",
         "content": "from 2007 to 2009 refers to year between 2007 and 2009; race completion refers to time is not null; percentage = Divide(COUNT(DriverID where time is not null and year between 2007 and 2009),Count (DriverID where year between 2007 and 2009))*100; ",
@@ -3337,7 +3337,7 @@
         }
     },
     {
-        "id": "KB0265",
+        "id": "KB0276",
         "type": "bird_evidence",
         "title": "Evidence 955",
         "content": "only champion's finished time is represented by 'HH:MM:SS.mmm'; finished the game refers to time is not null; before year 1975 refers to year < 1975;",
@@ -3347,7 +3347,7 @@
         }
     },
     {
-        "id": "KB0266",
+        "id": "KB0277",
         "type": "bird_evidence",
         "title": "Evidence 959",
         "content": "in 2009 refers to year = 2009; Only the time of the champion shows in the format of \"hour: minutes: seconds.millionsecond\"",
@@ -3357,7 +3357,7 @@
         }
     },
     {
-        "id": "KB0267",
+        "id": "KB0278",
         "type": "bird_evidence",
         "title": "Evidence 960",
         "content": "Spanish Grand Prix is the name of race refers to name = 'Spanish Grand Prix'; average fastest lap speed refers to avg(fastestLapSpeed);",
@@ -3367,7 +3367,7 @@
         }
     },
     {
-        "id": "KB0268",
+        "id": "KB0279",
         "type": "bird_evidence",
         "title": "Evidence 962",
         "content": "born before 1985 refers to year(dob)<1985; in 2000 to 2005 refers to year between 2000 and 2005; percentage = Divide(COUNT(driverId where year (dob) <1985 and laps >50),COUNT(DriverID where year between 2000 and 2005) *100;",
@@ -3377,7 +3377,7 @@
         }
     },
     {
-        "id": "KB0269",
+        "id": "KB0280",
         "type": "bird_evidence",
         "title": "Evidence 963",
         "content": "lap time less than 02:00.00 refers to seconds < 120;",
@@ -3387,7 +3387,7 @@
         }
     },
     {
-        "id": "KB0270",
+        "id": "KB0281",
         "type": "bird_evidence",
         "title": "Evidence 964",
         "content": "nationality = 'American'",
@@ -3397,7 +3397,7 @@
         }
     },
     {
-        "id": "KB0271",
+        "id": "KB0282",
         "type": "bird_evidence",
         "title": "Evidence 967",
         "content": "youngest driver refers to Max (year(dob)); Netherlandic and Dutch refer to the same country",
@@ -3407,7 +3407,7 @@
         }
     },
     {
-        "id": "KB0272",
+        "id": "KB0283",
         "type": "bird_evidence",
         "title": "Evidence 971",
         "content": "oldest refers to MIN(year(dob)); reference names appear in drverRef.",
@@ -3417,7 +3417,7 @@
         }
     },
     {
-        "id": "KB0273",
+        "id": "KB0284",
         "type": "bird_evidence",
         "title": "Evidence 972",
         "content": "born in 1971 refers to year(dob) = 1971; has the fastest lap time refers to fastestLapTime has values",
@@ -3427,7 +3427,7 @@
         }
     },
     {
-        "id": "KB0274",
+        "id": "KB0285",
         "type": "bird_evidence",
         "title": "Evidence 977",
         "content": "disqualified refers to statusID = 2, finisher refers to time! = null; race no. refers to raceId; raceId > 50 and raceId < 100;",
@@ -3437,7 +3437,7 @@
         }
     },
     {
-        "id": "KB0275",
+        "id": "KB0286",
         "type": "bird_evidence",
         "title": "Evidence 978",
         "content": "location coordinates refers to (lat,lng); Austria refers to country = 'Austria';",
@@ -3447,7 +3447,7 @@
         }
     },
     {
-        "id": "KB0276",
+        "id": "KB0287",
         "type": "bird_evidence",
         "title": "Evidence 981",
         "content": "date of birth refers to drivers.dob; The larger the birthday value, the younger the person is, and vice versa; first qualifying race refers to MIN(races.date);",
@@ -3457,7 +3457,7 @@
         }
     },
     {
-        "id": "KB0277",
+        "id": "KB0288",
         "type": "bird_evidence",
         "title": "Evidence 988",
         "content": "Full name of the driver refers to drivers.forename and drivers.surname; born between 1980-1985 refers to 1980<= year(dob) <=1985; Average pitstop duration refers to Divide(SUM(duration),COUNT(duration)); shortest average refers to Min(avg(duration));",
@@ -3467,7 +3467,7 @@
         }
     },
     {
-        "id": "KB0278",
+        "id": "KB0289",
         "type": "bird_evidence",
         "title": "Evidence 989",
         "content": "Only the time of the champion shows in the format of \"hour: minutes: seconds.millionsecond\";",
@@ -3477,7 +3477,7 @@
         }
     },
     {
-        "id": "KB0279",
+        "id": "KB0290",
         "type": "bird_evidence",
         "title": "Evidence 990",
         "content": "the time of the champion shows in the format of \"minutes: seconds.millionsecond\" in which Max(time); constructor reference name refers to constructorRef; website refers to url",
@@ -3487,7 +3487,7 @@
         }
     },
     {
-        "id": "KB0280",
+        "id": "KB0291",
         "type": "bird_evidence",
         "title": "Evidence 717",
         "content": "3-D Man refers to superhero_name = '3-D Man'; superpowers refers to power_name",
@@ -3497,7 +3497,7 @@
         }
     },
     {
-        "id": "KB0281",
+        "id": "KB0292",
         "type": "bird_evidence",
         "title": "Evidence 994",
         "content": "Monaco Grand Priz refers to the race; race in year between 1980 and 2010",
@@ -3507,7 +3507,7 @@
         }
     },
     {
-        "id": "KB0282",
+        "id": "KB0293",
         "type": "bird_evidence",
         "title": "Evidence 1001",
         "content": "Ranked 1st in the 3rd qualifying race refer to MIN(q3); 2008 is the year of race; full name of racer = forename, surname",
@@ -3517,7 +3517,7 @@
         }
     },
     {
-        "id": "KB0283",
+        "id": "KB0294",
         "type": "bird_evidence",
         "title": "Evidence 1002",
         "content": "full name refers to forename+surname; Youngest racer = MAX(dob)",
@@ -3527,7 +3527,7 @@
         }
     },
     {
-        "id": "KB0284",
+        "id": "KB0295",
         "type": "bird_evidence",
         "title": "Evidence 1003",
         "content": "number of accidents refers to the number where statusid = 3; Canadian Grand Prix refers to the race of name\n",
@@ -3537,7 +3537,7 @@
         }
     },
     {
-        "id": "KB0285",
+        "id": "KB0296",
         "type": "bird_evidence",
         "title": "Evidence 1011",
         "content": "shortest lap time refers to MIN(time); the time format for the shortest lap time is 'MM:SS.mmm' or 'M:SS.mmm'; full name of the driver refers to forename, surname",
@@ -3547,7 +3547,7 @@
         }
     },
     {
-        "id": "KB0286",
+        "id": "KB0297",
         "type": "bird_evidence",
         "title": "Evidence 1014",
         "content": "lap record means the fastest time recorded which refers to time",
@@ -3557,7 +3557,7 @@
         }
     },
     {
-        "id": "KB0287",
+        "id": "KB0298",
         "type": "bird_evidence",
         "title": "Evidence 719",
         "content": "super power of \"Super Strength\" refers to power_name = 'Super Strength'; a height of over 200cm refers to height_cm > 200",
@@ -3567,7 +3567,7 @@
         }
     },
     {
-        "id": "KB0288",
+        "id": "KB0299",
         "type": "bird_evidence",
         "title": "Evidence 723",
         "content": "blue eyes refers to colour = 'Blue' and eye_colour_id = colour.id; super power of \"Agility\" refers to power_name = 'Agility'",
@@ -3577,7 +3577,7 @@
         }
     },
     {
-        "id": "KB0289",
+        "id": "KB0300",
         "type": "bird_evidence",
         "title": "Evidence 724",
         "content": "blue eyes refers to colour = 'Blue' and eye_colour_id = colour.id; blond hair refers to colour = 'Blond' and hair_colour_id = colour.id; super power of \"Agility\" refers to power_name = 'Agility'",
@@ -3587,7 +3587,7 @@
         }
     },
     {
-        "id": "KB0290",
+        "id": "KB0301",
         "type": "bird_evidence",
         "title": "Evidence 726",
         "content": "name refers to superhero_name; the tallest hero refers to MAX(height_cm); published by Marvel Comics refers to publisher_name = 'Marvel Comics'",
@@ -3597,7 +3597,7 @@
         }
     },
     {
-        "id": "KB0291",
+        "id": "KB0302",
         "type": "bird_evidence",
         "title": "Evidence 728",
         "content": "the superheroes from Marvel Comics refers to publisher_name = 'Marvel Comics'; most common color refers to COUNT(superhero.id) DESC;",
@@ -3607,7 +3607,7 @@
         }
     },
     {
-        "id": "KB0292",
+        "id": "KB0303",
         "type": "bird_evidence",
         "title": "Evidence 730",
         "content": "the superheroes from Marvel Comics refers to publisher_name = 'Marvel Comics'; super power of \"Super Strength\" refers to power_name = 'Super Strength';",
@@ -3617,7 +3617,7 @@
         }
     },
     {
-        "id": "KB0293",
+        "id": "KB0304",
         "type": "bird_evidence",
         "title": "Evidence 732",
         "content": "the slowest superhero refers to attribute_name = 'Speed' where MIN(attribute_value); publisher refers to publisher_name",
@@ -3627,7 +3627,7 @@
         }
     },
     {
-        "id": "KB0294",
+        "id": "KB0305",
         "type": "bird_evidence",
         "title": "Evidence 733",
         "content": "gold-eyed refers to colour = 'Gold' where eye_colour_id = colour.id; superheroes that Marvel Comics published refers to publisher_name = 'Marvel Comics'",
@@ -3637,7 +3637,7 @@
         }
     },
     {
-        "id": "KB0295",
+        "id": "KB0306",
         "type": "bird_evidence",
         "title": "Evidence 736",
         "content": "the dumbest superhero refers to MIN(attribute_value) where attribute_name = 'Intelligence'",
@@ -3647,7 +3647,7 @@
         }
     },
     {
-        "id": "KB0296",
+        "id": "KB0307",
         "type": "bird_evidence",
         "title": "Evidence 737",
         "content": "Copycat is the superhero_name;",
@@ -3657,7 +3657,7 @@
         }
     },
     {
-        "id": "KB0297",
+        "id": "KB0308",
         "type": "bird_evidence",
         "title": "Evidence 738",
         "content": "durability of less than 50 refers to attribute_name = 'Durability' AND attribute_value < 50",
@@ -3667,7 +3667,7 @@
         }
     },
     {
-        "id": "KB0298",
+        "id": "KB0309",
         "type": "bird_evidence",
         "title": "Evidence 739",
         "content": "name of superheroes refers to refers to superhero_name; the power of death touch refers to power_name = 'Death Touch'",
@@ -3677,7 +3677,7 @@
         }
     },
     {
-        "id": "KB0299",
+        "id": "KB0310",
         "type": "bird_evidence",
         "title": "Evidence 740",
         "content": "female refers to gender = 'Female'; strength value of 100 refers to attribute_name = 'Strength' AND attribute_value = 100",
@@ -3687,7 +3687,7 @@
         }
     },
     {
-        "id": "KB0300",
+        "id": "KB0311",
         "type": "bird_evidence",
         "title": "Evidence 743",
         "content": "published by Marvel Comics refers to publisher_name = 'Marvel Comics'; superheroes who act in their own self-interest or make decisions based on their own moral code refers to alignment = 'Bad'; calculation = MULTIPLY(DIVIDE(SUM(alignment = 'Bad); count(id)), 100)",
@@ -3697,7 +3697,7 @@
         }
     },
     {
-        "id": "KB0301",
+        "id": "KB0312",
         "type": "bird_evidence",
         "title": "Evidence 744",
         "content": "DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; calculation = SUBTRACT(SUM(publisher_name = 'Marvel Comics'), SUM(publisher_name = 'DC Comics'))",
@@ -3707,7 +3707,7 @@
         }
     },
     {
-        "id": "KB0302",
+        "id": "KB0313",
         "type": "bird_evidence",
         "title": "Evidence 745",
         "content": "Star Trek is the publisher_name;",
@@ -3717,7 +3717,7 @@
         }
     },
     {
-        "id": "KB0303",
+        "id": "KB0314",
         "type": "bird_evidence",
         "title": "Evidence 747",
         "content": "superheroes without full name refers to full_name IS NULL",
@@ -3727,7 +3727,7 @@
         }
     },
     {
-        "id": "KB0304",
+        "id": "KB0315",
         "type": "bird_evidence",
         "title": "Evidence 750",
         "content": "female refers to gender = 'Female'; average weight refers to AVG(weight_kg)",
@@ -3737,7 +3737,7 @@
         }
     },
     {
-        "id": "KB0305",
+        "id": "KB0316",
         "type": "bird_evidence",
         "title": "Evidence 751",
         "content": "male refers to gender = 'Male'; superpowers refers to power_name;",
@@ -3747,7 +3747,7 @@
         }
     },
     {
-        "id": "KB0306",
+        "id": "KB0317",
         "type": "bird_evidence",
         "title": "Evidence 753",
         "content": "height from 170 to 190 refers to height_cm BETWEEN 170 AND 190; no eye color refers to colour = 'No Colour'",
@@ -3757,7 +3757,7 @@
         }
     },
     {
-        "id": "KB0307",
+        "id": "KB0318",
         "type": "bird_evidence",
         "title": "Evidence 758",
         "content": "185 cm tall refers to height_cm = 185; human superhero refers to race = 'human'; hair colour refers to colour where hair_colour_id = colour.id;",
@@ -3767,7 +3767,7 @@
         }
     },
     {
-        "id": "KB0308",
+        "id": "KB0319",
         "type": "bird_evidence",
         "title": "Evidence 760",
         "content": "height between 150 to 180 refers to height_cm BETWEEN 150 AND 180; heroes published by Marvel Comics refers to publisher_name = 'Marvel Comics'; calculation = MULTIPLY(DIVIDE(SUM(publisher.id = 13)), COUNT(publisher.id), 100)",
@@ -3777,7 +3777,7 @@
         }
     },
     {
-        "id": "KB0309",
+        "id": "KB0320",
         "type": "bird_evidence",
         "title": "Evidence 761",
         "content": "super hero names refers to superhero_name;male superheros refers to gender = 'Male';Calculation = weight_kg > MULTIPLY(AVG(weight_kg), 0.79)",
@@ -3787,7 +3787,7 @@
         }
     },
     {
-        "id": "KB0310",
+        "id": "KB0321",
         "type": "bird_evidence",
         "title": "Evidence 764",
         "content": "superpowers refers to power_name; heroes with ID 1 refers to hero_id = 1;",
@@ -3797,7 +3797,7 @@
         }
     },
     {
-        "id": "KB0311",
+        "id": "KB0322",
         "type": "bird_evidence",
         "title": "Evidence 765",
         "content": "stealth power refers to power_name = 'Stealth';",
@@ -3807,7 +3807,7 @@
         }
     },
     {
-        "id": "KB0312",
+        "id": "KB0323",
         "type": "bird_evidence",
         "title": "Evidence 766",
         "content": "highest attribute in strength refers to MAX(attribute_value) WHERE attribute_name = 'strength';",
@@ -3817,7 +3817,7 @@
         }
     },
     {
-        "id": "KB0313",
+        "id": "KB0324",
         "type": "bird_evidence",
         "title": "Evidence 769",
         "content": "which superhero refers to superhero_name; most durability refers to MAX(attribute_value) WHERE attribute_name = 'durability'; published by Dark Horse Comics refers to publisher_name = 'Dark Horse Comics';",
@@ -3827,7 +3827,7 @@
         }
     },
     {
-        "id": "KB0314",
+        "id": "KB0325",
         "type": "bird_evidence",
         "title": "Evidence 772",
         "content": "eyes refers to eye_colour_id; hair refers to hair_colour_id; skin colour refers to skin_colour_id; female superheroes refers to gender = 'Female'; published by Dark Horse Comics refers to publisher_name = 'Dark Horse Comics';",
@@ -3837,7 +3837,7 @@
         }
     },
     {
-        "id": "KB0315",
+        "id": "KB0326",
         "type": "bird_evidence",
         "title": "Evidence 773",
         "content": "which superhero refers to superhero_name; the same eyes, hair and skin colour refers to hair_colour_id = skin_colour_id AND hair_colour_id = eye_colour_id; publisher refers to publisher_name;",
@@ -3847,7 +3847,7 @@
         }
     },
     {
-        "id": "KB0316",
+        "id": "KB0327",
         "type": "bird_evidence",
         "title": "Evidence 775",
         "content": "percentage = MULTIPLY(DIVIDE(SUM(colour = 'Blue' WHERE gender = 'Female'), COUNT(gender = 'Female')), 100); blue refers to the color = 'Blue' WHERE skin_colour_id = colour.id; female refers to gender = 'Female';",
@@ -3857,7 +3857,7 @@
         }
     },
     {
-        "id": "KB0317",
+        "id": "KB0328",
         "type": "bird_evidence",
         "title": "Evidence 779",
         "content": "Amazo hero refers to superhero_name = 'Amazo';",
@@ -3867,7 +3867,7 @@
         }
     },
     {
-        "id": "KB0318",
+        "id": "KB0329",
         "type": "bird_evidence",
         "title": "Evidence 781",
         "content": "heights of the heroes refers to height_cm; eye colours are amber refers to colour.colour = 'Amber' WHERE eye_colour_id = colour.id;",
@@ -3877,7 +3877,7 @@
         }
     },
     {
-        "id": "KB0319",
+        "id": "KB0330",
         "type": "bird_evidence",
         "title": "Evidence 782",
         "content": "heroes' names refers to superhero_name; eyes and hair colours are both black refers to eye_colour_id AND hair_colour_id WHERE colour.colour = 'Black';",
@@ -3887,7 +3887,7 @@
         }
     },
     {
-        "id": "KB0320",
+        "id": "KB0331",
         "type": "bird_evidence",
         "title": "Evidence 785",
         "content": "names of superheroes refers to superhero_name; neutral alignment refers to alignment = 'Neutral';",
@@ -3897,7 +3897,7 @@
         }
     },
     {
-        "id": "KB0321",
+        "id": "KB0332",
         "type": "bird_evidence",
         "title": "Evidence 786",
         "content": "highest attribute value in strength refers to MAX(attribute_value) WHERE attribute_name = 'Strength';",
@@ -3907,7 +3907,7 @@
         }
     },
     {
-        "id": "KB0322",
+        "id": "KB0333",
         "type": "bird_evidence",
         "title": "Evidence 788",
         "content": "percent = MULTIPLY(DIVIDE(SUM(gender = 'Female' WHERE publisher_name = 'Marvel Comics'), COUNT(publisher_name = 'Marvel Comics')), 100); female heroes refers to gender = 'Female'; Marvel Comics refers to publisher_name = 'Marvel Comics';",
@@ -3917,7 +3917,7 @@
         }
     },
     {
-        "id": "KB0323",
+        "id": "KB0334",
         "type": "bird_evidence",
         "title": "Evidence 790",
         "content": "difference = SUBTRACT(SUM(weight_kg WHERE full_name = 'Emil Blonsky'), SUM(weight_kg WHERE full_name = 'Charles Chandler')); Emil Blonsky is the full name of superhero; Charles Chandler is the full name of superhero;",
@@ -3927,7 +3927,7 @@
         }
     },
     {
-        "id": "KB0324",
+        "id": "KB0335",
         "type": "bird_evidence",
         "title": "Evidence 791",
         "content": "average = DIVIDE(SUM(height_cm), COUNT(all heros));",
@@ -3937,7 +3937,7 @@
         }
     },
     {
-        "id": "KB0325",
+        "id": "KB0336",
         "type": "bird_evidence",
         "title": "Evidence 792",
         "content": "Abomination refers to superhero_name = 'Abomination'; superpower refers to power_name;",
@@ -3947,7 +3947,7 @@
         }
     },
     {
-        "id": "KB0326",
+        "id": "KB0337",
         "type": "bird_evidence",
         "title": "Evidence 794",
         "content": "which hero refers to superhero_name; fastest refers to MAX(attribute_value) WHERE attribute_name = 'Speed';",
@@ -3957,7 +3957,7 @@
         }
     },
     {
-        "id": "KB0327",
+        "id": "KB0338",
         "type": "bird_evidence",
         "title": "Evidence 796",
         "content": "3-D Man is the superhero_name. attributes refers to attribute_name; values refers to attribute_value;",
@@ -3967,7 +3967,7 @@
         }
     },
     {
-        "id": "KB0328",
+        "id": "KB0339",
         "type": "bird_evidence",
         "title": "Evidence 797",
         "content": "which superheroes refers to superhero_name; blue eyes refers to color = 'Blue' and color.id = eye_colour_id; brown hair refers to color = 'Brown' and color.id = hair_colour_id;",
@@ -3977,7 +3977,7 @@
         }
     },
     {
-        "id": "KB0329",
+        "id": "KB0340",
         "type": "bird_evidence",
         "title": "Evidence 798",
         "content": "publisher refers to publisher_name; Hawkman refers to superhero_name = 'Hawkman'; Karate Kid refers to superhero_name = 'Karate Kid'; Speedy refers to superhero_name = 'Speedy';",
@@ -3987,7 +3987,7 @@
         }
     },
     {
-        "id": "KB0330",
+        "id": "KB0341",
         "type": "bird_evidence",
         "title": "Evidence 800",
         "content": "percentage = MULTIPLY(DIVIDE(SUM(superhero_name WHERE color = 'Blue'), COUNT(superhero_name)), 100.0); blue eyes refers to color = 'Blue' and color.id =  eye_colour_id = 7;",
@@ -3997,7 +3997,7 @@
         }
     },
     {
-        "id": "KB0331",
+        "id": "KB0342",
         "type": "bird_evidence",
         "title": "Evidence 801",
         "content": "ratio = DIVIDE(SUM(gender_id = 1) / SUM(gender_id = 2)); male superheroes refers to gender = 'Female'; female superheroes refers to gender = 'Male';",
@@ -4007,7 +4007,7 @@
         }
     },
     {
-        "id": "KB0332",
+        "id": "KB0343",
         "type": "bird_evidence",
         "title": "Evidence 806",
         "content": "eye colour refers to colour.colour where eye_colour_id = colour.id; Karen Beecher-Duncan is the full name of superhero;",
@@ -4017,7 +4017,7 @@
         }
     },
     {
-        "id": "KB0333",
+        "id": "KB0344",
         "type": "bird_evidence",
         "title": "Evidence 819",
         "content": "missing weight data refers to weight_kg = 0 OR T1.weight_kg = NULL; difference = SUBTRACT(SUM(colour.id = 7), SUM(colour.id = 1)); blue eyes refers to eye_colour_id WHERE colour.id = 7; no eye color refers to eye_colour_id WHERE colour.id = 1;",
@@ -4027,7 +4027,7 @@
         }
     },
     {
-        "id": "KB0334",
+        "id": "KB0345",
         "type": "bird_evidence",
         "title": "Evidence 822",
         "content": "green-skinned refers to colour.colour = 'Green' WHERE skin_colour_id = colour.id; villains refers to alignment = 'Bad';",
@@ -4037,7 +4037,7 @@
         }
     },
     {
-        "id": "KB0335",
+        "id": "KB0346",
         "type": "bird_evidence",
         "title": "Evidence 824",
         "content": "superheroes refers to superhero_name; can control wind refers to power_name = 'Wind Control';",
@@ -4047,7 +4047,7 @@
         }
     },
     {
-        "id": "KB0336",
+        "id": "KB0347",
         "type": "bird_evidence",
         "title": "Evidence 825",
         "content": "ability of Phoenix Force refers to power_name = 'Phoenix Force';",
@@ -4057,7 +4057,7 @@
         }
     },
     {
-        "id": "KB0337",
+        "id": "KB0348",
         "type": "bird_evidence",
         "title": "Evidence 829",
         "content": "DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; difference = SUBTRACT(SUM(publisher_name = 'DC Comics'), SUM(publisher_name = 'Marvel Comics'));",
@@ -4067,7 +4067,7 @@
         }
     },
     {
-        "id": "KB0338",
+        "id": "KB0349",
         "type": "bird_evidence",
         "title": "Evidence 531",
         "content": "\"Harlan\" and \"Jarrod Dixon\" are both DisplayName; highest reputation refers to Max(Reputation)",
@@ -4077,7 +4077,7 @@
         }
     },
     {
-        "id": "KB0339",
+        "id": "KB0350",
         "type": "bird_evidence",
         "title": "Evidence 532",
         "content": "account created in the year 2011 refers to year(CreationDate) = 2011",
@@ -4087,7 +4087,7 @@
         }
     },
     {
-        "id": "KB0340",
+        "id": "KB0351",
         "type": "bird_evidence",
         "title": "Evidence 533",
         "content": "last accessed after 2014/9/1 refers to LastAccessDate > '2014-09-01'",
@@ -4097,7 +4097,7 @@
         }
     },
     {
-        "id": "KB0341",
+        "id": "KB0352",
         "type": "bird_evidence",
         "title": "Evidence 539",
         "content": "\"Eliciting priors from experts\" is the Title of post; owner refers to DisplayName",
@@ -4107,7 +4107,7 @@
         }
     },
     {
-        "id": "KB0342",
+        "id": "KB0353",
         "type": "bird_evidence",
         "title": "Evidence 537",
         "content": "\"csgillespie\" is the DisplayName of user",
@@ -4117,7 +4117,7 @@
         }
     },
     {
-        "id": "KB0343",
+        "id": "KB0354",
         "type": "bird_evidence",
         "title": "Evidence 544",
         "content": "\"Examples for teaching: Correlation does not mean causation\" is the Title of post; user who last edited refers to LastEditorUserId",
@@ -4127,7 +4127,7 @@
         }
     },
     {
-        "id": "KB0344",
+        "id": "KB0355",
         "type": "bird_evidence",
         "title": "Evidence 547",
         "content": "elder users refers to Age > 65; Score of over 19 refers to Score > = 20",
@@ -4137,7 +4137,7 @@
         }
     },
     {
-        "id": "KB0345",
+        "id": "KB0356",
         "type": "bird_evidence",
         "title": "Evidence 549",
         "content": "\"bayesian\" is the TagName; excerpt from refers to ExcerptPostId",
@@ -4147,7 +4147,7 @@
         }
     },
     {
-        "id": "KB0346",
+        "id": "KB0357",
         "type": "bird_evidence",
         "title": "Evidence 555",
         "content": "\"csgillespie\" is the DisplayName of user; average score refers to AVG(Score)",
@@ -4157,7 +4157,7 @@
         }
     },
     {
-        "id": "KB0347",
+        "id": "KB0358",
         "type": "bird_evidence",
         "title": "Evidence 557",
         "content": "score of over 5 refers to Score > 5; elder user refers to Age > 65; percentage = Divide (Count(Id where Age>65), Count(Id)) * 100",
@@ -4167,7 +4167,7 @@
         }
     },
     {
-        "id": "KB0348",
+        "id": "KB0359",
         "type": "bird_evidence",
         "title": "Evidence 563",
         "content": "user no. 3025 refers to UserId = '3025'; comment at 20:29:39 on 2014/4/23 refers to CreationDate = '2014/4/23 20:29:39.0'",
@@ -4177,7 +4177,7 @@
         }
     },
     {
-        "id": "KB0349",
+        "id": "KB0360",
         "type": "bird_evidence",
         "title": "Evidence 565",
         "content": "user no. 23853 refers to UserId = '23853'; at 9:08:18 on 2013/7/12 refers to CreationDate = '2013-07-12 09:08:18.0'; not well-finished refers to ClosedDate IS NULL and vice versa",
@@ -4187,7 +4187,7 @@
         }
     },
     {
-        "id": "KB0350",
+        "id": "KB0361",
         "type": "bird_evidence",
         "title": "Evidence 567",
         "content": "\"Tiago Pasqualini\" is the DisplayName;",
@@ -4197,7 +4197,7 @@
         }
     },
     {
-        "id": "KB0351",
+        "id": "KB0362",
         "type": "bird_evidence",
         "title": "Evidence 568",
         "content": "vote no. 6347 refers to Id = '6347'",
@@ -4207,7 +4207,7 @@
         }
     },
     {
-        "id": "KB0352",
+        "id": "KB0363",
         "type": "bird_evidence",
         "title": "Evidence 571",
         "content": "user no. 24 refers to UserId = OwnerUserId = '24'; times of his/her post than votes = Divide (Count(post.Id), Count(votes.Id))",
@@ -4217,7 +4217,7 @@
         }
     },
     {
-        "id": "KB0353",
+        "id": "KB0364",
         "type": "bird_evidence",
         "title": "Evidence 572",
         "content": "\"Integration of Weka and/or RapidMiner into Informatica PowerCenter/Developer\" is the Title of post; views refers to ViewCount",
@@ -4227,7 +4227,7 @@
         }
     },
     {
-        "id": "KB0354",
+        "id": "KB0365",
         "type": "bird_evidence",
         "title": "Evidence 573",
         "content": "score of 17 refers to Score = 17; contents of comments refers to Text",
@@ -4237,7 +4237,7 @@
         }
     },
     {
-        "id": "KB0355",
+        "id": "KB0366",
         "type": "bird_evidence",
         "title": "Evidence 576",
         "content": "\"thank you user93\" is the Text of comment; user refers to DisplayName",
@@ -4247,7 +4247,7 @@
         }
     },
     {
-        "id": "KB0356",
+        "id": "KB0367",
         "type": "bird_evidence",
         "title": "Evidence 578",
         "content": "\"Understanding what Dassault iSight is doing?\" is the Title of post; user refers to DisplayName;",
@@ -4257,7 +4257,7 @@
         }
     },
     {
-        "id": "KB0357",
+        "id": "KB0368",
         "type": "bird_evidence",
         "title": "Evidence 581",
         "content": "'Open source tools for visualizing multi-dimensional data' is the Title of Post; owner refers to DisplayName;",
@@ -4267,7 +4267,7 @@
         }
     },
     {
-        "id": "KB0358",
+        "id": "KB0369",
         "type": "bird_evidence",
         "title": "Evidence 584",
         "content": "\"Why square the difference instead of taking the absolute value in standard deviation?\" is the Title of post;",
@@ -4277,7 +4277,7 @@
         }
     },
     {
-        "id": "KB0359",
+        "id": "KB0370",
         "type": "bird_evidence",
         "title": "Evidence 586",
         "content": "bounty amount of 50 refers to BountyAmount = 50; user refers to DisplayName; title mentioning variance refers to Title include 'variance'",
@@ -4287,7 +4287,7 @@
         }
     },
     {
-        "id": "KB0360",
+        "id": "KB0371",
         "type": "bird_evidence",
         "title": "Evidence 587",
         "content": "tagged as  'humor' refers to tag = '<humor>'; comment of the post refers to Text; average view count = AVG(ViewCount)",
@@ -4297,7 +4297,7 @@
         }
     },
     {
-        "id": "KB0361",
+        "id": "KB0372",
         "type": "bird_evidence",
         "title": "Evidence 592",
         "content": "more than 5 badges refers to Count (Name) > 5; user refers to UserId",
@@ -4307,7 +4307,7 @@
         }
     },
     {
-        "id": "KB0362",
+        "id": "KB0373",
         "type": "bird_evidence",
         "title": "Evidence 595",
         "content": "having at least 1000 view refers to Views > = 1000; user refers to UserId",
@@ -4317,7 +4317,7 @@
         }
     },
     {
-        "id": "KB0363",
+        "id": "KB0374",
         "type": "bird_evidence",
         "title": "Evidence 598",
         "content": "student badges refers to badge's name = 'Student'; during 2010 refers to Year(Date) = 2010; during 2011 refers to Year(Date) = 2011; percentage difference = Subtract (Divide(Count(Name where Year(Date) = 2010), Count (Name)) *100, Divide(Count(Name where Year(Date) = 2011), Count(Name)) * 100)",
@@ -4327,7 +4327,7 @@
         }
     },
     {
-        "id": "KB0364",
+        "id": "KB0375",
         "type": "bird_evidence",
         "title": "Evidence 604",
         "content": "creating more than 10 post refers to Count (UserId) > 10; average of the up votes = Divide (Sum(UpVotes), Count (UserId)); average age = Divide (Sum(Age), Count(UserId))",
@@ -4337,7 +4337,7 @@
         }
     },
     {
-        "id": "KB0365",
+        "id": "KB0376",
         "type": "bird_evidence",
         "title": "Evidence 629",
         "content": "DIVIDE(COUNT(Id where YEAR(CreationDate) = 2010), COUNT(Id where YEAR(CreationDate) = 2011)) FROM votes;",
@@ -4347,7 +4347,7 @@
         }
     },
     {
-        "id": "KB0366",
+        "id": "KB0377",
         "type": "bird_evidence",
         "title": "Evidence 633",
         "content": "most answers count refers to MAX(AnswerCount); post by slashnick refers to DisplayName = 'slashnick';",
@@ -4357,7 +4357,7 @@
         }
     },
     {
-        "id": "KB0367",
+        "id": "KB0378",
         "type": "bird_evidence",
         "title": "Evidence 634",
         "content": "Has higher popularity means the post has higher view count ; calculation = MAX(SUM(ViewCount)) where DisplayName = 'Harvey Motulsky' OR DisplayName = 'Noah Snyder';",
@@ -4367,7 +4367,7 @@
         }
     },
     {
-        "id": "KB0368",
+        "id": "KB0379",
         "type": "bird_evidence",
         "title": "Evidence 637",
         "content": "used by Mark Meckes refers to DisplayName = 'Mark Meckes'; Doen't have comments refers to CommentCount = 0;",
@@ -4377,7 +4377,7 @@
         }
     },
     {
-        "id": "KB0369",
+        "id": "KB0380",
         "type": "bird_evidence",
         "title": "Evidence 639",
         "content": "DIVIDE(COUNT(PostId WHERE TagName = 'r')), (COUNT(PostId WHERE DisplayName = 'Community')) as percentage; R language refers to tagname = 'r'",
@@ -4387,7 +4387,7 @@
         }
     },
     {
-        "id": "KB0370",
+        "id": "KB0381",
         "type": "bird_evidence",
         "title": "Evidence 640",
         "content": "calculation = SUBTRACT(SUM(ViewCount where DisplayName = 'Mornington'), SUM(ViewCount where DisplayName = 'Amos'));",
@@ -4397,7 +4397,7 @@
         }
     },
     {
-        "id": "KB0371",
+        "id": "KB0382",
         "type": "bird_evidence",
         "title": "Evidence 665",
         "content": "calculation = DIVIDE(COUNT(Id where YEAR(CreationDate) = 2010 and AnswerCount < = 2), 12)",
@@ -4407,7 +4407,7 @@
         }
     },
     {
-        "id": "KB0372",
+        "id": "KB0383",
         "type": "bird_evidence",
         "title": "Evidence 669",
         "content": "DisplayName = 'chl'; cast its first vote refers to MIN(CreationDate);",
@@ -4417,7 +4417,7 @@
         }
     },
     {
-        "id": "KB0373",
+        "id": "KB0384",
         "type": "bird_evidence",
         "title": "Evidence 671",
         "content": "Autobiographer is the name of the badge; acquired the first refers to MIN(Date);",
@@ -4427,7 +4427,7 @@
         }
     },
     {
-        "id": "KB0374",
+        "id": "KB0385",
         "type": "bird_evidence",
         "title": "Evidence 672",
         "content": "favorite amount of 4 or more refers to FavoriteCount > = 4; Location = 'United Kingdom';",
@@ -4437,7 +4437,7 @@
         }
     },
     {
-        "id": "KB0375",
+        "id": "KB0386",
         "type": "bird_evidence",
         "title": "Evidence 678",
         "content": "DisplayName = 'Harvey Motulsky'; the most views refer to MAX(ViewCount);",
@@ -4447,7 +4447,7 @@
         }
     },
     {
-        "id": "KB0376",
+        "id": "KB0387",
         "type": "bird_evidence",
         "title": "Evidence 682",
         "content": "the most valuable post in 2010 refers to MAX(FavoriteCount) where year(CreationDate) = 2010;",
@@ -4457,7 +4457,7 @@
         }
     },
     {
-        "id": "KB0377",
+        "id": "KB0388",
         "type": "bird_evidence",
         "title": "Evidence 683",
         "content": "percentage = DIVIDE(COUNT(Id where YEAR(CreationDate) = 2011 and Reputation > 1000), COUNT(Id) ) * 100;",
@@ -4467,7 +4467,7 @@
         }
     },
     {
-        "id": "KB0378",
+        "id": "KB0389",
         "type": "bird_evidence",
         "title": "Evidence 685",
         "content": "total views refer to ViewCount; Name the user refers to DisplayName; post 'Computer Game Datasets' refers to Text = 'Computer Game Datasets';",
@@ -4477,7 +4477,7 @@
         }
     },
     {
-        "id": "KB0379",
+        "id": "KB0390",
         "type": "bird_evidence",
         "title": "Evidence 687",
         "content": "the highest score refers to MAX(Score);",
@@ -4487,7 +4487,7 @@
         }
     },
     {
-        "id": "KB0380",
+        "id": "KB0391",
         "type": "bird_evidence",
         "title": "Evidence 694",
         "content": "the latest comment refers to MAX(CreationDate);",
@@ -4497,7 +4497,7 @@
         }
     },
     {
-        "id": "KB0381",
+        "id": "KB0392",
         "type": "bird_evidence",
         "title": "Evidence 701",
         "content": "The higher reputation the user has the more influence; percentage = DIVIDE(COUNT(stats_posts.Id where Score > 50 and MAX(Reputation))), COUNT(stats_posts.Id where MAX(Reputation));",
@@ -4507,7 +4507,7 @@
         }
     },
     {
-        "id": "KB0382",
+        "id": "KB0393",
         "type": "bird_evidence",
         "title": "Evidence 704",
         "content": "tag named sample refers to TagName = 'sample';",
@@ -4517,7 +4517,7 @@
         }
     },
     {
-        "id": "KB0383",
+        "id": "KB0394",
         "type": "bird_evidence",
         "title": "Evidence 705",
         "content": "Text = 'fine, you win :)';",
@@ -4527,7 +4527,7 @@
         }
     },
     {
-        "id": "KB0384",
+        "id": "KB0395",
         "type": "bird_evidence",
         "title": "Evidence 707",
         "content": "views ranging from 100 to 150 refers to ViewCount BETWEEN 100 and 150; comment with the highest score refers to Text where MAX(Score);",
@@ -4537,7 +4537,7 @@
         }
     },
     {
-        "id": "KB0385",
+        "id": "KB0396",
         "type": "bird_evidence",
         "title": "Evidence 710",
         "content": "in posts with 1 comment refers to CommentCount = 1;",
@@ -4547,7 +4547,7 @@
         }
     },
     {
-        "id": "KB0386",
+        "id": "KB0397",
         "type": "bird_evidence",
         "title": "Evidence 716",
         "content": "percentage = DIVIDE(COUNT(UserId where UpVotes = 0 and Score BETWEEN 5 and 10))*100, (COUNT(UserId where Score BETWEEN 5 and 10));",
@@ -4557,7 +4557,7 @@
         }
     },
     {
-        "id": "KB0387",
+        "id": "KB0398",
         "type": "bird_evidence",
         "title": "Evidence 340",
         "content": "incredibly poweful foils refers to cardKingdomFoilId is not null AND cardKingdomId is not null",
@@ -4567,7 +4567,7 @@
         }
     },
     {
-        "id": "KB0388",
+        "id": "KB0399",
         "type": "bird_evidence",
         "title": "Evidence 341",
         "content": "borderless' refers to borderColor; poweful foils refers to cardKingdomFoilId paired with cardKingdomId AND cardKingdomId is not null",
@@ -4577,7 +4577,7 @@
         }
     },
     {
-        "id": "KB0389",
+        "id": "KB0400",
         "type": "bird_evidence",
         "title": "Evidence 344",
         "content": "mythic rarity printing refers to rarity = 'mythic'; card banned refers to status = 'Banned'; in gladiator format refers to format = 'gladiator';",
@@ -4587,7 +4587,7 @@
         }
     },
     {
-        "id": "KB0390",
+        "id": "KB0401",
         "type": "bird_evidence",
         "title": "Evidence 345",
         "content": "Artifact type of cards refers to types = 'Artifact'; card does not have multiple faces on the same card refers to side is NULL'; vintage play format refers to format = 'vintage';",
@@ -4597,7 +4597,7 @@
         }
     },
     {
-        "id": "KB0391",
+        "id": "KB0402",
         "type": "bird_evidence",
         "title": "Evidence 346",
         "content": "unknown power refers to power = '*' or POWER IS NULL; commander play format refers to format = 'commander'; legal for commander play format refers to format = 'commander' where status = 'Legal'",
@@ -4607,7 +4607,7 @@
         }
     },
     {
-        "id": "KB0392",
+        "id": "KB0403",
         "type": "bird_evidence",
         "title": "Evidence 347",
         "content": "cards have missing or degraded properties and value refers to hasContentWarning = 1; 'Stephen Daniele' is artist; Find all cards refers to return card id",
@@ -4617,7 +4617,7 @@
         }
     },
     {
-        "id": "KB0393",
+        "id": "KB0404",
         "type": "bird_evidence",
         "title": "Evidence 349",
         "content": "with the most ruling information refers to Max(count(rulings.uuid)); the card is the promotional printing refers to isPromo = 1;",
@@ -4627,7 +4627,7 @@
         }
     },
     {
-        "id": "KB0394",
+        "id": "KB0405",
         "type": "bird_evidence",
         "title": "Evidence 352",
         "content": "Chinese Simplified' is the language; percentage = Divide(Sum(id where language = 'Chinese Simplified'), Count(id)) *100",
@@ -4637,7 +4637,7 @@
         }
     },
     {
-        "id": "KB0395",
+        "id": "KB0406",
         "type": "bird_evidence",
         "title": "Evidence 356",
         "content": "infinite power refers to power = '*';",
@@ -4647,7 +4647,7 @@
         }
     },
     {
-        "id": "KB0396",
+        "id": "KB0407",
         "type": "bird_evidence",
         "title": "Evidence 358",
         "content": "name of card  = 'Ancestor''s Chosen' ;",
@@ -4657,7 +4657,7 @@
         }
     },
     {
-        "id": "KB0397",
+        "id": "KB0408",
         "type": "bird_evidence",
         "title": "Evidence 366",
         "content": "Benalish Knight' is the name of card; rule of playing card refers to format;",
@@ -4667,7 +4667,7 @@
         }
     },
     {
-        "id": "KB0398",
+        "id": "KB0409",
         "type": "bird_evidence",
         "title": "Evidence 368",
         "content": "borderless card refers to borderColor = 'borderless'; percentage = Divide(Count (id) where borderColor = 'borderless', Count(id)) *100",
@@ -4677,7 +4677,7 @@
         }
     },
     {
-        "id": "KB0399",
+        "id": "KB0410",
         "type": "bird_evidence",
         "title": "Evidence 371",
         "content": "Story Spotlight card refers to isStorySpotlight = 1; French is the language; Percentage = Divide(Count(id) where language = 'French' and isStorySpotlight = 1, Count(id) where isStorySpotlight = 1)*100",
@@ -4687,7 +4687,7 @@
         }
     },
     {
-        "id": "KB0400",
+        "id": "KB0411",
         "type": "bird_evidence",
         "title": "Evidence 377",
         "content": "subtype other than Angel refers to subtypes is not 'Angel';",
@@ -4697,7 +4697,7 @@
         }
     },
     {
-        "id": "KB0401",
+        "id": "KB0412",
         "type": "bird_evidence",
         "title": "Evidence 379",
         "content": "duel deck a refers to duelDeck = a;",
@@ -4707,7 +4707,7 @@
         }
     },
     {
-        "id": "KB0402",
+        "id": "KB0413",
         "type": "bird_evidence",
         "title": "Evidence 383",
         "content": "banned card refers to status = 'Banned'; white border refers to borderColor = 'white';",
@@ -4717,7 +4717,7 @@
         }
     },
     {
-        "id": "KB0403",
+        "id": "KB0414",
         "type": "bird_evidence",
         "title": "Evidence 391",
         "content": "Artifact card refers to originalType = 'Artifact'; black color refers to colors = 'B'; foreign language refers to language in foreign_data",
@@ -4727,7 +4727,7 @@
         }
     },
     {
-        "id": "KB0404",
+        "id": "KB0415",
         "type": "bird_evidence",
         "title": "Evidence 397",
         "content": "available in paper and mtgo refers to availability = 'mtgo,paper'; frameVersion = 2003;borderColor = 'black'",
@@ -4737,7 +4737,7 @@
         }
     },
     {
-        "id": "KB0405",
+        "id": "KB0416",
         "type": "bird_evidence",
         "title": "Evidence 402",
         "content": "Story Spotlight cards that do not have a text box refers to isStorylight = 1 and isTextless = 0; Percentage = DIVIDE(SUM(count(id) where isStorylight = 1 AND isTextless = 0 ), SUM(count(id))) * 100",
@@ -4747,7 +4747,7 @@
         }
     },
     {
-        "id": "KB0406",
+        "id": "KB0417",
         "type": "bird_evidence",
         "title": "Evidence 405",
         "content": "Commander block refer to block = 'Commander'; sets refer to code = setCode; Portuguese refer to language = 'Portuguese (Brasil)'",
@@ -4757,7 +4757,7 @@
         }
     },
     {
-        "id": "KB0407",
+        "id": "KB0418",
         "type": "bird_evidence",
         "title": "Evidence 407",
         "content": "German refer to language; all types refer to the subtypes, supertypes; subtypes is not null AND supertypes is not null",
@@ -4767,7 +4767,7 @@
         }
     },
     {
-        "id": "KB0408",
+        "id": "KB0419",
         "type": "bird_evidence",
         "title": "Evidence 408",
         "content": "unknown power cards refers to power is null or power = '*';contain info about the triggered ability refers to text contains 'triggered ability'",
@@ -4777,7 +4777,7 @@
         }
     },
     {
-        "id": "KB0409",
+        "id": "KB0420",
         "type": "bird_evidence",
         "title": "Evidence 409",
         "content": "pre-modern format refers to format = 'premodern' ;do not have multiple faces refers to side IS NULL",
@@ -4787,7 +4787,7 @@
         }
     },
     {
-        "id": "KB0410",
+        "id": "KB0421",
         "type": "bird_evidence",
         "title": "Evidence 412",
         "content": "in French refers to language = 'French'; black border color refers to borderColor = 'black'",
@@ -4797,7 +4797,7 @@
         }
     },
     {
-        "id": "KB0411",
+        "id": "KB0422",
         "type": "bird_evidence",
         "title": "Evidence 414",
         "content": "set of 180 cards refers to baseSetSize = 180",
@@ -4807,7 +4807,7 @@
         }
     },
     {
-        "id": "KB0412",
+        "id": "KB0423",
         "type": "bird_evidence",
         "title": "Evidence 415",
         "content": "do not have a content warning refers to hasContentWarning = 0; percentage refers to DIVIDE(COUNT(hasContentWarning = 0),COUNT(ID))*100 where format = 'commander' AND Status = 'legal';",
@@ -4817,7 +4817,7 @@
         }
     },
     {
-        "id": "KB0413",
+        "id": "KB0424",
         "type": "bird_evidence",
         "title": "Evidence 416",
         "content": "in French refers to language = 'French'; cards without power refers to power IS NULL OR power = '*'; percentage = DIVIDE(COUNT(language = 'French' and power is NULL or power = '*'), COUNT( power is NULL or power = '*'))*100",
@@ -4827,7 +4827,7 @@
         }
     },
     {
-        "id": "KB0414",
+        "id": "KB0425",
         "type": "bird_evidence",
         "title": "Evidence 422",
         "content": "multiverse number 149934 refers to multiverseid = 149934;",
@@ -4837,7 +4837,7 @@
         }
     },
     {
-        "id": "KB0415",
+        "id": "KB0426",
         "type": "bird_evidence",
         "title": "Evidence 424",
         "content": "do not have a text box refers to isTextless = 1; proportion refers to DIVIDE(COUNT(Textless = 1 and layout = 'normal'),COUNT(Textless))*100",
@@ -4847,7 +4847,7 @@
         }
     },
     {
-        "id": "KB0416",
+        "id": "KB0427",
         "type": "bird_evidence",
         "title": "Evidence 427",
         "content": "known as Archenemy refers to mcmName = 'Archenemy'; having the code ARC refers to setCode = 'ARC'",
@@ -4857,7 +4857,7 @@
         }
     },
     {
-        "id": "KB0417",
+        "id": "KB0428",
         "type": "bird_evidence",
         "title": "Evidence 440",
         "content": "\"A Pedra Fellwar\" refers to name = 'A Pedra Fellwar'",
@@ -4867,7 +4867,7 @@
         }
     },
     {
-        "id": "KB0418",
+        "id": "KB0429",
         "type": "bird_evidence",
         "title": "Evidence 459",
         "content": "\"Serra Angel\" refers to name = 'Serra Angel'; \"Shrine Keeper\" refers to name = 'Shrine Keeper'; card costs more converted mana when the value of convertedManaCost is greater",
@@ -4877,7 +4877,7 @@
         }
     },
     {
-        "id": "KB0419",
+        "id": "KB0430",
         "type": "bird_evidence",
         "title": "Evidence 462",
         "content": "Italian is a language which refers to language = 'Italian'; with \"Ancestor's Chosen\" in the card set refers to name = 'Ancestor''s Chosen'",
@@ -4887,7 +4887,7 @@
         }
     },
     {
-        "id": "KB0420",
+        "id": "KB0431",
         "type": "bird_evidence",
         "title": "Evidence 465",
         "content": "set of cards with \"Ancestor''s Chosen\" in it refers to name = 'Ancestor''s Chosen'; Korean version refers to language = 'Korean'",
@@ -4897,7 +4897,7 @@
         }
     },
     {
-        "id": "KB0421",
+        "id": "KB0432",
         "type": "bird_evidence",
         "title": "Evidence 466",
         "content": "card set \"Hauptset Zehnte Edition\" refers to translation = 'Hauptset Zehnte Edition'; designed by Adam refers to artist = 'Adam Rex'",
@@ -4907,7 +4907,7 @@
         }
     },
     {
-        "id": "KB0422",
+        "id": "KB0433",
         "type": "bird_evidence",
         "title": "Evidence 468",
         "content": "Eighth Edition is the name of card set which refers to name = 'Eighth Edition'; Simplified Chinese refers to language = 'Chinese Simplified'; translation of the name refers to translation",
@@ -4917,7 +4917,7 @@
         }
     },
     {
-        "id": "KB0423",
+        "id": "KB0434",
         "type": "bird_evidence",
         "title": "Evidence 469",
         "content": "card set \"Angel of Mercy\" refers to name = 'Angel of Mercy'; appear on Magic: The Gathering Online refers to mtgoCode is NOT NULL and vice versa",
@@ -4927,7 +4927,7 @@
         }
     },
     {
-        "id": "KB0424",
+        "id": "KB0435",
         "type": "bird_evidence",
         "title": "Evidence 472",
         "content": "sets in the block \"Ice Age\" refers to block = 'Ice Age'; Italian translation refers to language = 'Italian' and translation is not null",
@@ -4937,7 +4937,7 @@
         }
     },
     {
-        "id": "KB0425",
+        "id": "KB0436",
         "type": "bird_evidence",
         "title": "Evidence 473",
         "content": "card set Adarkar Valkyrie refers to name = 'Adarkar Valkyrie'; isForeignOnly = 1 means only available outside the United States;",
@@ -4947,7 +4947,7 @@
         }
     },
     {
-        "id": "KB0426",
+        "id": "KB0437",
         "type": "bird_evidence",
         "title": "Evidence 474",
         "content": "Italian translation refers to language = 'Italian'; have a translation means translation is not null; base set number of under 100 refers to baseSetSize < 10",
@@ -4957,7 +4957,7 @@
         }
     },
     {
-        "id": "KB0427",
+        "id": "KB0438",
         "type": "bird_evidence",
         "title": "Evidence 477",
         "content": "card set Coldsnap refers to name = 'Coldsnap'; Jeremy Jarvis, Aaron Miller or Chippy are the name of artists which refers to artist IN ('Jeremy Jarvis', 'Aaron Miller','Chippy');",
@@ -4967,7 +4967,7 @@
         }
     },
     {
-        "id": "KB0428",
+        "id": "KB0439",
         "type": "bird_evidence",
         "title": "Evidence 479",
         "content": "card set Coldsnap refers to name = 'Coldsnap'; converted mana cost higher than 5 refers to convertedManaCost > 5; unknown power refers to power = '*' or T1.power is null",
@@ -4977,7 +4977,7 @@
         }
     },
     {
-        "id": "KB0429",
+        "id": "KB0440",
         "type": "bird_evidence",
         "title": "Evidence 480",
         "content": "Italian refers to language = 'Italian'; flavor text refers to flavorText; \"Ancestor''s Chosen\" refers to name = 'Ancestor''s Chosen'",
@@ -4987,7 +4987,7 @@
         }
     },
     {
-        "id": "KB0430",
+        "id": "KB0441",
         "type": "bird_evidence",
         "title": "Evidence 483",
         "content": "card set Coldsnap refers to name = 'Coldsnap'; Italian refers to language = 'Italian'",
@@ -4997,7 +4997,7 @@
         }
     },
     {
-        "id": "KB0431",
+        "id": "KB0442",
         "type": "bird_evidence",
         "title": "Evidence 484",
         "content": "card set Coldsnap refers to name = 'Coldsnap'; Italian refers to language = 'Italian'; highest converted mana cost refers to MAX(convertedManaCost)",
@@ -5007,7 +5007,7 @@
         }
     },
     {
-        "id": "KB0432",
+        "id": "KB0443",
         "type": "bird_evidence",
         "title": "Evidence 486",
         "content": "converted mana cost of 7 refers to convertedManaCost = 7; card set Coldsnap refers to name = 'Coldsnap'; percentage = DIVIDE(SUM(convertedManaCost = 7), SUM(convertedManaCost))*100",
@@ -5017,7 +5017,7 @@
         }
     },
     {
-        "id": "KB0433",
+        "id": "KB0444",
         "type": "bird_evidence",
         "title": "Evidence 487",
         "content": "card set Coldsnap refers to name = 'Coldsnap'; foil is incredibly powerful refers to cardKingdomFoilId is not null AND cardKingdomId is not null; the percentage of incredibly powerful cards in the set refers to DIVIDE(SUM(incredibly powerful), SUM(name = 'Coldsnap'))*100",
@@ -5027,7 +5027,7 @@
         }
     },
     {
-        "id": "KB0434",
+        "id": "KB0445",
         "type": "bird_evidence",
         "title": "Evidence 518",
         "content": "play format refers to format; banned status refers to status = 'Banned'; the highest number of banned status refers to MAX(COUNT(status = 'Banned'))",
@@ -5037,7 +5037,7 @@
         }
     },
     {
-        "id": "KB0435",
+        "id": "KB0446",
         "type": "bird_evidence",
         "title": "Evidence 522",
         "content": "ranked 1st on EDHRec refers to edhrecRank = 1; banned refers to status = 'Banned'; play format refers to format; cards name refers to name",
@@ -5047,7 +5047,7 @@
         }
     },
     {
-        "id": "KB0436",
+        "id": "KB0447",
         "type": "bird_evidence",
         "title": "Evidence 528",
         "content": "the set Hour of Devastation refers to set.name = 'Hour of Devastation'; names of all the cards in the set refers to cards.name; legal cards refers to status = 'Legal'; the formats refers to format",
@@ -5057,7 +5057,7 @@
         }
     },
     {
-        "id": "KB0437",
+        "id": "KB0448",
         "type": "bird_evidence",
         "title": "Evidence 529",
         "content": "names of sets refers to name; doesn't have Japanese translation refers to language not like '%Japanese%'; have Korean translation refers to language = 'Korean'",
@@ -5067,7 +5067,7 @@
         }
     },
     {
-        "id": "KB0438",
+        "id": "KB0449",
         "type": "bird_evidence",
         "title": "Evidence 530",
         "content": "frame styles refers to frameVersion; cards Allen Williams worked on refers to artist = 'Allen Williams'; banned cards refers to status = 'Banned'",
@@ -5077,7 +5077,7 @@
         }
     },
     {
-        "id": "KB0439",
+        "id": "KB0450",
         "type": "bird_evidence",
         "title": "Evidence 195",
         "content": "most common bond type refers MAX(COUNT(bond_type))",
@@ -5087,7 +5087,7 @@
         }
     },
     {
-        "id": "KB0440",
+        "id": "KB0451",
         "type": "bird_evidence",
         "title": "Evidence 197",
         "content": "single-bonded molecules refers to bond_type = '-' ; average number of oxygen atom = AVG(element = 'o')",
@@ -5097,7 +5097,7 @@
         }
     },
     {
-        "id": "KB0441",
+        "id": "KB0452",
         "type": "bird_evidence",
         "title": "Evidence 198",
         "content": "carcinogenic molecules refers to label = '+'; single-bonded refers to bond_type = '-'; average = DIVIDE(SUM(bond_type = '-'), COUNT(atom_id))",
@@ -5107,7 +5107,7 @@
         }
     },
     {
-        "id": "KB0442",
+        "id": "KB0453",
         "type": "bird_evidence",
         "title": "Evidence 200",
         "content": "triple-bonded molecules refers to bond_type = '#'; carcinogenic refers to label = '+'",
@@ -5117,7 +5117,7 @@
         }
     },
     {
-        "id": "KB0443",
+        "id": "KB0454",
         "type": "bird_evidence",
         "title": "Evidence 201",
         "content": "carbon refers to element = 'c'; double-bond molecules refers to bond_type = '='; percentage = DIVIDE(SUM(element = 'c'), COUNT(atom_id))",
@@ -5127,7 +5127,7 @@
         }
     },
     {
-        "id": "KB0444",
+        "id": "KB0455",
         "type": "bird_evidence",
         "title": "Evidence 206",
         "content": "TR004_8_9 bond atoms refers to bond_id = 'TR004_8_9';",
@@ -5137,7 +5137,7 @@
         }
     },
     {
-        "id": "KB0445",
+        "id": "KB0456",
         "type": "bird_evidence",
         "title": "Evidence 207",
         "content": "double type bond refers to bond_type = '=';",
@@ -5147,7 +5147,7 @@
         }
     },
     {
-        "id": "KB0446",
+        "id": "KB0457",
         "type": "bird_evidence",
         "title": "Evidence 208",
         "content": "with hydrogen refers to element = 'h'; label most numerous in atoms refers to MAX(COUNT(label)); ",
@@ -5157,7 +5157,7 @@
         }
     },
     {
-        "id": "KB0447",
+        "id": "KB0458",
         "type": "bird_evidence",
         "title": "Evidence 212",
         "content": "label = '-' means molecules are non-carcinogenic; least numerous refers to MIN(COUNT(element));",
@@ -5167,7 +5167,7 @@
         }
     },
     {
-        "id": "KB0448",
+        "id": "KB0459",
         "type": "bird_evidence",
         "title": "Evidence 213",
         "content": "type of bond refers to bond_type; between the atoms TR004_8 and TR004_20 refers to atom_id = 'TR004_8' AND atom_id2 = 'TR004_20' OR another way around",
@@ -5177,7 +5177,7 @@
         }
     },
     {
-        "id": "KB0449",
+        "id": "KB0460",
         "type": "bird_evidence",
         "title": "Evidence 215",
         "content": "with iodine element refer to element = 'i'; with sulfur element refers to element = 's'; single type bond refers to bond_type = '-'; Should consider the distinct atoms when counting;",
@@ -5187,7 +5187,7 @@
         }
     },
     {
-        "id": "KB0450",
+        "id": "KB0461",
         "type": "bird_evidence",
         "title": "Evidence 218",
         "content": "label = '+' mean molecules are carcinogenic; contain fluorine refers to element = 'f'; percentage = DIVIDE(SUM(element = 'f') * 100, COUNT(molecule_id)) where label = '+'; Should consider the distinct atoms when counting;",
@@ -5197,7 +5197,7 @@
         }
     },
     {
-        "id": "KB0451",
+        "id": "KB0462",
         "type": "bird_evidence",
         "title": "Evidence 219",
         "content": "label = '+' mean molecules are carcinogenic; triple bond refers to bond_type = '#'; percentage = DIVIDE(SUM(bond_type = '#') * 100, COUNT(bond_id)) as percent where label = '+'",
@@ -5207,7 +5207,7 @@
         }
     },
     {
-        "id": "KB0452",
+        "id": "KB0463",
         "type": "bird_evidence",
         "title": "Evidence 220",
         "content": "TR000 is the molecule id;",
@@ -5217,7 +5217,7 @@
         }
     },
     {
-        "id": "KB0453",
+        "id": "KB0464",
         "type": "bird_evidence",
         "title": "Evidence 226",
         "content": "double bond refers to bond_type = '='; TR008 is the molecule id; percentage = DIVIDE(SUM(bond_type = '='), COUNT(bond_id)) as percent where molecule_id = 'TR008'",
@@ -5227,7 +5227,7 @@
         }
     },
     {
-        "id": "KB0454",
+        "id": "KB0465",
         "type": "bird_evidence",
         "title": "Evidence 227",
         "content": "label = '+' mean molecules are carcinogenic; percentage = DIVIDE(SUM(label = '+'), COUNT(molecule_id)) as percent",
@@ -5237,7 +5237,7 @@
         }
     },
     {
-        "id": "KB0455",
+        "id": "KB0466",
         "type": "bird_evidence",
         "title": "Evidence 228",
         "content": "hydrogen refers to element = 'h'; TR206 is the molecule id; percentage = DIVIDE(SUM(element = 'h'), COUNT(atom_id)) as percent where molecule_id = 'TR206'",
@@ -5247,7 +5247,7 @@
         }
     },
     {
-        "id": "KB0456",
+        "id": "KB0467",
         "type": "bird_evidence",
         "title": "Evidence 230",
         "content": "TR060 is the molecule id; ",
@@ -5257,7 +5257,7 @@
         }
     },
     {
-        "id": "KB0457",
+        "id": "KB0468",
         "type": "bird_evidence",
         "title": "Evidence 231",
         "content": "TR010 is the molecule id; majority of the bond found refers to MAX(COUNT(bond_type)); ",
@@ -5267,7 +5267,7 @@
         }
     },
     {
-        "id": "KB0458",
+        "id": "KB0469",
         "type": "bird_evidence",
         "title": "Evidence 232",
         "content": "label = '-' means molecules are not carcinogenic; single type bond refers to bond_type = '-'; list top three molecules refers to return molecule_id and order by molecule_id;",
@@ -5277,7 +5277,7 @@
         }
     },
     {
-        "id": "KB0459",
+        "id": "KB0470",
         "type": "bird_evidence",
         "title": "Evidence 234",
         "content": "TR009 is the molecule id;  involved atom 12 refers to atom_id = 'TR009_12' or atom_id2 = 'TR009_12'",
@@ -5287,7 +5287,7 @@
         }
     },
     {
-        "id": "KB0460",
+        "id": "KB0471",
         "type": "bird_evidence",
         "title": "Evidence 236",
         "content": "atoms refer to atom_id or atom_id2",
@@ -5297,7 +5297,7 @@
         }
     },
     {
-        "id": "KB0461",
+        "id": "KB0472",
         "type": "bird_evidence",
         "title": "Evidence 239",
         "content": "connections refers to bond_id; atom 19 refers to atom_id like 'TR%_19';",
@@ -5307,7 +5307,7 @@
         }
     },
     {
-        "id": "KB0462",
+        "id": "KB0473",
         "type": "bird_evidence",
         "title": "Evidence 240",
         "content": "TR004 is the molecule id;",
@@ -5317,7 +5317,7 @@
         }
     },
     {
-        "id": "KB0463",
+        "id": "KB0474",
         "type": "bird_evidence",
         "title": "Evidence 242",
         "content": "atoms from 21 to 25 refers to SUBSTR(atom_id, 7, 2) between '21' and '25'; label = '+' mean molecules are carcinogenic",
@@ -5327,7 +5327,7 @@
         }
     },
     {
-        "id": "KB0464",
+        "id": "KB0475",
         "type": "bird_evidence",
         "title": "Evidence 243",
         "content": "have phosphorus as atom elements refers to element = 'p'; have nitrogen as atom elements refers to element = 'n'",
@@ -5337,7 +5337,7 @@
         }
     },
     {
-        "id": "KB0465",
+        "id": "KB0476",
         "type": "bird_evidence",
         "title": "Evidence 244",
         "content": "double bond refers to bond_type = ' = '; label = '+' mean molecules are carcinogenic",
@@ -5347,7 +5347,7 @@
         }
     },
     {
-        "id": "KB0466",
+        "id": "KB0477",
         "type": "bird_evidence",
         "title": "Evidence 245",
         "content": "atoms with the element iodine refers to element = 'i'; average = DIVIDE(COUND(bond_id), COUNT(atom_id)) where element = 'i'",
@@ -5357,7 +5357,7 @@
         }
     },
     {
-        "id": "KB0467",
+        "id": "KB0478",
         "type": "bird_evidence",
         "title": "Evidence 247",
         "content": " atoms cannot bond with other atoms means atom_id NOT in connected table;",
@@ -5367,7 +5367,7 @@
         }
     },
     {
-        "id": "KB0468",
+        "id": "KB0479",
         "type": "bird_evidence",
         "title": "Evidence 248",
         "content": "TR041 is the molecule id; triple bond refers to bond_type = '#';",
@@ -5377,7 +5377,7 @@
         }
     },
     {
-        "id": "KB0469",
+        "id": "KB0480",
         "type": "bird_evidence",
         "title": "Evidence 249",
         "content": "TR144_8_19 is the bond id; ",
@@ -5387,7 +5387,7 @@
         }
     },
     {
-        "id": "KB0470",
+        "id": "KB0481",
         "type": "bird_evidence",
         "title": "Evidence 253",
         "content": "triple bond refers to bond_type = '#';",
@@ -5397,7 +5397,7 @@
         }
     },
     {
-        "id": "KB0471",
+        "id": "KB0482",
         "type": "bird_evidence",
         "title": "Evidence 255",
         "content": "single bond refers to bond_type = '-'; label = '+' mean molecules are carcinogenic; proportion = DIVIDE(SUM(label = '+') * 100, COUNT(bond_id)) where bond_type = '-'",
@@ -5407,7 +5407,7 @@
         }
     },
     {
-        "id": "KB0472",
+        "id": "KB0483",
         "type": "bird_evidence",
         "title": "Evidence 260",
         "content": "triple bond refers to bond_type = '#'; phosphorus refers to element = 'p'; bromine refers to element = 'br'",
@@ -5417,7 +5417,7 @@
         }
     },
     {
-        "id": "KB0473",
+        "id": "KB0484",
         "type": "bird_evidence",
         "title": "Evidence 263",
         "content": "element chlorine refers to element = 'cl'; single bond refers to bond_type = '-'; percentage = DIVIDE(SUM(element = 'cl'), COUNT(atom_id)) as percent where bond_type = '-'",
@@ -5427,7 +5427,7 @@
         }
     },
     {
-        "id": "KB0474",
+        "id": "KB0485",
         "type": "bird_evidence",
         "title": "Evidence 268",
         "content": "TR001_10_11 is the bond id;",
@@ -5437,7 +5437,7 @@
         }
     },
     {
-        "id": "KB0475",
+        "id": "KB0486",
         "type": "bird_evidence",
         "title": "Evidence 273",
         "content": "chlorine refers to element = 'cl'; label = '+' mean molecules are carcinogenic; percentage = DIVIDE(SUM(element = 'pb'); COUNT(molecule_id)) as percentage where label = '+'",
@@ -5447,7 +5447,7 @@
         }
     },
     {
-        "id": "KB0476",
+        "id": "KB0487",
         "type": "bird_evidence",
         "title": "Evidence 281",
         "content": "label = '+' means molecules are carcinogenic; 4th atom of each molecule refers to substr(atom_id, 7, 1) = '4'; ",
@@ -5457,7 +5457,7 @@
         }
     },
     {
-        "id": "KB0477",
+        "id": "KB0488",
         "type": "bird_evidence",
         "title": "Evidence 282",
         "content": "hydrogen refers to element = 'h'; ratio = DIVIDE(SUM(element = 'h'), count(element)) where molecule_id = 'TR006' ; label = '+' mean molecules are carcinogenic; label = '-' means molecules are non-carcinogenic",
@@ -5467,7 +5467,7 @@
         }
     },
     {
-        "id": "KB0478",
+        "id": "KB0489",
         "type": "bird_evidence",
         "title": "Evidence 327",
         "content": "label = '-' means molecules are non-carcinogenic; molecules consisted more than 5 atoms refers to COUNT(molecule_id) > 5",
@@ -5477,7 +5477,7 @@
         }
     },
     {
-        "id": "KB0479",
+        "id": "KB0490",
         "type": "bird_evidence",
         "title": "Evidence 5",
         "content": "Exclusively virtual refers to Virtual = 'F'",
@@ -5487,7 +5487,7 @@
         }
     },
     {
-        "id": "KB0480",
+        "id": "KB0491",
         "type": "bird_evidence",
         "title": "Evidence 11",
         "content": "Total enrollment can be represented by `Enrollment (K-12)` + `Enrollment (Ages 5-17)`",
@@ -5497,7 +5497,7 @@
         }
     },
     {
-        "id": "KB0481",
+        "id": "KB0492",
         "type": "bird_evidence",
         "title": "Evidence 12",
         "content": "Excellence rate = NumGE1500 / NumTstTakr; Eligible free rates for students aged 5-17 = `Free Meal Count (Ages 5-17)` / `Enrollment (Ages 5-17)`",
@@ -5507,7 +5507,7 @@
         }
     },
     {
-        "id": "KB0482",
+        "id": "KB0493",
         "type": "bird_evidence",
         "title": "Evidence 17",
         "content": "Valid charter number means the number is not null",
@@ -5517,7 +5517,7 @@
         }
     },
     {
-        "id": "KB0483",
+        "id": "KB0494",
         "type": "bird_evidence",
         "title": "Evidence 23",
         "content": "Diffrence in enrollement = `Enrollment (K-12)` - `Enrollment (Ages 5-17)`",
@@ -5527,7 +5527,7 @@
         }
     },
     {
-        "id": "KB0484",
+        "id": "KB0495",
         "type": "bird_evidence",
         "title": "Evidence 24",
         "content": "Percent eligible for free meals = Free Meal Count (K-12) / Total (Enrollment (K-12)",
@@ -5537,7 +5537,7 @@
         }
     },
     {
-        "id": "KB0485",
+        "id": "KB0496",
         "type": "bird_evidence",
         "title": "Evidence 25",
         "content": "Average of average math = sum(average math scores) / count(schools).",
@@ -5547,7 +5547,7 @@
         }
     },
     {
-        "id": "KB0486",
+        "id": "KB0497",
         "type": "bird_evidence",
         "title": "Evidence 26",
         "content": "Full communication address should include Street, City, State and zip code if any.",
@@ -5557,7 +5557,7 @@
         }
     },
     {
-        "id": "KB0487",
+        "id": "KB0498",
         "type": "bird_evidence",
         "title": "Evidence 27",
         "content": "Communication number refers to phone number.",
@@ -5567,7 +5567,7 @@
         }
     },
     {
-        "id": "KB0488",
+        "id": "KB0499",
         "type": "bird_evidence",
         "title": "Evidence 28",
         "content": "Difference between K-12 enrollment and 15-17 enrollment can be computed by `Enrollment (K-12)` - `Enrollment (Ages 5-17)`",
@@ -5577,7 +5577,7 @@
         }
     },
     {
-        "id": "KB0489",
+        "id": "KB0500",
         "type": "bird_evidence",
         "title": "Evidence 31",
         "content": "K-12 refers to students in grades 1 through 12; Eligible free rate for K-12 = `Free Meal Count (K-12)` / `Enrollment (K-12)`",
@@ -5587,7 +5587,7 @@
         }
     },
     {
-        "id": "KB0490",
+        "id": "KB0501",
         "type": "bird_evidence",
         "title": "Evidence 32",
         "content": "grades 1-12 means K-12; Eligible free or reduced price meal rate for K-12 = `FRPM Count (K-12)` / `Enrollment (K-12)`",
@@ -5597,7 +5597,7 @@
         }
     },
     {
-        "id": "KB0491",
+        "id": "KB0502",
         "type": "bird_evidence",
         "title": "Evidence 37",
         "content": "Execellence Rate = NumGE1500 / NumTstTakr; complete address has Street, City, State, Zip code",
@@ -5607,7 +5607,7 @@
         }
     },
     {
-        "id": "KB0492",
+        "id": "KB0503",
         "type": "bird_evidence",
         "title": "Evidence 36",
         "content": "full name means first name, last name; There are at most 3 administrators for each school; SAT Scores are greater or equal to 1500 refers to NumGE1500",
@@ -5617,7 +5617,7 @@
         }
     },
     {
-        "id": "KB0493",
+        "id": "KB0504",
         "type": "bird_evidence",
         "title": "Evidence 39",
         "content": "between 1/1/1980 and 12/31/1980 means the year = 1980",
@@ -5627,7 +5627,7 @@
         }
     },
     {
-        "id": "KB0494",
+        "id": "KB0505",
         "type": "bird_evidence",
         "title": "Evidence 40",
         "content": "Fresno Unified is a name of district;",
@@ -5637,7 +5637,7 @@
         }
     },
     {
-        "id": "KB0495",
+        "id": "KB0506",
         "type": "bird_evidence",
         "title": "Evidence 41",
         "content": "Exclusively virtual refers to Virtual = 'F'; respective counties means PARTITION BY County",
@@ -5647,7 +5647,7 @@
         }
     },
     {
-        "id": "KB0496",
+        "id": "KB0507",
         "type": "bird_evidence",
         "title": "Evidence 45",
         "content": "Usually, administrators manage the school stuff.",
@@ -5657,7 +5657,7 @@
         }
     },
     {
-        "id": "KB0497",
+        "id": "KB0508",
         "type": "bird_evidence",
         "title": "Evidence 46",
         "content": "State Special Schools refers to DOC = 31; Grades 1 through 12 means K-12",
@@ -5667,7 +5667,7 @@
         }
     },
     {
-        "id": "KB0498",
+        "id": "KB0509",
         "type": "bird_evidence",
         "title": "Evidence 47",
         "content": "Elementary School District refers to DOC = 52; Monthly average number of schools that opened in 1980 = count(schools that opened in 1980) / 12",
@@ -5677,7 +5677,7 @@
         }
     },
     {
-        "id": "KB0499",
+        "id": "KB0510",
         "type": "bird_evidence",
         "title": "Evidence 48",
         "content": "Elementary School District refers to DOC = 52; Unified School District refers to DOC = 54.",
@@ -5687,7 +5687,7 @@
         }
     },
     {
-        "id": "KB0500",
+        "id": "KB0511",
         "type": "bird_evidence",
         "title": "Evidence 50",
         "content": "Postal street and mailing street are synonyms.",
@@ -5697,7 +5697,7 @@
         }
     },
     {
-        "id": "KB0501",
+        "id": "KB0512",
         "type": "bird_evidence",
         "title": "Evidence 62",
         "content": "non-chartered schools refer to schools whose Charter = 0; K-12 means grades 1 through 12; percent of eligible free rate for K-12 = `Free Meal Count (K-12)` * 100 / `Enrollment (K-12)`",
@@ -5707,7 +5707,7 @@
         }
     },
     {
-        "id": "KB0502",
+        "id": "KB0513",
         "type": "bird_evidence",
         "title": "Evidence 72",
         "content": "State Special School means EdOpsCode = 'SSS'",
@@ -5717,7 +5717,7 @@
         }
     },
     {
-        "id": "KB0503",
+        "id": "KB0514",
         "type": "bird_evidence",
         "title": "Evidence 77",
         "content": "Percent (%) Eligible FRPM (Ages 5-17) can be acquired by `FRPM Count (Ages 5-17)` / `Enrollment (Ages 5-17)` * 100",
@@ -5727,7 +5727,7 @@
         }
     },
     {
-        "id": "KB0504",
+        "id": "KB0515",
         "type": "bird_evidence",
         "title": "Evidence 79",
         "content": "'Does not offer physical building' means Virtual = F in the database.",
@@ -5737,7 +5737,7 @@
         }
     },
     {
-        "id": "KB0505",
+        "id": "KB0516",
         "type": "bird_evidence",
         "title": "Evidence 82",
         "content": "the highest longitude refers to the school with the maximum absolute longitude value.",
@@ -5747,7 +5747,7 @@
         }
     },
     {
-        "id": "KB0506",
+        "id": "KB0517",
         "type": "bird_evidence",
         "title": "Evidence 83",
         "content": "Kindergarten to 8th grade refers to K-8; 'Offers a magnet program' means Magnet = 1; Multiple Provision Types refers to `NSLP Provision Status` = 'Multiple Provision Types'",
@@ -5757,7 +5757,7 @@
         }
     },
     {
-        "id": "KB0507",
+        "id": "KB0518",
         "type": "bird_evidence",
         "title": "Evidence 85",
         "content": "Percent (%) Eligible Free (K-12) = `Free Meal Count (K-12)` / `Enrollment (K-12)` * 100%",
@@ -5767,7 +5767,7 @@
         }
     },
     {
-        "id": "KB0508",
+        "id": "KB0519",
         "type": "bird_evidence",
         "title": "Evidence 87",
         "content": "Intermediate/Middle Schools refers to SOC = 62; Unified School refers to DOC = 54; years between 2009 and 2010 can refer to 'between 1/1/2009 to 12/31/2010'",
@@ -5777,7 +5777,7 @@
         }
     },
     {
-        "id": "KB0509",
+        "id": "KB0520",
         "type": "bird_evidence",
         "title": "Evidence 89",
         "content": "A3 contains the data of region; 'POPLATEK PO OBRATU' represents for 'issuance after transaction'.",
@@ -5787,7 +5787,7 @@
         }
     },
     {
-        "id": "KB0510",
+        "id": "KB0521",
         "type": "bird_evidence",
         "title": "Evidence 92",
         "content": "A11 refers to average salary; Female mapps to gender = 'F'",
@@ -5797,7 +5797,7 @@
         }
     },
     {
-        "id": "KB0511",
+        "id": "KB0522",
         "type": "bird_evidence",
         "title": "Evidence 93",
         "content": "Male means that gender = 'M'; A3 refers to region; A11 pertains to average salary.",
@@ -5807,7 +5807,7 @@
         }
     },
     {
-        "id": "KB0512",
+        "id": "KB0523",
         "type": "bird_evidence",
         "title": "Evidence 94",
         "content": "Female means gender = 'F'; A11 refers to average salary; Gap = highest average salary - lowest average salary; If the person A's birthdate > B's birthdate, it means that person B is order than person A.",
@@ -5817,7 +5817,7 @@
         }
     },
     {
-        "id": "KB0513",
+        "id": "KB0524",
         "type": "bird_evidence",
         "title": "Evidence 95",
         "content": "If the person A's birthdate < B's birthdate, it means that person B is younger than person A; A11 refers to average salary",
@@ -5827,7 +5827,7 @@
         }
     },
     {
-        "id": "KB0514",
+        "id": "KB0525",
         "type": "bird_evidence",
         "title": "Evidence 98",
         "content": "'POPLATEK TYDNE' stands for weekly issuance",
@@ -5837,7 +5837,7 @@
         }
     },
     {
-        "id": "KB0515",
+        "id": "KB0526",
         "type": "bird_evidence",
         "title": "Evidence 99",
         "content": "Loan validity more than 12 months refers to duration > 12",
@@ -5847,7 +5847,7 @@
         }
     },
     {
-        "id": "KB0516",
+        "id": "KB0527",
         "type": "bird_evidence",
         "title": "Evidence 100",
         "content": "Customers refer to clients; Female refers to gender = 'F'; Names of districts appear in column A2",
@@ -5857,7 +5857,7 @@
         }
     },
     {
-        "id": "KB0517",
+        "id": "KB0528",
         "type": "bird_evidence",
         "title": "Evidence 112",
         "content": "Female refers to gender = 'F'; A2 refers to district names",
@@ -5867,7 +5867,7 @@
         }
     },
     {
-        "id": "KB0518",
+        "id": "KB0529",
         "type": "bird_evidence",
         "title": "Evidence 115",
         "content": "Percentage of the male clients = DIVIDE(COUNT(male clients), COUNT(clients)) * 100; Male refers to gender = 'M', A3 is the region name. A4 contains the information about inhabitants.",
@@ -5877,7 +5877,7 @@
         }
     },
     {
-        "id": "KB0519",
+        "id": "KB0530",
         "type": "bird_evidence",
         "title": "Evidence 116",
         "content": "Increase rate of his/her account balance = [(balance of date A - balance of date B) / balance of Date B] * 100%",
@@ -5887,7 +5887,7 @@
         }
     },
     {
-        "id": "KB0520",
+        "id": "KB0531",
         "type": "bird_evidence",
         "title": "Evidence 117",
         "content": "Loan paid with no issue means contract finished, no problems; status = 'A' means contract finished, no problems; Percentage of accounts by condition = [(total(amount) & condition) / (total amount)] * 100%",
@@ -5897,7 +5897,7 @@
         }
     },
     {
-        "id": "KB0521",
+        "id": "KB0532",
         "type": "bird_evidence",
         "title": "Evidence 118",
         "content": "Status = 'C' stands for running contract, ok so far; Percentage of accounts by condition = [(total(amount) & condition) / (total amount)] * 100.",
@@ -5907,7 +5907,7 @@
         }
     },
     {
-        "id": "KB0522",
+        "id": "KB0533",
         "type": "bird_evidence",
         "title": "Evidence 125",
         "content": "Unemployment increment rate in percentage = [(unemployment rate 2016 - unemployment rate 2015) / unemployment rate 2015] * 100; unemployment rate 2015 appears in the A12; unemployment rate 2016 appears in the A13; Loan contracts which are still running where client are in debt can be presented as status = 'D'",
@@ -5917,7 +5917,7 @@
         }
     },
     {
-        "id": "KB0523",
+        "id": "KB0534",
         "type": "bird_evidence",
         "title": "Evidence 128",
         "content": "A2 refers to districts; Female refers to gender = 'F'",
@@ -5927,7 +5927,7 @@
         }
     },
     {
-        "id": "KB0524",
+        "id": "KB0535",
         "type": "bird_evidence",
         "title": "Evidence 136",
         "content": "Frequency = 'POPLATEK MESICNE' stands for monthly issurance",
@@ -5937,7 +5937,7 @@
         }
     },
     {
-        "id": "KB0525",
+        "id": "KB0536",
         "type": "bird_evidence",
         "title": "Evidence 137",
         "content": "Status = 'C' stands for running contract, OK so far; Status = 'D' stands for running contract, client in debt",
@@ -5947,7 +5947,7 @@
         }
     },
     {
-        "id": "KB0526",
+        "id": "KB0537",
         "type": "bird_evidence",
         "title": "Evidence 138",
         "content": "Male refers to gender = 'M'; A15 stands for no. of commited crimes 1995",
@@ -5957,7 +5957,7 @@
         }
     },
     {
-        "id": "KB0527",
+        "id": "KB0538",
         "type": "bird_evidence",
         "title": "Evidence 129",
         "content": "Non-credit card withdraws refers to type = 'VYDAJ'; January 1996 can be found by date LIKE '1996-01%' in the database; A2 means district names",
@@ -5967,7 +5967,7 @@
         }
     },
     {
-        "id": "KB0528",
+        "id": "KB0539",
         "type": "bird_evidence",
         "title": "Evidence 137",
         "content": "Status = 'C' stands for running contract, OK so far; Status = 'D' stands for running contract, client in debt",
@@ -5977,7 +5977,7 @@
         }
     },
     {
-        "id": "KB0529",
+        "id": "KB0540",
         "type": "bird_evidence",
         "title": "Evidence 138",
         "content": "Male refers to gender = 'M'; A15 stands for no. of commited crimes 1995",
@@ -5987,7 +5987,7 @@
         }
     },
     {
-        "id": "KB0530",
+        "id": "KB0541",
         "type": "bird_evidence",
         "title": "Evidence 145",
         "content": "Operation = 'VYBER KARTOU' refers to credit card withdrawal",
@@ -5997,7 +5997,7 @@
         }
     },
     {
-        "id": "KB0531",
+        "id": "KB0542",
         "type": "bird_evidence",
         "title": "Evidence 149",
         "content": "A11 represents the average salary; Salary and income share the similar meanings; when the account type = 'OWNER', it's eligible for loans",
@@ -6007,7 +6007,7 @@
         }
     },
     {
-        "id": "KB0532",
+        "id": "KB0543",
         "type": "bird_evidence",
         "title": "Evidence 152",
         "content": "A3 refers to region names; A15 stands for the average number of crimes commited in 1995.",
@@ -6017,7 +6017,7 @@
         }
     },
     {
-        "id": "KB0533",
+        "id": "KB0544",
         "type": "bird_evidence",
         "title": "Evidence 159",
         "content": "operation = 'VYBER' refers to withdrawal in cash",
@@ -6027,7 +6027,7 @@
         }
     },
     {
-        "id": "KB0534",
+        "id": "KB0545",
         "type": "bird_evidence",
         "title": "Evidence 168",
         "content": "Female refers to gender = 'F'; Woman and female are closed; Average salary can be found in A11",
@@ -6037,7 +6037,7 @@
         }
     },
     {
-        "id": "KB0535",
+        "id": "KB0546",
         "type": "bird_evidence",
         "title": "Evidence 169",
         "content": "Growth rate = (sum of amount_1997 - sum of amount_1996) / (sum of amount_1996) * 100%; Male refers to gender = 'M'",
@@ -6047,7 +6047,7 @@
         }
     },
     {
-        "id": "KB0536",
+        "id": "KB0547",
         "type": "bird_evidence",
         "title": "Evidence 173",
         "content": "k_symbol refers to the purpose of payments",
@@ -6057,7 +6057,7 @@
         }
     },
     {
-        "id": "KB0537",
+        "id": "KB0548",
         "type": "bird_evidence",
         "title": "Evidence 186",
         "content": "Percentage of male clients = [count(male clients who requested weekly statements / count(clients who requested weekly statements)] * 100%; Male means gender = 'M'; 'POPLATEK TYDNE' stands for weekly issuance",
@@ -6067,7 +6067,7 @@
         }
     },
     {
-        "id": "KB0538",
+        "id": "KB0549",
         "type": "bird_evidence",
         "title": "Evidence 189",
         "content": "Female refers to 'F' in the gender; A11 contains information about average salary",
@@ -6077,7 +6077,7 @@
         }
     },
     {
-        "id": "KB0539",
+        "id": "KB0550",
         "type": "bird_evidence",
         "title": "Evidence 192",
         "content": "status = 'C' stands for running contract, OK so far; status = 'D' stands for running contract, client in debt. 'POPLATEK PO OBRATU' stands for issuance after transaction",
@@ -6087,7 +6087,7 @@
         }
     },
     {
-        "id": "KB0540",
+        "id": "KB0551",
         "type": "bird_evidence",
         "title": "Evidence 194",
         "content": "the credit card is high-level refers to card.type = 'gold'; eligible for loans refers to disp.type = 'OWNER'",
