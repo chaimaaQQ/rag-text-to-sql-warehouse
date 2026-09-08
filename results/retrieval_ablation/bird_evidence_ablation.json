@@ -1,0 +1,28 @@
+{
+  "results": {
+    "bm25": {
+      "recall@5": 0.9733333333333334,
+      "precision@5": 0.19466666666666668,
+      "mrr": 0.8845555555555555,
+      "n_questions": 150,
+      "n_skipped": 0
+    },
+    "embeddings": {
+      "recall@5": 0.8933333333333333,
+      "precision@5": 0.17866666666666667,
+      "mrr": 0.8213333333333334,
+      "n_questions": 150,
+      "n_skipped": 0
+    },
+    "hybrid": {
+      "recall@5": 0.9666666666666667,
+      "precision@5": 0.19333333333333333,
+      "mrr": 0.9037777777777778,
+      "n_questions": 150,
+      "n_skipped": 0
+    }
+  },
+  "best_method": "bm25",
+  "corpus": "bird_evidence_corpus",
+  "n_docs": 500
+}

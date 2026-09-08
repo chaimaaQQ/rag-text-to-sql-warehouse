@@ -40,9 +40,7 @@ class LLMClient:
         # SQL validator
         self.validator = SQLValidator()
 
-    # =========================================================
-    # Generate
-    # =========================================================
+ 
 
     def generate(
         self,
@@ -67,9 +65,6 @@ class LLMClient:
 
         return None
 
-    # =========================================================
-    # Generate with metadata
-    # =========================================================
 
     def generate_with_metadata(
         self,
@@ -155,9 +150,6 @@ class LLMClient:
 
             return None
 
-    # =========================================================
-    # Extract SQL
-    # =========================================================
 
     def extract_sql(self, response):
         """
@@ -177,9 +169,7 @@ class LLMClient:
 
         response = response.strip()
 
-        # -----------------------------------------------------
-        # Markdown SQL block
-        # -----------------------------------------------------
+
 
         if "```sql" in response.lower():
 
@@ -195,9 +185,6 @@ class LLMClient:
 
                     return sql
 
-        # -----------------------------------------------------
-        # Generic markdown block
-        # -----------------------------------------------------
 
         if "```" in response:
 
@@ -211,9 +198,7 @@ class LLMClient:
 
                     return cleaned
 
-        # -----------------------------------------------------
-        # Plain SQL
-        # -----------------------------------------------------
+      
 
         if response.upper().startswith("SELECT"):
 
@@ -221,9 +206,7 @@ class LLMClient:
 
         return None
 
-    # =========================================================
-    # Generate and validate SQL
-    # =========================================================
+
 
     def generate_validated_sql(
         self,
@@ -249,9 +232,7 @@ class LLMClient:
         print("BUILDING PROMPT")
         print("=" * 80)
 
-        # -----------------------------------------------------
-        # Check PromptBuilder
-        # -----------------------------------------------------
+ 
 
         if self.prompt_builder is None:
 
@@ -263,9 +244,7 @@ class LLMClient:
                 "columns": []
             }
 
-        # -----------------------------------------------------
-        # Build RAG prompt
-        # -----------------------------------------------------
+
 
         prompt = self.prompt_builder.build_prompt(
             question=question,
@@ -274,9 +253,6 @@ class LLMClient:
 
         print("\nPROMPT BUILT SUCCESSFULLY.")
 
-        # -----------------------------------------------------
-        # Send prompt to Ollama
-        # -----------------------------------------------------
 
         result = self.generate_with_metadata(
             prompt=prompt,
@@ -294,9 +270,7 @@ class LLMClient:
                 "columns": []
             }
 
-        # -----------------------------------------------------
-        # Raw LLM response
-        # -----------------------------------------------------
+
 
         raw_response = result["response"]
 
@@ -306,9 +280,6 @@ class LLMClient:
 
         print(raw_response)
 
-        # -----------------------------------------------------
-        # Extract SQL
-        # -----------------------------------------------------
 
         sql = self.extract_sql(raw_response)
 
@@ -328,9 +299,7 @@ class LLMClient:
 
         print(sql)
 
-        # -----------------------------------------------------
-        # Validate SQL
-        # -----------------------------------------------------
+
 
         validation = self.validator.validate(sql)
 
@@ -348,9 +317,7 @@ class LLMClient:
             validation["reason"]
         )
 
-        # -----------------------------------------------------
-        # Accepted / rejected
-        # -----------------------------------------------------
+
 
         if validation["valid"]:
 
@@ -360,9 +327,7 @@ class LLMClient:
 
             print("\nSQL REJECTED.")
 
-        # -----------------------------------------------------
-        # Final result
-        # -----------------------------------------------------
+
 
         return {
             "sql": sql,
@@ -395,9 +360,7 @@ class LLMClient:
             )
         }
 
-    # =========================================================
-    # Display response
-    # =========================================================
+
 
     def show_response(
         self,
@@ -467,9 +430,7 @@ class LLMClient:
         print("=" * 80)
 
 
-# ============================================================
-# MAIN
-# ============================================================
+
 
 def main():
 
@@ -477,9 +438,7 @@ def main():
     print("TESTING LLM CLIENT")
     print("=" * 80)
 
-    # ---------------------------------------------------------
-    # 1. Initialize Hybrid Retriever
-    # ---------------------------------------------------------
+
 
     print("\n[1] Initializing Hybrid Retriever...")
 
@@ -487,9 +446,7 @@ def main():
 
     retriever.initialize()
 
-    # ---------------------------------------------------------
-    # 2. Initialize Prompt Builder
-    # ---------------------------------------------------------
+
 
     print("\n[2] Initializing Prompt Builder...")
 
@@ -497,9 +454,7 @@ def main():
         retriever=retriever
     )
 
-    # ---------------------------------------------------------
-    # 3. Initialize LLM Client
-    # ---------------------------------------------------------
+
 
     print("\n[3] Initializing LLM Client...")
 
@@ -509,9 +464,6 @@ def main():
         url="http://localhost:11434/api/generate"
     )
 
-    # ---------------------------------------------------------
-    # 4. Question
-    # ---------------------------------------------------------
 
     question = (
         "What is the total revenue generated "
@@ -521,19 +473,13 @@ def main():
     print("\nQUESTION:")
     print(question)
 
-    # ---------------------------------------------------------
-    # 5. Run pipeline
-    # ---------------------------------------------------------
+
 
     client.show_response(
         question=question,
         top_k=5
     )
 
-
-# ============================================================
-# ENTRY POINT
-# ============================================================
 
 if __name__ == "__main__":
     main()

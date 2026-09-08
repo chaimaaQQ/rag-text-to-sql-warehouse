@@ -1,0 +1,33 @@
+project:
+  name: rag-text-to-sql-warehouse
+  dataset: BIRD Mini-Dev
+  dialect: sqlite
+
+paths:
+  questions: data/processed/questions.json
+  schemas: data/schemas
+  schema_index: data/index
+  databases: data/raw/bird/dev_databases
+  knowledge_base: data/knowledge_base/knowledge_base.json
+  results: results
+
+generator:
+  provider: ollama
+  endpoint: http://localhost:11434/api/generate
+  model: qwen2.5:7b
+  temperature: 0.0
+  top_k: 5
+
+main_study:
+  repetitions: 3
+  seeds: [0, 1, 2]
+  schema_retrieval_method: hybrid
+  auto_correction: false
+  execution_timeout_seconds: 15
+  round_decimals: 2
+
+protocol:
+  bird_evidence: "Injected as question-level external knowledge; never evaluated as document retrieval on BIRD directly."
+  business_retrieval_evaluation: [TPC-DS, BIRD-Evidence-Corpus]
+  h1_test: "Paired exact McNemar test on the same B/D attempted questions."
+  semantic_annotation: "Double annotation A/B on at least 30 SQL cases; report raw agreement and Cohen kappa."

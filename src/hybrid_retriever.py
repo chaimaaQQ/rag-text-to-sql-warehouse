@@ -16,9 +16,6 @@ class HybridRetriever:
 
         self.retriever = DocumentRetriever()
 
-    # ---------------------------------------------------------
-    # Initialize all resources
-    # ---------------------------------------------------------
 
     def initialize(self):
         """
@@ -50,9 +47,6 @@ class HybridRetriever:
         print("Hybrid Retriever initialized successfully")
         print("=" * 60)
 
-    # ---------------------------------------------------------
-    # BM25 Retrieval
-    # ---------------------------------------------------------
 
     def retrieve_bm25(self, query, top_k=5):
         """
@@ -64,9 +58,7 @@ class HybridRetriever:
             top_k=top_k
         )
 
-    # ---------------------------------------------------------
-    # Embedding Retrieval
-    # ---------------------------------------------------------
+
 
     def retrieve_embedding(self, query, top_k=5):
         """
@@ -78,9 +70,6 @@ class HybridRetriever:
             top_k=top_k
         )
 
-    # ---------------------------------------------------------
-    # Hybrid Retrieval
-    # ---------------------------------------------------------
 
     def retrieve(self, query, top_k=5):
         """
@@ -103,7 +92,6 @@ class HybridRetriever:
 
         seen = set()
 
-        # BM25 results first
         for result in bm25_results:
 
             document = result["document"]
@@ -116,7 +104,6 @@ class HybridRetriever:
 
                 merged.append(document)
 
-        # Then embedding results
         for result in embedding_results:
 
             document = result["document"]
@@ -131,9 +118,6 @@ class HybridRetriever:
 
         return merged[:top_k]
 
-    # ---------------------------------------------------------
-    # Display Hybrid Results
-    # ---------------------------------------------------------
 
     def show_results(self, query, top_k=5):
         """
@@ -173,9 +157,7 @@ class HybridRetriever:
             print("-" * 60)
 
 
-# =============================================================
-# Main
-# =============================================================
+
 
 def main():
 

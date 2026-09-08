@@ -1,0 +1,2990 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1480",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1481",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1482",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1483",
+    "db_id": "debit_card_specializing",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1484",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1486",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1490",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1493",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1498",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1500",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1501",
+    "db_id": "debit_card_specializing",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1505",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1506",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1507",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1509",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1514",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1515",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1521",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1524",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1525",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1526",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1528",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1529",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1531",
+    "db_id": "debit_card_specializing",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1533",
+    "db_id": "debit_card_specializing",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1312",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1317",
+    "db_id": "student_club",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1322",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1323",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1331",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1334",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1338",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1339",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1340",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1344",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1346",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1350",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1351",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1352",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1356",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1357",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1359",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1361",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1362",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1368",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1371",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1375",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1376",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1378",
+    "db_id": "student_club",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1380",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1381",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1387",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1389",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1390",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1392",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1394",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1398",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1399",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1401",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1403",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1404",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1405",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1409",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1410",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1411",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1422",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1426",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1427",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1432",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1435",
+    "db_id": "student_club",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1457",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1460",
+    "db_id": "student_club",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1464",
+    "db_id": "student_club",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1149",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1150",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1152",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1153",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1155",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1156",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1157",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1162",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1164",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1166",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1168",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1169",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1171",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1175",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1179",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1185",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1187",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1189",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1192",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1195",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1198",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1201",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1205",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1208",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1209",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1220",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1225",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1227",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1229",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1231",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1232",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1235",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1238",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1239",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1241",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1242",
+    "db_id": "thrombosis_prediction",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1243",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1247",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1251",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1252",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1254",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1255",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1256",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1257",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1265",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1267",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1270",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1275",
+    "db_id": "thrombosis_prediction",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1281",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1302",
+    "db_id": "thrombosis_prediction",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1025",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1028",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1029",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1030",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1031",
+    "db_id": "european_football_2",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1032",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1035",
+    "db_id": "european_football_2",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1036",
+    "db_id": "european_football_2",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1037",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1039",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1040",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1042",
+    "db_id": "european_football_2",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1044",
+    "db_id": "european_football_2",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1048",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1057",
+    "db_id": "european_football_2",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1058",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1068",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1076",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1078",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1079",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1080",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1084",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1088",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1091",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1092",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1094",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1096",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1098",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1102",
+    "db_id": "european_football_2",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1103",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1105",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1107",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1110",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1113",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1114",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1115",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1116",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1122",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1124",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1130",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1133",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1134",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1135",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1136",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1139",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1141",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1144",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1145",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1146",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1147",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1148",
+    "db_id": "european_football_2",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_846",
+    "db_id": "formula_1",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_847",
+    "db_id": "formula_1",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_850",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_854",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_857",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_859",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_861",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_862",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_865",
+    "db_id": "formula_1",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_866",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_868",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_869",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_872",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_875",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_877",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_879",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_880",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_881",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_884",
+    "db_id": "formula_1",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_892",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_894",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_895",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_896",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_897",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_898",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_901",
+    "db_id": "formula_1",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_902",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_904",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_906",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_909",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_910",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_912",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_915",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_928",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_930",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_931",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_933",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_937",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_940",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_944",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_945",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_948",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_950",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_951",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_954",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_955",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_959",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_960",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_962",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_963",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_964",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_967",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_971",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_972",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_977",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_978",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_981",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_988",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_989",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_990",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_717",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_994",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1001",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1002",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1003",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1011",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_1014",
+    "db_id": "formula_1",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_719",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_723",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_724",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_726",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_728",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_730",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_732",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_733",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_736",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_737",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_738",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_739",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_740",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_743",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_744",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_745",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_747",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_750",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_751",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_753",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_758",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_760",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_761",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_764",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_765",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_766",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_769",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_772",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_773",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_775",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_779",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_781",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_782",
+    "db_id": "superhero",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_785",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_786",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_788",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_790",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_791",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_792",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_794",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_796",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_797",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_798",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_800",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_801",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_806",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_819",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_822",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_824",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_825",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_829",
+    "db_id": "superhero",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_531",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_532",
+    "db_id": "codebase_community",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_533",
+    "db_id": "codebase_community",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_539",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_537",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_544",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_547",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_549",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_555",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_557",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_563",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_565",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_567",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_568",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_571",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_572",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_573",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_576",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_578",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_581",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_584",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_586",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_587",
+    "db_id": "codebase_community",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_592",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_595",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_598",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_604",
+    "db_id": "codebase_community",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_629",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_633",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_634",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_637",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_639",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_640",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_665",
+    "db_id": "codebase_community",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_669",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_671",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_672",
+    "db_id": "codebase_community",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_678",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_682",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_683",
+    "db_id": "codebase_community",
+    "category": "syntax_error",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_685",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_687",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_694",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_701",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_704",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_705",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_707",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_710",
+    "db_id": "codebase_community",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_716",
+    "db_id": "codebase_community",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_340",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_341",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_344",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_345",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_346",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_347",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_349",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_352",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_356",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_358",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_366",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_368",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_371",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_377",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_379",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_383",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_391",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_397",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_402",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_405",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_407",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_408",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_409",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_412",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_414",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_415",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_416",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_422",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_424",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_427",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_440",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_459",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_462",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_465",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_466",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_468",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_469",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_472",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_473",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_474",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_477",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_479",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_480",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_483",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_484",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_486",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_487",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_518",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_522",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_528",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_529",
+    "db_id": "card_games",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_530",
+    "db_id": "card_games",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_195",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_197",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_198",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_200",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_201",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_206",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_207",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_208",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_212",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_213",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_215",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_218",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_219",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_220",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_226",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_227",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_228",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_230",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_231",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_232",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_234",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_236",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_239",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_240",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_242",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_243",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_244",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_245",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_247",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_248",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_249",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_253",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_255",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_260",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_263",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_268",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_273",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_281",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_282",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_327",
+    "db_id": "toxicology",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_5",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_11",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_12",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_17",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_23",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_24",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_25",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_26",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_27",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_28",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_31",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_32",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_37",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_36",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_39",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_40",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_41",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_45",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_46",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_47",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_48",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_50",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_62",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_72",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_77",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_79",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_82",
+    "db_id": "california_schools",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_83",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_85",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_87",
+    "db_id": "california_schools",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_89",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_92",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_93",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_94",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_95",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_98",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_99",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_100",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_112",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_115",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_116",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_117",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_118",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_125",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_128",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_136",
+    "db_id": "financial",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_137",
+    "db_id": "financial",
+    "category": "unknown_column",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_138",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_129",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_145",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_149",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_152",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_159",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_168",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_169",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_173",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_186",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_189",
+    "db_id": "financial",
+    "category": "unknown_table",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_192",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  },
+  {
+    "question_id": "bird_mini_194",
+    "db_id": "financial",
+    "category": "insufficient_context",
+    "execution_match": false
+  }
+]

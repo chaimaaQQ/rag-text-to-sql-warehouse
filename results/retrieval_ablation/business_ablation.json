@@ -1,0 +1,25 @@
+{
+  "results": {
+    "bm25": {
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "mrr": 0.9012345679012346,
+      "n_questions": 27
+    },
+    "embeddings": {
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "mrr": 0.8703703703703703,
+      "n_questions": 27
+    },
+    "hybrid": {
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "mrr": 0.9444444444444444,
+      "n_questions": 27
+    }
+  },
+  "best_method": "bm25",
+  "corpus": "tpcds",
+  "n_docs": 51
+}

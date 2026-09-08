@@ -1,0 +1,36 @@
+{
+  "n_paired": 138,
+  "n_attempted_B_only": 144,
+  "n_attempted_D_only": 387,
+  "match_B": 30,
+  "match_D": 57,
+  "structural_test_paired": {
+    "paired_contingency_table": {
+      "both_error": 22,
+      "B_only_error": 12,
+      "D_only_error": 23,
+      "both_ok": 81
+    },
+    "rate_B": 0.2463768115942029,
+    "rate_D": 0.32608695652173914,
+    "n_discordant": 35,
+    "p_value": 0.08953107893466952,
+    "significant_at_0.05": false,
+    "test": "McNemar exact (binomial)"
+  },
+  "semantic_test_paired": {
+    "paired_contingency_table": {
+      "both_error": 30,
+      "B_only_error": 44,
+      "D_only_error": 6,
+      "both_ok": 58
+    },
+    "rate_B": 0.5362318840579711,
+    "rate_D": 0.2608695652173913,
+    "n_discordant": 50,
+    "p_value": 3.243740565039843e-08,
+    "significant_at_0.05": true,
+    "test": "McNemar exact (binomial)"
+  },
+  "H1_supported_paired": true
+}

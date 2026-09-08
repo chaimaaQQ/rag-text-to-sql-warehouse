@@ -1,5 +1,5 @@
 """
-schema_indexer.py  indexation du schéma
+schema_indexer.py — indexation du schéma
 
 Transforme les fichiers JSON produits par schema_parser.py (un par db_id)
 en documents texte indexables, puis construit trois index :
@@ -52,7 +52,13 @@ def build_table_documents(schemas: list[dict]) -> list[dict]:
         db_id = schema["db_id"]
         for table in schema["tables"]:
             col_names = ", ".join(c["name"] for c in table["columns"])
-            text = f"Table {table['name']}. Colonnes: {col_names}."
+            relations = [
+                f"{fk['from']} -> {fk['to']}"
+                for fk in schema.get("foreign_keys", [])
+                if fk.get("from", "").split(".", 1)[0] == table["name"]
+            ]
+            relation_text = f" Relations: {'; '.join(relations)}." if relations else ""
+            text = f"Table {table['name']}. Colonnes: {col_names}.{relation_text}"
             docs.append(
                 {
                     "doc_id": f"{db_id}::{table['name']}",
@@ -100,9 +106,7 @@ def build_bm25_index(docs: list[dict]):
 
 
 def build_embedding_index(docs: list[dict], model_name: str = "all-MiniLM-L6-v2"):
-    from sentence_transformers import SentenceTransformer
-
-    model = SentenceTransformer(model_name)
+    model = _get_cached_model(model_name)
     texts = [d["text"] for d in docs]
     embeddings = model.encode(texts, convert_to_numpy=True, normalize_embeddings=True)
     return embeddings, model_name
@@ -160,19 +164,40 @@ def _normalize(scores: np.ndarray) -> np.ndarray:
     return (scores - scores.min()) / (scores.max() - scores.min())
 
 
+# ----------------------------------------------------------------------
+# CORRECTIF PERFORMANCE : le modèle SentenceTransformer est mis en cache
+# au niveau du module et chargé UNE SEULE FOIS par nom de modèle, au lieu
+# d'être ré-instancié à chaque appel de retrieve() (ce qui, sur une
+# ablation de plusieurs centaines de questions, revenait à recharger le
+# modèle plusieurs milliers de fois).
+# ----------------------------------------------------------------------
+_MODEL_CACHE: dict = {}
+
+
+def _get_cached_model(model_name: str):
+    if model_name not in _MODEL_CACHE:
+        from sentence_transformers import SentenceTransformer
+        print(f"[retriever_schema] Chargement du modèle {model_name} (une seule fois)...")
+        _MODEL_CACHE[model_name] = SentenceTransformer(model_name)
+    return _MODEL_CACHE[model_name]
+
+
 def retrieve(query: str, docs: list[dict], bm25, embeddings: np.ndarray, model_name: str,
              db_id: str | None = None, k: int = 5, method: str = "hybrid", alpha: float = 0.5) -> list[dict]:
     """method: 'bm25', 'embeddings' ou 'hybrid'."""
-    from sentence_transformers import SentenceTransformer
 
     # Filtre optionnel par db_id (recherche restreinte à la bonne base)
     candidate_idx = [i for i, d in enumerate(docs) if db_id is None or d["db_id"] == db_id]
 
-    bm25_scores = np.array(bm25.get_scores(tokenize(query)))
+    # BM25 : calculé seulement si nécessaire
+    bm25_scores = np.array(bm25.get_scores(tokenize(query))) if method in ("bm25", "hybrid") else None
 
-    model = SentenceTransformer(model_name)
-    query_emb = model.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
-    emb_scores = embeddings @ query_emb
+    # Embeddings : modèle mis en cache, calculé seulement si nécessaire
+    emb_scores = None
+    if method in ("embeddings", "hybrid"):
+        model = _get_cached_model(model_name)
+        query_emb = model.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
+        emb_scores = embeddings @ query_emb
 
     if method == "bm25":
         final_scores = bm25_scores

@@ -1,0 +1,17 @@
+{
+  "questions": "data\\processed\\questions.json",
+  "schemas_dir": "data\\schemas",
+  "index_dir": "data\\index",
+  "databases_dir": "data\\raw\\bird\\dev_databases",
+  "model": "qwen2.5:7b",
+  "temperature": 0.0,
+  "top_k": 5,
+  "schema_method": "hybrid",
+  "auto_correction": false,
+  "runs": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ]
+}

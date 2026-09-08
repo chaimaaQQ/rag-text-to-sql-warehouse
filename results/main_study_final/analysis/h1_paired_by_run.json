@@ -1,0 +1,150 @@
+{
+  "per_run": {
+    "run_00": {
+      "n_paired": 138,
+      "n_attempted_B": 144,
+      "n_attempted_D": 387,
+      "match_B": 30,
+      "match_D": 57,
+      "structural_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 22,
+          "B_only_error": 12,
+          "D_only_error": 23,
+          "both_ok": 81
+        },
+        "rate_B": 0.2463768115942029,
+        "rate_D": 0.32608695652173914,
+        "n_discordant": 35,
+        "p_value": 0.08953107893466952,
+        "significant_at_0.05": false,
+        "test": "McNemar exact (binomial)"
+      },
+      "semantic_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 30,
+          "B_only_error": 44,
+          "D_only_error": 6,
+          "both_ok": 58
+        },
+        "rate_B": 0.5362318840579711,
+        "rate_D": 0.2608695652173913,
+        "n_discordant": 50,
+        "p_value": 3.243740565039843e-08,
+        "significant_at_0.05": true,
+        "test": "McNemar exact (binomial)"
+      },
+      "H1_supported_paired": true
+    },
+    "run_01": {
+      "n_paired": 136,
+      "n_attempted_B": 145,
+      "n_attempted_D": 382,
+      "match_B": 29,
+      "match_D": 56,
+      "structural_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 22,
+          "B_only_error": 12,
+          "D_only_error": 21,
+          "both_ok": 81
+        },
+        "rate_B": 0.25,
+        "rate_D": 0.3161764705882353,
+        "n_discordant": 33,
+        "p_value": 0.16275565745308995,
+        "significant_at_0.05": false,
+        "test": "McNemar exact (binomial)"
+      },
+      "semantic_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 31,
+          "B_only_error": 42,
+          "D_only_error": 6,
+          "both_ok": 57
+        },
+        "rate_B": 0.5367647058823529,
+        "rate_D": 0.27205882352941174,
+        "n_discordant": 48,
+        "p_value": 1.0087482138487759e-07,
+        "significant_at_0.05": true,
+        "test": "McNemar exact (binomial)"
+      },
+      "H1_supported_paired": true
+    },
+    "run_02": {
+      "n_paired": 139,
+      "n_attempted_B": 145,
+      "n_attempted_D": 385,
+      "match_B": 30,
+      "match_D": 57,
+      "structural_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 23,
+          "B_only_error": 12,
+          "D_only_error": 22,
+          "both_ok": 82
+        },
+        "rate_B": 0.2517985611510791,
+        "rate_D": 0.3237410071942446,
+        "n_discordant": 34,
+        "p_value": 0.12144948495551944,
+        "significant_at_0.05": false,
+        "test": "McNemar exact (binomial)"
+      },
+      "semantic_test_paired": {
+        "paired_contingency_table": {
+          "both_error": 31,
+          "B_only_error": 43,
+          "D_only_error": 6,
+          "both_ok": 59
+        },
+        "rate_B": 0.5323741007194245,
+        "rate_D": 0.26618705035971224,
+        "n_discordant": 49,
+        "p_value": 5.7277652842913085e-08,
+        "significant_at_0.05": true,
+        "test": "McNemar exact (binomial)"
+      },
+      "H1_supported_paired": true
+    }
+  },
+  "all_runs_support_H1": true,
+  "pooled_question_run_pairs": {
+    "n_paired": 413,
+    "n_attempted_B": 434,
+    "n_attempted_D": 1154,
+    "match_B": 89,
+    "match_D": 170,
+    "structural_test_paired": {
+      "paired_contingency_table": {
+        "both_error": 67,
+        "B_only_error": 36,
+        "D_only_error": 66,
+        "both_ok": 244
+      },
+      "rate_B": 0.24939467312348668,
+      "rate_D": 0.3220338983050847,
+      "n_discordant": 102,
+      "p_value": 0.003865583588338323,
+      "significant_at_0.05": true,
+      "test": "McNemar exact (binomial)"
+    },
+    "semantic_test_paired": {
+      "paired_contingency_table": {
+        "both_error": 92,
+        "B_only_error": 129,
+        "D_only_error": 18,
+        "both_ok": 174
+      },
+      "rate_B": 0.5351089588377724,
+      "rate_D": 0.26634382566585957,
+      "n_discordant": 147,
+      "p_value": 7.045683399024081e-22,
+      "significant_at_0.05": true,
+      "test": "McNemar exact (binomial)"
+    },
+    "H1_supported_paired": false
+  },
+  "pooled_note": "Les paires question-run sont répétées entre seeds ; le résultat pooled est descriptif. Les résultats par run sont la référence principale."
+}

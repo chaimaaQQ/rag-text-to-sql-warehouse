@@ -1,0 +1,54 @@
+{
+  "structural_test": {
+    "contingency_table": {
+      "B": {
+        "errors": 47,
+        "ok": 98
+      },
+      "D": {
+        "errors": 132,
+        "ok": 254
+      }
+    },
+    "rate_B": 0.32413793103448274,
+    "rate_D": 0.34196891191709844,
+    "odds_ratio": 0.9228509585652442,
+    "p_value": 0.7575189985274029,
+    "significant_at_0.05": false
+  },
+  "semantic_test": {
+    "contingency_table": {
+      "B": {
+        "errors": 33,
+        "ok": 65
+      },
+      "D": {
+        "errors": 63,
+        "ok": 191
+      }
+    },
+    "rate_B": 0.336734693877551,
+    "rate_D": 0.24803149606299213,
+    "odds_ratio": 1.5391941391941393,
+    "p_value": 0.10919326658696239,
+    "significant_at_0.05": false
+  },
+  "refusal_test_informatif": {
+    "contingency_table": {
+      "B": {
+        "errors": 355,
+        "ok": 145
+      },
+      "D": {
+        "errors": 114,
+        "ok": 386
+      }
+    },
+    "rate_B": 0.71,
+    "rate_D": 0.228,
+    "odds_ratio": 8.289776164549304,
+    "p_value": 2.0526325725429764e-54,
+    "significant_at_0.05": true
+  },
+  "H1_supported": false
+}

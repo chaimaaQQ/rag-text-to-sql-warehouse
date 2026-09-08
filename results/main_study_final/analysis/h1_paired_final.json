@@ -1,0 +1,38 @@
+{
+  "n_paired": 413,
+  "n_attempted_B": 434,
+  "n_attempted_D": 1154,
+  "match_B": 89,
+  "match_D": 170,
+  "structural_test_paired": {
+    "paired_contingency_table": {
+      "both_error": 67,
+      "B_only_error": 36,
+      "D_only_error": 66,
+      "both_ok": 244
+    },
+    "rate_B": 0.24939467312348668,
+    "rate_D": 0.3220338983050847,
+    "n_discordant": 102,
+    "p_value": 0.003865583588338323,
+    "significant_at_0.05": true,
+    "test": "McNemar exact (binomial)"
+  },
+  "semantic_test_paired": {
+    "paired_contingency_table": {
+      "both_error": 92,
+      "B_only_error": 129,
+      "D_only_error": 18,
+      "both_ok": 174
+    },
+    "rate_B": 0.5351089588377724,
+    "rate_D": 0.26634382566585957,
+    "n_discordant": 147,
+    "p_value": 7.045683399024081e-22,
+    "significant_at_0.05": true,
+    "test": "McNemar exact (binomial)"
+  },
+  "H1_supported_paired": false,
+  "all_runs_support_H1": true,
+  "analysis_unit": "Paires question-run répétées entre seeds ; résultat descriptif."
+}

@@ -3,7 +3,6 @@ import os
 import sys
 import time
 
-# Ajouter src/ au PYTHONPATH
 PROJECT_ROOT = os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))
 )
@@ -16,19 +15,12 @@ if SRC_DIR not in sys.path:
 from pipeline import TextToSQLPipeline
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
 
 QUESTIONS_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "evaluation_questions.json"
 )
 
-
-# ============================================================
-# LOAD QUESTIONS
-# ============================================================
 
 def load_questions():
     """Load evaluation questions from JSON."""
@@ -53,9 +45,7 @@ def load_questions():
     return questions
 
 
-# ============================================================
-# CHECK RESULT
-# ============================================================
+
 
 def check_result(result, expected):
     """
@@ -88,12 +78,10 @@ def check_result(result, expected):
         []
     )
 
-    # Check table
     if expected_table:
         if expected_table not in generated_tables:
             return False
 
-    # Check columns
     for column in expected_columns:
         if column not in generated_columns:
             return False
@@ -101,9 +89,6 @@ def check_result(result, expected):
     return True
 
 
-# ============================================================
-# RUN ONE TEST
-# ============================================================
 
 def run_test(pipeline, test_case):
     """Run one evaluation question."""
@@ -214,9 +199,7 @@ def run_test(pipeline, test_case):
     }
 
 
-# ============================================================
-# CALCULATE METRICS
-# ============================================================
+
 
 def calculate_metrics(results):
     """Calculate evaluation metrics."""
@@ -275,9 +258,7 @@ def calculate_metrics(results):
     }
 
 
-# ============================================================
-# DISPLAY SUMMARY
-# ============================================================
+
 
 def display_summary(metrics):
     """Display final evaluation metrics."""
@@ -325,9 +306,7 @@ def display_summary(metrics):
     print("=" * 80)
 
 
-# ============================================================
-# SAVE RESULTS
-# ============================================================
+
 
 def save_results(results, metrics):
     """Save evaluation results to JSON."""
@@ -363,9 +342,7 @@ def save_results(results, metrics):
     )
 
 
-# ============================================================
-# MAIN
-# ============================================================
+
 
 def main():
 
@@ -374,9 +351,7 @@ def main():
     print("TEXT-TO-SQL EVALUATION")
     print("=" * 80)
 
-    # --------------------------------------------------------
-    # Load questions
-    # --------------------------------------------------------
+
 
     print("\n[1] Loading evaluation questions...")
 
@@ -386,9 +361,7 @@ def main():
         f"Loaded {len(questions)} evaluation questions."
     )
 
-    # --------------------------------------------------------
-    # Initialize pipeline
-    # --------------------------------------------------------
+
 
     print("\n[2] Initializing Text-to-SQL pipeline...")
 
@@ -399,10 +372,6 @@ def main():
     print(
         "\nPipeline initialized successfully."
     )
-
-    # --------------------------------------------------------
-    # Run evaluation
-    # --------------------------------------------------------
 
     print("\n[3] Running evaluation...")
 
@@ -417,9 +386,6 @@ def main():
 
         results.append(result)
 
-    # --------------------------------------------------------
-    # Metrics
-    # --------------------------------------------------------
 
     print("\n[4] Calculating metrics...")
 
@@ -431,9 +397,7 @@ def main():
         metrics
     )
 
-    # --------------------------------------------------------
-    # Save
-    # --------------------------------------------------------
+  
 
     print("\n[5] Saving results...")
 
@@ -448,9 +412,7 @@ def main():
     print("=" * 80)
 
 
-# ============================================================
-# ENTRY POINT
-# ============================================================
+
 
 if __name__ == "__main__":
     main()

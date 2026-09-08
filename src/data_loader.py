@@ -71,7 +71,6 @@ def main():
 
     questions = build_unified_dataset(args.input)
 
-    # Vérification rapide : combien de questions ont un db_id manquant
     missing_db = sum(1 for q in questions if not q["db_id"])
     if missing_db:
         print(f"Attention : {missing_db} question(s) sans db_id.")

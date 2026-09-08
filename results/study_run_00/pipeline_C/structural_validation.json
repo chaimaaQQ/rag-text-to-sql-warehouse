@@ -1,0 +1,7105 @@
+[
+  {
+    "question_id": "bird_mini_1471",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : payment",
+    "tables_used": [
+      "payment"
+    ],
+    "tables_missing": [
+      "payment"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1472",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1473",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : yearmonth.Customer_Type",
+    "tables_used": [
+      "yearmonth"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "yearmonth.Consumption",
+      "yearmonth.Customer_Type",
+      "yearmonth.Date"
+    ],
+    "columns_missing": [
+      "yearmonth.Customer_Type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1476",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1479",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1480",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1481",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1482",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1483",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : lineitem, orders",
+    "tables_used": [
+      "lineitem",
+      "orders"
+    ],
+    "tables_missing": [
+      "lineitem",
+      "orders"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1484",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : gasstations.country, gasstations.discount",
+    "tables_used": [
+      "gasstations"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "gasstations.country",
+      "gasstations.discount"
+    ],
+    "columns_missing": [
+      "gasstations.country",
+      "gasstations.discount"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1486",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1490",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : customers.customer_id, customers.customer_lam_consumption, customers.customer_type",
+    "tables_used": [
+      "customers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "customers.customer_id",
+      "customers.customer_lam_consumption",
+      "customers.customer_type"
+    ],
+    "columns_missing": [
+      "customers.customer_id",
+      "customers.customer_lam_consumption",
+      "customers.customer_type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1493",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1498",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1500",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : catalog_page, catalog_sales, date_dim, item, product",
+    "tables_used": [
+      "catalog_page",
+      "catalog_sales",
+      "date_dim",
+      "item",
+      "product"
+    ],
+    "tables_missing": [
+      "catalog_page",
+      "catalog_sales",
+      "date_dim",
+      "item",
+      "product"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1501",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_address, nation, store_sales",
+    "tables_used": [
+      "customer",
+      "customer_address",
+      "nation",
+      "store_sales"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_address",
+      "nation",
+      "store_sales"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1505",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : currency, customer, store_sales",
+    "tables_used": [
+      "currency",
+      "customer",
+      "store_sales"
+    ],
+    "tables_missing": [
+      "currency",
+      "customer",
+      "store_sales"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1506",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : gasstations.country, gasstations.product_description",
+    "tables_used": [
+      "gasstations"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "gasstations.country",
+      "gasstations.product_description"
+    ],
+    "columns_missing": [
+      "gasstations.country",
+      "gasstations.product_description"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1507",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1509",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : transactions",
+    "tables_used": [
+      "gasstations",
+      "transactions"
+    ],
+    "tables_missing": [
+      "transactions"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1514",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1515",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1521",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : gasstations.Date, gasstations.Time",
+    "tables_used": [
+      "gasstations"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "gasstations.Country",
+      "gasstations.Date",
+      "gasstations.Time"
+    ],
+    "columns_missing": [
+      "gasstations.Date",
+      "gasstations.Time"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1524",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1525",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1526",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1528",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1529",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1531",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1533",
+    "db_id": "debit_card_specializing",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_address, date_dim, store_item, store_sales",
+    "tables_used": [
+      "customer",
+      "customer_address",
+      "date_dim",
+      "store_item",
+      "store_sales"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_address",
+      "date_dim",
+      "store_item",
+      "store_sales"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1312",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1317",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Error tokenizing 'e = 'Women\\'S Soccer' AND t_shirt_size = 'Medium''",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1322",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : event_attendance, events, members",
+    "tables_used": [
+      "event_attendance",
+      "events",
+      "members"
+    ],
+    "tables_missing": [
+      "event_attendance",
+      "events",
+      "members"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1323",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : events",
+    "tables_used": [
+      "events"
+    ],
+    "tables_missing": [
+      "events"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1331",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1334",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1338",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : event_expenses",
+    "tables_used": [
+      "event_expenses"
+    ],
+    "tables_missing": [
+      "event_expenses"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1339",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : expense.first_name, expense.last_name",
+    "tables_used": [
+      "expense"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "expense.cost",
+      "expense.expense_date",
+      "expense.first_name",
+      "expense.last_name"
+    ],
+    "columns_missing": [
+      "expense.first_name",
+      "expense.last_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1340",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1344",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : fundraising",
+    "tables_used": [
+      "fundraising"
+    ],
+    "tables_missing": [
+      "fundraising"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1346",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1350",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1351",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : full_name",
+    "tables_used": [
+      "full_name",
+      "major"
+    ],
+    "tables_missing": [
+      "full_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1352",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : club_members, t_shirt_sizes",
+    "tables_used": [
+      "club_members",
+      "t_shirt_sizes"
+    ],
+    "tables_missing": [
+      "club_members",
+      "t_shirt_sizes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1356",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1357",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : table_name",
+    "tables_used": [
+      "table_name"
+    ],
+    "tables_missing": [
+      "table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1359",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1361",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : expense_table",
+    "tables_used": [
+      "expense_table"
+    ],
+    "tables_missing": [
+      "expense_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1362",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1368",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1371",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1375",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1376",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : closed_events",
+    "tables_used": [
+      "closed_events"
+    ],
+    "tables_missing": [
+      "closed_events"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1378",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : event.spent",
+    "tables_used": [
+      "event"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "event.spent"
+    ],
+    "columns_missing": [
+      "event.spent"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1380",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1381",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : students",
+    "tables_used": [
+      "students"
+    ],
+    "tables_missing": [
+      "students"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1387",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1389",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : event_table",
+    "tables_used": [
+      "event_table"
+    ],
+    "tables_missing": [
+      "event_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1390",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : cost_table",
+    "tables_used": [
+      "cost_table"
+    ],
+    "tables_missing": [
+      "cost_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1392",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1394",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1398",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1399",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1401",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1403",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : closed_events",
+    "tables_used": [
+      "closed_events"
+    ],
+    "tables_missing": [
+      "closed_events"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1404",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : expenses",
+    "tables_used": [
+      "expenses"
+    ],
+    "tables_missing": [
+      "expenses"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1405",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : budget_categories",
+    "tables_used": [
+      "budget_categories"
+    ],
+    "tables_missing": [
+      "budget_categories"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1409",
+    "db_id": "student_club",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "expense"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "expense.cost",
+      "expense.expense_date"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1410",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1411",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_address, customer_demographics, income_band, store_sales",
+    "tables_used": [
+      "customer",
+      "customer_address",
+      "customer_demographics",
+      "income_band",
+      "store_sales"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_address",
+      "customer_demographics",
+      "income_band",
+      "store_sales"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1422",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1426",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1427",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : events",
+    "tables_used": [
+      "events"
+    ],
+    "tables_missing": [
+      "events"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1432",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : member.amount",
+    "tables_used": [
+      "member"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "member.amount",
+      "member.member_id",
+      "member.position",
+      "member.t_shirt_size"
+    ],
+    "columns_missing": [
+      "member.amount"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1435",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : events",
+    "tables_used": [
+      "events"
+    ],
+    "tables_missing": [
+      "events"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1457",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1460",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_order, order_item",
+    "tables_used": [
+      "customer",
+      "customer_order",
+      "order_item"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_order",
+      "order_item"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1464",
+    "db_id": "student_club",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : student",
+    "tables_used": [
+      "student"
+    ],
+    "tables_missing": [
+      "student"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1149",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1150",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.Sex",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.Birthday",
+      "patient.ID",
+      "patient.Sex"
+    ],
+    "columns_missing": [
+      "patient.Sex"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1152",
+    "db_id": "thrombosis_prediction",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.Admission",
+      "patient.Diagnosis",
+      "patient.ID"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1153",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : diagnosis, lab_test",
+    "tables_used": [
+      "diagnosis",
+      "lab_test"
+    ],
+    "tables_missing": [
+      "diagnosis",
+      "lab_test"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1155",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.birthday, patient.ldh, patient.patient_id, patient.sex",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.birthday",
+      "patient.ldh",
+      "patient.patient_id",
+      "patient.sex"
+    ],
+    "columns_missing": [
+      "patient.birthday",
+      "patient.ldh",
+      "patient.patient_id",
+      "patient.sex"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1156",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1157",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.diagnosis, patient.patient_id, patient.sex, patient.thrombosis_degree",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.diagnosis",
+      "patient.patient_id",
+      "patient.sex",
+      "patient.thrombosis_degree"
+    ],
+    "columns_missing": [
+      "patient.diagnosis",
+      "patient.patient_id",
+      "patient.sex",
+      "patient.thrombosis_degree"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1162",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.admission, patient.description, patient.sex",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.admission",
+      "patient.description",
+      "patient.sex"
+    ],
+    "columns_missing": [
+      "patient.admission",
+      "patient.description",
+      "patient.sex"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1164",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1166",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1168",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1169",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1171",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : examination.Birthday",
+    "tables_used": [
+      "examination"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "examination.Birthday",
+      "examination.Examination Date"
+    ],
+    "columns_missing": [
+      "examination.Birthday"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1175",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1179",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1185",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1187",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1189",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1192",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.admission, patient.date_of_test, patient.patient_id, patient.t_bil",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.admission",
+      "patient.date_of_test",
+      "patient.patient_id",
+      "patient.t_bil"
+    ],
+    "columns_missing": [
+      "patient.admission",
+      "patient.date_of_test",
+      "patient.patient_id",
+      "patient.t_bil"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1195",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1198",
+    "db_id": "thrombosis_prediction",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.Diagnosis",
+      "patient.SEX"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1201",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1205",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1208",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.gpt, patient.gpt_history, patient.patient_id, patient.sex",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.gpt",
+      "patient.gpt_history",
+      "patient.patient_id",
+      "patient.sex"
+    ],
+    "columns_missing": [
+      "patient.gpt",
+      "patient.gpt_history",
+      "patient.patient_id",
+      "patient.sex"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1209",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1220",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1225",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1227",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1229",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1231",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1232",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1235",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.RBC, patient.age, patient.patient_id",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.RBC",
+      "patient.age",
+      "patient.patient_id"
+    ],
+    "columns_missing": [
+      "patient.RBC",
+      "patient.age",
+      "patient.patient_id"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1238",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1239",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : laboratory_examinations, patients",
+    "tables_used": [
+      "laboratory_examinations",
+      "patients"
+    ],
+    "tables_missing": [
+      "laboratory_examinations",
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1241",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1242",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : laboratory_examinations",
+    "tables_used": [
+      "laboratory_examinations"
+    ],
+    "tables_missing": [
+      "laboratory_examinations"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1243",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1247",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1251",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1252",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1254",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1255",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1256",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1257",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1265",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : patient.admission, patient.patient_key, patient.rnp",
+    "tables_used": [
+      "patient"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "patient.admission",
+      "patient.patient_key",
+      "patient.rnp"
+    ],
+    "columns_missing": [
+      "patient.admission",
+      "patient.patient_key",
+      "patient.rnp"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1267",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1270",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1275",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Expecting ). Line 1, Col: 22.\n  SELECT COUNT(DISTINCT\u001b[4m.\u001b[0mpatient_key)\nFROM patient\nWHERE anti_centromere IN ('-', '+-')\n  AND anti_ssb IN ('-', '+-')\n  AND s",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1281",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1302",
+    "db_id": "thrombosis_prediction",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : patients",
+    "tables_used": [
+      "patients"
+    ],
+    "tables_missing": [
+      "patients"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1025",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : games",
+    "tables_used": [
+      "games"
+    ],
+    "tables_missing": [
+      "games"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1028",
+    "db_id": "european_football_2",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "league",
+      "match",
+      "team"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "league.name",
+      "match.away_team_api_id",
+      "match.league_id",
+      "match.season",
+      "team.team_api_id",
+      "team.team_long_name"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1029",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : teams",
+    "tables_used": [
+      "teams"
+    ],
+    "tables_missing": [
+      "teams"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1030",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1031",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1032",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : matches",
+    "tables_used": [
+      "matches"
+    ],
+    "tables_missing": [
+      "matches"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1035",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1036",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1037",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : player_fifa_api",
+    "tables_used": [
+      "player_fifa_api"
+    ],
+    "tables_missing": [
+      "player_fifa_api"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1039",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1040",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : player.heading_accuracy",
+    "tables_used": [
+      "player"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "player.heading_accuracy",
+      "player.height",
+      "player.player_fifa_api_id",
+      "player.player_name"
+    ],
+    "columns_missing": [
+      "player.heading_accuracy"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1042",
+    "db_id": "european_football_2",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "league",
+      "match"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "league.id",
+      "league.name",
+      "match.away_team_goal",
+      "match.home_team_goal",
+      "match.league_id",
+      "match.season"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1044",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1048",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1057",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : match.name",
+    "tables_used": [
+      "match"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "match.home_team_goal",
+      "match.name",
+      "match.season"
+    ],
+    "columns_missing": [
+      "match.name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1058",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1068",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players, ratings",
+    "tables_used": [
+      "players",
+      "ratings"
+    ],
+    "tables_missing": [
+      "players",
+      "ratings"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1076",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : player.ball_control",
+    "tables_used": [
+      "player"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "player.ball_control",
+      "player.player_name"
+    ],
+    "columns_missing": [
+      "player.ball_control"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1078",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1079",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : player.player_id",
+    "tables_used": [
+      "player"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "player.height",
+      "player.player_id"
+    ],
+    "columns_missing": [
+      "player.player_id"
+    ]
+  },
+  {
+    "question_id": "bird_mini_1080",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1084",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1088",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1091",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : game",
+    "tables_used": [
+      "game"
+    ],
+    "tables_missing": [
+      "game"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1092",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : some_table",
+    "tables_used": [
+      "some_table"
+    ],
+    "tables_missing": [
+      "some_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1094",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : overall_rating",
+    "tables_used": [
+      "overall_rating"
+    ],
+    "tables_missing": [
+      "overall_rating"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1096",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1098",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : team_long_name",
+    "tables_used": [
+      "team_long_name"
+    ],
+    "tables_missing": [
+      "team_long_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1102",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1103",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1105",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1107",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1110",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1113",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1114",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : reviews",
+    "tables_used": [
+      "reviews"
+    ],
+    "tables_missing": [
+      "reviews"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1115",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1116",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1122",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1124",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1130",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : played_safe_while_creating_chance_of_passing",
+    "tables_used": [
+      "played_safe_while_creating_chance_of_passing"
+    ],
+    "tables_missing": [
+      "played_safe_while_creating_chance_of_passing"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1133",
+    "db_id": "european_football_2",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "player"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "player.birthday",
+      "player.player_name"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1134",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Expecting ). Line 2, Col: 34.\n  SELECT \n    SUBTRACT(jumping_score AS id \u001b[4m=\u001b[0m 6, jumping_score AS id = 23) AS score_difference\nFROM \n    jumping\nWHERE \n    id = 6 \nUNION ALL \nSE",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1135",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1136",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1139",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : match_results",
+    "tables_used": [
+      "match_results"
+    ],
+    "tables_missing": [
+      "match_results"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1141",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1144",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : curve_score, finishing_rate, weight",
+    "tables_used": [
+      "curve_score",
+      "finishing_rate",
+      "weight"
+    ],
+    "tables_missing": [
+      "curve_score",
+      "finishing_rate",
+      "weight"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1145",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1146",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : full_name",
+    "tables_used": [
+      "match",
+      "team"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "match.away_team_api_id",
+      "match.away_team_goal"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1147",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1148",
+    "db_id": "european_football_2",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : players",
+    "tables_used": [
+      "players"
+    ],
+    "tables_missing": [
+      "players"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_846",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_847",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_850",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_854",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : races.lat, races.lng",
+    "tables_used": [
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "races.lat",
+      "races.lng",
+      "races.name"
+    ],
+    "columns_missing": [
+      "races.lat",
+      "races.lng"
+    ]
+  },
+  {
+    "question_id": "bird_mini_857",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : races.lat, races.lng",
+    "tables_used": [
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "races.lat",
+      "races.lng",
+      "races.name"
+    ],
+    "columns_missing": [
+      "races.lat",
+      "races.lng"
+    ]
+  },
+  {
+    "question_id": "bird_mini_859",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_861",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : qualifying_results",
+    "tables_used": [
+      "qualifying_results"
+    ],
+    "tables_missing": [
+      "qualifying_results"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_862",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_865",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : race_results",
+    "tables_used": [
+      "drivers",
+      "race_results"
+    ],
+    "tables_missing": [
+      "race_results"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_866",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : driver",
+    "tables_used": [
+      "driver"
+    ],
+    "tables_missing": [
+      "driver"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_868",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : races.lat, races.lng",
+    "tables_used": [
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "races.lat",
+      "races.lng",
+      "races.name"
+    ],
+    "columns_missing": [
+      "races.lat",
+      "races.lng"
+    ]
+  },
+  {
+    "question_id": "bird_mini_869",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : constructorresults.url",
+    "tables_used": [
+      "constructorresults",
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "constructorresults.points",
+      "constructorresults.raceId",
+      "constructorresults.url",
+      "races.raceId"
+    ],
+    "columns_missing": [
+      "constructorresults.url"
+    ]
+  },
+  {
+    "question_id": "bird_mini_872",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : driver, lap, race",
+    "tables_used": [
+      "driver",
+      "lap",
+      "race"
+    ],
+    "tables_missing": [
+      "driver",
+      "lap",
+      "race"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_875",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_877",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.driver_id, drivers.raceId",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.dob",
+      "drivers.driver_id",
+      "drivers.raceId"
+    ],
+    "columns_missing": [
+      "drivers.driver_id",
+      "drivers.raceId"
+    ]
+  },
+  {
+    "question_id": "bird_mini_879",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : driver",
+    "tables_used": [
+      "driver"
+    ],
+    "tables_missing": [
+      "driver"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_880",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.raceId",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.forename",
+      "drivers.raceId",
+      "drivers.surname"
+    ],
+    "columns_missing": [
+      "drivers.raceId"
+    ]
+  },
+  {
+    "question_id": "bird_mini_881",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_884",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_892",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.points",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.forename",
+      "drivers.points",
+      "drivers.surname"
+    ],
+    "columns_missing": [
+      "drivers.points"
+    ]
+  },
+  {
+    "question_id": "bird_mini_894",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : laps",
+    "tables_used": [
+      "drivers",
+      "laps",
+      "races"
+    ],
+    "tables_missing": [
+      "laps"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_895",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_896",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_897",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : wins",
+    "tables_used": [
+      "drivers",
+      "wins"
+    ],
+    "tables_missing": [
+      "wins"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_898",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.name",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.dob",
+      "drivers.name",
+      "drivers.nationality"
+    ],
+    "columns_missing": [
+      "drivers.name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_901",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : f1_races",
+    "tables_used": [
+      "f1_races"
+    ],
+    "tables_missing": [
+      "f1_races"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_902",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_904",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_906",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_909",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : races.country, races.race_id",
+    "tables_used": [
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "races.country",
+      "races.name",
+      "races.race_id"
+    ],
+    "columns_missing": [
+      "races.country",
+      "races.race_id"
+    ]
+  },
+  {
+    "question_id": "bird_mini_910",
+    "db_id": "formula_1",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "circuits"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "circuits.lat",
+      "circuits.lng",
+      "circuits.name"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_912",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : circuits.reference_name",
+    "tables_used": [
+      "circuits"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "circuits.name",
+      "circuits.reference_name"
+    ],
+    "columns_missing": [
+      "circuits.reference_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_915",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_928",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_930",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_931",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_933",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_937",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_940",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_944",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_945",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_948",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_950",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : results.constructor_name, results.race_id",
+    "tables_used": [
+      "results"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "results.constructor_name",
+      "results.points",
+      "results.race_id"
+    ],
+    "columns_missing": [
+      "results.constructor_name",
+      "results.race_id"
+    ]
+  },
+  {
+    "question_id": "bird_mini_951",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : raceID, points, raceID",
+    "tables_used": [
+      "constructors",
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "constructors.nationality"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_954",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_955",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_959",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_960",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : race_results",
+    "tables_used": [
+      "race_results"
+    ],
+    "tables_missing": [
+      "race_results"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_962",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Expecting ). Line 2, Col: 25.\n  SELECT \n    (COUNT(driverId \u001b[4mWHERE\u001b[0m EXTRACT(YEAR FROM dob) < 1985 AND laps > 50) * 100.0 / COUNT(driverId WHERE EXTRACT(YEAR FROM dob) ",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_963",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.lap_time",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.lap_time",
+      "drivers.nationality"
+    ],
+    "columns_missing": [
+      "drivers.lap_time"
+    ]
+  },
+  {
+    "question_id": "bird_mini_964",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.driver_code",
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.driver_code",
+      "drivers.nationality"
+    ],
+    "columns_missing": [
+      "drivers.driver_code"
+    ]
+  },
+  {
+    "question_id": "bird_mini_967",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_971",
+    "db_id": "formula_1",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "drivers"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.dob",
+      "drivers.driverRef",
+      "drivers.nationality"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_972",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : race_results",
+    "tables_used": [
+      "drivers",
+      "race_results"
+    ],
+    "tables_missing": [
+      "race_results"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_977",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : disqualified",
+    "tables_used": [
+      "disqualified"
+    ],
+    "tables_missing": [
+      "disqualified"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_978",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_981",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : drivers.first_qualifying_race, drivers.name, races.start_time",
+    "tables_used": [
+      "drivers",
+      "races"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "drivers.dob",
+      "drivers.first_qualifying_race",
+      "drivers.name",
+      "races.date",
+      "races.start_time"
+    ],
+    "columns_missing": [
+      "drivers.first_qualifying_race",
+      "drivers.name",
+      "races.start_time"
+    ]
+  },
+  {
+    "question_id": "bird_mini_988",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_989",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_990",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_717",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superpowers",
+    "tables_used": [
+      "superpowers"
+    ],
+    "tables_missing": [
+      "superpowers"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_994",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1001",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1002",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1003",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1011",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_1014",
+    "db_id": "formula_1",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_719",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_723",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : power_name, id",
+    "tables_used": [
+      "colour",
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "colour.colour",
+      "superhero.eye_colour_id"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_724",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_726",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.height_cm",
+      "superhero.publisher_name",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": [
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_728",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.color_popularity, superhero.eye_color, superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.color_popularity",
+      "superhero.eye_color",
+      "superhero.id",
+      "superhero.publisher_name"
+    ],
+    "columns_missing": [
+      "superhero.color_popularity",
+      "superhero.eye_color",
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_730",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.power_name, superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.power_name",
+      "superhero.publisher_name",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": [
+      "superhero.power_name",
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_732",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : attribute_value",
+    "tables_used": [
+      "attribute",
+      "attribute_value",
+      "publisher"
+    ],
+    "tables_missing": [
+      "attribute_value"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_733",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "colour",
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_736",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_737",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_738",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_739",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superhero_power",
+    "tables_used": [
+      "superhero_power"
+    ],
+    "tables_missing": [
+      "superhero_power"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_740",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.attribute_name, superhero.attribute_value, superhero.gender",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.attribute_name",
+      "superhero.attribute_value",
+      "superhero.gender"
+    ],
+    "columns_missing": [
+      "superhero.attribute_name",
+      "superhero.attribute_value",
+      "superhero.gender"
+    ]
+  },
+  {
+    "question_id": "bird_mini_743",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_744",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_745",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_747",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_750",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_751",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_753",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_758",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.race",
+    "tables_used": [
+      "colour",
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "colour.colour",
+      "colour.id",
+      "superhero.hair_colour_id",
+      "superhero.height_cm",
+      "superhero.race"
+    ],
+    "columns_missing": [
+      "superhero.race"
+    ]
+  },
+  {
+    "question_id": "bird_mini_760",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.height_cm",
+      "superhero.publisher_name"
+    ],
+    "columns_missing": [
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_761",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_764",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superpowers",
+    "tables_used": [
+      "superpowers"
+    ],
+    "tables_missing": [
+      "superpowers"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_765",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : hero",
+    "tables_used": [
+      "hero"
+    ],
+    "tables_missing": [
+      "hero"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_766",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_769",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.attribute_name, superhero.attribute_value, superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.attribute_name",
+      "superhero.attribute_value",
+      "superhero.publisher_name",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": [
+      "superhero.attribute_name",
+      "superhero.attribute_value",
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_772",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_773",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_775",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_779",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_781",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "colour",
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_782",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_unresolved",
+    "error_detail": "Colonne(s) ambiguë(s), non rattachée(s) à une table : colour_id, colour_id",
+    "tables_used": [
+      "colour",
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "colour.colour",
+      "superhero.eye_colour_id",
+      "superhero.hair_colour_id",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_785",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.alignment",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.alignment",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": [
+      "superhero.alignment"
+    ]
+  },
+  {
+    "question_id": "bird_mini_786",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : heroes_attributes",
+    "tables_used": [
+      "heroes_attributes"
+    ],
+    "tables_missing": [
+      "heroes_attributes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_788",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_790",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Expecting ). Line 2, Col: 24.\n  SELECT \n    (SUM(weight_kg \u001b[4mWHERE\u001b[0m full_name = 'Emil Blonsky') - SUM(weight_kg WHERE full_name = 'Charles Chandler')) AS weight_differ",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_791",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : all_heros",
+    "tables_used": [
+      "all_heros"
+    ],
+    "tables_missing": [
+      "all_heros"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_792",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_794",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : table_name",
+    "tables_used": [
+      "table_name"
+    ],
+    "tables_missing": [
+      "table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_796",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_797",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : color",
+    "tables_used": [
+      "color",
+      "superhero"
+    ],
+    "tables_missing": [
+      "color"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_798",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : superhero.publisher_name",
+    "tables_used": [
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "superhero.publisher_name",
+      "superhero.superhero_name"
+    ],
+    "columns_missing": [
+      "superhero.publisher_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_800",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superhero_name",
+    "tables_used": [
+      "superhero_name"
+    ],
+    "tables_missing": [
+      "superhero_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_801",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superhero_table",
+    "tables_used": [
+      "superhero_table"
+    ],
+    "tables_missing": [
+      "superhero_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_806",
+    "db_id": "superhero",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "colour",
+      "superhero"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "colour.colour",
+      "colour.id",
+      "superhero.eye_colour_id",
+      "superhero.full_name"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_819",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superhero_attributes, superheroes",
+    "tables_used": [
+      "superhero_attributes",
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superhero_attributes",
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_822",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : villain",
+    "tables_used": [
+      "colour",
+      "villain"
+    ],
+    "tables_missing": [
+      "villain"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_824",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : superheroes",
+    "tables_used": [
+      "superheroes"
+    ],
+    "tables_missing": [
+      "superheroes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_825",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_829",
+    "db_id": "superhero",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_531",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : userreputation",
+    "tables_used": [
+      "userreputation"
+    ],
+    "tables_missing": [
+      "userreputation"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_532",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : account",
+    "tables_used": [
+      "account"
+    ],
+    "tables_missing": [
+      "account"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_533",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : web_page_access",
+    "tables_used": [
+      "web_page_access"
+    ],
+    "tables_missing": [
+      "web_page_access"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_539",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_537",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_544",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_547",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.owner_age, posts.post_score",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.owner_age",
+      "posts.post_score"
+    ],
+    "columns_missing": [
+      "posts.owner_age",
+      "posts.post_score"
+    ]
+  },
+  {
+    "question_id": "bird_mini_549",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : connaissance_métier",
+    "tables_used": [
+      "connaissance_métier"
+    ],
+    "tables_missing": [
+      "connaissance_métier"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_555",
+    "db_id": "codebase_community",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.OwnerDisplayName",
+      "posts.Score"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_557",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.Age",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.Age",
+      "posts.Id",
+      "posts.Score"
+    ],
+    "columns_missing": [
+      "posts.Age"
+    ]
+  },
+  {
+    "question_id": "bird_mini_563",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_565",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : usercomments",
+    "tables_used": [
+      "usercomments"
+    ],
+    "tables_missing": [
+      "usercomments"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_567",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_568",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : vote",
+    "tables_used": [
+      "vote"
+    ],
+    "tables_missing": [
+      "vote"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_571",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : post",
+    "tables_used": [
+      "post",
+      "votes"
+    ],
+    "tables_missing": [
+      "post"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_572",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_573",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : comments.comments, comments.score",
+    "tables_used": [
+      "comments"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "comments.comments",
+      "comments.score"
+    ],
+    "columns_missing": [
+      "comments.comments",
+      "comments.score"
+    ]
+  },
+  {
+    "question_id": "bird_mini_576",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : comments.DisplayName",
+    "tables_used": [
+      "comments"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "comments.DisplayName",
+      "comments.Text"
+    ],
+    "columns_missing": [
+      "comments.DisplayName"
+    ]
+  },
+  {
+    "question_id": "bird_mini_578",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_581",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_584",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_586",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bounty_table",
+    "tables_used": [
+      "bounty_table"
+    ],
+    "tables_missing": [
+      "bounty_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_587",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : document_1",
+    "tables_used": [
+      "document_1"
+    ],
+    "tables_missing": [
+      "document_1"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_592",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : user_badges",
+    "tables_used": [
+      "user_badges"
+    ],
+    "tables_missing": [
+      "user_badges"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_595",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_598",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : badges.badge_name",
+    "tables_used": [
+      "badges"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "badges.Date",
+      "badges.Name",
+      "badges.badge_name"
+    ],
+    "columns_missing": [
+      "badges.badge_name"
+    ]
+  },
+  {
+    "question_id": "bird_mini_604",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : userdetail, userpostcount",
+    "tables_used": [
+      "userdetail",
+      "userpostcount"
+    ],
+    "tables_missing": [
+      "userdetail",
+      "userpostcount"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_629",
+    "db_id": "codebase_community",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "votes"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "votes.CreationDate"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_633",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.DisplayName, posts.PostID",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.AnswerCount",
+      "posts.DisplayName",
+      "posts.PostID"
+    ],
+    "columns_missing": [
+      "posts.DisplayName",
+      "posts.PostID"
+    ]
+  },
+  {
+    "question_id": "bird_mini_634",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.DisplayName, posts.TotalViewCount",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.DisplayName",
+      "posts.TotalViewCount",
+      "posts.ViewCount"
+    ],
+    "columns_missing": [
+      "posts.DisplayName",
+      "posts.TotalViewCount"
+    ]
+  },
+  {
+    "question_id": "bird_mini_637",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_639",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : postid",
+    "tables_used": [
+      "postid"
+    ],
+    "tables_missing": [
+      "postid"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_640",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : yourtablename",
+    "tables_used": [
+      "yourtablename"
+    ],
+    "tables_missing": [
+      "yourtablename"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_665",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : yourtablename",
+    "tables_used": [
+      "yourtablename"
+    ],
+    "tables_missing": [
+      "yourtablename"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_669",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : post_votes",
+    "tables_used": [
+      "post_votes"
+    ],
+    "tables_missing": [
+      "post_votes"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_671",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_672",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_678",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_682",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.CreationDate, posts.PostId",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.CreationDate",
+      "posts.FavoriteCount",
+      "posts.OwnerDisplayName",
+      "posts.PostId"
+    ],
+    "columns_missing": [
+      "posts.CreationDate",
+      "posts.PostId"
+    ]
+  },
+  {
+    "question_id": "bird_mini_683",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.CreationDate, posts.Reputation",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.CreationDate",
+      "posts.Id",
+      "posts.Reputation"
+    ],
+    "columns_missing": [
+      "posts.CreationDate",
+      "posts.Reputation"
+    ]
+  },
+  {
+    "question_id": "bird_mini_685",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : document_1",
+    "tables_used": [
+      "document_1"
+    ],
+    "tables_missing": [
+      "document_1"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_687",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_694",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_701",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_704",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_705",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_707",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : posts.Comment",
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.Comment",
+      "posts.Score",
+      "posts.ViewCount"
+    ],
+    "columns_missing": [
+      "posts.Comment"
+    ]
+  },
+  {
+    "question_id": "bird_mini_710",
+    "db_id": "codebase_community",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "posts"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "posts.CommentCount",
+      "posts.Score"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_716",
+    "db_id": "codebase_community",
+    "is_valid": false,
+    "error_type": "syntax_error",
+    "error_detail": "Expecting ). Line 2, Col: 23.\n  SELECT \n    (COUNT(UserId \u001b[4mWHERE\u001b[0m UpVotes = 0 AND Score BETWEEN 5 AND 10) * 100.0 / COUNT(UserId WHERE Score BETWEEN 5 AND 10)) AS pe",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_340",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_341",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_344",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_345",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_346",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_347",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_349",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : rulings.artist_name, rulings.card_name, rulings.isPromo",
+    "tables_used": [
+      "rulings"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "rulings.artist_name",
+      "rulings.card_name",
+      "rulings.isPromo",
+      "rulings.uuid"
+    ],
+    "columns_missing": [
+      "rulings.artist_name",
+      "rulings.card_name",
+      "rulings.isPromo"
+    ]
+  },
+  {
+    "question_id": "bird_mini_352",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_356",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_358",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_366",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_368",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : table_name",
+    "tables_used": [
+      "table_name"
+    ],
+    "tables_missing": [
+      "table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_371",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : story_spotlight_cards",
+    "tables_used": [
+      "story_spotlight_cards"
+    ],
+    "tables_missing": [
+      "story_spotlight_cards"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_377",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_379",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_383",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_391",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : artifact_cards",
+    "tables_used": [
+      "artifact_cards",
+      "foreign_data"
+    ],
+    "tables_missing": [
+      "artifact_cards"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_397",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_402",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_405",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : block, set",
+    "tables_used": [
+      "block",
+      "set"
+    ],
+    "tables_missing": [
+      "block",
+      "set"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_407",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_408",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : unknown_power_cards",
+    "tables_used": [
+      "unknown_power_cards"
+    ],
+    "tables_missing": [
+      "unknown_power_cards"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_409",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_412",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_414",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_415",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : your_table_name",
+    "tables_used": [
+      "your_table_name"
+    ],
+    "tables_missing": [
+      "your_table_name"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_416",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : cards.language",
+    "tables_used": [
+      "cards"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "cards.language",
+      "cards.power"
+    ],
+    "columns_missing": [
+      "cards.language"
+    ]
+  },
+  {
+    "question_id": "bird_mini_422",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_424",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_427",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_440",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_459",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_462",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_465",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : set_of_cards",
+    "tables_used": [
+      "set_of_cards"
+    ],
+    "tables_missing": [
+      "set_of_cards"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_466",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_468",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_469",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_472",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : sets.language, sets.translation",
+    "tables_used": [
+      "sets"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "sets.block",
+      "sets.language",
+      "sets.translation"
+    ],
+    "columns_missing": [
+      "sets.language",
+      "sets.translation"
+    ]
+  },
+  {
+    "question_id": "bird_mini_473",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_set",
+    "tables_used": [
+      "card_set"
+    ],
+    "tables_missing": [
+      "card_set"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_474",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_set",
+    "tables_used": [
+      "card_set"
+    ],
+    "tables_missing": [
+      "card_set"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_477",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card, card_set",
+    "tables_used": [
+      "card",
+      "card_set"
+    ],
+    "tables_missing": [
+      "card",
+      "card_set"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_479",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_480",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_483",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_set_coldsnap",
+    "tables_used": [
+      "card_set_coldsnap"
+    ],
+    "tables_missing": [
+      "card_set_coldsnap"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_484",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_set_coldsnap",
+    "tables_used": [
+      "card_set_coldsnap"
+    ],
+    "tables_missing": [
+      "card_set_coldsnap"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_486",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card, card_set, card_statistic, card_statistic_stat, card_statistic_stat_name, card_statistic_stat_value",
+    "tables_used": [
+      "card",
+      "card_set",
+      "card_statistic",
+      "card_statistic_stat",
+      "card_statistic_stat_name",
+      "card_statistic_stat_value"
+    ],
+    "tables_missing": [
+      "card",
+      "card_set",
+      "card_statistic",
+      "card_statistic_stat",
+      "card_statistic_stat_name",
+      "card_statistic_stat_value"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_487",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_set",
+    "tables_used": [
+      "card_set"
+    ],
+    "tables_missing": [
+      "card_set"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_518",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card, play",
+    "tables_used": [
+      "card",
+      "play"
+    ],
+    "tables_missing": [
+      "card",
+      "play"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_522",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : cards.format, cards.status",
+    "tables_used": [
+      "cards"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "cards.edhrecRank",
+      "cards.format",
+      "cards.name",
+      "cards.status"
+    ],
+    "columns_missing": [
+      "cards.format",
+      "cards.status"
+    ]
+  },
+  {
+    "question_id": "bird_mini_528",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card_format, set_cards",
+    "tables_used": [
+      "card_format",
+      "cards",
+      "set_cards",
+      "sets"
+    ],
+    "tables_missing": [
+      "card_format",
+      "set_cards"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_529",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : sets.language",
+    "tables_used": [
+      "sets"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "sets.language",
+      "sets.name"
+    ],
+    "columns_missing": [
+      "sets.language"
+    ]
+  },
+  {
+    "question_id": "bird_mini_530",
+    "db_id": "card_games",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : card",
+    "tables_used": [
+      "card"
+    ],
+    "tables_missing": [
+      "card"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_195",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bond_table",
+    "tables_used": [
+      "bond_table"
+    ],
+    "tables_missing": [
+      "bond_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_197",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bond_type",
+    "tables_used": [
+      "bond_type"
+    ],
+    "tables_missing": [
+      "bond_type"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_198",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_200",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : molecules",
+    "tables_used": [
+      "molecules"
+    ],
+    "tables_missing": [
+      "molecules"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_201",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : atom.bond_type",
+    "tables_used": [
+      "atom"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "atom.atom_id",
+      "atom.bond_type",
+      "atom.element"
+    ],
+    "columns_missing": [
+      "atom.bond_type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_206",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_207",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_208",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : element",
+    "tables_used": [
+      "element"
+    ],
+    "tables_missing": [
+      "element"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_212",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bird",
+    "tables_used": [
+      "bird"
+    ],
+    "tables_missing": [
+      "bird"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_213",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : bond.atom_id, bond.atom_id2",
+    "tables_used": [
+      "bond"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "bond.atom_id",
+      "bond.atom_id2",
+      "bond.bond_type"
+    ],
+    "columns_missing": [
+      "bond.atom_id",
+      "bond.atom_id2"
+    ]
+  },
+  {
+    "question_id": "bird_mini_215",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_218",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_219",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_220",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_226",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bond_table",
+    "tables_used": [
+      "bond_table"
+    ],
+    "tables_missing": [
+      "bond_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_227",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : molecule_data",
+    "tables_used": [
+      "molecule_data"
+    ],
+    "tables_missing": [
+      "molecule_data"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_228",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_230",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_231",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_232",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : molecule.bond_type",
+    "tables_used": [
+      "molecule"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "molecule.bond_type",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "columns_missing": [
+      "molecule.bond_type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_234",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : atom.atom_id2",
+    "tables_used": [
+      "atom"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "atom.atom_id",
+      "atom.atom_id2",
+      "atom.molecule_id"
+    ],
+    "columns_missing": [
+      "atom.atom_id2"
+    ]
+  },
+  {
+    "question_id": "bird_mini_236",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_239",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : connections",
+    "tables_used": [
+      "connections"
+    ],
+    "tables_missing": [
+      "connections"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_240",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_242",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : atoms",
+    "tables_used": [
+      "atoms"
+    ],
+    "tables_missing": [
+      "atoms"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_243",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_244",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_245",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : atoms",
+    "tables_used": [
+      "atoms"
+    ],
+    "tables_missing": [
+      "atoms"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_247",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : atoms",
+    "tables_used": [
+      "atoms",
+      "connected"
+    ],
+    "tables_missing": [
+      "atoms"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_248",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_249",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_253",
+    "db_id": "toxicology",
+    "is_valid": true,
+    "error_type": null,
+    "error_detail": null,
+    "tables_used": [
+      "bond"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "bond.bond_id",
+      "bond.bond_type"
+    ],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_255",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : bond.label",
+    "tables_used": [
+      "bond"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "bond.bond_id",
+      "bond.bond_type",
+      "bond.label"
+    ],
+    "columns_missing": [
+      "bond.label"
+    ]
+  },
+  {
+    "question_id": "bird_mini_260",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_263",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : atom.bond_type",
+    "tables_used": [
+      "atom"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "atom.atom_id",
+      "atom.bond_type",
+      "atom.element"
+    ],
+    "columns_missing": [
+      "atom.bond_type"
+    ]
+  },
+  {
+    "question_id": "bird_mini_268",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_273",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : molecule.element",
+    "tables_used": [
+      "molecule"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "molecule.element",
+      "molecule.label",
+      "molecule.molecule_id"
+    ],
+    "columns_missing": [
+      "molecule.element"
+    ]
+  },
+  {
+    "question_id": "bird_mini_281",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : carcinogenic_molecules",
+    "tables_used": [
+      "carcinogenic_molecules"
+    ],
+    "tables_missing": [
+      "carcinogenic_molecules"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_282",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : molecule.element",
+    "tables_used": [
+      "molecule"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "molecule.element",
+      "molecule.molecule_id"
+    ],
+    "columns_missing": [
+      "molecule.element"
+    ]
+  },
+  {
+    "question_id": "bird_mini_327",
+    "db_id": "toxicology",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bird",
+    "tables_used": [
+      "bird"
+    ],
+    "tables_missing": [
+      "bird"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_5",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_11",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_12",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_17",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_23",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : address, school",
+    "tables_used": [
+      "address",
+      "school"
+    ],
+    "tables_missing": [
+      "address",
+      "school"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_24",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_25",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : school",
+    "tables_used": [
+      "school"
+    ],
+    "tables_missing": [
+      "school"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_26",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_27",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_28",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_31",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_32",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_37",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_36",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_39",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_40",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_41",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_45",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_46",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_47",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_48",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_50",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_62",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : school",
+    "tables_used": [
+      "school"
+    ],
+    "tables_missing": [
+      "school"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_72",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : student",
+    "tables_used": [
+      "student"
+    ],
+    "tables_missing": [
+      "student"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_77",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_79",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_82",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_83",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : school",
+    "tables_used": [
+      "school"
+    ],
+    "tables_missing": [
+      "school"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_85",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_87",
+    "db_id": "california_schools",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_89",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_92",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "column_not_found",
+    "error_detail": "Colonne(s) inexistante(s) : district.AVG_SALARY_FEMALE, district.DISTRICT_ID",
+    "tables_used": [
+      "district"
+    ],
+    "tables_missing": [],
+    "columns_used": [
+      "district.AVG_SALARY_FEMALE",
+      "district.DISTRICT_ID"
+    ],
+    "columns_missing": [
+      "district.AVG_SALARY_FEMALE",
+      "district.DISTRICT_ID"
+    ]
+  },
+  {
+    "question_id": "bird_mini_93",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_94",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_95",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_98",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_99",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : account_opening, accounts, loan_validity",
+    "tables_used": [
+      "account_opening",
+      "accounts",
+      "loan_validity"
+    ],
+    "tables_missing": [
+      "account_opening",
+      "accounts",
+      "loan_validity"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_100",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_112",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_115",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_116",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_117",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : loan_table",
+    "tables_used": [
+      "loan_table"
+    ],
+    "tables_missing": [
+      "loan_table"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_118",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_125",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_128",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "customer"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_136",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_137",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_branch",
+    "tables_used": [
+      "customer",
+      "customer_branch"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_branch"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_138",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_129",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, date_dim, item, store, store_sales",
+    "tables_used": [
+      "customer",
+      "date_dim",
+      "district",
+      "item",
+      "store",
+      "store_sales"
+    ],
+    "tables_missing": [
+      "customer",
+      "date_dim",
+      "item",
+      "store",
+      "store_sales"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_137",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer, customer_branch",
+    "tables_used": [
+      "customer",
+      "customer_branch"
+    ],
+    "tables_missing": [
+      "customer",
+      "customer_branch"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_138",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_145",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_149",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_152",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : bird",
+    "tables_used": [
+      "account",
+      "bird"
+    ],
+    "tables_missing": [
+      "bird"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_159",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : transaction",
+    "tables_used": [
+      "transaction"
+    ],
+    "tables_missing": [
+      "transaction"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_168",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_169",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : account_transactions",
+    "tables_used": [
+      "account_transactions"
+    ],
+    "tables_missing": [
+      "account_transactions"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_173",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_186",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customers",
+    "tables_used": [
+      "customers"
+    ],
+    "tables_missing": [
+      "customers"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_189",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_192",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "empty_sql",
+    "error_detail": "Aucune requête SQL fournie (sql_generated vide).",
+    "tables_used": [],
+    "tables_missing": [],
+    "columns_used": [],
+    "columns_missing": []
+  },
+  {
+    "question_id": "bird_mini_194",
+    "db_id": "financial",
+    "is_valid": false,
+    "error_type": "table_not_found",
+    "error_detail": "Table(s) inexistante(s) dans le schéma : customer",
+    "tables_used": [
+      "card",
+      "customer",
+      "disp"
+    ],
+    "tables_missing": [
+      "customer"
+    ],
+    "columns_used": [],
+    "columns_missing": []
+  }
+]

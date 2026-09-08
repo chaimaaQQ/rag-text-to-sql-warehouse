@@ -14,9 +14,6 @@ class PromptBuilder:
     def __init__(self, retriever):
         self.retriever = retriever
 
-    # ---------------------------------------------------------
-    # Retrieve Context
-    # ---------------------------------------------------------
 
     def retrieve_context(self, question, top_k=5):
         """
@@ -28,9 +25,7 @@ class PromptBuilder:
             top_k=top_k
         )
 
-    # ---------------------------------------------------------
-    # Format Context
-    # ---------------------------------------------------------
+
 
     def format_context(self, documents):
         """
@@ -82,9 +77,6 @@ class PromptBuilder:
 
         return "\n\n".join(context)
 
-    # ---------------------------------------------------------
-    # Build Prompt
-    # ---------------------------------------------------------
 
     def build_prompt(self, question, top_k=5):
         """
@@ -161,9 +153,6 @@ Return only SQL.
 
         return prompt
 
-    # ---------------------------------------------------------
-    # Display Prompt
-    # ---------------------------------------------------------
 
     def show_prompt(self, question, top_k=5):
         """
@@ -182,10 +171,6 @@ Return only SQL.
 
         print(prompt)
 
-
-# ============================================================
-# Main
-# ============================================================
 
 def main():
 
